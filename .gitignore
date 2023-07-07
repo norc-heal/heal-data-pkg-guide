@@ -1,0 +1,9 @@
+# virtual environment and hidden config folders
+.vscode
+venv
+.venv
+
+
+# documentation builds
+
+site/
