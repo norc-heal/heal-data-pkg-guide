@@ -1,7 +1,7 @@
 #https://www.mkdocs.org/user-guide/configuration/#
 site_name: HEAL Platform Documentation
-site_url: https://norc-heal.github.io/heal-docs-template
-repo_url: https://github.com/norc-heal/heal-docs-template
+site_url: https://norc-heal.github.io/heal-data-pkg-guidance
+repo_url: https://github.com/norc-heal/heal-data-pkg-guidance
 nav:
   - Home: index.md
   - Section 1: section1.md
