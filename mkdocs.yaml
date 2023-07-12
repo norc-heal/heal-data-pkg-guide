@@ -10,8 +10,8 @@ nav:
     - section2/page1.md
   - Section 3:
     - Decision: section3/dec.md
-      - Early in your study: section3/dec/early.md
-      - Late in your study: section3/late/early.md
+      - Early in your study: dec/early.md
+      - Late in your study: dec/late.md
 
 theme:
   name: material
