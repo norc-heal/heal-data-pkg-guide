@@ -9,7 +9,7 @@ nav:
     - section2/index.md
     - section2/page1.md
   - Section 3:
-    - Deciding how you want to share and document your data: section3/dec.md
+    - Decision: section3/dec.md
       - Early in your study: section3/dec/early.md
       - Late in your study: section3/late/early.md
 
