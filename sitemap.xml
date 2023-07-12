@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guidance/definitions/</loc>
+         <lastmod>2023-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/section1/</loc>
          <lastmod>2023-07-12</lastmod>
          <changefreq>daily</changefreq>
