@@ -20,4 +20,19 @@
          <lastmod>2023-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guidance/section3/dec/</loc>
+         <lastmod>2023-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guidance/section3/dec/early/</loc>
+         <lastmod>2023-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guidance/section3/dec/late/</loc>
+         <lastmod>2023-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
