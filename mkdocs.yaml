@@ -4,7 +4,9 @@ site_url: https://norc-heal.github.io/heal-data-pkg-guidance
 repo_url: https://github.com/norc-heal/heal-data-pkg-guidance
 nav:
   - Home: index.md
-  - Section 1: section1.md
+  - Section 1: 
+    - section1/index.md
+    - section1/page1.md
   - Section 2:
     - section2/index.md
     - section2/page1.md
