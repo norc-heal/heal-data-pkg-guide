@@ -40,7 +40,7 @@ Leave your original organization and naming of study artefacts in place.
 
 Consider minimal annotation of study artefacts (annotate only study artefacts that will be shared) to reduce annotation burden while providing helpful context for potential secondary data users.
 
-Consider 'top down' annotation of study artefacts based on your [data sharing 'orientation'] (#what-is-your-data-sharing-orientation) goal(s) to minimize annotation to a set that directly serves your data sharing goals.  
+Consider 'top down' annotation of study artefacts based on your [data sharing 'orientation'](#what-is-your-data-sharing-orientation) goal(s) to minimize annotation to a set that directly serves your data sharing goals.  
 
 # What is your data sharing 'orientation'?
 Which of these best describes your orientation towards data sharing. You may be interested in more than one of these, in which case, you may want to review the recommendations for both (if they are different).
