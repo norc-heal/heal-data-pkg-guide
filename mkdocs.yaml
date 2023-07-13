@@ -14,10 +14,6 @@ nav:
     - Late in your study: section3/dec/late.md
   - Terms & Concepts: 
     - Terms & Concepts: terms/index.md
-    - Study-level Metadata: terms/slmd.md
-    - File-level Metadata: terms/flmd.md
-    - File Types: terms/filetypes.md
-    - Wholistic vs. Minimal Annotation: terms/annotypes.md
 
 theme:
   name: material
