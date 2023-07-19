@@ -1,8 +1,8 @@
 
 # Are you early in collection/production of study artefacts?
 
-[Yes](#early-in-study){ .md-button}
-[No](#late-in-study){ .md-button}
+[Yes](early.md){ .md-button}
+[No](late/index.md){ .md-button}
 
 # Early In Study
 Consider implementing HEAL recommendations for organization and naming of study artefacts (Note: Do not copy/duplicate files to implement)

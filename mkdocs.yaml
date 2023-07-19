@@ -10,10 +10,18 @@ nav:
     - section2/page1.md
   - Deciding how you will share and document your data:
     - Are you early in collection/production of study artefacts?: section3/dec.md
-    - Are you early in collection/production of study artefacts?: section3/dec/early.md
-    - Late in your study: section3/dec/late.md
+    - Early in your study: section3/dec/early.md
+    - Late in your study: 
+        - Late in your study: section3/dec/late/index.md
+        - Small number of artefacts or interested in high levels of transparency: section3/dec/late/small.md
+        - Large number of artefacts or interested in implementing mandated levels of transparency only: section3/dec/late/large.md
+    - What is your data sharing orientation?: section3/orient.md
   - Terms & Concepts: 
     - Terms & Concepts: terms/index.md
+    - File Types: terms/files.md
+    - Holistic vs. Minimal Annotation: terms/holmin.md
+    - Add-as-you-go vs. Top-down Annotation: terms/addtop.md
+    - HEAL recommendations for organization and naming of study artefacts: terms/name.md
 
 theme:
   name: material
