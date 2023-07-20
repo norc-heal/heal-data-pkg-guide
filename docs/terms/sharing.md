@@ -1,0 +1,7 @@
+## Data sharing orientation: Dataset
+
+Investigators with this data sharing orientation are interested in sharing their data so that other researchers can get additional value from them and can conduct additional research and analyses beyond what their study investigated. Investigators may want to share as much data as possible from their study, or they may be interested in sharing a specific dataset that they know will have value to others. For example, an investigator may want to share a RNA sequencing data, which is a rich dataset that other investigators could analyze for insights unrelated to the study at hand. Investigators can use any type of annotation with this data sharing orientation.
+
+## Data sharing orientation: results-support
+
+Investigators with this data sharing orientation are interested only in sharing what is necessary to reproduce a specific set of results, generally published in a manuscript. This data sharing orientation may appeal to investigators who have limited or no resources or funding allocated for fulfilling data sharing requirements, as this is the most minimal way to fulfill the HEAL requirements. Investigators may prefer to use [minimal annotation](holmin.md#minimal-annotation-of-study-artefacts) with this data sharing orientation.
