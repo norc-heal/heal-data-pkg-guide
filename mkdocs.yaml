@@ -4,10 +4,9 @@ site_url: https://norc-heal.github.io/heal-data-pkg-guidance
 repo_url: https://github.com/norc-heal/heal-data-pkg-guidance
 nav:
   - Home: index.md
-  - Section 1: section1.md
-  - Section 2:
-    - section2/index.md
-    - section2/page1.md
+  - Introduction:
+    - intro/index.md
+    - Study-level metadata: intro/slmd.md
   - Deciding how you will share and document your data:
     - Are you early in collection/production of study artefacts?: section3/dec.md
     - Early in your study: section3/dec/early.md
@@ -22,6 +21,7 @@ nav:
     - Holistic vs. Minimal Annotation: terms/holmin.md
     - Add-as-you-go vs. Top-down Annotation: terms/addtop.md
     - HEAL recommendations for organization and naming of study artefacts: terms/name.md
+    - Data sharing orientations: terms/sharing.md
 
 theme:
   name: material
