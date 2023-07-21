@@ -2,87 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/section1/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/intro/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/intro/slmd/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/section3/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/section3/dec/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/section3/orient/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/section3/dec/early/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/section3/dec/late/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/section3/dec/late/large/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/section3/dec/late/small/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/terms/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/terms/addtop/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guidance/terms/depend/</loc>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/terms/files/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/terms/holmin/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/terms/name/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guidance/terms/resource/</loc>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guidance/terms/sharing/</loc>
-         <lastmod>2023-07-20</lastmod>
+         <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
