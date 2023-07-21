@@ -22,6 +22,8 @@ nav:
     - Add-as-you-go vs. Top-down Annotation: terms/addtop.md
     - HEAL recommendations for organization and naming of study artefacts: terms/name.md
     - Data sharing orientations: terms/sharing.md
+    - Documenting dependencies: terms/depend.md
+    - Resource Tracker: terms/resource.md
 
 theme:
   name: material
