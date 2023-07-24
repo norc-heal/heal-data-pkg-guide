@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://norc-heal.github.io/heal-data-pkg-guidance/terms/depend/">
+        <link rel="canonical" href="https://norc-heal.github.io/heal-data-pkg-guidance/terms/filelevel/">
       
       <link rel="icon" href="../../assets/heal_logo.png">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.3">
     
     
       
-        <title>Documenting dependencies - HEAL Platform Documentation</title>
+        <title>File-level Metadata - HEAL Platform Documentation</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#one-layer-deep-dependencies" class="md-skip">
+        <a href="#results-tracker" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Documenting dependencies
+              File-level Metadata
             
           </span>
         </div>
@@ -713,20 +713,6 @@
               
   
   
-  
-    <li class="md-nav__item">
-      <a href="../filelevel/" class="md-nav__link">
-        File-level Metadata
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
     
   
   
@@ -737,12 +723,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Documenting dependencies
+          File-level Metadata
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Documenting dependencies
+        File-level Metadata
       </a>
       
         
@@ -759,15 +745,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#one-layer-deep-dependencies" class="md-nav__link">
-    'One Layer Deep' Dependencies
+  <a href="#results-tracker" class="md-nav__link">
+    Results Tracker
   </a>
+  
+    <nav class="md-nav" aria-label="Results Tracker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#associated-filesdependencies" class="md-nav__link">
+    Associated Files/Dependencies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#liberal-dependencies" class="md-nav__link">
-    'Liberal' Dependencies
+  <a href="#data-dictionary" class="md-nav__link">
+    Data Dictionary
   </a>
   
 </li>
@@ -776,6 +782,20 @@
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../depend/" class="md-nav__link">
+        Documenting dependencies
+      </a>
     </li>
   
 
@@ -812,15 +832,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#one-layer-deep-dependencies" class="md-nav__link">
-    'One Layer Deep' Dependencies
+  <a href="#results-tracker" class="md-nav__link">
+    Results Tracker
   </a>
+  
+    <nav class="md-nav" aria-label="Results Tracker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#associated-filesdependencies" class="md-nav__link">
+    Associated Files/Dependencies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#liberal-dependencies" class="md-nav__link">
-    'Liberal' Dependencies
+  <a href="#data-dictionary" class="md-nav__link">
+    Data Dictionary
   </a>
   
 </li>
@@ -839,20 +879,67 @@
                 
                   
 
-  <a href="https://github.com/norc-heal/heal-data-pkg-guidance/edit/master/docs/terms/depend.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/norc-heal/heal-data-pkg-guidance/edit/master/docs/terms/filelevel.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-  <h1>Documenting dependencies</h1>
+  <h1>File-level Metadata</h1>
 
-<h2 id="one-layer-deep-dependencies">'One Layer Deep' Dependencies<a class="headerlink" href="#one-layer-deep-dependencies" title="Permanent link">&para;</a></h2>
-<p>Annotation using 'one-layer-deep' dependencies means only documenting the immediate dependencies needed to produce/interpret/use the artefact. If you are using wholistic annotation, you will use the 'one-layer-deep' approach while documenting dependencies.</p>
-<p>Each row/entry of the resource tracker will only have one dependency (the immediate file/document needed to create the file). The next row will list that dependency and document its dependencies, and so on, until you are annotating files with not dependencies. Given that wholistic annotation inolves documenting all files, this will allow researchers to trace the order of dependencies in a cascade to the original source files. THis will ease the ability to understand and reproduce results.</p>
-<h2 id="liberal-dependencies">'Liberal' Dependencies<a class="headerlink" href="#liberal-dependencies" title="Permanent link">&para;</a></h2>
-<p>Annotation using ‘liberal’ dependencies means documenting all dependencies, immediate and distal, needed to produce/interpret/use each artefact. If you are using minimal annotation, you will use the ‘liberal’ approach when documenting dependencies.</p>
-<p>Each row/entry of the resource tracker will include immediate dependencies (as in the ‘one-layer-deep’ approach) as well as the dependencies of those dependencies. Given that minimal annotation means that you are not documenting all study artefacts, this will allow researchers to understand the cascade of dependencies involved in producing each artefact, even if not all dependencies are entries in the resource tracker.</p>
+<h2 id="results-tracker">Results Tracker<a class="headerlink" href="#results-tracker" title="Permanent link">&para;</a></h2>
+<p>The results tracker provider detailed information and annotation for <a href="../files/#multi-result-file">multi-result files</a> (e.g., manuscript, presentation). Each multi-result file will have a corresponding results tracker. The purpose of this tracker is to track and annotate each single result (e.g., a figure or textual statement) within each multi-result file as well as the data and supporting files upone which each single result depends. Within the result tracker, each row corresponds to one result from the multi-result file. Information eabout each result includes type of result (figure or text), description, and supported claims.</p>
+<p>Each results tracker should additionally be listed and annotated as its own row in the <a href="resource.md">resource tracker</a>.</p>
+<p>For detailed information on the name and definition of each field in the results tracker, please refer to the [LINK: results tracker schema].</p>
+<h3 id="associated-filesdependencies">Associated Files/Dependencies<a class="headerlink" href="#associated-filesdependencies" title="Permanent link">&para;</a></h3>
+<p>Any file that the study artefact being annotated depends on to be produced, interpreted, or used (e.g. a processed tabular data file may depend on a raw data file(s), plus a code file that implements the statistical analysis plan to be produced, and require a data dictionary to interpret/use)</p>
+<p>How you annotate the dependencies of a file in the result tracker will depend on whether you are annotating wholistically or minimally.</p>
+<details>
+<summary> If you are annotating artefacts wholistically</summary>
+
+   <b> Use the 'one layer deep' approach</b>: list only the immediate dependencies needed to produce/interpret/use the result.<br>
+   <br>
+    <li> List each dependency in the result tracker in its own row/entry</li>
+    <li> For each row, list dependencies of that file one layer deep</li>
+    <li> Continue until you are annotating files with no dependencies</li>
+
+</details>
+
+<details>
+<summary> If you are annotating artefacts minimally</summary>
+
+   <b> Use the 'liberal' approach</b>: list all dependencies.<br>
+   <br>
+    <li> For a result, list immediate dependencies needed to produce/interpret/use the artefact plus dependencies of those dependencies</li>
+    <li> Continue until you are listing files with no dependencies</li>
+
+</details>
+<p>mkdo</p>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<p>A processed tabular data file may depend on a raw data file(s), plus a code file that implements the statistical analysis plan to be produced, and require a data dictionary to interpret/use. For more information on 'one layer deep' and 'liberal' dependency documentation, click here.</p>
+<table>
+<thead>
+<tr>
+<th align="left">'One layer deep' Dependencies</th>
+<th align="left">Liberal Dependencies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><ul><li>Immediately underlying raw data files,<br> plus a code file that implements the<br> statistical analysis plan and 'transforms'<br> the raw data files into the processed data<br> file, plus the data dictionary for the<br> processed data file</li></td>
+<td align="left"><ul><li>All immediate/one layer deep files, AND</li><li>The statistical analysis plan that was used<br> to produce the code, the data dictionary<br>  for the raw underlying data file(s), a <br> protocol for collection of the raw underlying<br> data file(s), etc.</li><li>If possible, list liberal dependencies in order<br> from most immediate to least immediate.</li></ul></td>
+</tr>
+</tbody>
+</table>
+<h2 id="data-dictionary">Data Dictionary<a class="headerlink" href="#data-dictionary" title="Permanent link">&para;</a></h2>
+<p>Each <a href="../files/#tabular-data-file">tabular data file</a> should have its own data dictionary. The data dictionary describes the content, format, and structure of the data file. Within the data dictionary, each row contains information about each variable such as the name, description, type, format, and encodings. The data dictionary is a critical piece in re-use of the data by future researchers, as it contains information about how to read, format, and interpret the data.</p>
+<p>For detailed information on the name and definition of each field in the data dictionary, please refer to the [LINK: data dictionary schema].</p>
+<div class="admonition note">
+<p class="admonition-title">Helpful tip</p>
+<p>If you are creating data dictionaries, save the data dictionary with the same filename as the data file, with a "dd-" prefix.</p>
+<pre><code>Example: dd-my-data-1.csv
+</code></pre>
+</div>
 
 
 
@@ -873,7 +960,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../filelevel/" class="md-footer__link md-footer__link--prev" aria-label="Previous: File-level Metadata" rel="prev">
+        <a href="../studylevel/exp/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Experiment Tracker" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -882,11 +969,26 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              File-level Metadata
+              Experiment Tracker
             </div>
           </div>
         </a>
       
+      
+        
+        <a href="../depend/" class="md-footer__link md-footer__link--next" aria-label="Next: Documenting dependencies" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Documenting dependencies
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
