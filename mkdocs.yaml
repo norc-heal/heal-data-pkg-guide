@@ -7,6 +7,7 @@ nav:
   - Introduction:
     - intro/index.md
     - Study-level metadata: intro/slmd.md
+    - File-level metadata: intro/flmd.md
   - Deciding how you will share and document your data:
     - Are you early in collection/production of study artefacts?: section3/dec.md
     - Early in your study: section3/dec/early.md
@@ -14,7 +15,9 @@ nav:
         - Late in your study: section3/dec/late/index.md
         - Small number of artefacts or interested in high levels of transparency: section3/dec/late/small.md
         - Large number of artefacts or interested in implementing mandated levels of transparency only: section3/dec/late/large.md
-    - What is your data sharing orientation?: section3/orient.md
+    - Data Sharing Orientation: 
+      - What is your data sharing orientation?: section3/orient/orient.md
+      - Results-support: section3/orient/resultsupp.md
   - Terms & Concepts: 
     - Terms & Concepts: terms/index.md
     - File Types: terms/files.md
@@ -22,8 +25,12 @@ nav:
     - Add-as-you-go vs. Top-down Annotation: terms/addtop.md
     - HEAL recommendations for organization and naming of study artefacts: terms/name.md
     - Data sharing orientations: terms/sharing.md
+    - Study-level Metadata:
+      - Resource Tracker: terms/studylevel/resource.md
+      - Experiment Tracker: terms/studylevel/exp.md
+    - File-level Metadata: terms/filelevel.md
     - Documenting dependencies: terms/depend.md
-    - Resource Tracker: terms/resource.md
+
 
 theme:
   name: material

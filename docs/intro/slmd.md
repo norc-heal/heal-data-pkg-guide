@@ -1,11 +1,11 @@
-1. Every study should create one [experiment tracker]
+1. Every study should create one [experiment tracker](../terms/exp.md)
     <ol type="a">
         <li><b>Timing</b>: Start on this right away; no need to take the Decision Tree Quiz ahead of time</li>
         <li><b>Content</b>: Lists all experiments/activities in the study, including high-level description, experimental questions, and hypotheses</li>
         <li><b>Purpose</b>: Gives a high-level overview of what the study was trying to ask/answer and how it went about answering that (more detailed than SLMD)</li>
     </ol>
 
-2. Every study should create one [resource tracker]
+2. Every study should create one [resource tracker](../terms/resource.md)
     <ol class="lower-alpha">
         <li><b>Timing</b>: Take Decision Tree Quiz first; note recommendations from quiz regarding <b>how</b> your study should implement the resource tracker</li>
         <li><b>Content</b>: Lists all/shared study artefacts and dependencies</li>

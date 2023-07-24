@@ -1,8 +1,8 @@
 ## About the Resource Tracker
+The resource tracker is an inventory and annotated list of all data and supporting/non-data files for the study. 
 
 ## Study-Level Metadata
-
-The resource tracker is an inventory and annotated list of all data and supporting/non-data files for the study. Each row of the resource tracker corresponds to one data or non-data resource. Information in the tracker about each resource includes file path, description, access restrictions, format and corresponding software, and dependencies. The resource tracker is where you will also list and annotate any associated results trackers documenting multi-result files.
+Each row of the resource tracker corresponds to one data or non-data resource. Information in the tracker about each resource includes file path, description, access restrictions, format and corresponding software, and dependencies. The resource tracker is where you will also list and annotate any associated results trackers documenting multi-result files.
 
 See [LINK: Resource Tracker: Associated Files/Dependencies] for more information on how you should document your dependencies, depending on the type and amount of data you are sharing.
 
@@ -49,11 +49,11 @@ How you annotate the dependencies of a file in the resource tracker will depend 
     <li> Continue until you are listing files with no dependencies</li>
 
 </details>
-
+mkdo
 
 ### Example
-A processed tabular data file may depend on a raw data file(s), plus a code file that implements the statistical analysis plan to be produced, and require a data dictionary to interpret/use.
+A processed tabular data file may depend on a raw data file(s), plus a code file that implements the statistical analysis plan to be produced, and require a data dictionary to interpret/use. For more information on 'one layer deep' and 'liberal' dependency documentation, click here.
 
 | 'One layer deep' Dependencies            | Liberal Dependencies                             |
 | :----------------------------------------| :-----------------------------------------------|
-|<ul><li>Immediately underlying raw data files,<br> plus a code file that implements the<br> statistical analysis plan and 'transforms'<br> the raw data files into the processed data<br> file, plus the data dictionary for the<br> processed data file</li> | <li>All immediate/one layer deep files, plus</li><li>The statistical analysis plan that was used<br> to produce the code, the data dictionary<br>  for the raw underlying data file(s), a <br> protocol for collection of the raw underlying<br> data file(s), etc.</li><li>If possible, list liberal dependencies in order<br> from most immediate to least immediate.</li>
+|<ul><li>Immediately underlying raw data files,<br> plus a code file that implements the<br> statistical analysis plan and 'transforms'<br> the raw data files into the processed data<br> file, plus the data dictionary for the<br> processed data file</li> | <ul><li>All immediate/one layer deep files, AND</li><li>The statistical analysis plan that was used<br> to produce the code, the data dictionary<br>  for the raw underlying data file(s), a <br> protocol for collection of the raw underlying<br> data file(s), etc.</li><li>If possible, list liberal dependencies in order<br> from most immediate to least immediate.</li></ul>
