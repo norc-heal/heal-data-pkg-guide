@@ -6,23 +6,16 @@ nav:
   - Home: index.md
   - Introduction:
     - intro/index.md
-    - Study-level metadata: intro/slmd.md
-    - File-level metadata: intro/flmd.md
-    - Resource Tracker Annotation - Wholistic vs. Minimal: intro/introholmin.md
+    - The Resource Tracker: intro/resource.md
+
   - Deciding how you will share and document your data:
     - Main Guiding Questions: guide/index.md
     - Early in study: guide/early.md
     - Late in study: guide/late.md
-  - Deciding how you will share and document your data:
-    - Are you early in collection/production of study artefacts?: section3/dec.md
-    - Early in your study: section3/dec/early.md
-    - Late in your study: 
-        - Late in your study: section3/dec/late/index.md
-        - Small number of artefacts or interested in high levels of transparency: section3/dec/late/small.md
-        - Large number of artefacts or interested in implementing mandated levels of transparency only: section3/dec/late/large.md
-    - Data Sharing Orientation: 
-      - What is your data sharing orientation?: section3/orient/orient.md
-      - Results-support: section3/orientmkd/resultsupp.md
+  - Annotation: 
+    - Annotation Approaches: annot/index.md
+    - Wholistic vs. Minimal: annot/introholmin.md
+    - As you go vs. Top-down: annot/introaddtop.md
   - Terms & Concepts: 
     - Terms & Concepts: terms/index.md
     - File Types: terms/files.md
