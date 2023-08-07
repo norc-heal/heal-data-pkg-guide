@@ -3,12 +3,16 @@ site_name: HEAL Platform Documentation
 site_url: https://norc-heal.github.io/heal-data-pkg-guidance
 repo_url: https://github.com/norc-heal/heal-data-pkg-guidance
 nav:
-  - Home: index.md
+  #- Home: index.md
   - Introduction:
     - intro/index.md
-    - The Resource Tracker: intro/resource.md
+    - Who: intro/who.md
+    - What: intro/what.md
+    - Why: intro/why.md
+    - Where: intro/where.md
+    #- The Resource Tracker: intro/resource.md
 
-  - Deciding how you will share and document your data:
+  - What Approach Is Best for You?:
     - Main Guiding Questions: guide/index.md
     - Early in study: guide/early.md
     - Late in study: guide/late.md
