@@ -27,7 +27,7 @@ nav:
     - File Types: terms/files.md
     - Holistic vs. Minimal Annotation: terms/holmin.md
     - Add-as-you-go vs. Top-down Annotation: terms/addtop.md
-    - HEAL recommendations for organization and naming of study artefacts: terms/name.md
+    - HEAL recommendations for organization and naming of study files/resources: terms/name.md
     - Data sharing orientations: terms/sharing.md
     - Study-level Metadata:
       - Resource Tracker: terms/studylevel/resource.md
