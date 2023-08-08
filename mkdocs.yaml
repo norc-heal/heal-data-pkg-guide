@@ -10,9 +10,11 @@ nav:
     - What: intro/what.md
     - Why: intro/why.md
     - Where: intro/where.md
+    - When: intro/when.md
+    - How: intro/how.md
     #- The Resource Tracker: intro/resource.md
 
-  - What Approach Is Best for You?:
+  - When & How - Best fit for You?:
     - Main Guiding Questions: guide/index.md
     - Early in study: guide/early.md
     - Late in study: guide/late.md
