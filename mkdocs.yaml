@@ -16,12 +16,16 @@ nav:
 
   - When & How - Best fit for You?:
     - Main Guiding Questions: guide/index.md
+    - Data sharing orientation: guide/data-sharing-orientation.md
+    - Study stage: guide/study-stage.md
     - Early in study: guide/early.md
     - Late in study: guide/late.md
+  
   - Annotation: 
     - Annotation Approaches: annot/index.md
     - Wholistic vs. Minimal: annot/introholmin.md
     - As you go vs. Top-down: annot/introaddtop.md
+  
   - Terms & Concepts: 
     - Terms & Concepts: terms/index.md
     - File Types: terms/files.md
