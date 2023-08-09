@@ -1,8 +1,9 @@
 # Why should I create a data package?  
 
+
 ## Potential Secondary Data Users
 
-These supporting or metadata files are important for **potential secondary data users** as they: 
+Creating and completing a data package (including creation and completion of all [standard data package metadata files](../terms/index.md#standard-data-package-metadata-files)) are important for **potential secondary data users** as they: 
 
 * allow potential secondary data users to understand enough about the study and data to determine whether the study/data may be of use for their purposes, and whether it makes sense for them to reach out to request access to the data or to propose a collaboration with the originating study group
 * facilitate use of the data by requesting researchers 
