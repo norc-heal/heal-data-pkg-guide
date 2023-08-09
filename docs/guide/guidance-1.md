@@ -1,4 +1,4 @@
-# Guidance for study stage: early &  
+# Guidance for study stage: early  
 
 In general, an overview of the data packaging process looks like: 
 
