@@ -3,8 +3,8 @@ site_name: HEAL Data Packaging
 site_url: https://norc-heal.github.io/heal-data-pkg-guidance
 repo_url: https://github.com/norc-heal/heal-data-pkg-guidance
 nav:
-  #- Home: index.md
-  - Introduction:
+  - "": index.md
+  - Introduction: 
     - intro/index.md
     - Who: intro/who.md
     - What: intro/what.md
@@ -14,10 +14,10 @@ nav:
     - How: intro/how.md
     #- The Resource Tracker: intro/resource.md
 
-  - When & How - Best fit for You?:
+  - When & How - Best fit for you?:
     - Main Guiding Questions: guide/index.md
-    - Data sharing orientation: guide/data-sharing-orientation.md
-    - Study stage: guide/study-stage.md
+    - Your data sharing orientation: guide/data-sharing-orientation.md
+    - Your study stage: guide/study-stage.md
     - Early in study: guide/guidance-1.md
     - Late in study: guide/late.md
   
@@ -28,16 +28,19 @@ nav:
   
   - Terms & Concepts: 
     - Terms & Concepts: terms/index.md
-    - File Types: terms/files.md
-    - Holistic vs. Minimal Annotation: terms/holmin.md
-    - Add-as-you-go vs. Top-down Annotation: terms/addtop.md
+    #- File Types: terms/files.md
+    #- Holistic vs. Minimal Annotation: terms/holmin.md
+    #- Add-as-you-go vs. Top-down Annotation: terms/addtop.md
     - HEAL recommendations for organization and naming of study files/resources: terms/name.md
-    - Data sharing orientations: terms/sharing.md
-    - Study-level Metadata:
-      - Resource Tracker: terms/studylevel/resource.md
-      - Experiment Tracker: terms/studylevel/exp.md
-    - File-level Metadata: terms/filelevel.md
-    - Documenting dependencies: terms/depend.md
+    #- Data sharing orientations: terms/sharing.md
+    - Standard data package metadata:
+      - Overview: terms/standard-data-pkg-metadata.md
+
+    #- Study-level Metadata:
+    #  - Resource Tracker: terms/studylevel/resource.md
+    #  - Experiment Tracker: terms/studylevel/exp.md
+    #- File-level Metadata: terms/filelevel.md
+    #- Documenting dependencies: terms/depend.md
 
 
 theme:
@@ -72,6 +75,7 @@ markdown_extensions:
       permalink: True
       baselevel: 1
   - pymdownx.superfences
+  - pymdownx.extra
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details
