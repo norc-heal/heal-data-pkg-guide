@@ -15,6 +15,6 @@ These study stage options are greatly simplified. For now, **select the study st
 !!! note "Do you know your data sharing orientation?"
     It's a good idea to determine your data sharing orientation before proceeding. If you havent' yet, [head here](data-sharing-orientation.md) to determine your data sharing orientation, then head back here to proceed.
 
-If you are **early** in your study and have collected or produced little data or non-data supporting files/resources, [click here](early.md).
+If you are **early** in your study and have collected or produced little data or non-data supporting files/resources, [click here](guidance-1.md).
 
 If you are **later** in your study and have collected or produced a large amount of data and on-data supporting files/resources, [click here](late.md).
