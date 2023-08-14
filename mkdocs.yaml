@@ -33,8 +33,8 @@ nav:
     #- Add-as-you-go vs. Top-down Annotation: terms/addtop.md
     - HEAL recommendations for organization and naming of study files/resources: terms/name.md
     #- Data sharing orientations: terms/sharing.md
-    - Standard data package metadata:
-      - Overview: terms/standard-data-pkg-metadata.md
+    #- Standard data package metadata:
+    #  - Overview: terms/standard-data-pkg-metadata.md
 
     #- Study-level Metadata:
     #  - Resource Tracker: terms/studylevel/resource.md
