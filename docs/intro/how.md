@@ -78,8 +78,8 @@ Currently, study-level standard data package metadata files are the experiment t
 
 **Resource Tracker**: Each study should create and complete a resource tracker; it is meant to be an inventory of each data or non-data supporting file collected/produced by or for the study, plus all standard data package metadata files added during the data packaging process. 
 
-* If you are early on in your study, you may want to consider starting your resource tracker right away, adding the study files/resources that have already been created, and then moving forward, adding each new study file/resource as it is created ("as you go" annotation). 
-* If you are later on in your study, you may want to wait until you are at the study stage of producing the result(s) and/or dataset(s) your study group aims to share before starting your resource tracker; this will allow you to pick and choose, adding only the study resources/files that support the result(s) or dataset(s) you will share. 
+* If you are early on in your study, you may want to consider starting your resource tracker right away, adding the study files/resources that have already been created, and then moving forward, adding each new study file/resource as it is created ("as you go" annotation), regardless of whether the file will be shared ("wholistic" annotation). 
+* If you are later on in your study, you may want to wait until you are at the study stage of producing the result(s) and/or dataset(s) your study group aims to share before starting your resource tracker; this will allow you to work backwards from the results or datasets your study group will share ("top down" annotation); you can then pick and choose, adding only the study resources/files that support the result(s) or dataset(s) you will share; when you take this "top down" approach, you have the option of either adding all files that support the result(s) or dataset(s) you will share, regardless of whether these files will be shared ("wholistic" annotation) or adding the subset of files that support the result(s) or dataset(s) you will share that will themselves be shared ("minimal" annotation). 
 
 </div>
 
