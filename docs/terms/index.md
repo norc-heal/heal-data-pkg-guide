@@ -125,7 +125,7 @@ Please follow the links below for additional information on:
 
 **When completing the Resource Tracker for your study**: 
 
-* Minimal annotation implies that you will list and annotate relevant study resources ONLY if you will share those files in a public data repository
+* Minimal annotation implies that you will list and annotate relevant study resources in the resource tracker ONLY if you will share those files in a public data repository
 * When completing the Resource Tracker you will NOT list and annotate relevant study files if they will not be shared in a public data repository
 * See the alternative: [Wholistic Annotation](#wholistic-annotation)
 
@@ -160,6 +160,7 @@ Please follow the links below for additional information on:
 * When listing/annotating a file that will NOT be shared, access level should be set to "permanent-private" to indicate that the file will not be shared 
 * See the alternative: [Minimal Annotation](#minimal-annotation)
 
+
 <details>
 <summary> Advantages</summary>
     <ul>
@@ -183,27 +184,172 @@ Please follow the links below for additional information on:
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
-**When completing the Resource Tracker for your study**: 
+As-you-go annotation implies that you will begin the [data packaging and annotation process](../intro/how.md) right away; you will audit and annotate all study resources already created, and keep up with annotation as you move through the remainder of your study timeline; you will generally audit and annotate all study resources regardless of whether these resources will ultimately be shared at a public data repository (["wholistic" annotation](#wholistic-annotation)) 
 
-* Wholistic annotation implies that you will list and annotate relevant study resources without regard for whether (or not) you will share those files in a public data repository
-* When completing the Resource Tracker you will list and annotate relevant study files that will be shared AND those that will NOT be shared
-* When listing/annotating a file that will NOT be shared, access level should be set to "permanent-private" to indicate that the file will not be shared 
-* See the alternative: [Minimal Annotation](#minimal-annotation)
+See the alternative: [Top-down Annotation](#top-down-annotation)
+
+**As you move through the [data packaging process steps](../intro/how.md), "as-you-go" annotation implies that you will**: 
+
+1. Audit relevant files
+
+    * **start this right away** 
+    * audit all files/resources already collected or produced by or for your study
+
+2. Organize and consistently name your files and folders 
+
+    * **start this right away**
+    * consider using [HEAL recommendations for organizing and naming study files/resources](name.md) to establish naming and organization conventions that should be followed for all study files, including for files that already exist and for new study files/resources as they are collected or produced
+    * align file name/organization of existing study files to the conventions you established in the step above - this may require you to change file names and locations for already-existing files (NOTE: do not duplicate files in order to align with name/org conventions as this may lead to confusion down the road as to which copy is the "source of truth") 
+    
+3. Add [Standard data package metadata - File-level](#standard-data-package-metadata-file-level)
+
+    * [Data Dictionary](#data-dictionary)
+
+        * **start this right away**
+        * audit existing study files to identify any tabular data files that may have already been collected or produced by or for the study
+        * create a data dictionary for any existing tabular data files right away
+        * if/when any new tabular data files are collected or produced by or for the study, create a data dictionary for the new tabular data file(s) right away and save them using file name and organization conventions you have established for your study (see step 2 above)
+
+    * [Results Tracker](#results-tracker)
+
+        * **wait until your study is at the point of producing final result products** (e.g. figures, tables, text statements)
+        * once your study has reached this point, start annotating final result products right away, even if you have not formally begun to add them to a [multi-result file](#multi-result-file)
+        * as new final result products are produced by your study, annotate each final result product right away
+        * once your study has started to formally add final result products to a multi-result file(s), start adding result annotation files you've already produced (in the step just above) to a results tracker document for the multi-result file(s) - one results tracker per multi-result file
+        * as new multi-result files are produced by your study, use the result annotation files you create for each final result product in the multi-result file to create a results tracker document for the new multi-result file
+
+4. Add [Standard data package metadata - Study-level](#standard-data-package-metadata-study-level)
+
+    * [Experiment Tracker](#experiment-tracker)
+
+        * **start this right away**
+        * audit all component experiments or other activities that will be part of your study
+        * start annotating study component experiments or activities that have already been designed
+        * if/when any new study component experiments or activities are designed, annotate each new study component experiment or activity right away          
+
+    * [Resource Tracker](#resource-tracker)
+
+        * **start this right away**
+        * audit all files/resources already collected or produced by or for your study (see step 1 above)
+        * establish file naming and organization conventions for your study files and make any necessary adjustments to current study file naming/organization to align with these conventions (see step 2 above)
+        * systematically annotate all files/resources already collected or produced by or for your study right away
+        * once you've annotated all files/resources already produced by or for your study, add these resource annotation files to your resource tracker
+        * as new files/resources are collected or produced by or for your study, save them using the file naming and organization conventions you established previously, and annotate each new resource right away
+         
+
+
 
 <details>
 <summary> Advantages</summary>
     <ul>
-    <li> Maximizes transparency and allows other researchers interested in the data to understand the full scope of the project and the data when accessing study documentation.</li>
-    <li> allows for documentation of the existence and disposition of files that are too sensitive to share but are important for reproducibility and can perhaps be requested directly from the study team by another researcher.</li>
+    <li> Spreads out annotation and data packaging work across the course of the study so that burden at the end of the stusy is minimal.</li>
     <li> You get the benefit of full local annotation, which not only maximizes the usefulness of your data for other investigators but also can be helpful internally, especially in preserving knowledge about the data even as team members may change over the course of the study.</li>
+    <li> Maximizes transparency and allows other researchers interested in the data to understand the full scope of the project and the data when accessing study documentation.</li>
+    <li> Allows for documentation of the existence and disposition of files that are too sensitive to share but are important for reproducibility and can perhaps be requested directly from the study team by another researcher.</li>
     <li> Documenting and sharing all metadata associated with your study can increase the discoverability of your study.</li>
 
 </details>
 
-<details >
+<details>
 <summary> Caveats</summary>
-    <ul >
-    <li> Especially if you are late in your study, Wholistic Annotation may be more time consuming than the alternative (Minimal Annotation), because you are listing and annotating more files (i.e. files that will be shared AND files that will NOT be shared, versus ONLY files that will be shared) in the Resource Tracker for your study.</li>
+    <ul>
+    <li markdown="span"> The "as-you-go" annotation approach, **when applied broadly as outlined above** is strongly recommended for study groups that are early on in their study as the burden of starting up is relatively light when few study files/resources have so far been collected or produced by or for the study. However, the start up burden of this approach may be quite substantial for studies groups that are late or even well into their study and have already accumulated many study files/resources, and we generally recommend these groups consider the alternative, more goal-focused and narrow annotation approach: [Top-down annotation](#top-down-annotation).
+    </li>
+    <li markdown="span"> **The "as-you-go" annotation approach may also be applied in a narrower sense**, especially by study groups that are later in their study and who will not apply the "as-you-go" annotation approach in the broadest sense. This implies that studies will consider the whole packaging overview process and complete items as they can, as opposed to waiting until the very end (for example, when they are about to submit a study manuscript for peer review) to start the process. Some examples include, 1) auditing study files for tabular data files, creating data dictionaries for existing tabular data files right away, and creating data dictionaries right away for new tabular data files as the study collects or produces them, 2) annotating final result products the study group knows will or likely will be included in a final manuscript as they are produced, and creating a results tracker for final manuscript documents as drafts begin to be forumulated by the study group, 3) annotating component experiments and other activities that are part of the study right away if already designed, or as soon as they are designed (especially if it is clear that the experiment or activity will or likely will produce data that will be used to support/produce final result products that will be included in a final manuscript).
+    </li>
+    </ul>
+  
+</details>
+
+</div>
+
+## Top-down annotation 
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
+
+Top-down annotation implies that you will generally implement the [data packaging and annotation process](../intro/how.md) in a somewhat narrower, more goal-oriented manner as compared to how you would implement if using the alternative [As-you-go annotation](#as-you-go-annotation) approach; You will generally determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation), then wait until your study has produced the goal sharing product (i.e. respectively, the final result product(s) or manuscripts containing a set of final result product(s) for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating); you will then audit and annotate the subset of study resources required to interpret, use, and/or reproduce the results or dataset already created, and annotate this subset of study resources right away; when you take the "top down" annotation approach, you will generally audit the full subset of study resources required to support your result(s) and/or dataset regardless of whether these resources will ultimately be shared at a public data repository, however you may choose to 1) annotate all resources in this subset regardless of whether they will be shared in a public repository (["wholistic" annotation](#wholistic-annotation)), or 2) annotate only the resources in this subset that will be shared in a public repository (["minimal" annotation](#minimal-annotation))
+
+See the alternative: [As-you-go Annotation](#as-you-go-annotation)
+
+**As you move through the [data packaging process steps](../intro/how.md), "top-down" annotation implies that you will**: 
+
+1. Audit relevant files
+
+    * **start this right away**: 
+    
+        * determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)
+
+    * **wait until your study has produced the goal sharing product** (i.e. respectively, the final result product(s) or manuscripts containing a set of final result product(s) for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating)
+
+        * audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. final study result product(s)/manuscipt(s) or dataset)
+
+2. Organize and consistently name your files and folders 
+
+    * **start this right away**:
+
+        * determine if you are early in your study
+        * if you are early in your study: 
+
+            * consider using [HEAL recommendations for organizing and naming study files/resources](name.md) to establish naming and organization conventions that should be followed for all study files, including for files that already exist and for new study files/resources as they are collected or produced
+            * align file name/organization of existing study files to the conventions you established in the step above - this may require you to change file names and locations for already-existing files (NOTE: do not duplicate files in order to align with name/org conventions as this may lead to confusion down the road as to which copy is the "source of truth") 
+    
+3. Add [Standard data package metadata - File-level](#standard-data-package-metadata-file-level)
+
+    * [Data Dictionary](#data-dictionary)
+
+        * **start this right away**
+        * audit existing study files to identify any tabular data files that may have already been collected or produced by or for the study
+        * create a data dictionary for any existing tabular data files right away
+        * if/when any new tabular data files are collected or produced by or for the study, create a data dictionary for the new tabular data file(s) right away and save them using file name and organization conventions you have established for your study (see step 2 above)
+
+    * [Results Tracker](#results-tracker)
+
+        * **wait until your study is at the point of producing final result products** (e.g. figures, tables, text statements)
+        * once your study has reached this point, start annotating final result products right away, even if you have not formally begun to add them to a [multi-result file](#multi-result-file)
+        * as new final result products are produced by your study, annotate each final result product right away
+        * once your study has started to formally add final result products to a multi-result file(s), start adding result annotation files you've already produced (in the step just above) to a results tracker document for the multi-result file(s) - one results tracker per multi-result file
+        * as new multi-result files are produced by your study, use the result annotation files you create for each final result product in the multi-result file to create a results tracker document for the new multi-result file
+
+4. Add [Standard data package metadata - Study-level](#standard-data-package-metadata-study-level)
+
+    * [Experiment Tracker](#experiment-tracker)
+
+        * **start this right away**
+        * audit all component experiments or other activities that will be part of your study
+        * start annotating study component experiments or activities that have already been designed
+        * if/when any new study component experiments or activities are designed, annotate each new study component experiment or activity right away          
+
+    * [Resource Tracker](#resource-tracker)
+
+        * **start this right away**
+        * audit all files/resources already collected or produced by or for your study (see step 1 above)
+        * establish file naming and organization conventions for your study files and make any necessary adjustments to current study file naming/organization to align with these conventions (see step 2 above)
+        * systematically annotate all files/resources already collected or produced by or for your study right away
+        * once you've annotated all files/resources already produced by or for your study, add these resource annotation files to your resource tracker
+        * as new files/resources are collected or produced by or for your study, save them using the file naming and organization conventions you established previously, and annotate each new resource right away
+         
+
+
+
+<details>
+<summary> Advantages</summary>
+    <ul>
+    <li> Spreads out annotation and data packaging work across the course of the study so that burden at the end of the stusy is minimal.</li>
+    <li> You get the benefit of full local annotation, which not only maximizes the usefulness of your data for other investigators but also can be helpful internally, especially in preserving knowledge about the data even as team members may change over the course of the study.</li>
+    <li> Maximizes transparency and allows other researchers interested in the data to understand the full scope of the project and the data when accessing study documentation.</li>
+    <li> Allows for documentation of the existence and disposition of files that are too sensitive to share but are important for reproducibility and can perhaps be requested directly from the study team by another researcher.</li>
+    <li> Documenting and sharing all metadata associated with your study can increase the discoverability of your study.</li>
+
+</details>
+
+<details>
+<summary> Caveats</summary>
+    <ul>
+    <li markdown="span"> The "as-you-go" annotation approach, **when applied broadly as outlined above** is strongly recommended for study groups that are early on in their study as the burden of starting up is relatively light when few study files/resources have so far been collected or produced by or for the study. However, the start up burden of this approach may be quite substantial for studies groups that are late or even well into their study and have already accumulated many study files/resources, and we generally recommend these groups consider the alternative, more goal-focused and narrow annotation approach: [Top-down annotation](#top-down-annotation).
+    </li>
+    <li markdown="span"> **The "as-you-go" annotation approach may also be applied in a narrower sense**, especially by study groups that are later in their study and who will not apply the "as-you-go" annotation approach in the broadest sense. This implies that studies will consider the whole packaging overview process and complete items as they can, as opposed to waiting until the very end (for example, when they are about to submit a study manuscript for peer review) to start the process. Some examples include, 1) auditing study files for tabular data files, creating data dictionaries for existing tabular data files right away, and creating data dictionaries right away for new tabular data files as the study collects or produces them, 2) annotating final result products the study group knows will or likely will be included in a final manuscript as they are produced, and creating a results tracker for final manuscript documents as drafts begin to be forumulated by the study group, 3) annotating component experiments and other activities that are part of the study right away if already designed, or as soon as they are designed (especially if it is clear that the experiment or activity will or likely will produce data that will be used to support/produce final result products that will be included in a final manuscript).
+    </li>
+    </ul>
   
 </details>
 
