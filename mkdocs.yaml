@@ -1,33 +1,46 @@
 #https://www.mkdocs.org/user-guide/configuration/#
-site_name: HEAL Platform Documentation
+site_name: HEAL Data Packaging 
 site_url: https://norc-heal.github.io/heal-data-pkg-guidance
 repo_url: https://github.com/norc-heal/heal-data-pkg-guidance
 nav:
-  - Home: index.md
-  - Introduction:
+  - "": index.md
+  - Introduction: 
     - intro/index.md
-    - The Resource Tracker: intro/resource.md
+    - Who: intro/who.md
+    - What: intro/what.md
+    - Why: intro/why.md
+    - Where: intro/where.md
+    - When: intro/when.md
+    - How: intro/how.md
+    #- The Resource Tracker: intro/resource.md
 
-  - Deciding how you will share and document your data:
+  - When & How - Best fit for you?:
     - Main Guiding Questions: guide/index.md
-    - Early in study: guide/early.md
+    - Your data sharing orientation: guide/data-sharing-orientation.md
+    - Your study stage: guide/study-stage.md
+    - Early in study: guide/guidance-1.md
     - Late in study: guide/late.md
+  
   - Annotation: 
     - Annotation Approaches: annot/index.md
     - Wholistic vs. Minimal: annot/introholmin.md
     - As you go vs. Top-down: annot/introaddtop.md
+  
   - Terms & Concepts: 
     - Terms & Concepts: terms/index.md
-    - File Types: terms/files.md
-    - Holistic vs. Minimal Annotation: terms/holmin.md
-    - Add-as-you-go vs. Top-down Annotation: terms/addtop.md
-    - HEAL recommendations for organization and naming of study artefacts: terms/name.md
-    - Data sharing orientations: terms/sharing.md
-    - Study-level Metadata:
-      - Resource Tracker: terms/studylevel/resource.md
-      - Experiment Tracker: terms/studylevel/exp.md
-    - File-level Metadata: terms/filelevel.md
-    - Documenting dependencies: terms/depend.md
+    #- File Types: terms/files.md
+    #- Holistic vs. Minimal Annotation: terms/holmin.md
+    #- Add-as-you-go vs. Top-down Annotation: terms/addtop.md
+    - HEAL recommendations for organization and naming of study files/resources: terms/name.md
+    #- Data sharing orientations: terms/sharing.md
+    #- Standard data package metadata:
+    #  - Overview: terms/standard-data-pkg-metadata.md
+
+    #- Study-level Metadata:
+    #  - Resource Tracker: terms/studylevel/resource.md
+    #  - Experiment Tracker: terms/studylevel/exp.md
+    #- File-level Metadata: terms/filelevel.md
+    #- Documenting dependencies: terms/depend.md
 
 
 theme:
@@ -62,6 +75,7 @@ markdown_extensions:
       permalink: True
       baselevel: 1
   - pymdownx.superfences
+  - pymdownx.extra
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details
