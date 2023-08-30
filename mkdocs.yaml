@@ -15,26 +15,51 @@ nav:
     #- The Resource Tracker: intro/resource.md
 
   - When & How - Best fit for you?:
-    - Main Guiding Questions: guide/index.md
-    - Your data sharing orientation: guide/data-sharing-orientation.md
-    - Your study stage: guide/study-stage.md
-    - Early in study: guide/guidance-1.md
-    - Late in study: guide/late.md
+    - Main Guiding Questions: fit/index.md
+    - Your data sharing orientation: fit/data-sharing-orientation.md
+    - Your study stage: fit/study-stage.md
+    - Early in study: fit/guidance-1.md
+    - Late in study: fit/late.md
   
   - Annotation: 
     - Annotation Approaches: annot/index.md
     - Wholistic vs. Minimal: annot/introholmin.md
     - As you go vs. Top-down: annot/introaddtop.md
+
+  - Guidance & Resources:
+    - g-and-r/index.md
+    - Guidance:
+      - guidance/index.md
+      - File org and naming: 
+        - file-o-and-n/index.md
+        - File organization: guidance/file-org.md
+        - File naming: guidance/file-name.md
+    - Resources:
+      - resources/index.md
+      - Metadata schemas:
+        - schemas/index.md
+        - Experiment Tracker: schemas/md_experiment_tracker.md
+        - Resource Tracker: schemas/md_resource_tracker.md
+        - Results Tracker: schemas/md_results_tracker.md
+
+      
   
   - Terms & Concepts: 
-    - Terms & Concepts: terms/index.md
+    - terms/index.md
     #- File Types: terms/files.md
     #- Holistic vs. Minimal Annotation: terms/holmin.md
     #- Add-as-you-go vs. Top-down Annotation: terms/addtop.md
-    - HEAL recommendations for organization and naming of study files/resources: terms/name.md
+    #- File org and naming: 
+    #  - File organization: terms/name.md
+    #  - File naming: terms/name.md
     #- Data sharing orientations: terms/sharing.md
-    #- Standard data package metadata:
-    #  - Overview: terms/standard-data-pkg-metadata.md
+    #- Metadata schemas:
+    #  - Experiment Tracker: schemas/md_experiment_tracker.md
+    #  - Resource Tracker: schemas/md_resource_tracker.md
+    #  - Results Tracker: schemas/md_results_tracker.md
+  #  - Metadata templates:
+  #    - Overview: terms/standard-data-pkg-metadata.md
+      
 
     #- Study-level Metadata:
     #  - Resource Tracker: terms/studylevel/resource.md
