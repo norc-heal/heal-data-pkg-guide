@@ -21,10 +21,10 @@ nav:
     - Early in study: fit/guidance-1.md
     - Late in study: fit/late.md
   
-  - Annotation: 
-    - Annotation Approaches: annot/index.md
-    - Wholistic vs. Minimal: annot/introholmin.md
-    - As you go vs. Top-down: annot/introaddtop.md
+  #- Annotation: 
+  #  - Annotation Approaches: annot/index.md
+  #  - Wholistic vs. Minimal: annot/introholmin.md
+  #  - As you go vs. Top-down: annot/introaddtop.md
 
   - Guidance & Resources:
     - g-and-r/index.md
