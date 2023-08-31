@@ -14,12 +14,14 @@ nav:
     - How: intro/how.md
     #- The Resource Tracker: intro/resource.md
 
-  - When & How - Best fit for you?:
+  - Your best fit:
     - fit/index.md
-    - Your data sharing orientation: fit/data-sharing-orientation.md
-    - Your study stage: fit/study-stage.md
-    - Early in study: fit/guidance-1.md
-    - Late in study: fit/late.md
+    - Best fit questions: fit/best-fit-questions.md
+    - Best fit annotation recs: fit/best-fit-annotation-recs.md
+    #- Your data sharing orientation: fit/data-sharing-orientation.md
+    #- Your study stage: fit/study-stage.md
+    #- Early in study: fit/guidance-1.md
+    #- Late in study: fit/late.md
   
   #- Annotation: 
   #  - Annotation Approaches: annot/index.md
