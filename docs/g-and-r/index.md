@@ -2,17 +2,13 @@
 
 ## Guidance
 
-* File organization and naming
+### [File organization and naming](../file-o-and-n/index.md)
    
-    * File organization
-    * File naming
-
+    
 
 ## Resources
 
-* Standard data package metadata schemas
+### [Standard data package metadata schemas](../schemas/index.md)
 
-    * Experiment tracker schema
-    * Resource tracker schema
-    * Results tracker schema
+    
     

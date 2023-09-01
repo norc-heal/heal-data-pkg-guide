@@ -1,7 +1,7 @@
-# File organization and naming
+# Guidance: File organization and naming
    
-* File organization
-* File naming
+* [File organization](../guidance/file-org.md)
+* [File naming](../guidance/file-name.md)
 
 
 

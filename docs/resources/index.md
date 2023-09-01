@@ -1,9 +1,8 @@
 # Resources
 
 
-* Standard data package metadata schemas
+### [Standard data package metadata schemas](../schemas/index.md)
 
-    * Experiment tracker schema
-    * Resource tracker schema
-    * Results tracker schema
-    
+* #### [Experiment tracker schema](../schemas/md_experiment_tracker.md)
+* #### [Resource tracker schema](../schemas/md_resource_tracker.md)
+* #### [Results tracker schema](../schemas/md_results_tracker.md)
