@@ -6,7 +6,9 @@ When deciding the best fit for you with respect to how and when you will start c
 * [What is your data-sharing goal?](#data-sharing-orientation)
 * [Do you have low or no resources to devote to data-sharing efforts?](#data-sharing-resources)
 
-Move through the "best fit" questions [below](#study-stage), and select the answer option to each question that best fits you and your study. Detailed guidance on how and when to create and complete your data package will be provided based upon your study's answer selections.  
+Move through the "best fit" questions [below](#study-stage), and select the answer option to each question that best fits you and your study. 
+<br><br>
+Based upon your study's answer selections, [detailed guidance](best-fit-annotation-recs.md) on how and when to create and complete your data package will be provided.  
 
 ## Study Stage
 

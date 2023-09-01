@@ -1,3 +1,5 @@
+# Guidance: File organization
+
 ## Organize study-related files into folders with consistent naming conventions
 
 * Organize all your files (whether you will share them or not), into folders.
