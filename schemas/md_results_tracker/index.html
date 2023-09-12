@@ -684,6 +684,8 @@
         
           
         
+          
+        
       
       
         
@@ -784,6 +786,20 @@
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../md_data_dictionary_fields/" class="md-nav__link">
+        Data Dictionary
+      </a>
     </li>
   
 
@@ -913,16 +929,26 @@
 <li><strong><code>result.id</code></strong> <em>(string)</em>: Unique ID assigned to each result; If using the DSC Packaging application to annotate your resource(s), these IDs will be auto-assigned when you use the Add Result Tracker button above the form to add your Result Tracker Directory. Auto-assignment of IDs occurs by searching the directory for any result annotation files already saved, identifying the result ID with the highest result ID number, and adding 1 to that number to get the result ID number and unique result ID for the current result.</li>
 <li><strong><code>description</code></strong> <em>(string)</em>: A description of your result. For figure results this may be the figure caption. For text results, it is recommended that this text be identical or very similar to the text of result as shared in text of the multi-result file that is published or provided as part of the data package.</li>
 <li><strong><code>category</code></strong> <em>(string)</em>: Broad category your result falls into; Generally, these categories are: figure, or text. Must be one of: <code>["", "figure", "table", "text"]</code>.</li>
-<li><strong><code>assoc.multi.result.file</code></strong> <em>(array)</em>: The multi-result file(s) in which this result has been shared.</li>
+<li><strong><code>assoc.multi.result.file</code></strong> <em>(array)</em>: The multi-result file(s) in which this result has been shared.<ul>
 <li><strong>Items</strong> <em>(string)</em></li>
-<li><strong><code>figure.number</code></strong> <em>(array)</em>: If the result is a figure result, provide the number of the figure as it appears in the corresponding multi-result file; Examples include '1' if the result is in figure 1, or '1a' if the result is in figure 1A. If the result is included in more than one multi-result file, use the Associated Multi-Result File(s) field above to specify all multi-result files in which the result appears, and add the figure number at which the result appears in each of those files in this field, using the same order (e.g. file-1, file-2; figure-number-in-file-1, figure-number-in-file-2).</li>
+</ul>
+</li>
+<li><strong><code>figure.number</code></strong> <em>(array)</em>: If the result is a figure result, provide the number of the figure as it appears in the corresponding multi-result file; Examples include '1' if the result is in figure 1, or '1a' if the result is in figure 1A. If the result is included in more than one multi-result file, use the Associated Multi-Result File(s) field above to specify all multi-result files in which the result appears, and add the figure number at which the result appears in each of those files in this field, using the same order (e.g. file-1, file-2; figure-number-in-file-1, figure-number-in-file-2).<ul>
 <li><strong>Items</strong> <em>(string)</em></li>
-<li><strong><code>table.number</code></strong> <em>(array)</em>: If the result is a table result, provide the number of the table as it appears in the corresponding multi-result file; Examples include '1' if the result is in table 1, or '1a' if the result is in table 1A. If the result is included in more than one multi-result file, use the Associated Multi-Result File(s) field above to specify all multi-result files in which the result appears, and add the table number at which the result appears in each of those files in this field, using the same order (e.g. file-1, file-2; table-number-in-file-1, table-number-in-file-2).</li>
+</ul>
+</li>
+<li><strong><code>table.number</code></strong> <em>(array)</em>: If the result is a table result, provide the number of the table as it appears in the corresponding multi-result file; Examples include '1' if the result is in table 1, or '1a' if the result is in table 1A. If the result is included in more than one multi-result file, use the Associated Multi-Result File(s) field above to specify all multi-result files in which the result appears, and add the table number at which the result appears in each of those files in this field, using the same order (e.g. file-1, file-2; table-number-in-file-1, table-number-in-file-2).<ul>
 <li><strong>Items</strong> <em>(string)</em></li>
-<li><strong><code>assoc.file.depends.on</code></strong> <em>(array)</em>: Data and/or non-data supporting files the result depends upon (e.g. data, analysis plan/code, etc.). If you are using the DSC Packaging App and have many result dependencies to add, you can use the Add Multiple Result Dependencies button above the form to reveal an interface where you can drag and drop many files at once. If documenting resources wholistically (i.e. documenting all resources related to a study), only list dependencies one layer deep; if documenting resources minimally (i.e. only documenting resources that will be publicly shared), list dependencies liberally; dependencies can be data, code, protocol, etc.</li>
+</ul>
+</li>
+<li><strong><code>assoc.file.depends.on</code></strong> <em>(array)</em>: Data and/or non-data supporting files the result depends upon (e.g. data, analysis plan/code, etc.). If you are using the DSC Packaging App and have many result dependencies to add, you can use the Add Multiple Result Dependencies button above the form to reveal an interface where you can drag and drop many files at once. If documenting resources wholistically (i.e. documenting all resources related to a study), only list dependencies one layer deep; if documenting resources minimally (i.e. only documenting resources that will be publicly shared), list dependencies liberally; dependencies can be data, code, protocol, etc.<ul>
 <li><strong>Items</strong> <em>(string)</em></li>
-<li><strong><code>result.supports</code></strong> <em>(array)</em>: Describe a larger claim(s) that this result is used to support in text that is published or provided as part of the data package.</li>
+</ul>
+</li>
+<li><strong><code>result.supports</code></strong> <em>(array)</em>: Describe a larger claim(s) that this result is used to support in text that is published or provided as part of the data package.<ul>
 <li><strong>Items</strong> <em>(string)</em></li>
+</ul>
+</li>
 <li><strong><code>restrk.create.date.time</code></strong> <em>(string)</em>: Date time at which the result annotation file for the result was created; auto-inferred.</li>
 <li><strong><code>restrk.mod.date.time</code></strong> <em>(string)</em>: Date time at which the result annotation file for the result was last modified; auto-inferred.</li>
 </ul>
@@ -962,13 +988,13 @@
       
       
         
-        <a href="../../terms/" class="md-footer__link md-footer__link--next" aria-label="Next: Terms and Concepts" rel="next">
+        <a href="../md_data_dictionary_fields/" class="md-footer__link md-footer__link--next" aria-label="Next: Data Dictionary" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Terms and Concepts
+              Data Dictionary
             </div>
           </div>
           <div class="md-footer__button md-icon">

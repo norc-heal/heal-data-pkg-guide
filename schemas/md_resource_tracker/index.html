@@ -684,6 +684,8 @@
         
           
         
+          
+        
       
       
         
@@ -783,6 +785,20 @@
     <li class="md-nav__item">
       <a href="../md_results_tracker/" class="md-nav__link">
         Results Tracker
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../md_data_dictionary_fields/" class="md-nav__link">
+        Data Dictionary
       </a>
     </li>
   
@@ -923,24 +939,38 @@
 <li><strong><code>category.sub.metadata</code></strong> <em>(string)</em>: Sub-category for a metadata resource. Must be one of: <code>["", "heal-formatted-data-dictionary", "other-formatted-data-dictionary", "protocol", "id-map", "analysis-plan", "heal-formatted-results-tracker", "heal-formatted-experiment-tracker"]</code>.</li>
 <li><strong><code>category.sub.data</code></strong> <em>(string)</em>: Sub-category for a data resource. Must be one of: <code>["", "raw", "processed-intermediate", "processed-final"]</code>.</li>
 <li><strong><code>category.sub.results</code></strong> <em>(string)</em>: Sub-category for a results resource. Must be one of: <code>["", "figure", "table", "text", "draft-publication", "publication", "report", "white-paper", "presentation", "poster"]</code>.</li>
-<li><strong><code>assoc.file.dd</code></strong> <em>(array)</em>: For a tabular data file resources, a reference/file path to associated data dictionary file(s) - preferably in heal csv data dictionary format.</li>
+<li><strong><code>assoc.file.dd</code></strong> <em>(array)</em>: For a tabular data file resources, a reference/file path to associated data dictionary file(s) - preferably in heal csv data dictionary format.<ul>
 <li><strong>Items</strong> <em>(string)</em></li>
-<li><strong><code>assoc.file.protocol</code></strong> <em>(array)</em>: For a data file resource, a reference/file path to associated protocol file(s).</li>
+</ul>
+</li>
+<li><strong><code>assoc.file.protocol</code></strong> <em>(array)</em>: For a data file resource, a reference/file path to associated protocol file(s).<ul>
 <li><strong>Items</strong> <em>(string)</em></li>
-<li><strong><code>assoc.file.result.tracker</code></strong> <em>(array)</em>: For a multi-result file resource, a reference/file path to associated HEAL result tracker file - HEAL result tracker is a file that tracks each result in a multi-result file (e.g. a publication, poster, etc.), along with the data and other supporting files that underly/support each result. If you are using the DSC Packaging Desktop Application, you can head to the Result Tracker tab of the application to create a HEAL formatted result tracker for your multi-result resource file(s).</li>
+</ul>
+</li>
+<li><strong><code>assoc.file.result.tracker</code></strong> <em>(array)</em>: For a multi-result file resource, a reference/file path to associated HEAL results tracker file - HEAL results tracker is a file that tracks each result in a multi-result file (e.g. a publication, poster, etc.), along with the data and other supporting files that underly/support each result. If you are using the DSC Packaging Desktop Application, you can head to the Result Tracker tab of the application to create a HEAL formatted result tracker for your multi-result resource file(s).<ul>
 <li><strong>Items</strong> <em>(string)</em></li>
-<li><strong><code>assoc.file.depends.on</code></strong> <em>(array)</em>: For all resource files, if the current resource file has dependencies/if other files are necessary to make this file (e.g. raw data file necessary to make processed data file), or to interpret/understand this file (e.g. protocol, analysis plan, etc.), list them here; if documenting resources wholistically (i.e. documenting all resources related to a study), only list dependencies one layer deep; if documenting resources minimally (i.e. only documenting resources that will be publicly shared), list dependencies liberally; dependencies can be data, code, protocol, etc.; if already listed under assoc.file.dd, assoc.file.protocol, or assoc.file.id.map no need to repeat here.</li>
+</ul>
+</li>
+<li><strong><code>assoc.file.depends.on</code></strong> <em>(array)</em>: For all resource files, if the current resource file has dependencies/if other files are necessary to make this file (e.g. raw data file necessary to make processed data file), or to interpret/understand this file (e.g. protocol, analysis plan, etc.), list them here; if documenting resources wholistically (i.e. documenting all resources related to a study), only list dependencies one layer deep; if documenting resources minimally (i.e. only documenting resources that will be publicly shared), list dependencies liberally; dependencies can be data, code, protocol, etc.; if already listed under assoc.file.dd, assoc.file.protocol, or assoc.file.id.map no need to repeat here.<ul>
 <li><strong>Items</strong> <em>(string)</em></li>
-<li><strong><code>assoc.file.result.depends.on</code></strong> <em>(array)</em>: if the current resource file is a heal formatted result tracker (this tracks the single results in a multi-result file, like a publication), use this field to list each result in the tracker along with its corresponding dependencies (i.e. files the result depends on, or are necessary to make/reach/interpret the result); if documenting resources wholistically (i.e. documenting all resources related to a study), only list dependencies one layer deep; if documenting resources minimally (i.e. only documenting resources that will be publicly shared), list dependencies liberally; dependencies can be data, code, protocol, etc.</li>
+</ul>
+</li>
+<li><strong><code>assoc.file.result.depends.on</code></strong> <em>(array)</em>: if the current resource file is a heal formatted result tracker (this tracks the single results in a multi-result file, like a publication), use this field to list each result in the tracker along with its corresponding dependencies (i.e. files the result depends on, or are necessary to make/reach/interpret the result); if documenting resources wholistically (i.e. documenting all resources related to a study), only list dependencies one layer deep; if documenting resources minimally (i.e. only documenting resources that will be publicly shared), list dependencies liberally; dependencies can be data, code, protocol, etc.<ul>
 <li><strong>Items</strong> <em>(object)</em><ul>
 <li><strong><code>result.id</code></strong> <em>(string)</em></li>
 <li><strong><code>result.id.depends.on</code></strong> <em>(array)</em></li>
 </ul>
 </li>
-<li><strong><code>assoc.file.multi.like.file</code></strong> <em>(array)</em>: if the current resource file is annotating a resource that is one of multiple 'like' files, this field will list all files that are part of the resources.</li>
+</ul>
+</li>
+<li><strong><code>assoc.file.multi.like.file</code></strong> <em>(array)</em>: if the current resource file is annotating a resource that is one of multiple 'like' files, this field will list all files that are part of the resources.<ul>
 <li><strong>Items</strong> <em>(string)</em></li>
-<li><strong><code>access</code></strong> <em>(array)</em>: What is the current/final access level anticipated for this resource? Options are permanent-private (current and final access level is private), temporary-private (current access level is private but final access level will be either restricted-access or public), restricted-access (current, final, or current AND final access level will allow request of data with barriers/restrictions to access), public (current, final, or current AND final access level will allow largely unrestricted request of/access to data); Many investigators will designate data as currently temporary-private, with a final access level of either restricted-access or public: In this case choose both temporary-private AND either 1) restricted-access or 2) public, then add the date at which you expect to transition from temporary-private to either restricted-access or public in the Access Date field below; Private means members of the public cannot request access; Restricted access means they can request access but there is gate-keeping; Public access means they can often access the data without requesting access, and with minimal barriers to access.</li>
+</ul>
+</li>
+<li><strong><code>access</code></strong> <em>(array)</em>: What is the current/final access level anticipated for this resource? Options are permanent-private (current and final access level is private), temporary-private (current access level is private but final access level will be either restricted-access or public), restricted-access (current, final, or current AND final access level will allow request of data with barriers/restrictions to access), public (current, final, or current AND final access level will allow largely unrestricted request of/access to data); Many investigators will designate data as currently temporary-private, with a final access level of either restricted-access or public: In this case choose both temporary-private AND either 1) restricted-access or 2) public, then add the date at which you expect to transition from temporary-private to either restricted-access or public in the Access Date field below; Private means members of the public cannot request access; Restricted access means they can request access but there is gate-keeping; Public access means they can often access the data without requesting access, and with minimal barriers to access.<ul>
 <li><strong>Items</strong> <em>(string)</em>: Must be one of: <code>["", "permanent-private", "temporary-private", "restricted-access", "public"]</code>.</li>
+</ul>
+</li>
 <li><strong><code>access.date</code></strong> <em>(string)</em>: If the resource file is currently being held as temporary-private access level and will transition to either restricted-access or public access level at some point, please provide an anticipated date at which this transition will occur - Best guesses are appreciated, however you will NOT be held to this date and may update this date at any time.</li>
 <li><strong><code>format</code></strong> <em>(string)</em>: auto inferred; e.g. csv.</li>
 <li><strong><code>format.software</code></strong> <em>(string)</em>: If the file format of the resource file is proprietary and requires specific software to open/interpret, provide the software name and version used by the study group to produce/work with the file; e.g. Origin 11.0, CorelDraw 5.6.</li>
