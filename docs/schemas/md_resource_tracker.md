@@ -18,21 +18,21 @@
 - **`category.sub.data`** *(string)*: Sub-category for a data resource. Must be one of: `["", "raw", "processed-intermediate", "processed-final"]`.
 - **`category.sub.results`** *(string)*: Sub-category for a results resource. Must be one of: `["", "figure", "table", "text", "draft-publication", "publication", "report", "white-paper", "presentation", "poster"]`.
 - **`assoc.file.dd`** *(array)*: For a tabular data file resources, a reference/file path to associated data dictionary file(s) - preferably in heal csv data dictionary format.
-  - **Items** *(string)*
+    - **Items** *(string)*
 - **`assoc.file.protocol`** *(array)*: For a data file resource, a reference/file path to associated protocol file(s).
-  - **Items** *(string)*
-- **`assoc.file.result.tracker`** *(array)*: For a multi-result file resource, a reference/file path to associated HEAL result tracker file - HEAL result tracker is a file that tracks each result in a multi-result file (e.g. a publication, poster, etc.), along with the data and other supporting files that underly/support each result. If you are using the DSC Packaging Desktop Application, you can head to the Result Tracker tab of the application to create a HEAL formatted result tracker for your multi-result resource file(s).
-  - **Items** *(string)*
+    - **Items** *(string)*
+- **`assoc.file.result.tracker`** *(array)*: For a multi-result file resource, a reference/file path to associated HEAL results tracker file - HEAL results tracker is a file that tracks each result in a multi-result file (e.g. a publication, poster, etc.), along with the data and other supporting files that underly/support each result. If you are using the DSC Packaging Desktop Application, you can head to the Result Tracker tab of the application to create a HEAL formatted result tracker for your multi-result resource file(s).
+    - **Items** *(string)*
 - **`assoc.file.depends.on`** *(array)*: For all resource files, if the current resource file has dependencies/if other files are necessary to make this file (e.g. raw data file necessary to make processed data file), or to interpret/understand this file (e.g. protocol, analysis plan, etc.), list them here; if documenting resources wholistically (i.e. documenting all resources related to a study), only list dependencies one layer deep; if documenting resources minimally (i.e. only documenting resources that will be publicly shared), list dependencies liberally; dependencies can be data, code, protocol, etc.; if already listed under assoc.file.dd, assoc.file.protocol, or assoc.file.id.map no need to repeat here.
-  - **Items** *(string)*
+    - **Items** *(string)*
 - **`assoc.file.result.depends.on`** *(array)*: if the current resource file is a heal formatted result tracker (this tracks the single results in a multi-result file, like a publication), use this field to list each result in the tracker along with its corresponding dependencies (i.e. files the result depends on, or are necessary to make/reach/interpret the result); if documenting resources wholistically (i.e. documenting all resources related to a study), only list dependencies one layer deep; if documenting resources minimally (i.e. only documenting resources that will be publicly shared), list dependencies liberally; dependencies can be data, code, protocol, etc.
-  - **Items** *(object)*
-    - **`result.id`** *(string)*
-    - **`result.id.depends.on`** *(array)*
+    - **Items** *(object)*
+        - **`result.id`** *(string)*
+        - **`result.id.depends.on`** *(array)*
 - **`assoc.file.multi.like.file`** *(array)*: if the current resource file is annotating a resource that is one of multiple 'like' files, this field will list all files that are part of the resources.
-  - **Items** *(string)*
+    - **Items** *(string)*
 - **`access`** *(array)*: What is the current/final access level anticipated for this resource? Options are permanent-private (current and final access level is private), temporary-private (current access level is private but final access level will be either restricted-access or public), restricted-access (current, final, or current AND final access level will allow request of data with barriers/restrictions to access), public (current, final, or current AND final access level will allow largely unrestricted request of/access to data); Many investigators will designate data as currently temporary-private, with a final access level of either restricted-access or public: In this case choose both temporary-private AND either 1) restricted-access or 2) public, then add the date at which you expect to transition from temporary-private to either restricted-access or public in the Access Date field below; Private means members of the public cannot request access; Restricted access means they can request access but there is gate-keeping; Public access means they can often access the data without requesting access, and with minimal barriers to access.
-  - **Items** *(string)*: Must be one of: `["", "permanent-private", "temporary-private", "restricted-access", "public"]`.
+    - **Items** *(string)*: Must be one of: `["", "permanent-private", "temporary-private", "restricted-access", "public"]`.
 - **`access.date`** *(string)*: If the resource file is currently being held as temporary-private access level and will transition to either restricted-access or public access level at some point, please provide an anticipated date at which this transition will occur - Best guesses are appreciated, however you will NOT be held to this date and may update this date at any time.
 - **`format`** *(string)*: auto inferred; e.g. csv.
 - **`format.software`** *(string)*: If the file format of the resource file is proprietary and requires specific software to open/interpret, provide the software name and version used by the study group to produce/work with the file; e.g. Origin 11.0, CorelDraw 5.6.

@@ -1,13 +1,13 @@
 # HEAL Data Dictionary
 
-*This schema defines the data dictionary (also known as variable level metadata) for one tabular dataset for a given study. Note that a given study can have multiple tabular data files, and should create a data dictionary for each tabular data file, if the tabular data files contain different variables. Thus, a study may have multiple data dictionaries*
+*HEAL DSC Core Metadata piece to track and provide basic information about variables in a tabular data file (i.e. a data file with rows and columns) from your HEAL study. Objective is to list all variables and descriptive information about those variables. This will ensure that potential secondary data users know what data has been collected or calculated and how to use these data. Note that a given study can have multiple tabular data files; If the tabular data files contain different variables, you should create a data dictionary for each tabular data file. Thus, a study may have multiple data dictionaries*
+
+*This is an abridged version of the schema and only describes the fields/information you should provide for each variable.*
 
 ## Properties
 
-- **`title`** *(string)*
-- **`description`** *(string)*
-- **`variables`** *(array)*
-    - **Items** *(object)*: For each item (variable), describe the item (variable) by providing an array of descriptive information in structured fields about that item (variable). The descriptive information requested about each variable, and the structure in which it is required to be entered, is listed below. Note that the only descriptive information you are **required** to provide about each item (variable) is the variable `name` and `description`. You may add a field or fields in addition to those described below in order to provide additional descriptive information about any or all variables. 
+For each item (variable), describe the item (variable) by providing an array of descriptive information in structured fields about that item (variable). The descriptive information requested about each variable, and the structure in which it is required to be entered, is listed below. Note that the only descriptive information you are **required** to provide about each item (variable) is the variable `name` and `description`. You may add a field or fields in addition to those described below in order to provide additional descriptive information about any or all variables. 
+
         - **`module`** *(string)*: The section, form, survey instrument, set of measures  or other broad category used 
 to group variables.
 
