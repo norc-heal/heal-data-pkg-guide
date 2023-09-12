@@ -2,7 +2,7 @@
 
 *HEAL DSC Core Metadata piece to track and provide basic information about variables in a tabular data file (i.e. a data file with rows and columns) from your HEAL study. Objective is to list all variables and descriptive information about those variables. This will ensure that potential secondary data users know what data has been collected or calculated and how to use these data. Note that a given study can have multiple tabular data files; If the tabular data files contain different variables, you should create a data dictionary for each tabular data file. Thus, a study may have multiple data dictionaries*
 
-*This is an abridged version of the schema and only describes the fields/information you should provide for each variable.*
+*This is an abridged version of the schema and only describes the fields/information you should provide for each variable. For the full HEAL Data Dictionary document schema specification, see [here](https://github.com/HEAL/heal-metadata-schemas/blob/main/variable-level-metadata-schema/schemas/jsonschema/data-dictionary.json).*
 
 ## Properties
 
@@ -57,8 +57,8 @@ to group variables.
     "Question text (if a survey)"
     ```
 
-- **`type`** *(string)*: A classification or category of a particular data element or property expected or allowed in the dataset. Must be one of: `["number", "integer", "string", "any", "boolean", "date", "datetime", "time", "year", "yearmonth", "duration", "geopoint"]`.
-- **`format`**: A format taken from one of the [frictionless specification](https://specs.frictionlessdata.io/) schemas. Each format is dependent on the `type` specified. For example: If `type` is "string", then see the String formats. If `type` is one of the date-like formats, then see Date formats. For technical details on how to populate this field see here.
+- **`type`** *(string)*: A classification or category of a particular data element or property expected or allowed in the dataset. Must be one of: `["number", "integer", "string", "any", "boolean", "date", "datetime", "time", "year", "yearmonth", "duration", "geopoint"]`. For details and examples of each of these types see [here].
+- **`format`**: A format taken from one of the [frictionless specification](https://specs.frictionlessdata.io/) schemas. Each format is dependent on the `type` specified. For example: If `type` is "string", then see the String formats. If `type` is one of the date-like formats, then see Date formats. For format type details and examples and technical details on how to populate this field see [here].
 
 - **`constraints`** *(object)*
     - **`maxLength`** *(integer)*: Indicates the maximum length of an iterable (e.g., array, string, or
