@@ -106,9 +106,11 @@ Placeholder
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
-Standard metadata file types that, altogether, provide essential usability and context information about the study as a whole and about the data files your study has produced/collected. These metadata files should be included in all data packages. 
+Standard metadata file types that, altogether, provide essential usability and context information about the study as a whole and about the data files your study has produced/collected. These metadata files should be included in all [data packages](#data-package). 
 
 **NOTE**: All standard data package metadata files have a standardized csv format in which they should be completed and provided. See here for [csv templates](../schemas/index.md#csv-templates) and [schemas/field definitions](../schemas/index.md#schemas) to aid you in completing the templates. 
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
 ### Standard data package metadata - Study-level 
 
@@ -117,12 +119,18 @@ Standard metadata file types that, altogether, provide essential usability and c
 * #### **Resource Tracker**
      one per study; an inventory of all data and non-data supporting files produced during the course of the study (or, in some cases, only those which will be shared in a public data repository), including a description of what is in the file or what the file represents, file relationships and dependencies, and whether/how each file is shareable in a public repository or not
 
+</div>
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
 ### Standard data package metadata - File-level 
 
 * #### **Data Dictionary**
      one per tabular data file; an inventory of variables included in a tabular data file 
 * #### **Results Tracker**
      one per multi-result file (e.g. manuscript); an inventory of figure, table, and text results included in a multi-result file 
+
+</div>
 
 </div>
 
@@ -445,9 +453,9 @@ See the alternative: [As-you-go Annotation](#as-you-go-annotation)
 <details>
 <summary> Caveats</summary>
     <ul>
-    <li markdown="span"> The "as-you-go" annotation approach, **when applied broadly as outlined above** is strongly recommended for study groups that are early on in their study as the burden of starting up is relatively light when few study files/resources have so far been collected or produced by or for the study. However, the start up burden of this approach may be quite substantial for studies groups that are late or even well into their study and have already accumulated many study files/resources, and we generally recommend these groups consider the alternative, more goal-focused and narrow annotation approach: [Top-down annotation](#top-down-annotation).
+    <li markdown="span"> Placeholder
     </li>
-    <li markdown="span"> **The "as-you-go" annotation approach may also be applied in a narrower sense**, especially by study groups that are later in their study and who will not apply the "as-you-go" annotation approach in the broadest sense. This implies that studies will consider the whole packaging overview process and complete items as they can, as opposed to waiting until the very end (for example, when they are about to submit a study manuscript for peer review) to start the process. Some examples include, 1) auditing study files for tabular data files, creating data dictionaries for existing tabular data files right away, and creating data dictionaries right away for new tabular data files as the study collects or produces them, 2) annotating final result products the study group knows will or likely will be included in a final manuscript as they are produced, and creating a results tracker for final manuscript documents as drafts begin to be forumulated by the study group, 3) annotating component experiments and other activities that are part of the study right away if already designed, or as soon as they are designed (especially if it is clear that the experiment or activity will or likely will produce data that will be used to support/produce final result products that will be included in a final manuscript).
+    <li markdown="span"> Placeholder
     </li>
     </ul>
   
@@ -455,4 +463,58 @@ See the alternative: [As-you-go Annotation](#as-you-go-annotation)
 
 </div>
 
+## Data Package
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
+
+Placeholder
+
+</div>
+
+## Shareable Data Package
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
+
+Placeholder
+
+</div>
+
+
+
+## Data-sharing Orientation
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
+
+A study group's goal(s) for data-sharing. 
+
+People will have different goals in sharing data and non-data supporting files/resources from their study. These goals, or 'orientations' may be dictated by a number of factors such as the nature of the data, study staff resources and time constraints, investigator preference, and requirements imposed by a funder, journal, or other entity somehow governing the study.  
+
+Determining what your goals are for data sharing will help [guide you](../fit/index.md) in determining what you will include in your [data package](#data-package) and how and when you will annotate the data and non-data supporting files/resources in your data package.
+
+There are two main data-sharing "orientations." These data sharing goals or "orientations" are not mutually exclusive. You may choose both **Results-support** and **Dataset-sharing** as goals for your study's data sharing goal. 
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+### Results-support 
+
+* The study group wants to share data and non-data supporting files specifically to support results shared in a published manuscript or other venue (e.g. presentation, poster, report, etc.)
+* They will share items required to interpret, replicate, or use these results
+
+</div>
+
+
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+### Dataset-sharing
+
+* The study group wants to share a specific dataset(s); 
+    * perhaps the group has collected/created a very rich dataset and used this dataset to ask and publish results related to specific scientific questions; 
+    * they believe other study groups may be able to leverage this dataset to ask and publish results related to other scientific questions that may be related or unrelated to the questions the dataset was originally collected to help investigate 
+* The study group wants to share this specific dataset(s), as well as the data and non-data supporting files specifically to support use of this dataset(s)
+* They will share items required to interpret, replicate, or use this dataset(s)
+
+</div>
+
+</div>
 
