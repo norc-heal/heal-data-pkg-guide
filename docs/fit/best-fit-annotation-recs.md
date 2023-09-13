@@ -9,9 +9,8 @@
         
     * use an ["As-you-go"](../terms/index.md#as-you-go-annotation) annotation approach
     * **right away**
-        * start annotating ["As-you-go"](../terms/index.md#as-you-go-annotation) as soon as possible; 
-        * a detailed overview of what this involves can be found [here](../terms/index.md#as-you-go-annotation)
-        * a brief overview of what this involves:
+        * start annotating "As-you-go" as soon as possible; a **detailed overview** of what this involves can be found [here](../terms/index.md#as-you-go-annotation)
+        * a **brief overview** of what this involves:
             * audit all files already produced by/for your study
                 * consider applying [HEAL recommendations for file organization and naming](../file-o-and-n/index.md) to these files now, and to future files as they are created
                 * create a [data dictionary](../terms/index.md#data-dictionary) for each existing [tabular data file](../terms/index.md#tabular-data-file), and create a data dictionary for any future tabular data files as they are created
@@ -22,8 +21,8 @@
             * start your [experiment tracker](../terms/index.md#experiment-tracker) 
                 * add all experiments or other study activities which have already been designed to your experiment tracker; 
                 * as more experiments or other study activities are designed add them to your experiment tracker as soon as possible
-    * **when you start to create final result products** for a manuscript
-        * start to create a [results tracker](../terms/index.md#results-tracker) for the manuscript to document the final result products (e.g. figures, tables) that will be published as part of the manuscript
+    * **when you start to create [final result products](../terms/index.md#final-result-products)** for a manuscript
+        * start to create a [results tracker](../terms/index.md#results-tracker) for the manuscript to document the final result products (e.g. figures, tables) that will, or may, be published as part of the manuscript
         * the results tracker will ask you to list the study files that each final result product in the manuscript depends upon (i.e. files that are required to interpret, replicate, or use the result) 
     * **when your manuscript is finalized** 
         * finalize the results tracker
