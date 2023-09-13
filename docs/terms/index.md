@@ -106,9 +106,11 @@ Placeholder
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
-Standard metadata file types that, altogether, provide essential usability and context information about the study as a whole and about the data files your study has produced/collected. These metadata files should be included in all [data packages](#data-package). 
+Standard metadata file types that, altogether, provide essential usability and context information about the study as a whole and about the data files your study has produced/collected. These metadata files should be included in all [data packages](#data-package). They should be stored together in a single file directory, preferably as a sub-directory within your study file directory called "dsc-pkg". See below for an example directory structure. 
 
 **NOTE**: All standard data package metadata files have a standardized csv format in which they should be completed and provided. See here for [csv templates](../schemas/index.md#csv-templates) and [schemas/field definitions](../schemas/index.md#schemas) to aid you in completing the templates. 
+
+<img src="../assets/example-dir-structure-2.png" alt="Example Directory Structure 2" width="200"/>
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
