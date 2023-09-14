@@ -6,11 +6,23 @@ When deciding the best fit for you with respect to how and when you will start c
 * [What is your data-sharing goal?](#data-sharing-orientation)
 * [Do you have low or no resources to devote to data-sharing efforts?](#data-sharing-resources)
 
+## Next steps
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
 Move through the "best fit" questions [below](#study-stage), and select the answer option to each question that best fits you and your study. 
 <br><br>
-Based upon your study's answer selections, [detailed guidance](best-fit-annotation-recs.md) on how and when to create and complete your data package will be provided.  
+Based upon your study's answer selections, [detailed guidance](best-fit-annotation-recs.md) on how and when to create and complete your data package will be provided. 
 
-## Study Stage
+</div>
+
+## The questions
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+### Study Stage
 
 ??? note "How far along are you in your study?"
     
@@ -24,7 +36,11 @@ Based upon your study's answer selections, [detailed guidance](best-fit-annotati
     * Early
     * Late
 
-## Data-sharing Orientation
+</div>
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+### Data-sharing Orientation
 
 ??? note "What is your data-sharing goal?"
     
@@ -37,10 +53,14 @@ Based upon your study's answer selections, [detailed guidance](best-fit-annotati
 
     **Value options**
 
-    * Results-support
-    * Dataset-sharing
+    * [Results-support](../terms/index.md#results-support)
+    * [Dataset-sharing](../terms/index.md#dataset-sharing)
 
-## Data-sharing Resources
+</div>
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+### Data-sharing Resources
 
 ??? note "Do you have low or no resources to devote to data sharing efforts?"
     
@@ -59,8 +79,8 @@ Based upon your study's answer selections, [detailed guidance](best-fit-annotati
     * Standard
     * Low
  
-
-    
+</div>
+</div>
 
  
  
