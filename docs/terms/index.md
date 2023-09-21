@@ -102,6 +102,14 @@ Placeholder
 
 </div>
 
+## dsc-pkg Folder
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
+
+Placeholder
+
+</div>
+
 ## Standard data package metadata files
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
