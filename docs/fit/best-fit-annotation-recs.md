@@ -76,7 +76,7 @@
         * Create a ["dsc-pkg" folder/directory](../terms/index.md#dsc-pkg-folder) that will hold all [Standard Data Package Metadata Files](../terms/index.md#standard-data-package-metadata-files) for your data package
             * If all study files/resources are organized into a single study folder/directory, create this folder/directory as a direct sub-directory of your study folder/directory, and name it "dsc-pkg"; consistency in naming and location of this folder/directory relative to your overall study folder/directory will make it easy to recognize as the folder that contains the Standard Data Package Metadata files for your study's data package
             * If not, create this folder/directory in a disc location that makes sense for you; name it "dsc-pkg", optionally appending a suffix to the name that will make it easy to recognize as "belonging" to a specific study (e.g. "dsc-pkg-study-1" or "dsc-pkg-mindfulness-for-oud"); consistency in naming (i.e. including the "dsc-pkg" prefix) and appending a suffix to the name that is a human-recongnizable identifier for the relevant study will make it easy to recognize as the folder that contains the Standard Data Package Metadata files for your study's data package  
-    * Create a [Data Dictionary](../terms/index.md#data-dictionary) for each existing [tabular data file](../terms/index.md#tabular-data-file), and create a data dictionary for any future tabular data files as they are created
+    * Create a [Data Dictionary](../terms/index.md#data-dictionary) for each existing [tabular data file](../terms/index.md#tabular-data-file)
         * Start a Data Dictionary for a tabular data file by initializing an empty Data Dictionary file based on the [Data Dictionary csv template](../csv-templates/heal-csv-data-dictionary.csv)
             * Save your Data Dictionary in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-dd-my-datafile.csv" (i.e. the file name starts with the prefix "heal-csv-dd-", you append the name of the data file to which the Data Dictionary applies, and save as a csv file)
             * Add all variables in the tabular data file to your Data Dictionary
@@ -86,14 +86,13 @@
             * Save your Resource Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-resource-tracker.csv"
         * Add all files already produced by/for your study to your Resource Tracker
             * Use the [Resource Tracker schema](../schemas/md_resource_tracker.md) to understand what each "question"/field in the Resource Tracker means and how to "answer"/complete each "question"/field  
-        * As more files are produced by/for your study add them to your Resource Tracker as soon as possible
         * The Resource Tracker will ask you to list [associated files/dependencies](../terms/index.md#associated-filesdependencies) for each study file/resource (i.e. files that are required to interpret, replicate, or use the study file/resource)
     * Start your [Experiment Tracker](../terms/index.md#experiment-tracker) 
         * Start your Experiment Tracker by initializing an empty Experiment Tracker file based on the [Experiment Tracker csv template](../csv-templates/heal-csv-experiment-tracker.csv)
             * Save your Experiment Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-experiment-tracker.csv"
         * Add all experiments or other study activities which have already been designed to your Experiment Tracker
             * Use the [Experiment Tracker schema](../schemas/md_resource_tracker.md) to understand what each "question"/field in the Experiment Tracker means and how to "answer"/complete each "question"/field 
-        * As more experiments or other study activities are designed add them to your Experiment Tracker as soon as possible
+        
 
     <font size="3"> What to do **continuously, as-you-go**</font>
         
