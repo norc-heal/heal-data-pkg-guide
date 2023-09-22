@@ -5,9 +5,9 @@ The primary purpose of assembling a data package is to facilitate submission of 
 
 Find out more about creating a data package: 
 
-* [Who](intro/who.md) 
-* [What](intro/what.md) 
-* [Why](intro/why.md)
-* [Where](intro/where.md)
-* [When](intro/when.md)
-* [How](intro/how.md)
+* [Who](who.md) should create a data package?
+* [What](what.md) is a data package?
+* [Why](why.md) should you create a data package?
+* [Where](where.md) should you create a data package?
+* [When](when.md) should you start thinking about creating your data package?
+* [How](how.md) should you go about creating your data package? 
