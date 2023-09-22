@@ -266,6 +266,49 @@
 
 ??? note "Study stage == Late <br> Data-sharing goal == Dataset-sharing <br> Data-sharing resources == Standard"
 
+        
+    Use a ["Top-down"](../terms/index.md#top-down-annotation) annotation approach; a **detailed overview** of what this involves can be found [here](../terms/index.md#top-down-annotation); a **brief overview** of what this involves follows below:
+
+    <font size="3"> What to do **right away**</font>
+
+    * Start annotating "Top-down" as soon as possible
+    * Audit all [study files/resources](../terms/index.md#study-filesresources) already produced by or for your study
+        * We generally recommend that you leave file names and organization as is - However, we do request that you consider the following exceptions: 
+            * Where practicable to implement (without duplicating original files), organize all study files/resources into a single study folder/directory (study folder/directory may of course have sub-directories; see [here](../guidance/file-org.md) for guidance on and examples of recommended study folder/directory structure)
+            * If you have sets of "like" files (e.g. a similarly formatted tabular data file or brain imaging file per study subject per study timepoint), it may be well worth establishing file naming and organization conventions based on [HEAL recommendations for organizing and naming study files/resources](../file-o-and-n/index.md) now and back-applying them just for these file sets - doing so may make it possible/easier to annotate these file sets in one go instead of annotating them singly one at a time, and so may substantially reduce annotation/data-sharing burden for the study group
+    * Initialize your [Data Package](../terms/index.md#data-package)  
+        * Create a ["dsc-pkg" folder/directory](../terms/index.md#dsc-pkg-folder) that will hold all [Standard Data Package Metadata Files](../terms/index.md#standard-data-package-metadata-files) for your data package
+            * If all [study files/resources](../terms/index.md#study-filesresources) are organized into a single study folder/directory, create this folder/directory as a direct sub-directory of your study folder/directory, and name it "dsc-pkg"; consistency in naming and location of this folder/directory relative to your overall study folder/directory will make it easy to recognize as the folder that contains the Standard Data Package Metadata files for your study's data package
+            * If not, create this folder/directory in a disk location that makes sense for you; name it "dsc-pkg", optionally appending a suffix to the name that will make it easy to recognize as "belonging" to a specific study (e.g. "dsc-pkg-study-1" or "dsc-pkg-mindfulness-for-oud"); consistency in naming (i.e. including the "dsc-pkg" prefix) and appending a suffix to the name that is a human-recongnizable identifier for the relevant study will make it easy to recognize as the folder that contains the Standard Data Package Metadata files for your study's data package 
+    
+    
+    <font size="3"> What to do **when your dataset-of-interest is finalized** </font>
+
+    * Audit the full set of study experiments/activities that produced supporting data or other support for the final dataset-of-interest
+    * Start your [Experiment Tracker](../terms/index.md#experiment-tracker) 
+        * Start your Experiment Tracker by initializing an empty Experiment Tracker file based on the [Experiment Tracker csv template](../csv-templates/heal-csv-experiment-tracker.csv)
+            * Save your Experiment Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-experiment-tracker.csv"
+        * Add all experiments or other study activities that produced supporting data or other support for the final dataset-of-interest to your Experiment Tracker
+            * Use the [Experiment Tracker schema](../schemas/md_resource_tracker.md) to understand what each "question"/field in the Experiment Tracker means and how to "answer"/complete each "question"/field
+    * Audit the full set of [associated files/dependencies](../terms/index.md#associated-filesdependencies) for the final dataset-of-interest (i.e. all study files/resources required to interpret, replicate, or use the final result product), including associated files/dependencies of immediate associated files/dependencies
+    * If the dataset-of-interest, or any associated file/dependency of the dataset-of-interest is a [tabular data file](../terms/index.md#tabular-data-file), create a [Data Dictionary](../terms/index.md#data-dictionary) for the tabular dataset-of-interest and for each associated file/dependency that is a tabular data file, AND add these Data Dictionaries to the list of associated files/dependencies for the dataset-of-interest
+        * Start a Data Dictionary for a tabular data file by initializing an empty Data Dictionary file based on the [Data Dictionary csv template](../csv-templates/heal-csv-data-dictionary.csv)
+            * Save your Data Dictionary in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-dd-my-datafile.csv" (i.e. the file name starts with the prefix "heal-csv-dd-", you append the name of the data file to which the Data Dictionary applies, and save as a csv file)
+            * Add all variables in the tabular data file to your Data Dictionary
+                * Use the [Data Dictionary schema](../schemas/md_data_dictionary_fields.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
+    * Start your [Resource Tracker](../terms/index.md#resource-tracker)
+        * Start your Resource Tracker by initializing an empty Resource Tracker file based on the [Resource Tracker csv template](../csv-templates/heal-csv-resource-tracker.csv)
+            * Save your Resource Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-resource-tracker.csv"
+        * Add files produced by/for your study to your Resource Tracker (see next bullet for guidance on which files to add and where to start)
+            * Use the [Resource Tracker schema](../schemas/md_resource_tracker.md) to understand what each "question"/field in the Resource Tracker means and how to "answer"/complete each "question"/field  
+            * The Resource Tracker will ask you to list [associated files/dependencies](../terms/index.md#associated-filesdependencies) for each study file/resource (i.e. files that are required to interpret, replicate, or use the study file/resource)
+    * Add your finalized dataset-of-interest to your Resource Tracker 
+    * Add each of the associated files/dependencies for the final dataset-of-interest to your Resource Tracker, including associated files/dependencies of immediate associated files/dependencies 
+        * Check that all [associated files/dependencies](../terms/index.md#associated-filesdependencies) for the finalized dataset-of-interest (i.e. files required to interpret, replicate, or use the finalized dataset-of-interest) are also listed as study resource/files in your Resource Tracker, including associated files/dependencies of immediate associated files/dependencies - Add any that are missing 
+    
+    
+     
+
 #### Late, Dataset-sharing, Low
 
 ??? note "Study stage == Late <br> Data-sharing goal == Dataset-sharing <br> Data-sharing resources == Low"
