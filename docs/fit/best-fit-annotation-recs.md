@@ -78,7 +78,12 @@
 
 ??? note "Study stage == Early <br> Data-sharing goal == Results-support <br> Data-sharing resources == Low"
 
-    See best fit annotation recommendations for [Late, Results-support, Low](#late-results-support-low)
+    <font size="3"> What to do **right away**</font>
+    
+    * Audit all [study files/resources](../terms/index.md#study-filesresources) already produced by or for your study
+        * Consider applying [HEAL recommendations for file organization and naming](../file-o-and-n/index.md) to these files now, and to future files as they are created
+        * Where practicable to implement (without duplicating original files), organize all study files/resources into a single study folder/directory (study folder/directory may of course have sub-directories; see [here](../guidance/file-org.md) for guidance on and examples of recommended study folder/directory structure)
+    * <mark>Then follow best fit annotation recommendations for</mark>: [Late, Results-support, Low](#late-results-support-low)
 
 
 
@@ -137,11 +142,15 @@
 
 ??? note "Study stage == Early <br> Data-sharing goal == Dataset-sharing <br> Data-sharing resources == Low"
 
-    See best fit annotation recommendations for [Late, Dataset-sharing, Low](#late-dataset-sharing-low)
+    <font size="3"> What to do **right away**</font>
+    
+    * Audit all [study files/resources](../terms/index.md#study-filesresources) already produced by or for your study
+        * Consider applying [HEAL recommendations for file organization and naming](../file-o-and-n/index.md) to these files now, and to future files as they are created
+        * Where practicable to implement (without duplicating original files), organize all study files/resources into a single study folder/directory (study folder/directory may of course have sub-directories; see [here](../guidance/file-org.md) for guidance on and examples of recommended study folder/directory structure)
+    * <mark>Then follow best fit annotation recommendations for</mark>: [Late, Dataset-sharing, Low](#late-dataset-sharing-low)
 
+    
 ## Late
-
-
 
 #### Late, Results-support, Standard
 
@@ -154,7 +163,8 @@
 
     * Start annotating "Top-down" as soon as possible
     * Audit all [study files/resources](../terms/index.md#study-filesresources) already produced by or for your study
-        * We generally recommend that you leave file names and organization as is - However, we do request that you consider the following exceptions: 
+        * If you are late in your study and have accumulated many study files already, establishing file naming and organization conventions now and back-applying them may be quite burdensome and potentially prone to error
+        * Therefore, we generally recommend that you leave file names and organization as is - However, we do request that you consider the following exceptions: 
             * Where practicable to implement (without duplicating original files), organize all study files/resources into a single study folder/directory (study folder/directory may of course have sub-directories; see [here](../guidance/file-org.md) for guidance on and examples of recommended study folder/directory structure)
             * If you have sets of "like" files (e.g. a similarly formatted tabular data file or brain imaging file per study subject per study timepoint), it may be well worth establishing file naming and organization conventions based on [HEAL recommendations for organizing and naming study files/resources](../file-o-and-n/index.md) now and back-applying them just for these file sets - doing so may make it possible/easier to annotate these file sets in one go instead of annotating them singly one at a time, and so may substantially reduce annotation/data-sharing burden for the study group
     * Initialize your [Data Package](../terms/index.md#data-package)  
@@ -214,7 +224,8 @@
 
     * Start annotating "Top-down" as soon as possible
     * Audit all [study files/resources](../terms/index.md#study-filesresources) already produced by or for your study
-        * We generally recommend that you leave file names and organization as is - However, we do request that you consider the following exceptions: 
+        * If you are late in your study and have accumulated many study files already, establishing file naming and organization conventions now and back-applying them may be quite burdensome and potentially prone to error
+        * Therefore, we generally recommend that you leave file names and organization as is - However, we do request that you consider the following exceptions: 
             * Where practicable to implement (without duplicating original files), organize all study files/resources into a single study folder/directory (study folder/directory may of course have sub-directories; see [here](../guidance/file-org.md) for guidance on and examples of recommended study folder/directory structure)
             * If you have sets of "like" files (e.g. a similarly formatted tabular data file or brain imaging file per study subject per study timepoint), it may be well worth establishing file naming and organization conventions based on [HEAL recommendations for organizing and naming study files/resources](../file-o-and-n/index.md) now and back-applying them just for these file sets - doing so may make it possible/easier to annotate these file sets in one go instead of annotating them singly one at a time, and so may substantially reduce annotation/data-sharing burden for the study group
     * Initialize your [Data Package](../terms/index.md#data-package)  
@@ -273,7 +284,8 @@
 
     * Start annotating "Top-down" as soon as possible
     * Audit all [study files/resources](../terms/index.md#study-filesresources) already produced by or for your study
-        * We generally recommend that you leave file names and organization as is - However, we do request that you consider the following exceptions: 
+        * If you are late in your study and have accumulated many study files already, establishing file naming and organization conventions now and back-applying them may be quite burdensome and potentially prone to error
+        * Therefore, we generally recommend that you leave file names and organization as is - However, we do request that you consider the following exceptions: 
             * Where practicable to implement (without duplicating original files), organize all study files/resources into a single study folder/directory (study folder/directory may of course have sub-directories; see [here](../guidance/file-org.md) for guidance on and examples of recommended study folder/directory structure)
             * If you have sets of "like" files (e.g. a similarly formatted tabular data file or brain imaging file per study subject per study timepoint), it may be well worth establishing file naming and organization conventions based on [HEAL recommendations for organizing and naming study files/resources](../file-o-and-n/index.md) now and back-applying them just for these file sets - doing so may make it possible/easier to annotate these file sets in one go instead of annotating them singly one at a time, and so may substantially reduce annotation/data-sharing burden for the study group
     * Initialize your [Data Package](../terms/index.md#data-package)  
@@ -320,7 +332,8 @@
 
     * Start annotating "Top-down" as soon as possible
     * Audit all [study files/resources](../terms/index.md#study-filesresources) already produced by or for your study
-        * We generally recommend that you leave file names and organization as is - However, we do request that you consider the following exceptions: 
+        * If you are late in your study and have accumulated many study files already, establishing file naming and organization conventions now and back-applying them may be quite burdensome and potentially prone to error
+        * Therefore, we generally recommend that you leave file names and organization as is - However, we do request that you consider the following exceptions: 
             * Where practicable to implement (without duplicating original files), organize all study files/resources into a single study folder/directory (study folder/directory may of course have sub-directories; see [here](../guidance/file-org.md) for guidance on and examples of recommended study folder/directory structure)
             * If you have sets of "like" files (e.g. a similarly formatted tabular data file or brain imaging file per study subject per study timepoint), it may be well worth establishing file naming and organization conventions based on [HEAL recommendations for organizing and naming study files/resources](../file-o-and-n/index.md) now and back-applying them just for these file sets - doing so may make it possible/easier to annotate these file sets in one go instead of annotating them singly one at a time, and so may substantially reduce annotation/data-sharing burden for the study group
     * Initialize your [Data Package](../terms/index.md#data-package)  
