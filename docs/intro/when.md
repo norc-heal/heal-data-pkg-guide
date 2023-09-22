@@ -1,4 +1,4 @@
-# When should I start thinking about creating my data package? 
+# When should you start thinking about creating your data package? 
 
 This will depend on a few factors, including how early on you are in your study, what your data sharing goals are, and the preferences of you and your study group - See below for details OR [Skip ahead to find the best fit for you](../guide/index.md)
 
