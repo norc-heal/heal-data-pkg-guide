@@ -56,7 +56,7 @@ However, especially in the context of an effort like the NIH HEAL Initiative, wh
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-The HEAL Initiative has developed [Standard Data Package Metadata](../terms/index.md#standard-data-package-metadata-files) and best practices as to how to implement these metadata, to be leveraged by all studies across all research communities, as a way to bridge across research and other data and knowledge consumer communities. 
+The HEAL Initiative has developed [Standard Data Package Metadata](../terms/index.md#standard-data-package-metadata-files) and best practices as to [when](./when.md) and [how](./how.md) to implement these metadata, to be leveraged by all studies across all research communities, as a way to bridge across research communities and other data and knowledge producer and consumer communities. 
 
 Standard Data Package Metadata are a small set of standard metadata file types that, altogether, provide essential usability and context information about the study as a whole and about the data files your study has produced/collected. These metadata files should be included in all HEAL Initiative data packages. 
 
@@ -72,7 +72,20 @@ These are not meant to replace or supercede research community specific standard
 
 1. Data files produced/collected by or for the study 
 2. Non-data supporting files produced/collected by or for the study 
-    * including research community specific metadata files
+    * including research community specific standards-based metadata files
 3. [Standard Data Package Metadata Files](../terms/index.md#standard-data-package-metadata-files) 
+
+</div>
+
+### A "Shareable" Data Package includes:
+
+The Standard Data Package Metadata Files you complete and include in your Data Package ease creation of a Shareable Data Package, which is the same as your original Data Package but only includes the data and non-data supporting files that are explicitly shareable. 
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+1. (**Shareable**) Data files produced/collected by or for the study 
+2. (**Shareable**) Non-data supporting files produced/collected by or for the study 
+    * including research community specific standards-based metadata files
+3. (**Shareable**) [Standard Data Package Metadata Files](../terms/index.md#standard-data-package-metadata-files) 
 
 </div>
