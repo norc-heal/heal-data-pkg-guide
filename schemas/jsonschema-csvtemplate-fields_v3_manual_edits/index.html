@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://norc-heal.github.io/heal-data-pkg-guide/annot/introholmin/">
+        <link rel="canonical" href="https://norc-heal.github.io/heal-data-pkg-guide/schemas/jsonschema-csvtemplate-fields_v3_manual_edits/">
       
       <link rel="icon" href="../../assets/heal_logo.png">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.3">
     
     
       
-        <title>Introholmin - HEAL Data Packaging</title>
+        <title>Data Dictionary - HEAL Data Packaging</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#wholistic-annotation-of-study-artefacts" class="md-skip">
+        <a href="#heal-data-dictionary" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introholmin
+              Data Dictionary
             
           </span>
         </div>
@@ -444,12 +444,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
@@ -616,12 +618,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" checked>
       
       
       
@@ -658,12 +662,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3_2" type="checkbox" id="__nav_4_3_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3_2" type="checkbox" id="__nav_4_3_2" checked>
       
       
       
@@ -685,7 +691,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../schemas/">Metadata schemas</a>
+          <a href="../">Metadata schemas</a>
           
             <label for="__nav_4_3_2">
               <span class="md-nav__icon md-icon"></span>
@@ -708,7 +714,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../schemas/md_experiment_tracker/" class="md-nav__link">
+      <a href="../md_experiment_tracker/" class="md-nav__link">
         Experiment Tracker
       </a>
     </li>
@@ -722,7 +728,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../schemas/md_resource_tracker/" class="md-nav__link">
+      <a href="../md_resource_tracker/" class="md-nav__link">
         Resource Tracker
       </a>
     </li>
@@ -736,7 +742,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../schemas/md_results_tracker/" class="md-nav__link">
+      <a href="../md_results_tracker/" class="md-nav__link">
         Results Tracker
       </a>
     </li>
@@ -748,11 +754,52 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../schemas/jsonschema-csvtemplate-fields_v3_manual_edits/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Data Dictionary
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Data Dictionary
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -839,6 +886,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -847,15 +896,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wholistic-annotation-of-study-artefacts" class="md-nav__link">
-    Wholistic annotation of study artefacts
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#minimal-annotation-of-study-artefacts" class="md-nav__link">
-    Minimal annotation of study artefacts
+  <a href="#properties" class="md-nav__link">
+    Properties
   </a>
   
 </li>
@@ -874,72 +916,152 @@
                 
                   
 
-  <a href="https://github.com/norc-heal/heal-data-pkg-guide/edit/master/docs/annot/introholmin.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/norc-heal/heal-data-pkg-guide/edit/master/docs/schemas/jsonschema-csvtemplate-fields_v3_manual_edits.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-  <h1>Introholmin</h1>
+<h1 id="heal-data-dictionary">HEAL Data Dictionary<a class="headerlink" href="#heal-data-dictionary" title="Permanent link">&para;</a></h1>
+<p><em>HEAL DSC Core Metadata piece to track and provide basic information about variables in a tabular data file (i.e. a data file with rows and columns) from your HEAL study. Objective is to list all variables and descriptive information about those variables. This will ensure that potential secondary data users know what data has been collected or calculated and how to use these data. Note that a given study can have multiple tabular data files; You should create a data dictionary for each tabular data file. Thus, a study may have multiple data dictionaries</em></p>
+<p><em>This is an abridged version of the schema and only describes the fields/information you should provide for each variable. For the full HEAL Data Dictionary document schema specification, see <a href="https://github.com/HEAL/heal-metadata-schemas/blob/main/variable-level-metadata-schema/schemas/jsonschema/data-dictionary.json">here</a>.</em></p>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<p>NOTE:</p>
+<ul>
+<li>Only <code>name</code> and <code>description</code> properties are required. </li>
+<li>For categorical variables, <code>constraints.enum</code> and <code>encodings</code> (where applicable) properties are highly encouraged. </li>
+<li>For studies using HEAL or other common data elements (CDEs), <code>standardsMappings</code> information is highly encouraged.</li>
+<li><code>type</code> and <code>format</code> properties may be particularly useful for some variable types (e.g. date-like variables)  </li>
+</ul>
+</div>
+<h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h2>
+<p><strong><code>module</code></strong> <em>(string)</em>: The section, form, survey instrument, set of measures  or other broad category used 
+to group variables.</p>
+<p>Examples:</p>
+<div class="highlight"><pre><span></span><code>    Demographics
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    PROMIS
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    Medical History
+</code></pre></div>
+<p><strong><code>name</code></strong> <em>(string,required)</em>: The name of a variable (i.e., field) as it appears in the data. </p>
+<p>Examples:</p>
+<div class="highlight"><pre><span></span><code>    gender_id
+</code></pre></div>
+<p><strong><code>title</code></strong> <em>(string)</em>: The human-readable title or label of the variable. </p>
+<p>Examples:</p>
+<div class="highlight"><pre><span></span><code>    Gender identity
+</code></pre></div>
+<p><strong><code>description</code></strong> <em>(string,required)</em>: An extended description of the variable. This could be the definition of a variable or the question text (e.g., if a survey). Include measurement units in the description where relevant (e.g. temperature in celsius, distance in millimeters). </p>
+<p>Examples:</p>
+<div class="highlight"><pre><span></span><code>    The participant&#39;s age at the time of study enrollment, in years
+</code></pre></div>
+<p><strong><code>type</code></strong> <em>(string)</em>: A classification or category of a particular data element or property expected or allowed in the dataset. Must be one of: <code>["number", "integer", "string", "any", "boolean", "date", "datetime", "time", "year", "yearmonth", "duration", "geopoint"]</code>. For details and examples of each of these types see <a href="#type-enum-definitions">here</a>.</p>
+<p><strong><code>format</code></strong> <em>(of below)</em>: Indicates the format of the type specified in the <code>type</code> property. Each format is dependent on the <code>type</code> specified. For example: If <code>type</code> is "string", then see the <a href="https://specs.frictionlessdata.io/table-schema/#string">String formats</a>. If <code>type</code> is "date", "datetime", or "time", default format is ISO8601 formatting for those respective types (see details on ISO8601 format for <a href="https://specs.frictionlessdata.io/table-schema/#date">Date</a>, <a href="https://specs.frictionlessdata.io/table-schema/#datetime">Datetime</a>, or <a href="https://specs.frictionlessdata.io/table-schema/#time">Time</a>) - If you want to specify a date-like variable using standard Python/C strptime syntax, see <a href="#format-details-for-date-datetime-time-type-variables">here</a> for details. See <a href="https://specs.frictionlessdata.io/table-schema/#types-and-formats">here</a> for more information about appropriate <code>format</code> values by variable <code>type</code>. </p>
+<p><strong><code>constraints.maxLength</code></strong> <em>(integer)</em>: Indicates the maximum length of an iterable (e.g., array, string, or object). For example, if 'Hello World' is the longest value of a categorical variable, this would be a maxLength of 11.</p>
+<p><strong><code>constraints.enum</code></strong> <em>(string)</em>: Constrains possible values to a set of values. If a variable is contrained to a set of values, you may want to consider providing more information about what each value in the set mean using the <code>encodings</code> property for the same variable (e.g. If a variable has possible values of 1, 2, and 3 and these correspond to "yes", "no" and "maybe", you can indicate the constraint of this variable to values of 1, 2, and 3 using the <code>constraints.enum</code> property for that variable, and you can indicate that 1="yes", 2="no", and 3="maybe" using the <code>encodings</code> property for that variable).</p>
+<p>Examples:</p>
+<div class="highlight"><pre><span></span><code>    1|2|3|4|5|6|7|8
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    Treated|Control
+</code></pre></div>
+<p><strong><code>constraints.pattern</code></strong> <em>(string)</em>: A regular expression pattern the data MUST conform to.</p>
+<p><strong><code>constraints.maximum</code></strong> <em>(integer)</em>: Specifies the maximum value of a field (e.g., maximum -- or most
+recent -- date, maximum integer etc). Note, this is different than maxLength property.</p>
+<p><strong><code>constraints.minimum</code></strong> <em>(integer)</em>: Specifies the minimum value of a field.</p>
+<p><strong><code>encodings</code></strong> <em>(string)</em>: For variables constrained to a set of values, variable value encodings provide a way to further annotate each value in the constrained set of values the variable can take on, making values easier to understand. If a variable is contrained to a set of values, you may want to consider providing the set of values to which the variable is constrained using the <code>constraints.enum</code> property for that variable, and then providing more information about what each value in the set means using the <code>encodings</code> property for the same variable (e.g. If a variable has possible values of 1, 2, and 3 and these correspond to "yes", "no" and "maybe", you can indicate the constraint of this variable to values of 1, 2, and 3 using the <code>constraints.enum</code> property for that variable, and you can indicate that 1="yes", 2="no", and 3="maybe" using the <code>encodings</code> property for that variable).</p>
+<p>Examples:</p>
+<div class="highlight"><pre><span></span><code>    0=No|1=Yes
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    HW=Hello world|GBW=Good bye world|HM=Hi,Mike
+</code></pre></div>
+<p><strong><code>ordered</code></strong> <em>(boolean)</em>: Indicates whether a categorical variable is ordered. This variable is relevant for variables that have an ordered relationship but not necessarily  a numerical relationship (e.g., Strongly disagree &lt; Disagree &lt; Neutral &lt; Agree). If ordered is set as True, order will be set based on ordering of values provided in the <code>constraints.enum</code> property for this variable. </p>
+<p><strong><code>missingValues</code></strong> <em>(string)</em>: A list of missing values specific to a variable.</p>
+<p>Examples:</p>
+<div class="highlight"><pre><span></span><code>    Missing|Skipped|No preference
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    Missing
+</code></pre></div>
+<p><strong><code>trueValues</code></strong> <em>(string)</em>: For boolean (true) variable (as defined in type field), this field allows
+a physical string representation to be cast as true (increasing readability of the field). It can include one or more values.</p>
+<p>Examples:</p>
+<div class="highlight"><pre><span></span><code>    REQUIRED
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    required|Yes|Y|Checked
+</code></pre></div>
+<p><strong><code>falseValues</code></strong> <em>(string)</em>: For boolean (false) variable (as defined in type field), this field allows
+a physical string representation to be cast as false (increasing readability of the field) that is not a standard false value. It can include one or more values.</p>
+<p><strong><code>standardsMappings.url</code></strong> <em>(string)</em>: A url that links out to a published, standardized mapping for the variable. For example, if a variable corresponds to the first question in a published, validated survey  instrument to measure depression (e.g. PHQ9), provide a link to the PHQ9 Questionnaire at the NIH Common Data Element Repository. This property is under development, and may be restricted in future to persistent identifier urls such as a <a href="https://www.doi.org/">DOI</a>.  </p>
+<p>Examples:</p>
+<div class="highlight"><pre><span></span><code>    https://cde.nlm.nih.gov/formView?tinyId=myG8MkTbwg
+</code></pre></div>
+<p><strong><code>standardsMappings.type</code></strong> <em>(string)</em>: The type of published, standardized mapping available for the variable (e.g. a variable may correspond to a Common Data Element, or CDE, within the NIH Common Data Elements program). This property is under development, and will have a controlled vocabulary. </p>
+<p>Examples:</p>
+<div class="highlight"><pre><span></span><code>    cde
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    ontology
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    reference_list
+</code></pre></div>
+<p><strong><code>standardsMappings.label</code></strong> <em>(string)</em>: A free text label that may be used to provide any information available about a published, standardized mapping available for the variable in an unstructured manner (e.g. if a variable corresponds to the first question in the PHQ9 Questionnaire, which is a published, validated survey  instrument to measure depression, it may be useful to provide information about th standard that variable reflects using free text such as "depression, PHQ, PHQ9"). </p>
+<p><strong><code>standardsMappings.source</code></strong> <em>(string)</em>: The source of the published, standardized mapping available for the variable (e.g. the <a href="https://cde.nlm.nih.gov/home">NIH CDE Repository</a>). This property is under development, and will have a controlled vocabulary. </p>
+<p><strong><code>standardsMappings.id</code></strong> <em>(string)</em>: The identifier (ID) of the published, standardized mapping available for the variable within the source provided in the <code>standardsMappings.source</code> property for this variable (e.g. the PHQ9 Questionnaire has been assigned ID "<a href="https://cde.nlm.nih.gov/formView?tinyId=myG8MkTbwg#identifiers:~:text=NLM-,myG8MkTbwg,-2014Mar19">myG8MkTbwg</a>" at the NIH CDE Repository CDE source).</p>
+<p><strong><code>relatedConcepts.url</code></strong> <em>(string)</em>: The url that links out to the published, standardized concept.</p>
+<p>Examples:</p>
+<div class="highlight"><pre><span></span><code>    https://meshb.nlm.nih.gov/record/ui?ui=D018410
+</code></pre></div>
+<p><strong><code>relatedConcepts.type</code></strong> <em>(string)</em>: The type of mapping to a published set of concepts related to the given field such as ontological information (eg. NCI thesaurus, bioportal etc)</p>
+<p><strong><code>relatedConcepts.label</code></strong> <em>(string)</em>: A free text label of mapping to a published set of concepts related to the given field such as ontological information (eg., NCI thesaurus, bioportal etc)</p>
+<p><strong><code>relatedConcepts.source</code></strong> <em>(string)</em>: The source of the related concept. This property is under development, and will have a controlled vocabulary. </p>
+<p><strong><code>relatedConcepts.id</code></strong> <em>(string)</em>: The id locating the individual mapping within the given source.</p>
+<p><strong><code>univarStats.median</code></strong> <em>(number)</em></p>
+<p><strong><code>univarStats.mean</code></strong> <em>(number)</em></p>
+<p><strong><code>univarStats.std</code></strong> <em>(number)</em></p>
+<p><strong><code>univarStats.min</code></strong> <em>(number)</em></p>
+<p><strong><code>univarStats.max</code></strong> <em>(number)</em></p>
+<p><strong><code>univarStats.mode</code></strong> <em>(number)</em></p>
+<p><strong><code>univarStats.count</code></strong> <em>(integer)</em></p>
+<p><strong><code>univarStats.twentyFifthPercentile</code></strong> <em>(number)</em></p>
+<p><strong><code>univarStats.seventyFifthPercentile</code></strong> <em>(number)</em></p>
+<p><strong><code>univarStats.categoricalMarginals.name</code></strong> <em>(string)</em></p>
+<p><strong><code>univarStats.categoricalMarginals.count</code></strong> <em>(integer)</em></p>
+<hr />
+<h1 id="end-of-schema-extra-infomation">End of schema - Extra infomation<a class="headerlink" href="#end-of-schema-extra-infomation" title="Permanent link">&para;</a></h1>
+<h2 id="type-enum-definitions"><code>type</code> enum definitions<a class="headerlink" href="#type-enum-definitions" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>number</code> (A numeric value with optional decimal places. (e.g., 3.14))</li>
+<li><code>integer</code> (A whole number without decimal places. (e.g., 42))</li>
+<li><code>string</code> (A sequence of characters. (e.g., \"test\"))</li>
+<li><code>any</code> (Any type of data is allowed. (e.g., true))</li>
+<li><code>boolean</code> (A binary value representing true or false. (e.g., true))</li>
+<li><code>date</code> (A specific calendar date. (e.g., \"2023-05-25\"))</li>
+<li><code>datetime</code> (A specific date and time, including timezone information. (e.g., \"2023-05-25T10:30:00Z\"))</li>
+<li><code>time</code> (A specific time of day. (e.g., \"10:30:00\"))</li>
+<li><code>year</code> (A specific year. (e.g., 2023)</li>
+<li><code>yearmonth</code> (A specific year and month. (e.g., \"2023-05\"))</li>
+<li><code>duration</code> (A length of time. (e.g., \"PT1H\")</li>
+<li><code>geopoint</code> (A pair of latitude and longitude coordinates. (e.g., [51.5074, -0.1278]))</li>
+</ul>
+<h2 id="format-details-for-date-datetime-time-type-variables"><code>format</code> details for date, datetime, time <code>type</code> variables<a class="headerlink" href="#format-details-for-date-datetime-time-type-variables" title="Permanent link">&para;</a></h2>
+<p><strong>Date Formats</strong> <em>(string)</em>
+     A format for a date variable (<code>date</code>,<code>time</code>,<code>datetime</code>). Highly recommended to be an ISO8601 format string <br />
+<strong>default</strong>: An ISO8601 format string.
+        <strong>any</strong>: Any parsable representation of a date/time/datetime. The implementing library can attempt to parse the datetime via a range of strategies.</p>
+<pre><code>**{PATTERN}**: The value can be parsed according to `{PATTERN}`,
+ which `MUST` follow the date formatting syntax of 
+ C / Python [strftime](http://strftime.org/) such as:
 
-<h2 id="wholistic-annotation-of-study-artefacts">Wholistic annotation of study artefacts<a class="headerlink" href="#wholistic-annotation-of-study-artefacts" title="Permanent link">&para;</a></h2>
-<p>Wholistic annotation involves creating and maintaining documentation that catalogues and annotates all files and non-data/supporting documents generated by and associated with your study regardless of whether you are planning to share them. Files that will not be shared are documented as permanent-private. This type of annotation works best paired with <a href="../introaddtop/#as-you-go-annotation-of-study-artefacts">'as you go' annotation</a>, as it easier an less time consuming to annotate wholistically, retrospectively, as part of <a href="../introaddtop/#top-down-annotation-of-study-artefacts">'top-down' annotation</a>.</p>
-<p>Although this mode of annotation is more time consuming, it maximizes transparency and allows investigators interested in the data to understand the full scope of the project when accessing study documentation on the Platform. This structure also allows for documentation of the existence and disposition of files that are too sensitive to share but are important for reproducibility and can perhaps be requested directly from the study team by an investigator.</p>
-<details>
-<summary> Who may choose to share this way</summary>
-    <ul>
-    <li> Study groups that have not started collecting data or are very early in the data collection process.</li> 
-    <li> Study groups that are earlier in the process and are interested in understanding and implementing a file and folder structure that facilitates data sharing in the future.</li>
-    <li> Study groups that want to maximise the amount of information that they share about their study.</li>
-
-</details>
-
-<details>
-<summary> Pros to sharing this way</summary>
-    <ul>
-    <li> You get the benefit of full local annotation, which not only maximizes the usefulness of your data for other investigators but also can be helpful internally, especially in preserving knowledge about the data even as team members may change over the course of the study.</li>
-    <li> Although more time consuming at the beginning, integration of this process into your workflows allows for documentation and annotation in parts as you move through the study, so that you do not need to compile all that information at the end of the study, retrospectively.</li>
-    <li> Documenting and sharing all metadata associated with your study can increase the discoverability of your study.</li>
-
-</details>
-
-<details>
-<summary> Cons to sharing this way</summary>
-    <ul>
-    <li> More time consuming, because it requires you to set up the structures to fully catalogue all data and non-data/supporting files that are relevant to your study.</li>
-
-</details>
-
-<p><strong>Notes about wholistic annotation</strong></p>
-<p>If you are early in your study and choose to pursue wholistic annotation, we recommend you consider reviewing and implementing [HEAL recommendations for organizing and naming of study artefacts]. This will ease the process of annotation as well as future data sharing.</p>
-<p>If you are annotating wholistically, you will also document dependencies 'one-layer-deep'. For more information, see <a href="../../terms/studylevel/resource/#associated-filesdependencies">Resource Tracker: Associated Files/Dependencies</a> and <a href="../../terms/depend/#one-layer-deep-dependencies">'One Layer Deep' Dependencies</a>.</p>
-<h2 id="minimal-annotation-of-study-artefacts">Minimal annotation of study artefacts<a class="headerlink" href="#minimal-annotation-of-study-artefacts" title="Permanent link">&para;</a></h2>
-<p>Minimal annotation starts with the main file you are focused on sharing, whether that is a multi-result file, such as a publication or presentation, or a dataset, and works backwards. Rather than documenting all files, you document only the data and non-data file dependencies required to reproduce the final results or dataset. This is likely more ideal for studies that may be close to data collection completion and are not focused on meeting data sharing requirements but do not have adequate funding or time to devote the complete documentation of the data. This type of annotation pairs well with <a href="../introaddtop/#top-down-annotation-of-study-artefacts">‘top-down’ annotation</a>, which retrospectively annotates study artefacts.</p>
-<details>
-<summary> Who may choose to share this way</summary>
-    <ul>
-    <li> Study groups that may be finished or close to finished collecting data and have already produced results files (e.g., figures, draft publications/NIH reports, etc.) </li>
-    <li> Study groups that want to meet minimal data sharing requirements of sharing data underlying published results</li>
-</details>
-
-<details>
-<summary> Pros to sharing this way</summary>
-    <ul>
-    <li> You only catalog the data and non-data/supporting files that you will share/submit to a repository.</li>
-    <li> This is less work than fully cataloguing all data and non-data/supporting files relevant to a study (including files you will not share/submit to a repository), especially if the study is well underway or complete/nearing completion and/or does not have resources or time set aside for a complete file inventory.</li>
-    <li>This approach allows you to fulfill the minimal data sharing requirements of sharing data underlying published results.</li>
-</details>
-
-<details>
-<summary> Cons to sharing this way</summary>
-    <ul>
-    <li> You don’t get the full local annotation benefit that would come with fully cataloguing all data and non-data/supporting files relevant to a study (including files you will not share/submit to a repository), and how they relate to each other and to published results – these benefits include <i>facilitating continuity and passed-down knowledge within study groups</i>, and discovery, sharing, and re-use of the data and knowledge produced by the study outside of the original study group.</li>
-    <li>You don’t get the full benefit of the added discoverability that data-package level metadata can provide.</li>
-</details>
-
-<p><strong>Notes about minimal annotation</strong></p>
-<p>Even if you are not early in your study and are pursuing minimal annotation, we do not recommend reorganizing all your files or folder structures. However, we do recommend you consider reviewing and implementing naming conventions for like files, detailed in [HEAL recommendations for organizing and naming study artefacts]. This will ease the process of annotation.</p>
-<p>If you are annotating minimally, you will document dependences 'liberally'. For more information, see [Resource Tracker: Associated Files/Dependencies] adn ['Liberal' Dependencies].</p>
+- "`%Y-%m-%d` (for date, e.g., 2023-05-25)"
+- "`%Y%-%d` (for date, e.g., 20230525) for date without dashes"
+- "`%Y-%m-%dT%H:%M:%S` (for datetime, e.g., 2023-05-25T10:30:45)"
+- "`%Y-%m-%dT%H:%M:%SZ` (for datetime with UTC timezone, e.g., 2023-05-25T10:30:45Z)"
+- "`%Y-%m-%dT%H:%M:%S%z` (for datetime with timezone offset, e.g., 2023-05-25T10:30:45+0300)"
+- "`%Y-%m-%dT%H:%M` (for datetime without seconds, e.g., 2023-05-25T10:30)"
+- "`%Y-%m-%dT%H` (for datetime without minutes and seconds, e.g., 2023-05-25T10)"
+- "`%H:%M:%S` (for time, e.g., 10:30:45)"
+- "`%H:%M:%SZ` (for time with UTC timezone, e.g., 10:30:45Z)"
+- "`%H:%M:%S%z` (for time with timezone offset, e.g., 10:30:45+0300)"
+</code></pre>
 
 
 
@@ -955,6 +1077,42 @@
       </main>
       
         <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../md_results_tracker/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Results Tracker" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Results Tracker
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../terms/" class="md-footer__link md-footer__link--next" aria-label="Next: Terms and Concepts" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Terms and Concepts
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
