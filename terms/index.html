@@ -1113,15 +1113,23 @@
 </div>
 <h2 id="associated-filesdependencies">Associated Files/Dependencies<a class="headerlink" href="#associated-filesdependencies" title="Permanent link">&para;</a></h2>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
-<p>The term <strong>Associated Files/Dependencies</strong> may be used with respect to a <a href="#study-filesresources">study file/resource</a> or with respect to a <a href="#final-result-products">final result product</a>.</p>
-<p><strong>File/Resource</strong></p>
-<blockquote>
+<p>The term <strong>Associated Files/Dependencies</strong> may be used with respect to a <strong>Resource</strong> (i.e. <a href="#study-filesresources">study file/resource</a>) or with respect to a <strong>Result</strong> (i.e. <a href="#final-result-products">final result product</a>).</p>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<p><strong>Resource</strong></p>
+<ul>
+<li>
 <p>When adding a study file/resource to your study's <a href="#resource-tracker">Resource Tracker</a>, you will be asked to supply Associated Files/Dependencies for that study file/resource. </p>
+</li>
+<li>
 <p>An Associated File/Dependency, is any file that the current study file/resource depends on to be interpreted, replicated, or used. </p>
+</li>
+<li>
 <p>For example, consider a processed <a href="#tabular-data-file">tabular data file</a> (e.g. a final analytic dataset): </p>
 <ul>
 <li>a <strong>raw data file(s)</strong>, plus a <strong>code file</strong> that merges and cleans the raw data file(s) may be required to replicate the processed tabular data file, and </li>
 <li>a <strong>data dictionary</strong> for the processed tabular data file is likely to be required to interpret/use the processed tabular data file.</li>
+</ul>
+</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1130,11 +1138,17 @@
 <li>When adding a <a href="#multi-result-file">multi-result file</a> (e.g. a report or manuscript) to the Resource Tracker, the only dependency should be the Results Tracker for the multi-result file, and the associated Results Tracker for the multi-result file should be added in the more specific <a href="#associated-results-tracker">Associated Results Tracker</a> field in the Resource Tracker wherever possible</li>
 </ul>
 </div>
-</blockquote>
+</div>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 <p><strong>Result</strong></p>
-<blockquote>
+<ul>
+<li>
 <p>When adding a final result product to your study's <a href="#results-tracker">Results Tracker</a>, you will be asked to supply Associated Files/Dependencies for that result. </p>
+</li>
+<li>
 <p>An Associated File/Dependency, is any file that the current result depends on to be interpreted, replicated, or used. </p>
+</li>
+<li>
 <p>For example, consider a figure that has been created as a potential candidate for inclusion as Figure 1A (in the context of a Figure 1 with panels A, B, and C) in a draft manuscript: </p>
 <ul>
 <li>a <strong>png or jpg image file</strong> exported from Corel Draw or Illustrator may directly underly the whole of Figure 1 (where image files for panel A, B, and C were formatted into a single Figure 1 in the context of a <strong>Corel Draw or Illustrator file</strong>);</li>
@@ -1142,6 +1156,8 @@
 <li>this image file in turn depends upon the <strong>code file</strong> that produced it, as well as the <strong>data file(s)</strong> the code file read in and operated upon to create the final image file; </li>
 <li>the code file may have been created to implement a specific statistical analysis plan that is laid out in a larger <strong>study protocol file</strong>, or in a <strong>statistical analysis plan file</strong>; </li>
 <li>the data in the data file may have been collected using a protocol laid out in a specific <strong>protocol file</strong>, and if the data file(s) underlying the result in 1A is/are tabular data file(s), a <strong>data dictionary</strong> for the data file(s) is likely to be required to interpret/use the data file(s)</li>
+</ul>
+</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1152,11 +1168,11 @@
 <li>List all of these files as Associated Files/Dependencies for the result in the Results Tracker</li>
 </ul>
 </div>
-</blockquote>
+</div>
 </div>
 <h2 id="associated-data-dictionary">Associated Data Dictionary<a class="headerlink" href="#associated-data-dictionary" title="Permanent link">&para;</a></h2>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
-<p>Placeholder</p>
+<p>The <a href="#data-dictionary">Data Dictionary</a> that inventories and provides detailed information regarding all variables in the specific tabular data file for which it is the Associated Data Dictionary. </p>
 </div>
 <h2 id="associated-protocol">Associated Protocol<a class="headerlink" href="#associated-protocol" title="Permanent link">&para;</a></h2>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
@@ -1164,21 +1180,21 @@
 </div>
 <h2 id="associated-results-tracker">Associated Results Tracker<a class="headerlink" href="#associated-results-tracker" title="Permanent link">&para;</a></h2>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
-<p>Placeholder</p>
+<p>The <a href="#results-tracker">Results Tracker</a> that inventories and provides detailed information regarding all <a href="#final-result-products">final result products</a> (e.g. figures, figure panels, tables, text statements) shared in the specific <a href="#multi-result-file">multi-result file</a> (e.g. a manuscript) for which it is the Associated Results Tracker. </p>
 </div>
 <h2 id="final-result-products">Final Result Products<a class="headerlink" href="#final-result-products" title="Permanent link">&para;</a></h2>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
-<p>Placeholder</p>
+<p>A figure, figure panel, table, or text statement that communicates a result and is, will, or may be shared in the context of a multi-result file (e.g. a manuscript, poster, presentation, report, etc.)</p>
 </div>
 <h2 id="dsc-pkg-folder">dsc-pkg Folder<a class="headerlink" href="#dsc-pkg-folder" title="Permanent link">&para;</a></h2>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
-<p>Placeholder</p>
+<p>A file folder/directory that will hold all of the <a href="#standard-data-package-metadata-files">Standard Data Package Metadata Files</a> for your <a href="#data-package">Data Package</a>. It is generally recommended that you create a single overarching study file folder/directory to hold all study files and folders and that you create your dsc-pkg folder as a direct sub-directory of your study folder and name it "dsc-pkg". </p>
 </div>
 <h2 id="standard-data-package-metadata-files">Standard data package metadata files<a class="headerlink" href="#standard-data-package-metadata-files" title="Permanent link">&para;</a></h2>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 <p>Standard metadata file types that, altogether, provide essential usability and context information about the study as a whole and about the data files your study has produced/collected. These metadata files should be included in all <a href="#data-package">data packages</a>. They should be stored together in a single file directory, preferably as a sub-directory within your study file directory called "dsc-pkg". See below for an example directory structure. </p>
 <p><strong>NOTE</strong>: All standard data package metadata files have a standardized csv format in which they should be completed and provided. See here for <a href="../schemas/#csv-templates">csv templates</a> and <a href="../schemas/#schemas">schemas/field definitions</a> to aid you in completing the templates. </p>
-<p><img src="../assets/example-dir-structure-2.png" alt="Example Directory Structure 2" width="200"/></p>
+<p><img src="../assets/example-dir-structure-4-with-dsc-pkg.png" alt="Example Directory Structure 2" width="200"/></p>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 <h3 id="standard-data-package-metadata-study-level">Standard data package metadata - Study-level<a class="headerlink" href="#standard-data-package-metadata-study-level" title="Permanent link">&para;</a></h3>
 <ul>
