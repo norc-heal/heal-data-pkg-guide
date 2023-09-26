@@ -7,7 +7,7 @@ View metadata schemas.
 * [Experiment Tracker](md_experiment_tracker.md)
 * [Resource Tracker](md_resource_tracker.md)
 * [Results Tracker](md_results_tracker.md)
-* [Data Dictionary](md_data_dictionary_fields.md)
+* [Data Dictionary](jsonschema-csvtemplate-fields_v3_manual_edits.md)
 
 ## CSV Templates
 
