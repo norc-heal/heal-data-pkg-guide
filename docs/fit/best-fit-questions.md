@@ -10,7 +10,7 @@ When deciding the best fit for you with respect to how and when you will start c
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-Move through the "best fit" questions [below](#study-stage), and select the answer option to each question that best fits you and your study. 
+Move through the "best fit" questions [below](#study-stage). Select and record the answer option to each question that best fits you and your study. 
 <br><br>
 Based upon your study's answer selections, [detailed guidance](best-fit-annotation-recs.md) on how and when to create and complete your data package will be provided. 
 
