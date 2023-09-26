@@ -1,15 +1,32 @@
 # Guidance: File naming
 
-## Consistently name your files and folders
+
+### Consistently name your files and folders
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+The most important guidance is to keep study file/folder naming and organization internally consistent within your study.  
+
+* Establish naming and organization conventions for your study files and folders at the start of your study and consistently apply them throughout.
+
+</div>
+
 ### Universal conventions
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
 * File and folder names should generally be informative/descriptive
     * Wherever possible name your files and folders in a way that will let a human user reasonably infer quite a lot about what the file holds without any further information
-* It is very helpful if file and folder names are all lower case
+* File and folder names should be as brief as possible
+* It is very helpful if file and folder names are all in lower case
 * Don't use spaces or special characters
 * Preferred separator is a dash ('-'), e.g., my-data-file-1
 
+</div>
+
 ### Special conventions
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
 * If you have **multiple files or folders of the same type**, choose a naming convention that's descriptive, and not unmanageably long, and be consistent. For example:
     * One file per day, per cell, per protocol:
@@ -29,3 +46,5 @@
         * Example file name(s):
             * <u><i>Experiment id (from experiment tracker)</i></u>: exp-1
             * <u><i>Corresponding protocol file name</i></u>: protocol-exp-1.txt
+
+</div>

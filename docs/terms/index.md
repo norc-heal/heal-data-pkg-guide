@@ -129,7 +129,7 @@ Standard metadata file types that, altogether, provide essential usability and c
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-### Standard data package metadata - Study-level 
+### Standard data package metadata files - Study-level 
 
 * #### **Experiment Tracker**
      One per study; An inventory of experiments or activities included in the study; For a clinical trial, this may be simply one experiment equal to the registered clinical trial activity; For a basic biology study, this may be a listing of several orthogonal experiments used altogether to address and advance the study aims - See [here](#experiment-tracker-overview) for more detail
@@ -140,7 +140,7 @@ Standard metadata file types that, altogether, provide essential usability and c
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-### Standard data package metadata - File-level 
+### Standard data package metadata files - File-level 
 
 * #### **Data Dictionary**
      One per tabular data file; An inventory of variables included in a tabular data file - See [here](#data-dictionary-overview) for more detail 
