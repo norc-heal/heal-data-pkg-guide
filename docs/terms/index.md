@@ -132,9 +132,9 @@ Standard metadata file types that, altogether, provide essential usability and c
 ### Standard data package metadata - Study-level 
 
 * #### **Experiment Tracker**
-     one per study; an inventory of experiments or activities included in the study; for a clinical trial, this may be simply one experiment equal to the registered clinical trial activity; for a basic biology study, this may be a listing of several orthogonal experiments used altogether to address and advance the study aims
+     One per study; An inventory of experiments or activities included in the study; For a clinical trial, this may be simply one experiment equal to the registered clinical trial activity; For a basic biology study, this may be a listing of several orthogonal experiments used altogether to address and advance the study aims - See [here](#experiment-tracker-overview) for more detail
 * #### **Resource Tracker**
-     one per study; an inventory of all data and non-data supporting files produced during the course of the study (or, in some cases, only those which will be shared in a public data repository), including a description of what is in the file or what the file represents, file relationships and dependencies, and whether/how each file is shareable in a public repository or not
+     One per study; An inventory of all data and non-data supporting files produced during the course of the study (or, in some cases, only those which will be shared in a public data repository), including a description of what is in the file or what the file represents, file relationships and dependencies, and whether/how each file is shareable in a public repository or not - See [here](#resource-tracker-overview) for more detail
 
 </div>
 
@@ -143,15 +143,15 @@ Standard metadata file types that, altogether, provide essential usability and c
 ### Standard data package metadata - File-level 
 
 * #### **Data Dictionary**
-     one per tabular data file; an inventory of variables included in a tabular data file 
+     One per tabular data file; An inventory of variables included in a tabular data file - See [here](#data-dictionary-overview) for more detail 
 * #### **Results Tracker**
-     one per multi-result file (e.g. manuscript); an inventory of figure, table, and text results included in a multi-result file 
+     One per multi-result file (e.g. manuscript); An inventory of figure, table, and text statement results included in a multi-result file - See [here](#results-tracker-overview) for more detail 
 
 </div>
 
 </div>
 
-## Experiment Tracker
+## Experiment Tracker - Overview
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
@@ -164,13 +164,13 @@ Please follow the links below for additional information on:
 * [Standard data package metadata files](#standard-data-package-metadata-files)
 * [Standard data package metadata files - Study-level](#standard-data-package-metadata-study-level)
 * [Experiment Tracker overview](#experiment-tracker)
-* Experiment Tracker csv template
-* Experiment Tracker field definitions
+* [Experiment Tracker csv template](../csv-templates/heal-csv-experiment-tracker.csv)
+* [Experiment Tracker schema/field definitions](../schemas/md_experiment_tracker.md)
 
 </div>
 
 
-## Resource Tracker
+## Resource Tracker - Overview
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
@@ -183,12 +183,12 @@ Please follow the links below for additional information on:
 * [Standard data package metadata files](#standard-data-package-metadata-files)
 * [Standard data package metadata files - Study-level](#standard-data-package-metadata-study-level)
 * [Resource Tracker overview](#resource-tracker)
-* Resource Tracker csv template
-* Resource Tracker field definitions
+* [Resource Tracker csv template](../csv-templates/heal-csv-resource-tracker.csv)
+* [Resource Tracker schema/field definitions](../schemas/md_resource_tracker.md)
 
 </div>
 
-## Data Dictionary
+## Data Dictionary - Overview
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
@@ -201,12 +201,12 @@ Please follow the links below for additional information on:
 * [Standard data package metadata files](#standard-data-package-metadata-files)
 * [Standard data package metadata files - File-level](#standard-data-package-metadata-file-level)
 * [Data Dictionary overview](#data-dictionary)
-* Data Dictionary csv template
-* Data Dictionary field definitions
+* [Data Dictionary csv template](../csv-templates/heal-csv-data-dictionary.csv)
+* [Data Dictionary schema/field definitions](../schemas/jsonschema-csvtemplate-fields_v3_manual_edits.md)
 
 </div>
 
-## Results Tracker
+## Results Tracker - Overview
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
@@ -219,8 +219,8 @@ Please follow the links below for additional information on:
 * [Standard data package metadata files](#standard-data-package-metadata-files)
 * [Standard data package metadata files - File-level](#standard-data-package-metadata-file-level)
 * [Results Tracker overview](#results-tracker)
-* Results Tracker csv template
-* Results Tracker field definitions
+* [Results Tracker csv template](../csv-templates/heal-csv-results-tracker.csv)
+* [Results Tracker schema/field definitions](../schemas/md_results_tracker.md)
 
 </div>
 
