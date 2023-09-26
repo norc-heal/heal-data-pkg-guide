@@ -11,7 +11,7 @@ In general, an overview of the process looks like:
 
 </div>
 
-However, when and exactly how you approach each of these steps will depend on a few factors, including how early on you are in your study, what your data sharing goals are, and the preferences of you and your study group - See below for details OR [Skip ahead to find the best fit for you](../guide/index.md)
+However, when and exactly how you approach each of these steps will depend on a few factors, including how early on you are in your study, what your data sharing goals are, and the preferences of you and your study group - See below for details OR [Skip ahead to find the best fit for you](../fit/index.md)
 
 ## Audit relevant files
 
@@ -87,6 +87,6 @@ Currently, study-level standard data package metadata files are the experiment t
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
-See [here](../guide/index.md) for some guidance on determining the best fit for your study group
+See [here](../fit/index.md) for some guidance on determining the best fit for your study group
 
 </div>
