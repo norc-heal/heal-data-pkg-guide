@@ -1,5 +1,11 @@
 # Guidance: File organization
 
+## Organize study-related files and folders into a single study folder
+
+Organize all [study files/resources](../terms/index.md#study-filesresources) into a single study folder/directory. A study folder/directory may of course have sub-directories. See below for an example of a recommended study folder/directory structure.
+
+![](../assets/example-dir-structure-4-without-dsc-pkg.png)
+
 ## Organize study-related files into folders with consistent naming conventions
 
 * Organize all your files (whether you will share them or not), into folders.
