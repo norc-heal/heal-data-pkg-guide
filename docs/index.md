@@ -1,18 +1,18 @@
 # Introduction
 
-This document describes how to create a HEAL-compliant *data package*. A data
-package is a portable archive containining research data together with the
-metadata, supporting files and documentation needed to permit someone to
-(re)use the data for a specific purpose.
+This document describes how to create a *data package*. A data package is a
+portable archive containining research data together with the metadata,
+supporting files and documentation needed to permit someone to (re)use the
+data for a specific purpose.
 
 The focus here is on creating data packages suitable for submission to a
 public data repository to permit replication of a previous analysis and/or
 secondary analyses. Such packages include the information necessary to make
 the data *findable*, *accessible*, *interoperable* and *reusable*
-([FAIR](https://www.go-fair.org/fair-principles/)). In other words, they
+([FAIR](https://www.go-fair.org/fair-principles/)). In particular, they
 include metadata that may be indexed and searched to permit researchers to
-find the data, organize and store files using common, open standards and
-formats that make the data easy to use, and include sufficient information on
+find the data; organize and store files using common, open standards and
+formats that make the data easy to use; and include sufficient information on
 provenance and data use requirements and restrictions to permit researchers to
 reuse the data.
 
