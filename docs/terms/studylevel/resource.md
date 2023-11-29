@@ -2,7 +2,7 @@
 The resource tracker is an inventory and annotated list of all data and supporting/non-data files for the study. 
 
 ## Study-Level Metadata
-Each row of the resource tracker corresponds to one data or non-data resource. Information in the tracker about each resource includes file path, description, access restrictions, format and corresponding software, and dependencies. The resource tracker is where you will also list and annotate any associated results trackers documenting multi-result files.
+Each row of the resource tracker corresponds to one data or non-data resource. Information in the tracker about each resource includes file path, description, access restrictions, format and corresponding software, and dependencies. The resource tracker is where you will also list and annotate any associated results trackers documenting publications.
 
 See [LINK: Resource Tracker: Associated Files/Dependencies] for more information on how you should document your dependencies, depending on the type and amount of data you are sharing.
 

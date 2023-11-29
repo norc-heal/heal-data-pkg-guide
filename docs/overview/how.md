@@ -43,7 +43,7 @@ If you are late in your study, applying HEAL recommendations and guidance re: fi
 
 **Variations:** If, when, and how
 
-Currently, file-level standard data package metadata files are the data dictionary (heal-formatted-data-dictionary; one per tabular data file) and the results tracker (heal-formatted-results-tracker; one per multi-result file - e.g. manuscript, poster).
+Currently, file-level standard data package metadata files are the data dictionary (heal-formatted-data-dictionary; one per tabular data file) and the results tracker (heal-formatted-results-tracker; one per manuscript, report, or poster.
 
 **Data Dictionary**: 
 

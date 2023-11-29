@@ -17,9 +17,9 @@
 === "Results-support"
     **If you are interested in sharing data and support files that support a specific result, recommended steps include:**
 
-    1. Wait until the multi-result file(s) are produced
-    2. Annotate multi-result file(s)
-    3. Create a results tracker for each multi-result file. Within the results tracker, list each result and its dependencies (e.g., data, data dictionary, code, statistical analysis plan)
+    1. Wait until the manuscript or report is produced
+    2. Annotate manuscript
+    3. Create a results tracker for each manuscript or report. Within the results tracker, list each result and its dependencies (e.g., data, data dictionary, code, statistical analysis plan)
     4. Annotate results tracker(s)
     5. Annotate dependencies of results as listed in the results tracker(s)
     6. Annotate dependencies of those dependencies, continuing with this cycle until final dependencies you annotate have no dependencies of their own
@@ -65,9 +65,9 @@ If you are interested in sharing a specific dataset and documenting the necessar
 ## If your data sharing orientation is **results-support**...
 If you are interested in sharing data and support files that support a specific result, recommended steps include:
 
-1. Wait until the multi-result file(s) are produced
-2. Annotate multi-result file(s)
-3. Create a results tracker for each multi-result file. Within the results tracker, list each result and its dependencies (e.g., data, data dictionary, code, statistical analysis plan)
+1. Wait until the manuscript or report is produced
+2. Annotate manuscript
+3. Create a results tracker for each manuscript or report. Within the results tracker, list each result and its dependencies (e.g., data, data dictionary, code, statistical analysis plan)
 4. Annotate results tracker(s)
 5. Annotate dependencies of results as listed in the results tracker(s)
 6. Annotate dependencies of those dependencies, continuing with this cycle until final dependencies you annotate have no dependencies of their own
