@@ -1,4 +1,4 @@
-# How should you go about creating your data package? 
+# How should you create your data package?
 
 In general, an overview of the process looks like: 
 

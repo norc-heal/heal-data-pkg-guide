@@ -28,9 +28,10 @@ with a product that can then be shared in order to document your work and
 permit other researchers to replicate your analysis.
 
 The material is organized into three main sections. The first section provides
-[a general overview](overview/who) of data packages, including what they are,
+[a general overview](overview/what) of data packages, including what they are,
 why they're useful, and when and how to make one. The second section is a
-[tutorial](fit) on making your first data package, with instructions tailored
-to your own situation based on your answers to three simple questions. The
-third section provides [additional guidance](g-and-r) on specific topics as
-well as references to additional resources that may be helpful.
+[step-by-step tutorial](fit) on making your first data package, with
+instructions tailored to your own situation based on your answers to three
+simple questions. The third section provides [additional guidance](g-and-r) on
+specific topics as well as references to additional resources that may be
+helpful.

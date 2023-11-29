@@ -4,13 +4,13 @@ site_url: https://norc-heal.github.io/heal-data-pkg-guide
 repo_url: https://github.com/norc-heal/heal-data-pkg-guide
 nav:
   - Introduction: index.md
-  - "Data Package Overview":
-    - Who: overview/who.md
-    - What: overview/what.md
-    - Why: overview/why.md
-    - Where: overview/where.md
-    - When: overview/when.md
-    - How: overview/how.md
+  - "Overview":
+    - overview/what.md
+    - overview/who.md
+    - overview/why.md
+    - overview/where.md
+    - overview/when.md
+    - overview/how.md
     #- The Resource Tracker: overview/resource.md
 
   - Your best fit:
