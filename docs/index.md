@@ -62,7 +62,7 @@ permit other researchers to replicate your analysis.
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-The material in this guide is organized into three main sections. 
+The material in this guide is organized into four main sections. 
 
 The first section provides
 [a general overview](overview/what) of data packages, including what they are,
@@ -73,9 +73,14 @@ The second section is a
 instructions tailored to your own situation based on your answers to three
 simple questions. 
 
-The third section provides [additional guidance](g-and-r) on
+The third section is a
+[step-by-step tutorial](fit) on preparing your first data package for submission to a public data repository, with
+instructions tailored to your own situation based on your answers to three
+simple questions.
+
+The fourth section provides [additional guidance](g-and-r) on
 specific topics as well as references to additional resources that may be
 helpful. Links to specific parts of this last section are provided throughout the 
-first two sections to clarify concepts and recommendations as they come up.  
+first three sections to clarify concepts and recommendations as they come up.  
 
 </div>
