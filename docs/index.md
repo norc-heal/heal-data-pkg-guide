@@ -74,7 +74,7 @@ instructions tailored to your own situation based on your answers to three
 simple questions. 
 
 The third section is a
-[step-by-step tutorial](fit) on preparing your first data package for submission to a public data repository, with
+[step-by-step tutorial](submit) on preparing your first data package for submission to a public data repository, with
 instructions tailored to your own situation based on your answers to three
 simple questions.
 
