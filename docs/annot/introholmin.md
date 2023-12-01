@@ -36,7 +36,17 @@ If you are annotating wholistically, you will also document dependencies 'one-la
 
 
 ## Minimal annotation of study artefacts
-Minimal annotation starts with the main file you are focused on sharing, whether that is a multi-result file, such as a publication or presentation, or a dataset, and works backwards. Rather than documenting all files, you document only the data and non-data file dependencies required to reproduce the final results or dataset. This is likely more ideal for studies that may be close to data collection completion and are not focused on meeting data sharing requirements but do not have adequate funding or time to devote the complete documentation of the data. This type of annotation pairs well with [‘top-down’ annotation](introaddtop.md#top-down-annotation-of-study-artefacts), which retrospectively annotates study artefacts.
+
+Minimal annotation starts with the main product(s) you are focused on sharing,
+whether that is a publication, presentation, or dataset, and works backwards.
+Rather than documenting all files, you document only the data and non-data
+file dependencies required to reproduce the final results or dataset. This is
+likely more ideal for studies that may be close to data collection completion
+and are not focused on meeting data sharing requirements but do not have
+adequate funding or time to devote the complete documentation of the data.
+This type of annotation pairs well with
+[‘top-down’ annotation](introaddtop.md#top-down-annotation-of-study-artefacts),
+which retrospectively annotates study artefacts.
 
 <details>
 <summary> Who may choose to share this way</summary>

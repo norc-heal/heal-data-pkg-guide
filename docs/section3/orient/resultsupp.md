@@ -1,14 +1,14 @@
-If you are planning to share only files that are necessary to support the results in a multi-result file, such as a manuscript or presentation:
+If you are planning to share only files that are necessary to support the results in a publication, report or presentation:
 
 1. Use ['top-down'](../../terms/addtop.md#top-down-annotation-of-study-artefacts) annotation. Do not use 'add-as-you-go' annotation.
     <ol type="a">
-        <li><u>Audit multi-result file(s)</u> that need support</li>
-        <li><u>Audit supporting files</u> for each result in multi-result file(s), including sharing status and access level
+        <li><u>Audit publication(s) or report(s)</u> that need support</li>
+        <li><u>Audit supporting files</u> for each result in publication(s), including sharing status and access level
         <ol class="lower-roman">
             <li><u>Audit dependencies</u> of supporting files, including sharing status and access level</li>
             <li><u>Add data dictionary</u> for any tabular supporting files or dependencies
         </ol>
-        <li><u>Create result tracker</u> for each multi-result file (list supporting files for each result in the result tracker 'depends on' field). To determine what approach you should take to listing supporting files for each result, [click here](../../terms/filelevel.md#results-tracker).</li>
+        <li><u>Create result tracker</u> for each publication or report (list supporting files for each result in the result tracker 'depends on' field). To determine what approach you should take to listing supporting files for each result, [click here](../../terms/filelevel.md#results-tracker).</li>
         <li><u>Add result tracker</u> to resource tracker
         <li><u>Add supporting files</u> to resource tracker (list dependencies for each supporting resource tracker 'depends on' field)
         <li><b>Notes on wholistic vs. minimal annotation</b>

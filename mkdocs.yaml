@@ -3,16 +3,15 @@ site_name: HEAL Data Packaging
 site_url: https://norc-heal.github.io/heal-data-pkg-guide
 repo_url: https://github.com/norc-heal/heal-data-pkg-guide
 nav:
-  - "": index.md
-  - Introduction: 
-    - intro/index.md
-    - Who: intro/who.md
-    - What: intro/what.md
-    - Why: intro/why.md
-    - Where: intro/where.md
-    - When: intro/when.md
-    - How: intro/how.md
-    #- The Resource Tracker: intro/resource.md
+  - Introduction: index.md
+  - "Overview":
+    - overview/what.md
+    - overview/who.md
+    - overview/why.md
+    - overview/where.md
+    - overview/when.md
+    - overview/how.md
+    #- The Resource Tracker: overview/resource.md
 
   - Your best fit:
     - fit/index.md

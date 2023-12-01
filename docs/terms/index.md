@@ -8,14 +8,6 @@ A data file that is organized in a table with rows and columns.
 
 </div>
 
-## Multi-result file
-
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
-
-A file that contains multiple results from your study. Some examples of multi-result files include manuscripts, reports, white papers, posters, and presentations.
-
-</div>
-
 ## Study files/resources
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
@@ -47,7 +39,7 @@ The term **Associated Files/Dependencies** may be used with respect to a **Resou
 
 !!! note
     * Data dictionaries and protocols should be shared in the more specific [Associated Data Dictionary](#associated-data-dictionary), [Associated Protocol](#associated-protocol) fields in the Resource Tracker wherever possible
-    * When adding a [multi-result file](#multi-result-file) (e.g. a report or manuscript) to the Resource Tracker, the only dependency should be the Results Tracker for the multi-result file, and the associated Results Tracker for the multi-result file should be added in the more specific [Associated Results Tracker](#associated-results-tracker) field in the Resource Tracker wherever possible
+    * When adding a publication or report to the Resource Tracker, the only dependency should be the Results Tracker for the publication, and the associated Results Tracker for the publication should be added in the more specific [Associated Results Tracker](#associated-results-tracker) field in the Resource Tracker wherever possible
 
 </div>
 
@@ -96,7 +88,7 @@ Placeholder
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
-The [Results Tracker](#results-tracker) that inventories and provides detailed information regarding all [final result products](#final-result-products) (e.g. figures, figure panels, tables, text statements) shared in the specific [multi-result file](#multi-result-file) (e.g. a manuscript) for which it is the Associated Results Tracker. 
+The [Results Tracker](#results-tracker) that inventories and provides detailed information regarding all [final result products](#final-result-products) (e.g. figures, figure panels, tables, text statements) shared in the specific publication or report for which it is the Associated Results Tracker. 
 
 
 </div>
@@ -105,7 +97,7 @@ The [Results Tracker](#results-tracker) that inventories and provides detailed i
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
-A figure, figure panel, table, or text statement that communicates a result and is, will, or may be shared in the context of a multi-result file (e.g. a manuscript, poster, presentation, report, etc.)
+A figure, figure panel, table, or text statement that communicates a result and is, will, or may be shared in the context of a publication, report or presentation
 
 </div>
 
@@ -145,7 +137,7 @@ Standard metadata file types that, altogether, provide essential usability and c
 * #### **Data Dictionary**
      One per tabular data file; An inventory of variables included in a tabular data file - See [here](#data-dictionary-overview) for more detail 
 * #### **Results Tracker**
-     One per multi-result file (e.g. manuscript); An inventory of figure, table, and text statement results included in a multi-result file - See [here](#results-tracker-overview) for more detail 
+     One per publication or report; An inventory of figure, table, and text statement results included in a publication or report - See [here](#results-tracker-overview) for more detail 
 
 </div>
 
@@ -210,9 +202,9 @@ Please follow the links below for additional information on:
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
-The Results Tracker is an inventory and annotated list of results within a single multi-result file (e.g. manuscript, presentation). Each row of the results tracker corresponds to one result (e.g. a figure, table, or textual statement) within a multi-result file. Information in the tracker about each result includes the type of result (figure, table, text), description, and dependencies (i.e. files necessary to interpret, replicate, or use the result).
+The Results Tracker is an inventory and annotated list of results within a single publication or report. Each row of the results tracker corresponds to one result (e.g. a figure, table, or textual statement) within a publication or report. Information in the tracker about each result includes the type of result (figure, table, text), description, and dependencies (i.e. files necessary to interpret, replicate, or use the result).
 
-The Results Tracker is one of the standard data package metadata files which should always be included in a data package to provide essential usability and context information about the study as a whole and about the data files your study has produced/collected. There are study-level and file-level standard data package metadata files. The Results Tracker is a **file-level** standard data package metadata file (**you should create and complete one Results Tracker per multi-result file in your data package**).
+The Results Tracker is one of the standard data package metadata files which should always be included in a data package to provide essential usability and context information about the study as a whole and about the data files your study has produced/collected. There are study-level and file-level standard data package metadata files. The Results Tracker is a **file-level** standard data package metadata file (**you should create and complete one Results Tracker per publication or report in your data package**).
 
 Please follow the links below for additional information on:
 
@@ -322,10 +314,10 @@ See the alternative: [Top-down Annotation](#top-down-annotation)
         * determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)
 
         * **wait until your study is at the point of producing final result products** (e.g. figures, tables, text statements)
-        * once your study has reached this point, and <u>if your study has determined that a data sharing goal of the study is to provide results-support</u>, start annotating final result products right away, even if you have not formally begun to add them to a [multi-result file](#multi-result-file)
+        * once your study has reached this point, and <u>if your study has determined that a data sharing goal of the study is to provide results-support</u>, start annotating final result products right away, even if you have not formally begun to add them to a publication or report
         * as new final result products are produced by your study, annotate each final result product right away
-        * once your study has started to formally add final result products to a multi-result file(s), start adding result annotation files you've already produced (in the step just above) to a results tracker document for the multi-result file(s) - one results tracker per multi-result file
-        * as new multi-result files are produced by your study, use the result annotation files you create for each final result product in the multi-result file to create a results tracker document for the new multi-result file
+        * once your study has started to formally add final results to a publication, start adding result annotation files you've already produced (in the step just above) to a results tracker document for the publication - one results tracker per publication
+        * as new publications or reports are produced by your study, use the result annotation files you create for each final result product in the publication to create a results tracker document for the new publication
 
 4. Add [Standard data package metadata - Study-level](#standard-data-package-metadata-study-level)
 
@@ -425,11 +417,11 @@ See the alternative: [As-you-go Annotation](#as-you-go-annotation)
         * determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)
 
         * **wait until your study is at the point of producing final result products** (e.g. figures, tables, text statements)
-        * once your study has reached this point, and <u>if your study has determined that a data sharing goal of the study is to provide results-support</u>, start annotating final result products right away that are likely to be included in a final manuscript or other multi-result file you will share and for which you would like to provide results-support, even if you have not formally begun to add them to a [multi-result file](#multi-result-file)
+        * once your study has reached this point, and <u>if your study has determined that a data sharing goal of the study is to provide results-support</u>, start annotating final result products right away that are likely to be included in a final manuscript or report you will share and for which you would like to provide results-support, even if you have not formally begun to add them to a publication or report
         * as new final result products are produced by your study, annotate each final result product right away
-        * once your study has started to formally add final result products to a multi-result file(s), start adding result annotation files you've already produced (in the step just above) to a results tracker document for the multi-result file(s) - one results tracker per multi-result file
-        * as new multi-result files are produced by your study, use the result annotation files you create for each final result product in the multi-result file to create a results tracker document for the new multi-result file
-        * alternatively, you may wait until your study is at the point of a final manuscript or other multi-result file for which you would like to provide results-support; then start annotating only the final result products that are positively contained in this multi-result file 
+        * once your study has started to formally add final results to a publication, start adding result annotation files you've already produced (in the step just above) to a results tracker document for the publication - one results tracker per publication
+        * as new publications are produced by your study, use the result annotation files you create for each final result product in the publication or report to create a results tracker document for the new publication or report
+        * alternatively, you may wait until your study is at the point of a final manuscript or report for which you would like to provide results-support; then start annotating only the final result products that are positively contained in this publication 
 
 4. Add [Standard data package metadata - Study-level](#standard-data-package-metadata-study-level)
 

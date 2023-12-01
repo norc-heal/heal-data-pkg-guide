@@ -55,10 +55,10 @@
 
     
     * For each final result product (e.g. figure, figure panel, table, text statement), as you create it, audit the full subset of [associated files/dependencies](../terms/index.md#associated-filesdependencies) for that final result product (i.e. all study files/resources required to interpret, replicate, or use the final result product), including associated files/dependencies of immediate associated files/dependencies 
-    * Start your [Results Tracker(s)](../terms/index.md#results-tracker) - one per manuscript or other multi-result file
-        * Start to create a Results Tracker to document the final result products (e.g. figures, tables) that will, or may, be published as part of a [multi-result file](../terms/index.md#multi-result-file) (e.g. report or manuscript)
+    * Start your [Results Tracker(s)](../terms/index.md#results-tracker) - one per manuscript or other product containing results (e.g., presentation or poster)
+        * Start to create a Results Tracker to document the final result products (e.g. figures, tables) that will be included in a published paper or report
         * Start your Results Tracker by initializing an empty Results Tracker file based on the [Results Tracker csv template](../csv-templates/heal-csv-results-tracker.csv)
-            * Save your Results Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-results-tracker-my-manuscript-file.csv" (i.e. the file name starts with the prefix "heal-csv-results-tracker-", you append the name of the manuscript or other multi-result file to which the Results Tracker applies, and save as a csv file)
+            * Save your Results Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-results-tracker-my-manuscript-file.csv" (i.e. the file name starts with the prefix "heal-csv-results-tracker-", you append the name of the manuscript or report to which the Results Tracker applies, and save as a csv file)
         * Add all final result products already produced by/for your study to a Results Tracker
             * Use the [Results Tracker schema](../schemas/md_results_tracker.md) to understand what each "question"/field in the Results Tracker means and how to "answer"/complete each "question"/field 
             * The Results Tracker will ask you to list [associated files/dependencies](../terms/index.md#associated-filesdependencies) for each final result product (i.e. files that are required to interpret, replicate, or use the result)
@@ -66,9 +66,9 @@
 
     <font size="3"> What to do **when your manuscript is finalized** </font>
 
-    * Finalize the Results Tracker for the completed manuscript (or other [multi-result file](../terms/index.md#multi-result-file))
+    * Finalize the Results Tracker for the completed manuscript
         * Audit the [final result products](../terms/index.md#final-result-products) (e.g. figure, figure panel, table, text statement) produced by your study that are shared in the manuscript - create a list of final result products
-        * Check that all final result products shared in the manuscript or other multi-result file are listed in the associated Results Tracker - Add any that are missing
+        * Check that all final result products shared in the manuscript are listed in the associated Results Tracker - Add any that are missing
         * Check that figure/table numbers for all final result products shared in the manuscript are accurately reflected in the final result product entry in the manuscript's associated Results Tracker - Correct any that need to be updated
     * Add your manuscript and its [associated Results Tracker](../terms/index.md#associated-results-tracker) to your Resource Tracker 
     * Check that all final result product [associated files/dependencies](../terms/index.md#associated-filesdependencies) (listed in the associated files/dependencies fields for each final result product listed in the Results Tracker) are also listed as study resource/files in your Resource Tracker - Add any that are missing 
@@ -184,11 +184,11 @@
             * Save your Data Dictionary in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-dd-my-datafile.csv" (i.e. the file name starts with the prefix "heal-csv-dd-", you append the name of the data file to which the Data Dictionary applies, and save as a csv file)
             * Add all variables in the tabular data file to your Data Dictionary
                 * Use the [Data Dictionary schema](../schemas/md_data_dictionary_fields.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
-    * Start your [Results Tracker(s)](../terms/index.md#results-tracker) - one per manuscript or other multi-result file
-        * Start to create a Results Tracker to document the [final result products](../terms/index.md#final-result-products) (e.g. figures, tables) that will be published as part of your manuscript or other [multi-result file](../terms/index.md#multi-result-file) (e.g. report or manuscript)
+    * Start your [Results Tracker(s)](../terms/index.md#results-tracker) - one per manuscript or report
+        * Start to create a Results Tracker to document the [final result products](../terms/index.md#final-result-products) (e.g. figures, tables) that will be published as part of your manuscript or report
         * Start your Results Tracker by initializing an empty Results Tracker file based on the [Results Tracker csv template](../csv-templates/heal-csv-results-tracker.csv)
-            * Save your Results Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-results-tracker-my-manuscript-file.csv" (i.e. the file name starts with the prefix "heal-csv-results-tracker-", you append the name of the manuscript or other multi-result file to which the Results Tracker applies, and save as a csv file)
-        * Add all final result products shared in the manuscript or other multi-result file to a Results Tracker
+            * Save your Results Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-results-tracker-my-manuscript-file.csv" (i.e. the file name starts with the prefix "heal-csv-results-tracker-", you append the name of the manuscript or report to which the Results Tracker applies, and save as a csv file)
+        * Add all final result products shared in the manuscript or report to a Results Tracker
             * Use the [Results Tracker schema](../schemas/md_results_tracker.md) to understand what each "question"/field in the Results Tracker means and how to "answer"/complete each "question"/field 
             * The Results Tracker will ask you to list [associated files/dependencies](../terms/index.md#associated-filesdependencies) for each final result product (i.e. files that are required to interpret, replicate, or use the result)
     * Start your [Experiment Tracker](../terms/index.md#experiment-tracker) 
@@ -196,8 +196,8 @@
             * Save your Experiment Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-experiment-tracker.csv"
         * Add all experiments or other study activities that produced supporting data or other support for any of the final result products shared in your manuscript to your Experiment Tracker
             * Use the [Experiment Tracker schema](../schemas/md_resource_tracker.md) to understand what each "question"/field in the Experiment Tracker means and how to "answer"/complete each "question"/field
-    * Finalize the Results Tracker for the completed manuscript (or other [multi-result file](../terms/index.md#multi-result-file))
-        * Check that all final result products shared in the manuscript or other multi-result file are listed in the associated Results Tracker - Add any that are missing
+    * Finalize the Results Tracker for the completed manuscript
+        * Check that all final result products shared in the manuscript or report are listed in the associated Results Tracker - Add any that are missing
         * Check that figure/table numbers for all final result products shared in the manuscript are accurately reflected in the final result product entry in the manuscript's associated Results Tracker - Correct any that need to be updated
     * Start your [Resource Tracker](../terms/index.md#resource-tracker)
         * Start your Resource Tracker by initializing an empty Resource Tracker file based on the [Resource Tracker csv template](../csv-templates/heal-csv-resource-tracker.csv)
@@ -245,11 +245,11 @@
             * Save your Data Dictionary in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-dd-my-datafile.csv" (i.e. the file name starts with the prefix "heal-csv-dd-", you append the name of the data file to which the Data Dictionary applies, and save as a csv file)
             * Add all variables in the tabular data file to your Data Dictionary
                 * Use the [Data Dictionary schema](../schemas/md_data_dictionary_fields.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
-    * Start your [Results Tracker(s)](../terms/index.md#results-tracker) - one per manuscript or other multi-result file
-        * Start to create a Results Tracker to document the [final result products](../terms/index.md#final-result-products) (e.g. figures, tables) that will be published as part of your manuscript or other [multi-result file](../terms/index.md#multi-result-file) (e.g. report or manuscript)
+    * Start your [Results Tracker(s)](../terms/index.md#results-tracker) - one per manuscript
+        * Start to create a Results Tracker to document the [final result products](../terms/index.md#final-result-products) (e.g. figures, tables) that will be published as part of your manuscript or report
         * Start your Results Tracker by initializing an empty Results Tracker file based on the [Results Tracker csv template](../csv-templates/heal-csv-results-tracker.csv)
-            * Save your Results Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-results-tracker-my-manuscript-file.csv" (i.e. the file name starts with the prefix "heal-csv-results-tracker-", you append the name of the manuscript or other multi-result file to which the Results Tracker applies, and save as a csv file)
-        * Add all final result products shared in the manuscript or other multi-result file to a Results Tracker
+            * Save your Results Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-results-tracker-my-manuscript-file.csv" (i.e. the file name starts with the prefix "heal-csv-results-tracker-", you append the name of the manuscript or report to which the Results Tracker applies, and save as a csv file)
+        * Add all final result products shared in the manuscript or report to a Results Tracker
             * Use the [Results Tracker schema](../schemas/md_results_tracker.md) to understand what each "question"/field in the Results Tracker means and how to "answer"/complete each "question"/field 
             * The Results Tracker will ask you to list [associated files/dependencies](../terms/index.md#associated-filesdependencies) for each final result product (i.e. files that are required to interpret, replicate, or use the result)
     * Start your [Experiment Tracker](../terms/index.md#experiment-tracker) 
@@ -257,8 +257,8 @@
             * Save your Experiment Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-experiment-tracker.csv"
         * Add all experiments or other study activities that produced supporting data or other support for any of the final result products shared in your manuscript to your Experiment Tracker
             * Use the [Experiment Tracker schema](../schemas/md_resource_tracker.md) to understand what each "question"/field in the Experiment Tracker means and how to "answer"/complete each "question"/field
-    * Finalize the Results Tracker for the completed manuscript (or other [multi-result file](../terms/index.md#multi-result-file))
-        * Check that all final result products shared in the manuscript or other multi-result file are listed in the associated Results Tracker - Add any that are missing
+    * Finalize the Results Tracker for the completed manuscript or report
+        * Check that all final result products shared in the manuscript or report are listed in the associated Results Tracker - Add any that are missing
         * Check that figure/table numbers for all final result products shared in the manuscript are accurately reflected in the final result product entry in the manuscript's associated Results Tracker - Correct any that need to be updated
     * Start your [Resource Tracker](../terms/index.md#resource-tracker)
         * Start your Resource Tracker by initializing an empty Resource Tracker file based on the [Resource Tracker csv template](../csv-templates/heal-csv-resource-tracker.csv)
