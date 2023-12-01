@@ -226,6 +226,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/</loc>
+         <lastmod>2023-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/terms/</loc>
          <lastmod>2023-12-01</lastmod>
          <changefreq>daily</changefreq>
