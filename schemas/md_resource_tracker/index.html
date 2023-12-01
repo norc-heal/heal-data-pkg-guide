@@ -208,7 +208,7 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        
+        Introduction
       </a>
     </li>
   
@@ -231,10 +231,6 @@
       
         
           
-            
-          
-        
-          
         
           
         
@@ -248,34 +244,26 @@
         
       
       
-        
-        
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="../../intro/">Introduction</a>
-          
-            <label for="__nav_2">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
-          
-        </div>
+        <label class="md-nav__link" for="__nav_2">
+          Overview
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
-      <nav class="md-nav" aria-label="Introduction" data-md-level="1">
+      <nav class="md-nav" aria-label="Overview" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          Introduction
+          Overview
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-          
-            
               
   
   
   
     <li class="md-nav__item">
-      <a href="../../intro/who/" class="md-nav__link">
-        Who
+      <a href="../../overview/what/" class="md-nav__link">
+        What is a data package?
       </a>
     </li>
   
@@ -288,8 +276,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../intro/what/" class="md-nav__link">
-        What
+      <a href="../../overview/who/" class="md-nav__link">
+        Who should create a data package?
       </a>
     </li>
   
@@ -302,8 +290,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../intro/why/" class="md-nav__link">
-        Why
+      <a href="../../overview/why/" class="md-nav__link">
+        Why should you create a data package?
       </a>
     </li>
   
@@ -316,8 +304,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../intro/where/" class="md-nav__link">
-        Where
+      <a href="../../overview/where/" class="md-nav__link">
+        Where should you create a data package?
       </a>
     </li>
   
@@ -330,8 +318,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../intro/when/" class="md-nav__link">
-        When
+      <a href="../../overview/when/" class="md-nav__link">
+        When should you start thinking about creating your data package?
       </a>
     </li>
   
@@ -344,8 +332,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../intro/how/" class="md-nav__link">
-        How
+      <a href="../../overview/how/" class="md-nav__link">
+        How should you create your data package?
       </a>
     </li>
   
@@ -929,7 +917,7 @@
 <li><strong><code>resource.id</code></strong> <em>(string)</em>: Unique ID assigned to each resource file; If using the DSC Packaging application to annotate your resource(s), these IDs will be auto-assigned when you use the Add DSC Package button above the form to add your DSC Package Directory. Auto-assignment of IDs occurs by searching the directory for any resource annotation files already saved, identifying the resource ID with the highest resource ID number, and adding 1 to that number to get the resource ID number and unique resource ID for the current resource.</li>
 <li><strong><code>path</code></strong> <em>(string)</em>: The full file path to your resource file. If you are using the DSC Packaging application and would like to use a single form to annotate multiple 'like' files, click the 'Add Multiple like Files' button above the form and drag and drop all of the like files you want to annotate together in that box. The file path for the first of the file paths you dropped in the box will be added to this field.</li>
 <li><strong><code>description</code></strong> <em>(string)</em>: A description of your resource. For resources that consist of multiple 'like' files, provide a description of the multi-file resource here and use the Resource File Description field to provide any description specific to each/any one specific file in the set.</li>
-<li><strong><code>category</code></strong> <em>(string)</em>: Broad category your resource falls into; Generally, these categories are: results, data, metadata, code. However, the actual category options parse the categories just a bit finer (e.g. options for data resources include either 'tabular-data' or 'non-tabular-data'). Must be one of: <code>["", "multi-result", "single-result", "tabular-data", "non-tabular-data", "metadata", "code"]</code>.</li>
+<li><strong><code>category</code></strong> <em>(string)</em>: Broad category your resource falls into; Generally, these categories are: results, data, metadata, code. However, the actual category options parse the categories just a bit finer (e.g. options for data resources include either 'tabular-data' or 'non-tabular-data'). Must be one of: <code>["single-result", "manuscript or report", "tabular-data", "non-tabular-data", "metadata", "code"]</code>.</li>
 <li><strong><code>exp.belongs.to</code></strong> <em>(string)</em>: If the file pertains specifically to one of the study experiments, list the experiment ID for that experiment here; If the file pertains to more than one experiment, or to all experiments/the study as a whole, leave this blank; Use the experiment ID as assigned/formatted in your Experiment Tracker file (prefix is 'exp-' followed by a number starting with 1 for the first experiment, and iterating by 1 for each successive experiment - i.e. exp-1, exp-2, etc.).</li>
 <li><strong><code>name</code></strong> <em>(string)</em>: File path stem; Auto-inferred from file path.</li>
 <li><strong><code>title</code></strong> <em>(string)</em>: Human-readable title/name of resource.</li>
@@ -947,7 +935,7 @@
 <li><strong>Items</strong> <em>(string)</em></li>
 </ul>
 </li>
-<li><strong><code>assoc.file.result.tracker</code></strong> <em>(array)</em>: For a multi-result file resource, a reference/file path to associated HEAL results tracker file - HEAL results tracker is a file that tracks each result in a multi-result file (e.g. a publication, poster, etc.), along with the data and other supporting files that underly/support each result. If you are using the DSC Packaging Desktop Application, you can head to the Result Tracker tab of the application to create a HEAL formatted result tracker for your multi-result resource file(s).<ul>
+<li><strong><code>assoc.file.result.tracker</code></strong> <em>(array)</em>: For a manuscript or report, a reference/file path to associated HEAL results tracker file - HEAL results tracker is a file that tracks each result in a publication, report or poster, along with the data and other supporting files that underly/support each result. If you are using the DSC Packaging Desktop Application, you can head to the Result Tracker tab of the application to create a HEAL formatted result tracker for your published paper or report.<ul>
 <li><strong>Items</strong> <em>(string)</em></li>
 </ul>
 </li>
@@ -955,7 +943,7 @@
 <li><strong>Items</strong> <em>(string)</em></li>
 </ul>
 </li>
-<li><strong><code>assoc.file.result.depends.on</code></strong> <em>(array)</em>: if the current resource file is a heal formatted result tracker (this tracks the single results in a multi-result file, like a publication), use this field to list each result in the tracker along with its corresponding dependencies (i.e. files the result depends on, or are necessary to make/reach/interpret the result); if documenting resources wholistically (i.e. documenting all resources related to a study), only list dependencies one layer deep; if documenting resources minimally (i.e. only documenting resources that will be publicly shared), list dependencies liberally; dependencies can be data, code, protocol, etc.<ul>
+<li><strong><code>assoc.file.result.depends.on</code></strong> <em>(array)</em>: if the current resource file is a heal formatted result tracker (this tracks the single results in a publication or report), use this field to list each result in the tracker along with its corresponding dependencies (i.e. files the result depends on, or are necessary to make/reach/interpret the result); if documenting resources wholistically (i.e. documenting all resources related to a study), only list dependencies one layer deep; if documenting resources minimally (i.e. only documenting resources that will be publicly shared), list dependencies liberally; dependencies can be data, code, protocol, etc.<ul>
 <li><strong>Items</strong> <em>(object)</em><ul>
 <li><strong><code>result.id</code></strong> <em>(string)</em></li>
 <li><strong><code>result.id.depends.on</code></strong> <em>(array)</em></li>

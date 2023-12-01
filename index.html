@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Introduction
             
           </span>
         </div>
@@ -217,7 +217,7 @@
       
       
       <a href="." class="md-nav__link md-nav__link--active">
-        
+        Introduction
       </a>
       
     </li>
@@ -241,10 +241,6 @@
       
         
           
-            
-          
-        
-          
         
           
         
@@ -258,34 +254,26 @@
         
       
       
-        
-        
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="intro/">Introduction</a>
-          
-            <label for="__nav_2">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
-          
-        </div>
+        <label class="md-nav__link" for="__nav_2">
+          Overview
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
-      <nav class="md-nav" aria-label="Introduction" data-md-level="1">
+      <nav class="md-nav" aria-label="Overview" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          Introduction
+          Overview
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-          
-            
               
   
   
   
     <li class="md-nav__item">
-      <a href="intro/who/" class="md-nav__link">
-        Who
+      <a href="overview/what/" class="md-nav__link">
+        What is a data package?
       </a>
     </li>
   
@@ -298,8 +286,8 @@
   
   
     <li class="md-nav__item">
-      <a href="intro/what/" class="md-nav__link">
-        What
+      <a href="overview/who/" class="md-nav__link">
+        Who should create a data package?
       </a>
     </li>
   
@@ -312,8 +300,8 @@
   
   
     <li class="md-nav__item">
-      <a href="intro/why/" class="md-nav__link">
-        Why
+      <a href="overview/why/" class="md-nav__link">
+        Why should you create a data package?
       </a>
     </li>
   
@@ -326,8 +314,8 @@
   
   
     <li class="md-nav__item">
-      <a href="intro/where/" class="md-nav__link">
-        Where
+      <a href="overview/where/" class="md-nav__link">
+        Where should you create a data package?
       </a>
     </li>
   
@@ -340,8 +328,8 @@
   
   
     <li class="md-nav__item">
-      <a href="intro/when/" class="md-nav__link">
-        When
+      <a href="overview/when/" class="md-nav__link">
+        When should you start thinking about creating your data package?
       </a>
     </li>
   
@@ -354,8 +342,8 @@
   
   
     <li class="md-nav__item">
-      <a href="intro/how/" class="md-nav__link">
-        How
+      <a href="overview/how/" class="md-nav__link">
+        How should you create your data package?
       </a>
     </li>
   
@@ -871,17 +859,38 @@
 
 
 <h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
-<p>This document walks through the process for creating and completing a HEAL-compliant "data package". </p>
-<p>The primary purpose of assembling a data package is to facilitate submission of shareable data and non-data supporting files to a public data repository in a manner that allows potential secondary data users to determine whether the data may be useful for their secondary analysis purposes, and to actually understand and use the data for their secondary analysis purposes. </p>
-<p>Find out more about creating a data package: </p>
-<ul>
-<li><a href="intro/who/">Who</a> should create a data package?</li>
-<li><a href="intro/what/">What</a> is a data package?</li>
-<li><a href="intro/why/">Why</a> should you create a data package?</li>
-<li><a href="intro/where/">Where</a> should you create a data package?</li>
-<li><a href="intro/when/">When</a> should you start thinking about creating your data package?</li>
-<li><a href="intro/how/">How</a> should you go about creating your data package? </li>
-</ul>
+<p>This guide describes how to create a <em>data package</em>. A data package is a
+portable archive containining research data together with the metadata,
+supporting files and documentation needed to permit someone to (re)use the
+data for a specific purpose.</p>
+<p>The focus here is on creating data packages suitable for submission to a
+public data repository to permit replication of a previous analysis and/or
+secondary analyses. Such packages include the information necessary to make
+the data <em>findable</em>, <em>accessible</em>, <em>interoperable</em> and <em>reusable</em>
+(<a href="https://www.go-fair.org/fair-principles/">FAIR</a>). In particular, they (1)
+include metadata that may be indexed and searched to permit researchers to
+find the data; (2) organize and store data and supporting files using common,
+open standards and formats that make them easy to use; and (3) include
+sufficient documentation, including information on provenance and data use
+requirements and restrictions, to permit researchers to reuse the data.</p>
+<p>Importantly, while data packages are the best way to share primary research
+data, <em>they are also useful for those who are generating data that cannot be
+shared or those working with secondary data that cannot be redistributed</em>. A
+data package provides an ideal way to organize your work locally, increasing
+the efficiency and reproducibility of your own work and facilitating
+collaboration among your team. In addition, a data package may be easily
+modified to exclude the data themselves—possibly replacing them with links to
+their sources in the case of secondary data or with synthetic data—leaving you
+with a product that can then be shared in order to document your work and
+permit other researchers to replicate your analysis.</p>
+<p>The material is organized into three main sections. The first section provides
+<a href="overview/what">a general overview</a> of data packages, including what they are,
+why they're useful, and when and how to make one. The second section is a
+<a href="fit">step-by-step tutorial</a> on making your first data package, with
+instructions tailored to your own situation based on your answers to three
+simple questions. The third section provides <a href="g-and-r">additional guidance</a> on
+specific topics as well as references to additional resources that may be
+helpful.</p>
 
 
 
@@ -903,13 +912,13 @@
       
       
         
-        <a href="intro/" class="md-footer__link md-footer__link--next" aria-label="Next: Introduction" rel="next">
+        <a href="overview/what/" class="md-footer__link md-footer__link--next" aria-label="Next: What is a data package?" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Introduction
+              What is a data package?
             </div>
           </div>
           <div class="md-footer__button md-icon">
