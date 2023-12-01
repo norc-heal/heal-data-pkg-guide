@@ -13,7 +13,7 @@ nav:
     - overview/how.md
     #- The Resource Tracker: overview/resource.md
 
-  - Your best fit:
+  - Create your data package:
     - fit/index.md
     - Best fit questions: fit/best-fit-questions.md
     - Best fit annotation recs: fit/best-fit-annotation-recs.md
@@ -22,6 +22,8 @@ nav:
     #- Early in study: fit/guidance-1.md
     #- Late in study: fit/late.md
   
+  - Prepare your data package for submission:
+    - submit/index.md
   #- Annotation: 
   #  - Annotation Approaches: annot/index.md
   #  - Wholistic vs. Minimal: annot/introholmin.md
