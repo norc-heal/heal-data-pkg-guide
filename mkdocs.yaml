@@ -41,6 +41,7 @@ nav:
       - resources/index.md
       - Metadata schemas:
         - schemas/index.md
+        - Study Overview: schemas/study-metadata-schema-for-humans.md
         - Experiment Tracker: schemas/md_experiment_tracker.md
         - Resource Tracker: schemas/md_resource_tracker.md
         - Results Tracker: schemas/md_results_tracker.md
