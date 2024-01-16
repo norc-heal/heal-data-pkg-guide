@@ -26,9 +26,7 @@ jobs:
         run: pip install requests
       - name: Sync VLMD schemas
         run: |
-          python scripts/sync_schemas.py --fork ${input_fork} --branch ${input_branch} \
-          --input-csv-docspath ${input_csv_docspath} --input-json-docspath ${input_json_docspath} \
-          --output-csv-docspath ${output_csv_docspath} --output-json-docspath ${output_json_docspath}
+          python scripts/sync_schemas.py
       - name: Commit new files
         run: |
           git config user.name ${{ github.triggering_actor }}
