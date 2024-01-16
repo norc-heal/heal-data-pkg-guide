@@ -4,8 +4,8 @@ env:
   # output_<var> where you are syncing to (ie in this repo)
   input_fork: norc-heal
   input_branch: pr-integration
-  input_csv_docspath: docs/schemas/csv-fields.md
-  input_json_docspath: docs/schemas/json-data-dictionary.md
+  input_csv_docspath: docs/vlmd/schemas/csv-fields.md
+  input_json_docspath: docs/vlmd/schemas/json-data-dictionary.md
   output_csv_docspath: docs/schemas/csv-fields.md
   output_json_docspath: docs/schemas/json-data-dictionary.md
 # Controls when the workflow will run
