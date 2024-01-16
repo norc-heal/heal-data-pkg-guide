@@ -4,7 +4,7 @@ env:
   # output_<var> where you are syncing to (ie in this repo)
   input_fork: norc-heal
   input_branch: pr-integration
-  output_branch: ${{ github.ref#refs/heads/ }}"
+  output_branch: $GITHUB_REF_NAME
   input_csv_docspath: docs/vlmd/schemas/csv-fields.md
   input_json_docspath: docs/vlmd/schemas/json-data-dictionary.md
   output_csv_docspath: docs/schemas/csv-fields.md
