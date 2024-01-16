@@ -1,9 +1,13 @@
 name: sync-healdata-utils
 env:
-  fork: norc-heal
-  branch: pr-integration
-  csv_docs_path: docs/schemas/csv-fields.md
-  json_docs_path: docs/schemas/json-data-dictionary.md
+  # input_<var> where you are syncing from (e.g., healdata-utils)
+  # output_<var> where you are syncing to (ie in this repo)
+  input_fork: norc-heal
+  input_branch: pr-integration
+  input_csv_docs_path: docs/schemas/csv-fields.md
+  input_json_docs_path: docs/schemas/json-data-dictionary.md
+  output_csv_docs_path: docs/schemas/csv-fields.md
+  output_json_docs_path: docs/schemas/json-data-dictionary.md
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -29,8 +33,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests
       - name: Sync VLMD schemas
-        run: python scripts/sync_schemas.py --fork ${fork} --branch ${branch} \
-         --csv-docs-path ${csv_docs_path} --json-docs-path ${json_docs_path}
+        run: python scripts/sync_schemas.py --fork ${input_fork} --branch ${input_branch} \
+         --input-csv-docs-path ${input_csv_docs_path} --input-json-docs-path ${input_json_docs_path} \
+         --output-csv-docs-path ${output_csv_docs_path} --output-json-docs-path ${output_json_docs_path}
       - name: Commit new files
         run: |
           git config user.name ${{ github.triggering_actor }}
