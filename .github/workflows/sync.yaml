@@ -4,10 +4,10 @@ env:
   # output_<var> where you are syncing to (ie in this repo)
   input_fork: norc-heal
   input_branch: pr-integration
-  input_csv_docspath: docs/schemas/csv-fields.md
-  input_json_docspath: docs/schemas/json-data-dictionary.md
-  output_csv_docspath: docs/schemas/csv-fields.md
-  output_json_docspath: docs/schemas/json-data-dictionary.md
+  input_csv_docs_path: docs/schemas/csv-fields.md
+  input_json_docs_path: docs/schemas/json-data-dictionary.md
+  output_csv_docs_path: docs/schemas/csv-fields.md
+  output_json_docs_path: docs/schemas/json-data-dictionary.md
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -33,15 +33,16 @@ jobs:
       - name: Install dependencies
         run: pip install requests
       - name: Sync VLMD schemas
-        run: python scripts/sync_schemas.py -f ${input_fork} -b ${input_branch} \
-         -ic ${input_csv_docspath} -ij ${input_json_docspath} \
-         -oc ${output_csv_docspath} -oj ${output_json_docspath}
+        run: |
+          python scripts/sync_schemas.py --fork ${input_fork} --branch ${input_branch} \
+          --input-csv-docspath ${input_csv_docs_path} --input-json-docspath ${input_json_docs_path} \
+          --output-csv-docspath ${output_csv_docs_path} --output-json-docspath ${output_json_docs_path}
       - name: Commit new files
         run: |
           git config user.name ${{ github.triggering_actor }}
           git config user.email ${{ github.triggering_actor }}@users.noreply.github.com
           git checkout -b update/healdata-utils-schemas
-          git add ${json_docspath} ${csv_docspath}
+          git add ${json_docs_path} ${csv_docs_path}
           git commit -m "Automated update of rendered vlmd schemas in markdown"
           git push -u origin 
 
