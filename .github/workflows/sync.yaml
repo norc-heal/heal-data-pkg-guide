@@ -1,0 +1,42 @@
+name: build
+env:
+  fork: norc-heal
+  branch: pr-integration
+  csv_docs_path: docs/schemas/csv-fields.md
+  json_docs_path: docs/schemas/json-data-dictionary.md
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  # push:
+  #   branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  sync-healdata-utils:
+    name: Sync VLMD schemas
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master branch
+        uses: actions/checkout@v3
+      - name: Install Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip' 
+      - name: Install dependencies
+        run: pip install requests
+      - name: Sync VLMD schemas
+        run: python scripts/sync_schemas.py --fork ${fork} --branch ${branch} \
+         --csv-docs-path ${csv_docs_path} --json-docs-path ${json_docs_path}
+      - name: Commit new files
+        run: |
+          git config user.name ${{ github.triggering_actor }}
+          git config user.email ${{ github.triggering_actor }}@users.noreply.github.com
+          git checkout -b update/healdata-utils-schemas
+          git add ${json_docs_path} ${csv_docs_path}
+          git commit -m "Automated update of rendered vlmd schemas in markdown"
+          git push -u origin 
+
