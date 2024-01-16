@@ -3,7 +3,7 @@ from pathlib import Path
 import pprint
 import subprocess
 import argparse
-
+import re
 
 def copy_schemas(
     fork,
@@ -26,6 +26,14 @@ def copy_schemas(
 
     Path(output_json_docspath).write_text(str(jsonmd))
     Path(output_csv_docspath).write_text(str(csvmd))
+
+    updated_mkdocs = re.sub(
+        "- Data Dictionary:.*\n",
+        f"- Data Dictionary: {output_csv_docspath.replace('docs/','')}\n",
+        Path("mkdocs.yaml").read_text())
+    
+    Path("mkdocs.yaml").write_text(updated_mkdocs)
+
 
 
 if __name__ == "__main__":
