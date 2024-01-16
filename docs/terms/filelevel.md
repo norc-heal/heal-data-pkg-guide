@@ -1,7 +1,7 @@
 
 ## Results Tracker
 
-The results tracker provider detailed information and annotation for [multi-result files](files.md#multi-result-file) (e.g., manuscript, presentation). Each multi-result file will have a corresponding results tracker. The purpose of this tracker is to track and annotate each single result (e.g., a figure or textual statement) within each multi-result file as well as the data and supporting files upone which each single result depends. Within the result tracker, each row corresponds to one result from the multi-result file. Information eabout each result includes type of result (figure or text), description, and supported claims.
+The results tracker provider detailed information and annotation for a specific publication, report or presentation. Each publication or report will have its own results tracker. The purpose of this tracker is to track and annotate each single result (e.g., a figure or textual statement) within each publication as well as the data and supporting files upone which each single result depends. Within the result tracker, each row corresponds to one result from the publication. Information eabout each result includes type of result (figure or text), description, and supported claims.
 
 Each results tracker should additionally be listed and annotated as its own row in the [resource tracker](resource.md).
 

@@ -3,18 +3,17 @@ site_name: HEAL Data Packaging
 site_url: https://norc-heal.github.io/heal-data-pkg-guide
 repo_url: https://github.com/norc-heal/heal-data-pkg-guide
 nav:
-  - "": index.md
-  - Introduction: 
-    - intro/index.md
-    - Who: intro/who.md
-    - What: intro/what.md
-    - Why: intro/why.md
-    - Where: intro/where.md
-    - When: intro/when.md
-    - How: intro/how.md
-    #- The Resource Tracker: intro/resource.md
+  - Introduction: index.md
+  - "Overview":
+    - overview/what.md
+    - overview/who.md
+    - overview/why.md
+    - overview/where.md
+    - overview/when.md
+    - overview/how.md
+    #- The Resource Tracker: overview/resource.md
 
-  - Your best fit:
+  - Create your data package:
     - fit/index.md
     - Best fit questions: fit/best-fit-questions.md
     - Best fit annotation recs: fit/best-fit-annotation-recs.md
@@ -23,6 +22,8 @@ nav:
     #- Early in study: fit/guidance-1.md
     #- Late in study: fit/late.md
   
+  - Prepare your data package for submission:
+    - submit/index.md
   #- Annotation: 
   #  - Annotation Approaches: annot/index.md
   #  - Wholistic vs. Minimal: annot/introholmin.md
@@ -40,6 +41,7 @@ nav:
       - resources/index.md
       - Metadata schemas:
         - schemas/index.md
+        - Study Overview: schemas/study-metadata-schema-for-humans.md
         - Experiment Tracker: schemas/md_experiment_tracker.md
         - Resource Tracker: schemas/md_resource_tracker.md
         - Results Tracker: schemas/md_results_tracker.md

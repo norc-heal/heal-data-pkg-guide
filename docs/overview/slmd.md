@@ -25,7 +25,7 @@
                 </li>
                 <li><b>Data sharing 'orientation' (goal)</b>: Focused on sharing items that support your published results <b>AND/OR</b> focused on sharing a useful dataset
                 <ol class="decimal">
-                    <li><b>[Results support](../terms/sharing.md#data-sharing-orientation-results-support)</b>: Top-down annotation, starting with multi-result files (e.g., pubs)</li>
+                    <li><b>[Results support](../terms/sharing.md#data-sharing-orientation-results-support)</b>: Top-down annotation, starting with a published paper or report</li>
                     <li><b>[Dataset](../terms/sharing.md#data-sharing-orientation-dataset)</b>:
                     <ol class="lower-alpha">
                         <li><b>Low accumulation</b>: Add-as-you-go annotation, ending with final dataset(s)</li>
@@ -35,7 +35,7 @@
                 </ol>
                 <li><b>Wholistic versus minimal</b>: Lists all study artefacts related to your data sharing goal(s) <b>OR</b> only study artefacts that are related to your data sharing goal(s) AND will be shared in a public repository
                 <ol class="decimal">
-                    <li><b>[Results support](../terms/sharing.md#data-sharing-orientation-results-support)</b>: Top-down annotation, starting with multi-result files (e.g., pubs)
+                    <li><b>[Results support](../terms/sharing.md#data-sharing-orientation-results-support)</b>: Top-down annotation, starting with a published paper or report
                     <ol class="lower-alpha">
                         <li><b>Wholistic annotation</b>: More work but more useful to potential secondary data users and to originating study group members</li>
                         <li><b>Minimal annotation</b>: Still incredibly useful to potentail secondary data users; minimizes work</li>

@@ -7,5 +7,5 @@
 2. If your study has a 'results-support' data sharing orientation
     <ol type="a">
         <li><b>Timing</b>: Take Decision Tree Quiz first; note recommendations from quiz regarding <i>whether</i> and <i>how</i> your study should implement the results tracker</li>
-        <li>Create one results tracker for every multi-result file that requires support</li>
+        <li>Create one results tracker for every manuscript or report that you wish to support</li>
     </ol>

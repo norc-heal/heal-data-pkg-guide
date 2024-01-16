@@ -14,7 +14,7 @@
 
 === "Results-support"
 
-    * Annotate up to and including your published/shared multi-result file(s)
-    * Include and annotate a results-tracker for each multi-result file
+    * Annotate up to and including your published manuscript or shared report
+    * Include and annotate a results-tracker for each manuscript or report
 
 
