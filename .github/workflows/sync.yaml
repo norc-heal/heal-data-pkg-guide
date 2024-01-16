@@ -4,11 +4,13 @@ env:
   # output_<var> where you are syncing to (ie in this repo)
   input_fork: norc-heal
   input_branch: pr-integration
+  output_branch: ${{ github.ref#refs/heads/ }}"
   input_csv_docspath: docs/vlmd/schemas/csv-fields.md
   input_json_docspath: docs/vlmd/schemas/json-data-dictionary.md
   output_csv_docspath: docs/schemas/csv-fields.md
   output_json_docspath: docs/schemas/json-data-dictionary.md
   commit_message: "Automated update of rendered vlmd schemas in markdown"
+  
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -33,10 +35,6 @@ jobs:
           cache: 'pip' 
       - name: Install dependencies
         run: pip install requests
-      - name: New branch
-        run: |
-          git checkout -b update/healdata-utils-schemas
-          git push --set-upstream origin update/healdata-utils-schemas
       - name: Sync VLMD schemas
         run: |
           python scripts/sync_schemas.py --fork ${input_fork} --branch ${input_branch} \
@@ -50,6 +48,8 @@ jobs:
           git commit -m ${commit_message}
           git push -u origin 
       - name: create pull request
-        run: gh pr create -B update/healdata-utils-schemas -H main --title ${commit_message} --body 'Created by Github action'
+        run: |
+          
+          gh pr create -B ${output_branch} -H main --title ${commit_message} --body 'Created by Github action'
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
