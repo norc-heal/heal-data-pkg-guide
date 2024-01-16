@@ -9,7 +9,7 @@ env:
   input_json_docspath: docs/vlmd/schemas/json-data-dictionary.md
   output_csv_docspath: docs/schemas/csv-fields.md
   output_json_docspath: docs/schemas/json-data-dictionary.md
-  commit_message: "Automated update of rendered vlmd schemas in markdown"
+  commit_message: 'Automated update of rendered vlmd schemas in markdown'
   
 # Controls when the workflow will run
 on:
