@@ -33,7 +33,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests
       - name: New branch
-        run: git checkout -b update/healdata-utils-schemas
+        run: |
+          git checkout -b update/healdata-utils-schemas
+          git push --set-upstream origin update/healdata-utils-schemas
       - name: Sync VLMD schemas
         run: |
           python scripts/sync_schemas.py --fork ${input_fork} --branch ${input_branch} \
