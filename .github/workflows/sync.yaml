@@ -44,12 +44,14 @@ jobs:
           git config user.name ${{ github.triggering_actor }}
           git config user.email ${{ github.triggering_actor }}@users.noreply.github.com
           git add .
-          commit_message ='Automated update of rendered vlmd schemas in markdown'
-          git commit -m ${commit_message}
+          git commit -m 'Automated update of rendered vlmd schemas in markdown'
           git push -u origin 
-      - name: create pull request
+      - name: create pull request to main branch
         run: |
-          pr_message = 'Automated update of rendered vlmd schemas in markdown'
-          gh pr create -B ${output_branch} -H main --title ${pr_message} --body 'Created by Github action'
+          gh pr create \
+          --head ${output_branch} \
+          --base main \
+          --title 'Automated update of rendered vlmd schemas in markdown' \
+          --body 'Created by Github action'
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
