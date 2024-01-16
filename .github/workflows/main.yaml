@@ -11,6 +11,31 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  sync:
+    name: Sync VLMD schemas
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master branch
+        uses: actions/checkout@v3
+      - name: Install Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip' 
+      - name: Install dependencies
+        run: pip install requests
+      - name: Sync VLMD schemas
+        run: |
+          python scripts/sync_schemas.py --fork ${input_fork} --branch ${input_branch} \
+          --input-csv-docspath ${input_csv_docspath} --input-json-docspath ${input_json_docspath} \
+          --output-csv-docspath ${output_csv_docspath} --output-json-docspath ${output_json_docspath}
+      - name: Commit new files
+        run: |
+          git config user.name ${{ github.triggering_actor }}
+          git config user.email ${{ github.triggering_actor }}@users.noreply.github.com
+          git add .
+          git commit -m 'Automated update of rendered vlmd schemas in markdown'
+          git push -u origin 
   build:
     name: Build and Deploy Documentation
     runs-on: ubuntu-latest
