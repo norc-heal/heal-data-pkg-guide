@@ -42,7 +42,7 @@ jobs:
           git config user.name ${{ github.triggering_actor }}
           git config user.email ${{ github.triggering_actor }}@users.noreply.github.com
           git checkout -b update/healdata-utils-schemas
-          git add ${json_docs_path} ${csv_docs_path}
+          git add ${json_docspath} ${csv_docspath}
           git commit -m "Automated update of rendered vlmd schemas in markdown"
           git push -u origin 
 
