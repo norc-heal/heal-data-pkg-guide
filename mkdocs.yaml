@@ -45,7 +45,7 @@ nav:
         - Experiment Tracker: schemas/md_experiment_tracker.md
         - Resource Tracker: schemas/md_resource_tracker.md
         - Results Tracker: schemas/md_results_tracker.md
-        - Data Dictionary: schemas/jsonschema-csvtemplate-fields_v3_manual_edits.md
+        - Data Dictionary: schemas/md_data_dictionary_fields.md
 
       
   
