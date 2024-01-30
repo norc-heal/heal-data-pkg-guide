@@ -41,11 +41,11 @@ nav:
       - resources/index.md
       - Metadata schemas:
         - schemas/index.md
-        - Study Overview: schemas/study-metadata-schema-for-humans.md
+        - Study Overview: schemas/md_study_overview.md
         - Experiment Tracker: schemas/md_experiment_tracker.md
         - Resource Tracker: schemas/md_resource_tracker.md
         - Results Tracker: schemas/md_results_tracker.md
-        - Data Dictionary: schemas/jsonschema-csvtemplate-fields_v3_manual_edits.md
+        - Data Dictionary: schemas/md_data_dictionary_fields.md
 
       
   
@@ -113,6 +113,7 @@ plugins:
   - search
   - mkdocs-video:
       is_video: True
+  - external-markdown
 
 # TODO: add footer (this may be included in the custom jinja template?)
 #    [![](img/gen3.png)](https://ctds.uchicago.edu/gen3)[![](img/createdby.png)](https://ctds.uchicago.edu/)
