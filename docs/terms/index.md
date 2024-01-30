@@ -194,7 +194,7 @@ Please follow the links below for additional information on:
 * [Standard data package metadata files - File-level](#standard-data-package-metadata-file-level)
 * [Data Dictionary overview](#data-dictionary)
 * [Data Dictionary csv template](../csv-templates/heal-csv-data-dictionary.csv)
-* [Data Dictionary schema/field definitions](../schemas/jsonschema-csvtemplate-fields_v3_manual_edits.md)
+* [Data Dictionary schema/field definitions](../schemas/md_data_dictionary_fields.md)
 
 </div>
 
