@@ -151,7 +151,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/md_data_dictionary_fields/</loc>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/md_data_dictionary/</loc>
          <lastmod>2024-02-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -172,6 +172,26 @@
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/md_study_overview/</loc>
+         <lastmod>2024-02-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/archive/jsonschema-csvtemplate-fields/</loc>
+         <lastmod>2024-02-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/archive/jsonschema-csvtemplate-fields_v2/</loc>
+         <lastmod>2024-02-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/archive/jsonschema-csvtemplate-fields_v3/</loc>
+         <lastmod>2024-02-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/archive/jsonschema-csvtemplate-fields_v3_manual_edits/</loc>
          <lastmod>2024-02-05</lastmod>
          <changefreq>daily</changefreq>
     </url>

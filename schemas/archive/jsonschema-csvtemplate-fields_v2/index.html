@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://norc-heal.github.io/heal-data-pkg-guide/section3/orient/orient/">
+        <link rel="canonical" href="https://norc-heal.github.io/heal-data-pkg-guide/schemas/archive/jsonschema-csvtemplate-fields_v2/">
       
       <link rel="icon" href="../../../assets/heal_logo.png">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.3">
     
     
       
-        <title>Orient - HEAL Data Packaging</title>
+        <title>HEAL Variable Level Metadata Fields - HEAL Data Packaging</title>
       
     
     
@@ -65,6 +65,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#heal-variable-level-metadata-fields" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -93,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Orient
+              HEAL Variable Level Metadata Fields
             
           </span>
         </div>
@@ -714,7 +719,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../../schemas/">Metadata schemas</a>
+          <a href="../../">Metadata schemas</a>
           
             <label for="__nav_5_3_2">
               <span class="md-nav__icon md-icon"></span>
@@ -737,7 +742,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../schemas/md_study_overview/" class="md-nav__link">
+      <a href="../../md_study_overview/" class="md-nav__link">
         Study Overview
       </a>
     </li>
@@ -751,7 +756,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../schemas/md_experiment_tracker/" class="md-nav__link">
+      <a href="../../md_experiment_tracker/" class="md-nav__link">
         Experiment Tracker
       </a>
     </li>
@@ -765,7 +770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../schemas/md_resource_tracker/" class="md-nav__link">
+      <a href="../../md_resource_tracker/" class="md-nav__link">
         Resource Tracker
       </a>
     </li>
@@ -779,7 +784,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../schemas/md_results_tracker/" class="md-nav__link">
+      <a href="../../md_results_tracker/" class="md-nav__link">
         Results Tracker
       </a>
     </li>
@@ -793,7 +798,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../schemas/md_data_dictionary_fields.md" class="md-nav__link">
+      <a href="../../md_data_dictionary_fields.md" class="md-nav__link">
         Data Dictionary
       </a>
     </li>
@@ -882,6 +887,23 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -895,55 +917,264 @@
                 
                   
 
-  <a href="https://github.com/norc-heal/heal-data-pkg-guide/edit/master/docs/section3/orient/orient.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/norc-heal/heal-data-pkg-guide/edit/master/docs/schemas/archive/jsonschema-csvtemplate-fields_v2.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-  <h1>Orient</h1>
-
-<p>Determining what your goals are for data sharing will help guide you in determing what you will include in your future data package and how you will annotate the data and non-data/supporting documents in your data package.</p>
-<p>People will have different goals in sharing their study data, which can be dictated by a number of factors such as the nature of the data, resource and time constraints, and investigator preference. </p>
-<p>There are three main orientations. You do not have to pick just one of these orientations, although results-support is more likely to stand alone. For example, investigators may be interested in sharing a specific dataset in addition to data on their materials and methods. See more about each data sharing orientation below.</p>
-<details>
-<summary> Results-support</summary>
-
-    This orientation is for investigators who are interested only in fulfilling the requirement to share the data that is necessary to reproduce their results.
-    <br> <br>
-        <i>Example</i><br>
-         Your study is complete, and you have very limited time or resources budgeted for data sharing. You have published a manuscript on your results or are in the process of submitting one. You want to fulfill the minimum data sharing requirements, so you will only share the data required to reproduce the manuscript results.
-    <br>
-    <br>
-    If this best describes your data sharing orientation, click [here](resultsupp.md).
-
-</details>
-
-<details>
-<summary> Dataset-oriented</summary>
-
-    This orientation is for investigators who are interested in sharing a specific set of data or as much data as possible so that other researchers can get additional value from them, such as conducting additional research and analyes beyond the original study's focus.
-    <br> <br>
-        <i>Example</i><br>
-       Your study is collecting RNA expression data. You are only focusing on a small subset of the collected data for your study, but you would like to be able to share as much of this data as possible so that other investigators can comb through the rich data for other analyses and insight.
-    <br>
-    <br>
-    If this best describes your data sharing orientation, click here.
-
-</details>
-
-<details>
-<summary> Materials- and methods-oriented</summary>
-
-    This orientation is for investigators who are inteersted in sharing inforamtion about their materials and methods that would allow others to reproduce or build upon them in future research.
-    <br> <br>
-        <i>Example</i><br>
-       Your study is building an organ-on-a-chip model. You want to share information about the formulation of the chip and results demonstrating that the chip performs similarly as the organ in vivo, so that other investigators can understand the process and reassemble and build upon your successful model in future research.
-    <br>
-    <br>
-    If this best describes your data sharing orientation, click here.
-
-</details>
+<h1 id="heal-variable-level-metadata-fields">HEAL Variable Level Metadata Fields<a class="headerlink" href="#heal-variable-level-metadata-fields" title="Permanent link">&para;</a></h1>
+<p>*Variable level metadata individual fields integrated into the variable level
+metadata object within the HEAL platform metadata service.</p>
+<blockquote>
+<p>Note, only <code>name</code> and <code>description</code> are required.
+ Listed at the end of the description are suggested "priority" levels in brackets (e.g., [<priority>]):
+  1. [Required]: Needs to be filled out to be valid.
+  2. [Highly recommended]: Greatly help using the data dictionary but not required. 
+  3. [Optional, if applicable]: May only be applicable to certain fields.
+  4. [Autopopulated, if not filled]: These fields are intended to be autopopulated from other fields but can be filled out if desired.
+  5. [Experimental]: These fields are not currently used but are in development.
+*</p>
+</blockquote>
+<h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong><code>module</code></strong> <em>(string)</em>: The section, form, survey instrument, set of measures  or other broad category used 
+to group variables.</li>
+</ul>
+<p>Examples:
+  <div class="highlight"><pre><span></span><code><span class="s2">&quot;Demographics&quot;</span><span class="w"></span>
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;PROMIS&quot;</span><span class="w"></span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;Substance use&quot;</span><span class="w"></span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;Medical History&quot;</span><span class="w"></span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;Sleep questions&quot;</span><span class="w"></span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;Physical activity&quot;</span><span class="w"></span>
+</code></pre></div>
+<ul>
+<li><strong><code>name</code></strong> <em>(string)</em>: The name of a variable (i.e., field) as it appears in the data. <br>  [Required]
+.</li>
+<li><strong><code>title</code></strong> <em>(string)</em>: The human-readable title or label of the variable. <br>  [Highly recommended]
+.</li>
+</ul>
+<p>Examples:
+  <div class="highlight"><pre><span></span><code><span class="s2">&quot;My Variable&quot;</span><span class="w"></span>
+</code></pre></div></p>
+<ul>
+<li><strong><code>description</code></strong> <em>(string)</em>: An extended description of the variable. This could be the definition of a variable or the 
+question text (e.g., if a survey). <br>  [Required]
+.</li>
+</ul>
+<p>Examples:
+  <div class="highlight"><pre><span></span><code><span class="s2">&quot;Definition&quot;</span><span class="w"></span>
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;Question text (if a survey)&quot;</span><span class="w"></span>
+</code></pre></div>
+<ul>
+<li><strong><code>type</code></strong> <em>(string)</em>: A classification or category of a particular data element or property expected or allowed in the dataset.<br>  Definitions:<br>  -  <code>number</code> (A numeric value with optional decimal places. (e.g., 3.14))</li>
+<li><code>integer</code> (A whole number without decimal places. (e.g., 42))</li>
+<li><code>string</code> (A sequence of characters. (e.g., \"test\"))</li>
+<li><code>any</code> (Any type of data is allowed. (e.g., true))</li>
+<li><code>boolean</code> (A binary value representing true or false. (e.g., true))</li>
+<li><code>date</code> (A specific calendar date. (e.g., \"2023-05-25\"))</li>
+<li><code>datetime</code> (A specific date and time, including timezone information. (e.g., \"2023-05-25T10:30:00Z\"))</li>
+<li><code>time</code> (A specific time of day. (e.g., \"10:30:00\"))</li>
+<li><code>year</code> (A specific year. (e.g., 2023)</li>
+<li><code>yearmonth</code> (A specific year and month. (e.g., \"2023-05\"))</li>
+<li><code>duration</code> (A length of time. (e.g., \"PT1H\")</li>
+<li><code>geopoint</code> (A pair of latitude and longitude coordinates. (e.g., [51.5074, -0.1278]))
+. Must be one of: <code>["number", "integer", "string", "any", "boolean", "date", "datetime", "time", "year", "yearmonth", "duration", "geopoint"]</code>.</li>
+<li><strong><code>formats</code></strong>: Indicates the format of the type specified in the <code>type</code> property.<br>  Each format is dependent on the <code>type</code> specified. For example:
+If <code>type</code> is "string", then see the String formats. 
+If <code>type</code> is one of the date-like formats, then see Date formats.<br>  Sources:<br>  - <a href="https://specs.frictionlessdata.io/table-schema/#types-and-formats">Frictionless standard formats associated with types</a>
+.</li>
+<li>
+<p><strong>Any of</strong></p>
+<ul>
+<li>String formats (<em>string</em>): A format for a specialized type of string of:<br>      </li>
+<li>"<code>email</code> if valid emails (e.g., test@gmail.com)"</li>
+<li>"<code>uri</code> if valid uri addresses (e.g., https://example.com/resource123)"</li>
+<li>"<code>binary</code> if a base64 binary encoded string (e.g., authentication token like aGVsbG8gd29ybGQ=)"</li>
+<li>
+<p>"<code>uuid</code> if a universal unique identifier also known as a guid (eg., f47ac10b-58cc-4372-a567-0e02b2c3d479)"</p>
+</li>
+<li>
+<p>Date formats (<em>string</em>): A format for a date variable (<code>date</code>,<code>time</code>,<code>datetime</code>).<br />
+<strong>default</strong>: An ISO8601 format string.
+    <strong>any</strong>: Any parsable representation of a date/time/datetime. The implementing library can attempt to parse the datetime via a range of strategies.<br>      <strong>{PATTERN}</strong>: The value can be parsed according to <code>{PATTERN}</code>,
+which <code>MUST</code> follow the date formatting syntax of 
+C / Python <a href="http://strftime.org/">strftime</a> such as:<br>      - "<code>%Y-%m-%d</code> (for date, e.g., 2023-05-25)"</p>
+</li>
+<li>"<code>%Y%-%d</code> (for date, e.g., 20230525) for date without dashes"</li>
+<li>"<code>%Y-%m-%dT%H:%M:%S</code> (for datetime, e.g., 2023-05-25T10:30:45)"</li>
+<li>"<code>%Y-%m-%dT%H:%M:%SZ</code> (for datetime with UTC timezone, e.g., 2023-05-25T10:30:45Z)"</li>
+<li>"<code>%Y-%m-%dT%H:%M:%S%z</code> (for datetime with timezone offset, e.g., 2023-05-25T10:30:45+0300)"</li>
+<li>"<code>%Y-%m-%dT%H:%M</code> (for datetime without seconds, e.g., 2023-05-25T10:30)"</li>
+<li>"<code>%Y-%m-%dT%H</code> (for datetime without minutes and seconds, e.g., 2023-05-25T10)"</li>
+<li><code>%H:%M:%S</code> (for time, e.g., 10:30:45)"</li>
+<li><code>%H:%M:%SZ</code> (for time with UTC timezone, e.g., 10:30:45Z)"</li>
+<li><code>%H:%M:%S%z</code> (for time with timezone offset, e.g., 10:30:45+0300)"
+.</li>
+<li>Geopoint Formats (<em>string</em>): The two types of formats for <code>geopoint</code> (describing a geographic point).<br></li>
+<li><code>array</code> (if 'lat,long' (e.g., 36.63,-90.20))</li>
+<li>
+<p><code>object</code> (if {'lat':36.63,'lon':-90.20})
+  . Must be one of: <code>["array", "object"]</code>.</p>
+</li>
+<li>
+<p>Geojson Formats (<em>string</em>): The JSON object according to the geojson spec. Must be one of: <code>["topojson", "default"]</code>.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong><code>constraints.maxLength</code></strong> <em>(integer)</em>: Indicates the maximum length of an iterable (e.g., array, string, or
+object). For example, if 'Hello World' is the longest value of a
+categorical variable, this would be a maxLength of 11.<br>  [Optional,if applicable]
+.</p>
+</li>
+<li><strong><code>constraints.enum</code></strong> <em>(string)</em>: Constrains possible values to a set of values.<br>  [Optional,if applicable]
+.</li>
+<li><strong><code>constraints.pattern</code></strong> <em>(string)</em>: A regular expression pattern the data MUST conform to.<br>  [Optional,if applicable]
+.</li>
+<li><strong><code>constraints.maximum</code></strong> <em>(integer)</em>: Specifies the maximum value of a field (e.g., maximum -- or most
+recent -- date, maximum integer etc). Note, this is different then
+maxLength property.<br>  [Optional,if applicable]
+.</li>
+<li><strong><code>constraints.minimum</code></strong> <em>(integer)</em>: Specifies the minimum value of a field.<br>  [Optional,if applicable]
+.</li>
+<li><strong><code>encodings</code></strong> <em>(string)</em>: Variable value encodings provide a way to further annotate any value within a any variable type,
+making values easier to understand. <br><br />
+Many analytic software programs (e.g., SPSS,Stata, and SAS) use numerical encodings and some algorithms
+only support numerical values. Encodings (and mappings) allow categorical values to be stored as
+numerical values.<br>  Additionally, as another use case, this field provides a way to
+store categoricals that are stored as  "short" labels (such as
+abbreviations).<br>  [Optional,if applicable]
+.</li>
+</ul>
+<p>Examples:
+  <div class="highlight"><pre><span></span><code><span class="s2">&quot;0=No|1=Yes&quot;</span><span class="w"></span>
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;HW=Hello world|GBW=Good bye world|HM=Hi,Mike&quot;</span><span class="w"></span>
+</code></pre></div>
+<ul>
+<li><strong><code>ordered</code></strong> <em>(boolean)</em>: Indicates whether a categorical variable is ordered. This variable  is
+relevant for variables that have an ordered relationship but not
+necessarily  a numerical relationship (e.g., Strongly disagree &lt; Disagree
+&lt; Neutral &lt; Agree).<br>  [Optional,if applicable]
+.</li>
+<li><strong><code>missingValues</code></strong> <em>(string)</em>: A list of missing values specific to a variable.<br>  [Optional, if applicable]
+.</li>
+</ul>
+<p>Examples:
+  <div class="highlight"><pre><span></span><code><span class="s2">&quot;Missing|Skipped|No preference&quot;</span><span class="w"></span>
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;\&quot;\&quot;&quot;</span><span class="w"></span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;NA&quot;</span><span class="w"></span>
+</code></pre></div>
+<ul>
+<li><strong><code>trueValues</code></strong> <em>(string)</em>: For boolean (true) variable (as defined in type field), this field allows
+a physical string representation to be cast as true (increasing
+readability of the field). It can include one or more values.<br>  [Optional, if applicable]
+.</li>
+</ul>
+<p>Examples:
+  <div class="highlight"><pre><span></span><code><span class="s2">&quot;Required|REQUIRED&quot;</span><span class="w"></span>
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;required|Yes|Y|Checked&quot;</span><span class="w"></span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;Checked&quot;</span><span class="w"></span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;Required&quot;</span><span class="w"></span>
+</code></pre></div>
+<ul>
+<li>
+<p><strong><code>falseValues</code></strong> <em>(string)</em>: For boolean (false) variable (as defined in type field), this field allows
+a physical string representation to be cast as false (increasing
+readability of the field) that is not a standard false value. It can include one or more values.</p>
+</li>
+<li>
+<p><strong><code>repo_link</code></strong> <em>(string)</em>: A link to the variable as it exists on the home repository, if applicable
+.</p>
+</li>
+<li><strong><code>standardsMappings.type</code></strong> <em>(string)</em>: The <strong>type</strong> of mapping linked to a published set of standard variables such as the NIH Common Data Elements program.
+[Autopopulated, if not filled]
+.</li>
+</ul>
+<p>Examples:
+  <div class="highlight"><pre><span></span><code><span class="s2">&quot;cde&quot;</span><span class="w"></span>
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;ontology&quot;</span><span class="w"></span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;reference_list&quot;</span><span class="w"></span>
+</code></pre></div>
+<ul>
+<li><strong><code>standardsMappings.label</code></strong> <em>(string)</em>: A free text <strong>label</strong> of a mapping indicating a mapping(s) to a published set of standard variables such as the NIH Common Data Elements program.<br>  [Autopopulated, if not filled]
+.</li>
+</ul>
+<p>Examples:
+  <div class="highlight"><pre><span></span><code><span class="s2">&quot;substance use&quot;</span><span class="w"></span>
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;chemical compound&quot;</span><span class="w"></span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;promis&quot;</span><span class="w"></span>
+</code></pre></div>
+<ul>
+<li><strong><code>standardsMappings.url</code></strong> <em>(string, format: uri)</em>: The url that links out to the published, standardized mapping.<br>  [Autopopulated, if not filled]
+.</li>
+</ul>
+<p>Examples:
+  <div class="highlight"><pre><span></span><code><span class="s2">&quot;https://cde.nlm.nih.gov/deView?tinyId=XyuSGdTTI&quot;</span><span class="w"></span>
+</code></pre></div></p>
+<ul>
+<li><strong><code>standardsMappings.source</code></strong> <em>(string)</em>: The source of the standardized variable.</li>
+</ul>
+<p>Examples:
+  <div class="highlight"><pre><span></span><code><span class="s2">&quot;TBD (will have controlled vocabulary)&quot;</span><span class="w"></span>
+</code></pre></div></p>
+<ul>
+<li>
+<p><strong><code>standardsMappings.id</code></strong> <em>(string)</em>: The id locating the individual mapping within the given source.</p>
+</li>
+<li>
+<p><strong><code>relatedConcepts.type</code></strong> <em>(string)</em>: The <strong>type</strong> of mapping to a published set of concepts related to the given field such as 
+ontological information (eg., NCI thesaurus, bioportal etc)<br>  [Autopopulated, if not filled]
+.</p>
+</li>
+<li><strong><code>relatedConcepts.label</code></strong> <em>(string)</em>: A free text <strong>label</strong> of mapping to a published set of concepts related to the given field such as 
+ontological information (eg., NCI thesaurus, bioportal etc)<br>  [Autopopulated, if not filled]
+.</li>
+<li><strong><code>relatedConcepts.url</code></strong> <em>(string, format: uri)</em>: The url that links out to the published, standardized concept.<br>  [Autopopulated, if not filled]
+.</li>
+</ul>
+<p>Examples:
+  <div class="highlight"><pre><span></span><code><span class="s2">&quot;https://cde.nlm.nih.gov/deView?tinyId=XyuSGdTTI&quot;</span><span class="w"></span>
+</code></pre></div></p>
+<ul>
+<li><strong><code>relatedConcepts.source</code></strong> <em>(string)</em>: The source of the related concept.<br>  [Autopopulated, if not filled]
+.</li>
+</ul>
+<p>Examples:
+  <div class="highlight"><pre><span></span><code><span class="s2">&quot;TBD (will have controlled vocabulary)&quot;</span><span class="w"></span>
+</code></pre></div></p>
+<ul>
+<li><strong><code>relatedConcepts.id</code></strong> <em>(string)</em>: The id locating the individual mapping within the given source.<br>  [Autopopulated, if not filled]
+.</li>
+<li><strong><code>univarStats.median</code></strong> <em>(number)</em></li>
+<li><strong><code>univarStats.mean</code></strong> <em>(number)</em></li>
+<li><strong><code>univarStats.std</code></strong> <em>(number)</em></li>
+<li><strong><code>univarStats.min</code></strong> <em>(number)</em></li>
+<li><strong><code>univarStats.max</code></strong> <em>(number)</em></li>
+<li><strong><code>univarStats.mode</code></strong> <em>(number)</em></li>
+<li><strong><code>univarStats.count</code></strong> <em>(integer)</em>: Minimum: <code>0</code>.</li>
+<li><strong><code>univarStats.twentyFifthPercentile</code></strong> <em>(number)</em></li>
+<li><strong><code>univarStats.seventyFifthPercentile</code></strong> <em>(number)</em></li>
+<li><strong><code>univarStats.categoricalMarginals.name</code></strong> <em>(string)</em></li>
+<li><strong><code>univarStats.categoricalMarginals.count</code></strong> <em>(integer)</em></li>
+</ul>
 
 
 
