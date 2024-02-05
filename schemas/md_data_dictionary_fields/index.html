@@ -851,20 +851,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#type-enum-definitions" class="md-nav__link">
-    type enum definitions:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#format-examplesdefinitions-of-patterns-and-possible-values" class="md-nav__link">
-    format examples/definitions of patterns and possible values:
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -978,20 +964,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#type-enum-definitions" class="md-nav__link">
-    type enum definitions:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#format-examplesdefinitions-of-patterns-and-possible-values" class="md-nav__link">
-    format examples/definitions of patterns and possible values:
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1031,8 +1003,10 @@ packaging guidance version.
 <li><code>type</code> and <code>format</code> properties may be particularly useful for some variable types (e.g. date-like variables)</li>
 </ul>
 <h2 id="properties-ie-fields-or-variables">Properties (i.e., fields or variables)<a class="headerlink" href="#properties-ie-fields-or-variables" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
 <p><strong><code>schemaVersion</code></strong> <em>(string)</em>
- The version of the schema used in agreed upon convention of major.minor.path (e.g., 1.0.2) </p>
+     The version of the schema used in agreed upon convention of major.minor.path (e.g., 1.0.2) </p>
 <p>NOTE: This is NOT for versioning of each indiviual data dictionary instance. 
 Rather, it is the
 version of THIS schema document. See <code>version</code> property (below) if specifying the individual data dictionary instance
@@ -1045,10 +1019,11 @@ every row/record to indicate this is a schema level property
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  0.2.0
 </code></pre></div>
-<hr />
+</li>
+<li>
 <p><strong><code>section</code></strong> <em>(string)</em>
- The section, form, survey instrument, set of measures  or other broad category used 
-to group variables. Previously called "module."</p>
+     The section, form, survey instrument, set of measures  or other broad category used 
+    to group variables. Previously called "module."</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  Demographics
 </code></pre></div>
@@ -1056,70 +1031,82 @@ to group variables. Previously called "module."</p>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  Medical History
 </code></pre></div>
-<hr />
+</li>
+<li>
 <p><strong><code>name</code></strong> <em>(string,required)</em>
- The name of a variable (i.e., field) as it appears in the data. </p>
+     The name of a variable (i.e., field) as it appears in the data. </p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  gender_id
 </code></pre></div>
-<hr />
+</li>
+<li>
 <p><strong><code>title</code></strong> <em>(string)</em>
- The human-readable title or label of the variable.</p>
+     The human-readable title or label of the variable.</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  Gender identity
 </code></pre></div>
-<hr />
+</li>
+<li>
 <p><strong><code>description</code></strong> <em>(string,required)</em>
- An extended description of the variable. This could be the definition of a variable or the 
-question text (e.g., if a survey). </p>
+     An extended description of the variable. This could be the definition of a variable or the 
+    question text (e.g., if a survey). </p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  The participant&#39;s age at the time of study enrollment
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  What is the highest grade or level of school you have completed or the highest degree you have received?
 </code></pre></div>
-<hr />
+</li>
+<li>
 <p><strong><code>type</code></strong> <em>(string)</em>
- A classification or category of a particular data element or property expected or allowed in the dataset.</p>
+     A classification or category of a particular data element or property expected or allowed in the dataset.</p>
 <p>Must be one of: <code>number</code>, <code>integer</code>, <code>string</code>, <code>any</code>, <code>boolean</code>, <code>date</code>, <code>datetime</code>, <code>time</code>, <code>year</code>, <code>yearmonth</code>, <code>duration</code>, <code>geopoint</code></p>
-<hr />
+</li>
+<li>
 <p><strong><code>format</code></strong> <em>(string)</em>
- Indicates the format of the type specified in the <code>type</code> property. 
-Each format is dependent on the <code>type</code> specified. 
-See <a href="https://specs.frictionlessdata.io/table-schema/#types-and-formats">here</a> 
-for more information about appropriate <code>format</code> values by variable <code>type</code>.</p>
-<hr />
+     Indicates the format of the type specified in the <code>type</code> property. 
+    Each format is dependent on the <code>type</code> specified. 
+    See <a href="https://specs.frictionlessdata.io/table-schema/#types-and-formats">here</a> 
+    for more information about appropriate <code>format</code> values by variable <code>type</code>.</p>
+</li>
+<li>
 <p><strong><code>constraints.required</code></strong> <em>(boolean)</em>
- If this variable is marked as true, then this variable's value must be present
-(ie not missing; see missingValues). If marked as false or not present, then the 
-variable CAN be missing.</p>
-<hr />
+     If this variable is marked as true, then this variable's value must be present
+    (ie not missing; see missingValues). If marked as false or not present, then the 
+    variable CAN be missing.</p>
+</li>
+<li>
 <p><strong><code>constraints.maxLength</code></strong> <em>(integer)</em>
- Indicates the maximum length of an iterable (e.g., array, string, or
-object). For example, if 'Hello World' is the longest value of a
-categorical variable, this would be a maxLength of 11.</p>
-<hr />
+     Indicates the maximum length of an iterable (e.g., array, string, or
+    object). For example, if 'Hello World' is the longest value of a
+    categorical variable, this would be a maxLength of 11.</p>
+</li>
+<li>
 <p><strong><code>constraints.enum</code></strong> <em>(string)</em>
- Constrains possible values to a set of values.</p>
+     Constrains possible values to a set of values.</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  1|2|3|4|5
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  Poor|Fair|Good|Very good|Excellent
 </code></pre></div>
-<hr />
+</li>
+<li>
 <p><strong><code>constraints.pattern</code></strong> <em>(string)</em>
- A regular expression pattern the data MUST conform to.</p>
-<hr />
+     A regular expression pattern the data MUST conform to.</p>
+</li>
+<li>
 <p><strong><code>constraints.maximum</code></strong> <em>(integer)</em>
- Specifies the maximum value of a field (e.g., maximum -- or most
-recent -- date, maximum integer etc). Note, this is different then
-maxLength property.</p>
-<hr />
+     Specifies the maximum value of a field (e.g., maximum -- or most
+    recent -- date, maximum integer etc). Note, this is different then
+    maxLength property.</p>
+</li>
+<li>
 <p><strong><code>constraints.minimum</code></strong> <em>(integer)</em>
- Specifies the minimum value of a field.</p>
-<hr />
+     Specifies the minimum value of a field.</p>
+</li>
+<li>
 <p><strong><code>enumLabels</code></strong> <em>(string)</em>
- Variable value encodings provide a way to further annotate any value within a any variable type,
-making values easier to understand. </p>
+     Variable value encodings provide a way to further annotate any value within a any variable type,
+    making values easier to understand. </p>
 <p>Many analytic software programs (e.g., SPSS,Stata, and SAS) use numerical encodings and some algorithms
 only support numerical values. Encodings (and mappings) allow categorical values to be stored as
 numerical values.</p>
@@ -1132,212 +1119,155 @@ abbreviations).</p>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  HW=Hello world|GBW=Good bye world|HM=Hi, Mike
 </code></pre></div>
-<hr />
+</li>
+<li>
 <p><strong><code>enumOrdered</code></strong> <em>(boolean)</em>
- Indicates whether a categorical variable is ordered. This variable  is
-relevant for variables that have an ordered relationship but not
-necessarily  a numerical relationship (e.g., Strongly disagree &lt; Disagree
-&lt; Neutral &lt; Agree).</p>
+     Indicates whether a categorical variable is ordered. This variable  is
+    relevant for variables that have an ordered relationship but not
+    necessarily  a numerical relationship (e.g., Strongly disagree &lt; Disagree
+    &lt; Neutral &lt; Agree).</p>
 <p>This field is intended to follow the ordering aspect of this [this pattern]<a href="https://specs.frictionlessdata.io/patterns/#table-schema-enum-labels-and-ordering">this pattern</a></p>
-<hr />
+</li>
+<li>
 <p><strong><code>missingValues</code></strong> <em>(string)</em>
- A list of missing values specific to a variable.</p>
+     A list of missing values specific to a variable.</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  Missing|Skipped|No preference
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  Missing
 </code></pre></div>
-<hr />
+</li>
+<li>
 <p><strong><code>trueValues</code></strong> <em>(string)</em>
- For boolean (true) variable (as defined in type field), this field allows
-a physical string representation to be cast as true (increasing
-readability of the field). It can include one or more values.</p>
+     For boolean (true) variable (as defined in type field), this field allows
+    a physical string representation to be cast as true (increasing
+    readability of the field). It can include one or more values.</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  required|Yes|Checked
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  required
 </code></pre></div>
-<hr />
+</li>
+<li>
 <p><strong><code>falseValues</code></strong> <em>(string)</em>
- For boolean (false) variable (as defined in type field), this field allows
-a physical string representation to be cast as false (increasing
-readability of the field) that is not a standard false value. It can include one or more values.</p>
+     For boolean (false) variable (as defined in type field), this field allows
+    a physical string representation to be cast as false (increasing
+    readability of the field) that is not a standard false value. It can include one or more values.</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  Not required|NOT REQUIRED
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  No
 </code></pre></div>
-<hr />
+</li>
+<li>
 <p><strong><code>custom</code></strong> <em>(string)</em>
- Additional properties not included a core property. </p>
-<hr />
-<p><strong><code>standardsMappings[</code>number<code>].instrument.url</code></strong> <em>(string)</em>
- A url (e.g., link, address) to a file or other resource containing the instrument, or
-a set of items which encompass a variable in this variable level metadata document (if at the root level or the document level) 
-or the individual variable (if at the field level). </p>
-<p>Specifying field names:</p>
-<p>This field can have 1 or more columns using the digit index number in brackets (<code>[0]</code> --&gt; <code>[1]</code> --&gt; <code>[n]</code>)</p>
-<p>For 1 value, you will have the field (column) names:
-<code>standardsMappings[0].instrument.url</code></p>
-<p>For 3 values, you will have the field (column) names:
-<code>standardsMappings[0].instrument.url</code>   <code>standardsMappings[1].instrument.url</code>   <code>standardsMappings[2].instrument.url</code></p>
+     Additional properties not included a core property. </p>
+</li>
+<li>
+<p><strong><code>standardsMappings[0].instrument.url</code></strong> <em>(string)</em>
+     A url (e.g., link, address) to a file or other resource containing the instrument, or
+    a set of items which encompass a variable in this variable level metadata document (if at the root level or the document level) 
+    or the individual variable (if at the field level). </p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  https://www.heal.nih.gov/files/CDEs/2023-05/adult-demographics-cdes.xlsx
 </code></pre></div>
-<hr />
-<p><strong><code>standardsMappings[</code>number<code>].instrument.source</code></strong> <em>(string)</em>
- An abbreviated name/acronym from a controlled vocabulary referencing the resource (e.g., program or repository)
-containing the instrument, or a set of items which encompass a variable in this variable level metadata document (if at the root level or the document level) 
-or the individual variable (if at the field level). </p>
-<p>Specifying field names:</p>
-<p>This field can have 1 or more columns using the digit index number in brackets (<code>[0]</code> --&gt; <code>[1]</code> --&gt; <code>[n]</code>)</p>
-<p>For 1 value, you will have the field (column) names:
-<code>standardsMappings[0].instrument.source</code></p>
-<p>For 3 values, you will have the field (column) names:
-<code>standardsMappings[0].instrument.source</code>    <code>standardsMappings[1].instrument.source</code>    <code>standardsMappings[2].instrument.source</code></p>
+</li>
+<li>
+<p><strong><code>standardsMappings[0].instrument.source</code></strong> <em>(string)</em>
+     An abbreviated name/acronym from a controlled vocabulary referencing the resource (e.g., program or repository)
+    containing the instrument, or a set of items which encompass a variable in this variable level metadata document (if at the root level or the document level) 
+    or the individual variable (if at the field level). </p>
 <p>Must be one of: <code>heal-cde</code></p>
-<hr />
-<p><strong><code>standardsMappings[</code>number<code>].instrument.title</code></strong> <em>(string)</em></p>
-<p>Specifying field names:</p>
-<p>This field can have 1 or more columns using the digit index number in brackets (<code>[0]</code> --&gt; <code>[1]</code> --&gt; <code>[n]</code>)</p>
-<p>For 1 value, you will have the field (column) names:
-<code>standardsMappings[0].instrument.title</code></p>
-<p>For 3 values, you will have the field (column) names:
-<code>standardsMappings[0].instrument.title</code> <code>standardsMappings[1].instrument.title</code> <code>standardsMappings[2].instrument.title</code></p>
+</li>
+<li>
+<p><strong><code>standardsMappings[0].instrument.title</code></strong> <em>(string)</em></p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  Adult demographics
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  adult-demographics
 </code></pre></div>
-<hr />
-<p><strong><code>standardsMappings[</code>number<code>].instrument.id</code></strong> <em>(string)</em>
- A code or other string that identifies the instrument within the source.
-This should always be from the source's formal, standardized identification system </p>
-<p>Specifying field names:</p>
-<p>This field can have 1 or more columns using the digit index number in brackets (<code>[0]</code> --&gt; <code>[1]</code> --&gt; <code>[n]</code>)</p>
-<p>For 1 value, you will have the field (column) names:
-<code>standardsMappings[0].instrument.id</code></p>
-<p>For 3 values, you will have the field (column) names:
-<code>standardsMappings[0].instrument.id</code>    <code>standardsMappings[1].instrument.id</code>    <code>standardsMappings[2].instrument.id</code></p>
+</li>
+<li>
+<p><strong><code>standardsMappings[0].instrument.id</code></strong> <em>(string)</em>
+     A code or other string that identifies the instrument within the source.
+    This should always be from the source's formal, standardized identification system </p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  5141
 </code></pre></div>
-<hr />
-<p><strong><code>standardsMappings[</code>number<code>].item.url</code></strong> <em>(string)</em>
- The url that links out to the published, standardized mapping of a variable (e.g., common data element)</p>
-<p>Specifying field names:</p>
-<p>This field can have 1 or more columns using the digit index number in brackets (<code>[0]</code> --&gt; <code>[1]</code> --&gt; <code>[n]</code>)</p>
-<p>For 1 value, you will have the field (column) names:
-<code>standardsMappings[0].item.url</code></p>
-<p>For 3 values, you will have the field (column) names:
-<code>standardsMappings[0].item.url</code> <code>standardsMappings[1].item.url</code> <code>standardsMappings[2].item.url</code></p>
+</li>
+<li>
+<p><strong><code>standardsMappings[0].item.url</code></strong> <em>(string)</em>
+     The url that links out to the published, standardized mapping of a variable (e.g., common data element)</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  https://evs.nci.nih.gov/ftp1/CDISC/SDTM/SDTM%20Terminology.html#CL.C74457.RACE
 </code></pre></div>
-<hr />
-<p><strong><code>standardsMappings[</code>number<code>].item.source</code></strong> <em>(string)</em>
- The source of the standardized variable. Note, this property is required if 
-an id is specified.</p>
-<p>Specifying field names:</p>
-<p>This field can have 1 or more columns using the digit index number in brackets (<code>[0]</code> --&gt; <code>[1]</code> --&gt; <code>[n]</code>)</p>
-<p>For 1 value, you will have the field (column) names:
-<code>standardsMappings[0].item.source</code></p>
-<p>For 3 values, you will have the field (column) names:
-<code>standardsMappings[0].item.source</code>  <code>standardsMappings[1].item.source</code>  <code>standardsMappings[2].item.source</code></p>
+</li>
+<li>
+<p><strong><code>standardsMappings[0].item.source</code></strong> <em>(string)</em>
+     The source of the standardized variable. Note, this property is required if 
+    an id is specified.</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  CDISC
 </code></pre></div>
-<hr />
-<p><strong><code>standardsMappings[</code>number<code>].item.id</code></strong> <em>(string)</em>
- The id locating the individual mapping within the given source. 
-Note, the <code>standardsMappings[0].source</code> property is required if 
-this property is specified.</p>
-<p>Specifying field names:</p>
-<p>This field can have 1 or more columns using the digit index number in brackets (<code>[0]</code> --&gt; <code>[1]</code> --&gt; <code>[n]</code>)</p>
-<p>For 1 value, you will have the field (column) names:
-<code>standardsMappings[0].item.id</code></p>
-<p>For 3 values, you will have the field (column) names:
-<code>standardsMappings[0].item.id</code>  <code>standardsMappings[1].item.id</code>  <code>standardsMappings[2].item.id</code></p>
+</li>
+<li>
+<p><strong><code>standardsMappings[0].item.id</code></strong> <em>(string)</em>
+     The id locating the individual mapping within the given source. 
+    Note, the <code>standardsMappings[0].source</code> property is required if 
+    this property is specified.</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  C74457
 </code></pre></div>
-<hr />
-<p><strong><code>relatedConcepts[</code>number<code>].url</code></strong> <em>(string)</em>
- The url that links out to the published, related concept. 
-The listed examples could both be attached to any variable related to, for example, heroin use.</p>
-<blockquote>
-<p>:point_up: if you are looking for mapping field values to common data elements or a set of standards, see <code>standardsMappings</code>_</p>
-</blockquote>
-<p>Specifying field names:</p>
-<p>This field can have 1 or more columns using the digit index number in brackets (<code>[0]</code> --&gt; <code>[1]</code> --&gt; <code>[n]</code>)</p>
-<p>For 1 value, you will have the field (column) names:
-<code>relatedConcepts[0].url</code></p>
-<p>For 3 values, you will have the field (column) names:
-<code>relatedConcepts[0].url</code>    <code>relatedConcepts[1].url</code>    <code>relatedConcepts[2].url</code></p>
+</li>
+<li>
+<p><strong><code>relatedConcepts[0].url</code></strong> <em>(string)</em>
+     The url that links out to the published, related concept. 
+    The listed examples could both be attached to any variable related to, for example, heroin use.</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  https://www.ebi.ac.uk/chebi/chebiOntology.do?chebiId=CHEBI:27808
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  http://purl.bioontology.org/ontology/RXNORM/3304
 </code></pre></div>
-<hr />
-<p><strong><code>relatedConcepts[</code>number<code>].title</code></strong> <em>(string)</em>
- A human-readable title (ie label) to a concept related to the given field.
-The listed examples could both be attached to any variable related to, for example, heroin use.</p>
-<blockquote>
-<p>:point_up: if you are looking for mapping field values to common data elements or a set of standards, see <code>standardsMappings</code>_</p>
-</blockquote>
-<p>Specifying field names:</p>
-<p>This field can have 1 or more columns using the digit index number in brackets (<code>[0]</code> --&gt; <code>[1]</code> --&gt; <code>[n]</code>)</p>
-<p>For 1 value, you will have the field (column) names:
-<code>relatedConcepts[0].title</code></p>
-<p>For 3 values, you will have the field (column) names:
-<code>relatedConcepts[0].title</code>  <code>relatedConcepts[1].title</code>  <code>relatedConcepts[2].title</code></p>
+</li>
+<li>
+<p><strong><code>relatedConcepts[0].title</code></strong> <em>(string)</em>
+     A human-readable title (ie label) to a concept related to the given field.
+    The listed examples could both be attached to any variable related to, for example, heroin use.</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  Heroin Molecular Structure
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  Heroin Ontology
 </code></pre></div>
-<hr />
-<p><strong><code>relatedConcepts[</code>number<code>].source</code></strong> <em>(string)</em>
- The source (e.g., a dictionary or vocabulary set) to a concept related to the given field.
-The listed examples could both be attached to any variable related to, for example, heroin use.</p>
-<blockquote>
-<p>:point_up: if you are looking for mapping field values to common data elements or a set of standards, see <code>standardsMappings</code>_</p>
-</blockquote>
-<p>Specifying field names:</p>
-<p>This field can have 1 or more columns using the digit index number in brackets (<code>[0]</code> --&gt; <code>[1]</code> --&gt; <code>[n]</code>)</p>
-<p>For 1 value, you will have the field (column) names:
-<code>relatedConcepts[0].source</code></p>
-<p>For 3 values, you will have the field (column) names:
-<code>relatedConcepts[0].source</code> <code>relatedConcepts[1].source</code> <code>relatedConcepts[2].source</code></p>
+</li>
+<li>
+<p><strong><code>relatedConcepts[0].source</code></strong> <em>(string)</em>
+     The source (e.g., a dictionary or vocabulary set) to a concept related to the given field.
+    The listed examples could both be attached to any variable related to, for example, heroin use.</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  CHEBI
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  RXNORM
 </code></pre></div>
-<hr />
-<p><strong><code>relatedConcepts[</code>number<code>].id</code></strong> <em>(string)</em>
- The id locating the individual concept within the source of the given field.
-The listed examples could both be attached to any variable related to, for example, heroin use.</p>
-<blockquote>
-<p>:point_up: if you are looking for mapping field values to common data elements or a set of standards, see <code>standardsMappings</code>_</p>
-</blockquote>
-<p>Specifying field names:</p>
-<p>This field can have 1 or more columns using the digit index number in brackets (<code>[0]</code> --&gt; <code>[1]</code> --&gt; <code>[n]</code>)</p>
-<p>For 1 value, you will have the field (column) names:
-<code>relatedConcepts[0].id</code></p>
-<p>For 3 values, you will have the field (column) names:
-<code>relatedConcepts[0].id</code> <code>relatedConcepts[1].id</code> <code>relatedConcepts[2].id</code></p>
+</li>
+<li>
+<p><strong><code>relatedConcepts[0].id</code></strong> <em>(string)</em>
+     The id locating the individual concept within the source of the given field.
+    The listed examples could both be attached to any variable related to, for example, heroin use.</p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>  27808
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  3304
 </code></pre></div>
-<hr />
+</li>
+</ul>
 <h2 id="end-of-schema-additional-property-information">End of schema - Additional Property information<a class="headerlink" href="#end-of-schema-additional-property-information" title="Permanent link">&para;</a></h2>
-<h2 id="type-enum-definitions"><code>type</code> enum definitions:<a class="headerlink" href="#type-enum-definitions" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>number</code> (A numeric value with optional decimal places. (e.g., 3.14))</li>
+<li>
+<p><code>type</code> enum definitions:</p>
+</li>
+<li>
+<p><code>number</code> (A numeric value with optional decimal places. (e.g., 3.14))</p>
+</li>
 <li><code>integer</code> (A whole number without decimal places. (e.g., 42))</li>
 <li><code>string</code> (A sequence of characters. (e.g., \"test\"))</li>
 <li><code>any</code> (Any type of data is allowed. (e.g., true))</li>
@@ -1348,9 +1278,13 @@ The listed examples could both be attached to any variable related to, for examp
 <li><code>year</code> (A specific year. (e.g., 2023)</li>
 <li><code>yearmonth</code> (A specific year and month. (e.g., \"2023-05\"))</li>
 <li><code>duration</code> (A length of time. (e.g., \"PT1H\")</li>
-<li><code>geopoint</code> (A pair of latitude and longitude coordinates. (e.g., [51.5074, -0.1278]))</li>
+<li>
+<p><code>geopoint</code> (A pair of latitude and longitude coordinates. (e.g., [51.5074, -0.1278]))</p>
+</li>
+<li>
+<p><code>format</code> examples/definitions of patterns and possible values:</p>
+</li>
 </ul>
-<h2 id="format-examplesdefinitions-of-patterns-and-possible-values"><code>format</code> examples/definitions of patterns and possible values:<a class="headerlink" href="#format-examplesdefinitions-of-patterns-and-possible-values" title="Permanent link">&para;</a></h2>
 <p>Examples of date time pattern formats</p>
 <ul>
 <li><code>%Y-%m-%d</code> (for date, e.g., 2023-05-25)</li>
@@ -1375,8 +1309,46 @@ The listed examples could both be attached to any variable related to, for examp
 <p>The two types of formats for <code>geopoint</code> (describing a geographic point).</p>
 <ul>
 <li><code>array</code> (if 'lat,long' (e.g., 36.63,-90.20))</li>
-<li><code>object</code> (if {'lat':36.63,'lon':-90.20})</li>
+<li>
+<p><code>object</code> (if {'lat':36.63,'lon':-90.20})</p>
+</li>
+<li>
+<p><code>standardsMappings</code> and <code>relatedConcepts</code>: If you want to add more than one value,adding anoth column with a name containing an added digit in brackets (<code>[0]</code> --&gt; <code>[1]</code>--&gt; <code>[n]</code>). </p>
+</li>
 </ul>
+<p>Examples:</p>
+<p><em>A table with 2 columns (fields) of the same variables:</em></p>
+<table>
+<thead>
+<tr>
+<th><code>standardsMappings[0].instrument.title</code></th>
+<th><code>standardsMappings[1].instrument.title</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>My first instrument</td>
+<td>My second instrument</td>
+</tr>
+</tbody>
+</table>
+<p><em>A table with 3 columns (fields)  of the same variables:</em></p>
+<table>
+<thead>
+<tr>
+<th><code>relatedConcepts[0].url</code></th>
+<th><code>relatedConcepts[1].url</code></th>
+<th><code>relatedConcepts[2].url</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fakehttp://my-first-concept-url.org</td>
+<td>fakehttp://my-second-concept-url.org</td>
+<td>fakehttp://my-third-concept-url.org</td>
+</tr>
+</tbody>
+</table>
 
 
 
