@@ -4,11 +4,11 @@
 
 View metadata schemas.
 
-* [Study Overview](study-metadata-schema-for-humans.md)
+* [Study Overview](md_study_overview.md)
 * [Experiment Tracker](md_experiment_tracker.md)
 * [Resource Tracker](md_resource_tracker.md)
 * [Results Tracker](md_results_tracker.md)
-* [Data Dictionary](jsonschema-csvtemplate-fields_v3_manual_edits.md)
+* [Data Dictionary](md_data_dictionary.md)
 
 ## CSV Templates
 
