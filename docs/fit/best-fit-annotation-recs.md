@@ -25,7 +25,7 @@
         * Start a Data Dictionary for a tabular data file by initializing an empty Data Dictionary file based on the [Data Dictionary csv template](../csv-templates/heal-csv-data-dictionary.csv)
             * Save your Data Dictionary in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-dd-my-datafile.csv" (i.e. the file name starts with the prefix "heal-csv-dd-", you append the name of the data file to which the Data Dictionary applies, and save as a csv file)
             * Add all variables in the tabular data file to your Data Dictionary
-                * Use the [Data Dictionary schema](../schemas/md_data_dictionary_fields.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
+                * Use the [Data Dictionary schema](../schemas/md_data_dictionary.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
     * Start your [Resource Tracker](../terms/index.md#resource-tracker)
         * Start your Resource Tracker by initializing an empty Resource Tracker file based on the [Resource Tracker csv template](../csv-templates/heal-csv-resource-tracker.csv)
             * Save your Resource Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-resource-tracker.csv"
@@ -108,7 +108,7 @@
         * Start a Data Dictionary for a tabular data file by initializing an empty Data Dictionary file based on the [Data Dictionary csv template](../csv-templates/heal-csv-data-dictionary.csv)
             * Save your Data Dictionary in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-dd-my-datafile.csv" (i.e. the file name starts with the prefix "heal-csv-dd-", you append the name of the data file to which the Data Dictionary applies, and save as a csv file)
             * Add all variables in the tabular data file to your Data Dictionary
-                * Use the [Data Dictionary schema](../schemas/md_data_dictionary_fields.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
+                * Use the [Data Dictionary schema](../schemas/md_data_dictionary.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
     * Start your [Resource Tracker](../terms/index.md#resource-tracker)
         * Start your Resource Tracker by initializing an empty Resource Tracker file based on the [Resource Tracker csv template](../csv-templates/heal-csv-resource-tracker.csv)
             * Save your Resource Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-resource-tracker.csv"
@@ -183,7 +183,7 @@
         * Start a Data Dictionary for a tabular data file by initializing an empty Data Dictionary file based on the [Data Dictionary csv template](../csv-templates/heal-csv-data-dictionary.csv)
             * Save your Data Dictionary in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-dd-my-datafile.csv" (i.e. the file name starts with the prefix "heal-csv-dd-", you append the name of the data file to which the Data Dictionary applies, and save as a csv file)
             * Add all variables in the tabular data file to your Data Dictionary
-                * Use the [Data Dictionary schema](../schemas/md_data_dictionary_fields.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
+                * Use the [Data Dictionary schema](../schemas/md_data_dictionary.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
     * Start your [Results Tracker(s)](../terms/index.md#results-tracker) - one per manuscript or report
         * Start to create a Results Tracker to document the [final result products](../terms/index.md#final-result-products) (e.g. figures, tables) that will be published as part of your manuscript or report
         * Start your Results Tracker by initializing an empty Results Tracker file based on the [Results Tracker csv template](../csv-templates/heal-csv-results-tracker.csv)
@@ -244,7 +244,7 @@
         * Start a Data Dictionary for a tabular data file by initializing an empty Data Dictionary file based on the [Data Dictionary csv template](../csv-templates/heal-csv-data-dictionary.csv)
             * Save your Data Dictionary in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-dd-my-datafile.csv" (i.e. the file name starts with the prefix "heal-csv-dd-", you append the name of the data file to which the Data Dictionary applies, and save as a csv file)
             * Add all variables in the tabular data file to your Data Dictionary
-                * Use the [Data Dictionary schema](../schemas/md_data_dictionary_fields.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
+                * Use the [Data Dictionary schema](../schemas/md_data_dictionary.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
     * Start your [Results Tracker(s)](../terms/index.md#results-tracker) - one per manuscript
         * Start to create a Results Tracker to document the [final result products](../terms/index.md#final-result-products) (e.g. figures, tables) that will be published as part of your manuscript or report
         * Start your Results Tracker by initializing an empty Results Tracker file based on the [Results Tracker csv template](../csv-templates/heal-csv-results-tracker.csv)
@@ -307,7 +307,7 @@
         * Start a Data Dictionary for a tabular data file by initializing an empty Data Dictionary file based on the [Data Dictionary csv template](../csv-templates/heal-csv-data-dictionary.csv)
             * Save your Data Dictionary in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-dd-my-datafile.csv" (i.e. the file name starts with the prefix "heal-csv-dd-", you append the name of the data file to which the Data Dictionary applies, and save as a csv file)
             * Add all variables in the tabular data file to your Data Dictionary
-                * Use the [Data Dictionary schema](../schemas/md_data_dictionary_fields.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
+                * Use the [Data Dictionary schema](../schemas/md_data_dictionary.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
     * Start your [Resource Tracker](../terms/index.md#resource-tracker)
         * Start your Resource Tracker by initializing an empty Resource Tracker file based on the [Resource Tracker csv template](../csv-templates/heal-csv-resource-tracker.csv)
             * Save your Resource Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-resource-tracker.csv"
@@ -355,7 +355,7 @@
         * Start a Data Dictionary for a tabular data file by initializing an empty Data Dictionary file based on the [Data Dictionary csv template](../csv-templates/heal-csv-data-dictionary.csv)
             * Save your Data Dictionary in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-dd-my-datafile.csv" (i.e. the file name starts with the prefix "heal-csv-dd-", you append the name of the data file to which the Data Dictionary applies, and save as a csv file)
             * Add all variables in the tabular data file to your Data Dictionary
-                * Use the [Data Dictionary schema](../schemas/md_data_dictionary_fields.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
+                * Use the [Data Dictionary schema](../schemas/md_data_dictionary.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field 
     * Start your [Resource Tracker](../terms/index.md#resource-tracker)
         * Start your Resource Tracker by initializing an empty Resource Tracker file based on the [Resource Tracker csv template](../csv-templates/heal-csv-resource-tracker.csv)
             * Save your Resource Tracker in your ["dsc-pkg" folder](../terms/index.md#dsc-pkg-folder) as "heal-csv-resource-tracker.csv"
