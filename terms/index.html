@@ -1154,18 +1154,14 @@
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 <p><strong>Resource</strong></p>
 <ul>
-<li>
-<p>When adding a study file/resource to your study's <a href="#resource-tracker">Resource Tracker</a>, you will be asked to supply Associated Files/Dependencies for that study file/resource. </p>
-</li>
-<li>
-<p>An Associated File/Dependency, is any file that the current study file/resource depends on to be interpreted, replicated, or used. </p>
-</li>
-<li>
-<p>For example, consider a processed <a href="#tabular-data-file">tabular data file</a> (e.g. a final analytic dataset): </p>
-<ul>
-<li>a <strong>raw data file(s)</strong>, plus a <strong>code file</strong> that merges and cleans the raw data file(s) may be required to replicate the processed tabular data file, and </li>
-<li>a <strong>data dictionary</strong> for the processed tabular data file is likely to be required to interpret/use the processed tabular data file.</li>
+<li>When adding a study file/resource to your study's <a href="#resource-tracker">Resource Tracker</a>, you will be asked to supply Associated Files/Dependencies for that study file/resource. </li>
 </ul>
+<ul>
+<li>An Associated File/Dependency, is any file that the current study file/resource depends on to be interpreted, replicated, or used. </li>
+</ul>
+<ul>
+<li>For example, consider a processed <a href="#tabular-data-file">tabular data file</a> (e.g. a final analytic dataset): <p>* a <strong>raw data file(s)</strong>, plus a <strong>code file</strong> that merges and cleans the raw data file(s) may be required to replicate the processed tabular data file, and 
+  * a <strong>data dictionary</strong> for the processed tabular data file is likely to be required to interpret/use the processed tabular data file.</p>
 </li>
 </ul>
 <div class="admonition note">
@@ -1179,21 +1175,17 @@
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 <p><strong>Result</strong></p>
 <ul>
-<li>
-<p>When adding a final result product to your study's <a href="#results-tracker">Results Tracker</a>, you will be asked to supply Associated Files/Dependencies for that result. </p>
-</li>
-<li>
-<p>An Associated File/Dependency, is any file that the current result depends on to be interpreted, replicated, or used. </p>
-</li>
-<li>
-<p>For example, consider a figure that has been created as a potential candidate for inclusion as Figure 1A (in the context of a Figure 1 with panels A, B, and C) in a draft manuscript: </p>
-<ul>
-<li>a <strong>png or jpg image file</strong> exported from Corel Draw or Illustrator may directly underly the whole of Figure 1 (where image files for panel A, B, and C were formatted into a single Figure 1 in the context of a <strong>Corel Draw or Illustrator file</strong>);</li>
-<li>a <strong>png or jpg image file</strong> produced and written to file by R or python code may directly underly specifically Figure 1A; </li>
-<li>this image file in turn depends upon the <strong>code file</strong> that produced it, as well as the <strong>data file(s)</strong> the code file read in and operated upon to create the final image file; </li>
-<li>the code file may have been created to implement a specific statistical analysis plan that is laid out in a larger <strong>study protocol file</strong>, or in a <strong>statistical analysis plan file</strong>; </li>
-<li>the data in the data file may have been collected using a protocol laid out in a specific <strong>protocol file</strong>, and if the data file(s) underlying the result in 1A is/are tabular data file(s), a <strong>data dictionary</strong> for the data file(s) is likely to be required to interpret/use the data file(s)</li>
+<li>When adding a final result product to your study's <a href="#results-tracker">Results Tracker</a>, you will be asked to supply Associated Files/Dependencies for that result. </li>
 </ul>
+<ul>
+<li>An Associated File/Dependency, is any file that the current result depends on to be interpreted, replicated, or used. </li>
+</ul>
+<ul>
+<li>For example, consider a figure that has been created as a potential candidate for inclusion as Figure 1A (in the context of a Figure 1 with panels A, B, and C) in a draft manuscript: <p>* a <strong>png or jpg image file</strong> exported from Corel Draw or Illustrator may directly underly the whole of Figure 1 (where image files for panel A, B, and C were formatted into a single Figure 1 in the context of a <strong>Corel Draw or Illustrator file</strong>);
+  * a <strong>png or jpg image file</strong> produced and written to file by R or python code may directly underly specifically Figure 1A; 
+  * this image file in turn depends upon the <strong>code file</strong> that produced it, as well as the <strong>data file(s)</strong> the code file read in and operated upon to create the final image file; 
+  * the code file may have been created to implement a specific statistical analysis plan that is laid out in a larger <strong>study protocol file</strong>, or in a <strong>statistical analysis plan file</strong>; 
+  * the data in the data file may have been collected using a protocol laid out in a specific <strong>protocol file</strong>, and if the data file(s) underlying the result in 1A is/are tabular data file(s), a <strong>data dictionary</strong> for the data file(s) is likely to be required to interpret/use the data file(s)</p>
 </li>
 </ul>
 <div class="admonition note">
@@ -1369,74 +1361,51 @@
 <ol>
 <li>
 <p>Audit relevant files</p>
-<ul>
-<li><strong>start this right away</strong> </li>
-<li>audit all files/resources already collected or produced by or for your study</li>
-<li>determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)</li>
-</ul>
+<p>* <strong>start this right away</strong> 
+  * audit all files/resources already collected or produced by or for your study
+  * determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)</p>
 </li>
 <li>
 <p>Organize and consistently name your files and folders </p>
-<ul>
-<li><strong>start this right away</strong></li>
-<li>consider using <a href="name/">HEAL recommendations for organizing and naming study files/resources</a> to establish naming and organization conventions that should be followed for all study files, including for files that already exist and for new study files/resources as they are collected or produced</li>
-<li>align file name/organization of existing study files to the conventions you established in the step above - this may require you to change file names and locations for already-existing files (NOTE: do not duplicate files in order to align with name/org conventions as this may lead to confusion down the road as to which copy is the "source of truth") </li>
-</ul>
+<p>* <strong>start this right away</strong>
+  * consider using <a href="name/">HEAL recommendations for organizing and naming study files/resources</a> to establish naming and organization conventions that should be followed for all study files, including for files that already exist and for new study files/resources as they are collected or produced
+  * align file name/organization of existing study files to the conventions you established in the step above - this may require you to change file names and locations for already-existing files (NOTE: do not duplicate files in order to align with name/org conventions as this may lead to confusion down the road as to which copy is the "source of truth") </p>
 </li>
 <li>
 <p>Add <a href="#standard-data-package-metadata-file-level">Standard data package metadata - File-level</a></p>
-<ul>
-<li>
-<p><a href="#data-dictionary">Data Dictionary</a></p>
-<ul>
-<li><strong>start this right away</strong></li>
-<li>audit existing study files to identify any tabular data files that may have already been collected or produced by or for the study</li>
-<li>create a data dictionary for any existing tabular data files right away</li>
-<li>if/when any new tabular data files are collected or produced by or for the study, create a data dictionary for the new tabular data file(s) right away and save them using file name and organization conventions you have established for your study (see step 2 above)</li>
-</ul>
-</li>
-<li>
-<p><a href="#results-tracker">Results Tracker</a></p>
-<ul>
-<li><strong>start this right away</strong>: </li>
-<li>
-<p>determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)</p>
-</li>
-<li>
-<p><strong>wait until your study is at the point of producing final result products</strong> (e.g. figures, tables, text statements)</p>
-</li>
-<li>once your study has reached this point, and <u>if your study has determined that a data sharing goal of the study is to provide results-support</u>, start annotating final result products right away, even if you have not formally begun to add them to a publication or report</li>
-<li>as new final result products are produced by your study, annotate each final result product right away</li>
-<li>once your study has started to formally add final results to a publication, start adding result annotation files you've already produced (in the step just above) to a results tracker document for the publication - one results tracker per publication</li>
-<li>as new publications or reports are produced by your study, use the result annotation files you create for each final result product in the publication to create a results tracker document for the new publication</li>
-</ul>
-</li>
-</ul>
+<p>* <a href="#data-dictionary">Data Dictionary</a></p>
+<pre><code>  * **start this right away**
+  * audit existing study files to identify any tabular data files that may have already been collected or produced by or for the study
+  * create a data dictionary for any existing tabular data files right away
+  * if/when any new tabular data files are collected or produced by or for the study, create a data dictionary for the new tabular data file(s) right away and save them using file name and organization conventions you have established for your study (see step 2 above)
+</code></pre>
+<p>* <a href="#results-tracker">Results Tracker</a></p>
+<pre><code>  * **start this right away**: 
+  * determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)
+
+  * **wait until your study is at the point of producing final result products** (e.g. figures, tables, text statements)
+  * once your study has reached this point, and &lt;u&gt;if your study has determined that a data sharing goal of the study is to provide results-support&lt;/u&gt;, start annotating final result products right away, even if you have not formally begun to add them to a publication or report
+  * as new final result products are produced by your study, annotate each final result product right away
+  * once your study has started to formally add final results to a publication, start adding result annotation files you've already produced (in the step just above) to a results tracker document for the publication - one results tracker per publication
+  * as new publications or reports are produced by your study, use the result annotation files you create for each final result product in the publication to create a results tracker document for the new publication
+</code></pre>
 </li>
 <li>
 <p>Add <a href="#standard-data-package-metadata-study-level">Standard data package metadata - Study-level</a></p>
-<ul>
-<li>
-<p><a href="#experiment-tracker">Experiment Tracker</a></p>
-<ul>
-<li><strong>start this right away</strong></li>
-<li>audit all component experiments or other activities that will be part of your study</li>
-<li>start annotating study component experiments or activities that have already been designed</li>
-<li>if/when any new study component experiments or activities are designed, annotate each new study component experiment or activity right away          </li>
-</ul>
-</li>
-<li>
-<p><a href="#resource-tracker">Resource Tracker</a></p>
-<ul>
-<li><strong>start this right away</strong></li>
-<li>audit all files/resources already collected or produced by or for your study (see step 1 above)</li>
-<li>establish file naming and organization conventions for your study files and make any necessary adjustments to current study file naming/organization to align with these conventions (see step 2 above)</li>
-<li>systematically annotate all files/resources already collected or produced by or for your study right away</li>
-<li>once you've annotated all files/resources already produced by or for your study, add these resource annotation files to your resource tracker</li>
-<li>as new files/resources are collected or produced by or for your study, save them using the file naming and organization conventions you established previously, and annotate each new resource right away</li>
-</ul>
-</li>
-</ul>
+<p>* <a href="#experiment-tracker">Experiment Tracker</a></p>
+<pre><code>  * **start this right away**
+  * audit all component experiments or other activities that will be part of your study
+  * start annotating study component experiments or activities that have already been designed
+  * if/when any new study component experiments or activities are designed, annotate each new study component experiment or activity right away
+</code></pre>
+<p>* <a href="#resource-tracker">Resource Tracker</a></p>
+<pre><code>  * **start this right away**
+  * audit all files/resources already collected or produced by or for your study (see step 1 above)
+  * establish file naming and organization conventions for your study files and make any necessary adjustments to current study file naming/organization to align with these conventions (see step 2 above)
+  * systematically annotate all files/resources already collected or produced by or for your study right away
+  * once you've annotated all files/resources already produced by or for your study, add these resource annotation files to your resource tracker
+  * as new files/resources are collected or produced by or for your study, save them using the file naming and organization conventions you established previously, and annotate each new resource right away
+</code></pre>
 </li>
 </ol>
 <details>
@@ -1468,107 +1437,67 @@
 <ol>
 <li>
 <p>Audit relevant files</p>
-<ul>
-<li><strong>start this right away</strong>: </li>
-<li>
-<p>determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)</p>
-</li>
-<li>
-<p><strong>wait until your study has produced the goal sharing product</strong> (i.e. respectively, the final result product(s) or manuscripts containing a set of final result product(s) for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating)</p>
-</li>
-<li>audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. final study result product(s)/manuscipt(s) or dataset)</li>
-</ul>
+<p>* <strong>start this right away</strong>: 
+  * determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)</p>
+<p>* <strong>wait until your study has produced the goal sharing product</strong> (i.e. respectively, the final result product(s) or manuscripts containing a set of final result product(s) for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating)
+  * audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. final study result product(s)/manuscipt(s) or dataset)</p>
 </li>
 <li>
 <p>Organize and consistently name your files and folders </p>
-<ul>
-<li><strong>start this right away</strong>:</li>
-<li>determine if you are early in your study</li>
-<li>
-<p>if you are early in your study: </p>
-<ul>
-<li>consider using <a href="name/">HEAL recommendations for organizing and naming study files/resources</a> to establish naming and organization conventions that should be followed for all study files, including for files that already exist and for new study files/resources as they are collected or produced</li>
-<li>align file name/organization of existing study files to the conventions you established in the step above - this may require you to change file names and locations for already-existing files (NOTE: do not duplicate files in order to align with name/org conventions as this may lead to confusion down the road as to which copy is the "source of truth") </li>
-</ul>
-</li>
-<li>
-<p>if you are late in your study:</p>
-<ul>
-<li>we generally recommend that you leave file names and organization as is </li>
-<li>you may use the approach laid out above for those early in their study, however if you are late in your study and have accumulated many study files already, establishing file naming and organization conventions now and back-applying them may be quite burdensome and potentially prone to error</li>
-<li>if you have sets of "like" files (e.g. a similarly formatted tabular data file or brain imaging file per study subject per study timepoint), it may be well worth establishing file naming and organization conventions based on <a href="name/">HEAL recommendations for organizing and naming study files/resources</a> now and back-applying them just for these file sets - doing so will make it possible/easier to annotate these file sets in one go instead of annotating them singly one at a time, and so may substantially reduce annotation/data-sharing burden for the study group   </li>
-</ul>
-</li>
-</ul>
+<p>* <strong>start this right away</strong>:
+  * determine if you are early in your study
+  * if you are early in your study: </p>
+<pre><code>  * consider using [HEAL recommendations for organizing and naming study files/resources](name.md) to establish naming and organization conventions that should be followed for all study files, including for files that already exist and for new study files/resources as they are collected or produced
+  * align file name/organization of existing study files to the conventions you established in the step above - this may require you to change file names and locations for already-existing files (NOTE: do not duplicate files in order to align with name/org conventions as this may lead to confusion down the road as to which copy is the "source of truth")
+</code></pre>
+<p>* if you are late in your study:</p>
+<pre><code>  * we generally recommend that you leave file names and organization as is 
+  * you may use the approach laid out above for those early in their study, however if you are late in your study and have accumulated many study files already, establishing file naming and organization conventions now and back-applying them may be quite burdensome and potentially prone to error
+  * if you have sets of "like" files (e.g. a similarly formatted tabular data file or brain imaging file per study subject per study timepoint), it may be well worth establishing file naming and organization conventions based on [HEAL recommendations for organizing and naming study files/resources](name.md) now and back-applying them just for these file sets - doing so will make it possible/easier to annotate these file sets in one go instead of annotating them singly one at a time, and so may substantially reduce annotation/data-sharing burden for the study group
+</code></pre>
 </li>
 <li>
 <p>Add <a href="#standard-data-package-metadata-file-level">Standard data package metadata - File-level</a></p>
-<ul>
-<li>
-<p><a href="#data-dictionary">Data Dictionary</a></p>
-<ul>
-<li><strong>start this right away</strong>: </li>
-<li>
-<p>determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)</p>
-</li>
-<li>
-<p><strong>wait until your study has produced the goal sharing product</strong> (i.e. respectively, the final result product(s) or manuscripts containing a set of final result product(s) for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating)</p>
-</li>
-<li>audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. final study result product(s)/manuscipt(s) or dataset)</li>
-<li>among this subset of files, identify any tabular data files </li>
-<li>create a data dictionary for these tabular data files right away</li>
-</ul>
-</li>
-<li>
-<p><a href="#results-tracker">Results Tracker</a></p>
-<ul>
-<li><strong>start this right away</strong>: </li>
-<li>
-<p>determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)</p>
-</li>
-<li>
-<p><strong>wait until your study is at the point of producing final result products</strong> (e.g. figures, tables, text statements)</p>
-</li>
-<li>once your study has reached this point, and <u>if your study has determined that a data sharing goal of the study is to provide results-support</u>, start annotating final result products right away that are likely to be included in a final manuscript or report you will share and for which you would like to provide results-support, even if you have not formally begun to add them to a publication or report</li>
-<li>as new final result products are produced by your study, annotate each final result product right away</li>
-<li>once your study has started to formally add final results to a publication, start adding result annotation files you've already produced (in the step just above) to a results tracker document for the publication - one results tracker per publication</li>
-<li>as new publications are produced by your study, use the result annotation files you create for each final result product in the publication or report to create a results tracker document for the new publication or report</li>
-<li>alternatively, you may wait until your study is at the point of a final manuscript or report for which you would like to provide results-support; then start annotating only the final result products that are positively contained in this publication </li>
-</ul>
-</li>
-</ul>
+<p>* <a href="#data-dictionary">Data Dictionary</a></p>
+<pre><code>  * **start this right away**: 
+  * determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)
+
+  * **wait until your study has produced the goal sharing product** (i.e. respectively, the final result product(s) or manuscripts containing a set of final result product(s) for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating)
+  * audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. final study result product(s)/manuscipt(s) or dataset)
+  * among this subset of files, identify any tabular data files 
+  * create a data dictionary for these tabular data files right away
+</code></pre>
+<p>* <a href="#results-tracker">Results Tracker</a></p>
+<pre><code>  * **start this right away**: 
+  * determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation)
+
+  * **wait until your study is at the point of producing final result products** (e.g. figures, tables, text statements)
+  * once your study has reached this point, and &lt;u&gt;if your study has determined that a data sharing goal of the study is to provide results-support&lt;/u&gt;, start annotating final result products right away that are likely to be included in a final manuscript or report you will share and for which you would like to provide results-support, even if you have not formally begun to add them to a publication or report
+  * as new final result products are produced by your study, annotate each final result product right away
+  * once your study has started to formally add final results to a publication, start adding result annotation files you've already produced (in the step just above) to a results tracker document for the publication - one results tracker per publication
+  * as new publications are produced by your study, use the result annotation files you create for each final result product in the publication or report to create a results tracker document for the new publication or report
+  * alternatively, you may wait until your study is at the point of a final manuscript or report for which you would like to provide results-support; then start annotating only the final result products that are positively contained in this publication
+</code></pre>
 </li>
 <li>
 <p>Add <a href="#standard-data-package-metadata-study-level">Standard data package metadata - Study-level</a></p>
-<ul>
-<li>
-<p><a href="#experiment-tracker">Experiment Tracker</a></p>
-<ul>
-<li><strong>start this right away</strong> OR <strong>wait until your study has produced the goal sharing product</strong></li>
-<li>audit all component experiments or other activities that are or will be part of your study</li>
-<li>identify the subset of component experiments or other activities that positively produced or are likely to produce data or other products that are required to interpret, use, or reproduce your goal data sharing product (i.e. final result product(s), manuscripts, or a dataset you want to share/disseminate)</li>
-<li>start annotating this subset of study component experiments or activities if they have already been designed</li>
-<li>if/when any new study component experiments or activities are designed and it is determined that the new experiment/activity produced or is likely to produce data or other products that are required to interpret, use, or reproduce your goal data sharing product, annotate this new study component experiment(s) or activity(s) right away          </li>
-</ul>
-</li>
-<li>
-<p><a href="#resource-tracker">Resource Tracker</a></p>
-<ul>
-<li><strong>wait until your study has produced the goal sharing product</strong> (i.e. final result product(s), manuscripts, or a dataset you want to share/disseminate)</li>
-<li>audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. final study result product(s)/manuscipt(s) or dataset) (see step 1 above)</li>
-<li>
-<p>starting with your goal data sharing product (i.e. manuscript, or a dataset you want to share/disseminate), systematically annotate <strong>either</strong>:</p>
-<ul>
-<li>all files/resources in this subset of study resources regardless of whether they will be shared in a public data repository (<a href="#wholistic-annotation">"wholistic" annotation</a>)</li>
-<li>only the files/resources in this subset of study resources that will be shared in a public data repository (<a href="#minimal-annotation">"minimal" annotation</a>)</li>
-</ul>
-</li>
-<li>
-<p>once you've annotated all files/resources, add these resource annotation files to your resource tracker</p>
-</li>
-</ul>
-</li>
-</ul>
+<p>* <a href="#experiment-tracker">Experiment Tracker</a></p>
+<pre><code>  * **start this right away** OR **wait until your study has produced the goal sharing product**
+  * audit all component experiments or other activities that are or will be part of your study
+  * identify the subset of component experiments or other activities that positively produced or are likely to produce data or other products that are required to interpret, use, or reproduce your goal data sharing product (i.e. final result product(s), manuscripts, or a dataset you want to share/disseminate)
+  * start annotating this subset of study component experiments or activities if they have already been designed
+  * if/when any new study component experiments or activities are designed and it is determined that the new experiment/activity produced or is likely to produce data or other products that are required to interpret, use, or reproduce your goal data sharing product, annotate this new study component experiment(s) or activity(s) right away
+</code></pre>
+<p>* <a href="#resource-tracker">Resource Tracker</a></p>
+<pre><code>  * **wait until your study has produced the goal sharing product** (i.e. final result product(s), manuscripts, or a dataset you want to share/disseminate)
+  * audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. final study result product(s)/manuscipt(s) or dataset) (see step 1 above)
+  * starting with your goal data sharing product (i.e. manuscript, or a dataset you want to share/disseminate), systematically annotate **either**:
+
+      * all files/resources in this subset of study resources regardless of whether they will be shared in a public data repository (["wholistic" annotation](#wholistic-annotation))
+      * only the files/resources in this subset of study resources that will be shared in a public data repository (["minimal" annotation](#minimal-annotation))
+
+  * once you've annotated all files/resources, add these resource annotation files to your resource tracker
+</code></pre>
 </li>
 </ol>
 <details>
@@ -1617,11 +1546,9 @@
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 <h3 id="dataset-sharing">Dataset-sharing<a class="headerlink" href="#dataset-sharing" title="Permanent link">&para;</a></h3>
 <ul>
-<li>The study group wants to share a specific dataset(s); <ul>
-<li>perhaps the group has collected/created a very rich dataset and used this dataset to ask and publish results related to specific scientific questions; </li>
-<li>they believe other study groups may be able to leverage this dataset to ask and publish results related to other scientific questions that may be related or unrelated to the questions the dataset was originally collected to help investigate </li>
-</ul>
-</li>
+<li>The study group wants to share a specific dataset(s); 
+    * perhaps the group has collected/created a very rich dataset and used this dataset to ask and publish results related to specific scientific questions; 
+    * they believe other study groups may be able to leverage this dataset to ask and publish results related to other scientific questions that may be related or unrelated to the questions the dataset was originally collected to help investigate </li>
 <li>The study group wants to share this specific dataset(s), as well as the data and non-data supporting files specifically to support use of this dataset(s)</li>
 <li>They will share items required to interpret, replicate, or use this dataset(s)</li>
 </ul>
