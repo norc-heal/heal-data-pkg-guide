@@ -2,7 +2,14 @@
 
 ## Early
 
+#### Test 
 
+??? note "Test"
+
+        
+    <font size="3"> What to do **right away**</font>
+
+    {{ external_markdown('https://raw.githubusercontent.com/norc-heal/heal-data-pkg-guide/modules/docs/fit/audit-study-resources-early.md', '') }}
 
 #### Early, Results-support, Standard 
 
