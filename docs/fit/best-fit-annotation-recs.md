@@ -9,7 +9,7 @@
         
     <font size="3"> What to do **right away**</font>
 
-    {{ external_markdown('https://raw.githubusercontent.com/norc-heal/heal-data-pkg-guide/modules/docs/fit/audit-study-resources-early.md', '') }}
+    {{ external_markdown('https://raw.githubusercontent.com/norc-heal/heal-data-pkg-guide/modules/docs/fit/audit-study-resources-early-3.md', '') }}
 
 #### Early, Results-support, Standard 
 
