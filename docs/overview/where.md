@@ -18,8 +18,8 @@ Create your data package locally, wherever you store the data and non-data suppo
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
 * Creating your data package by creating and completing **Standard data package metadata files** for your study will allow creation of a "shareable" version of your data package that: 
-    * Includes only files that have been specified as shareable to a public repository, and
-    * Is organized in a manner that facilitates submission to a public repository and human interpretability of the submitted file structure 
+  * Includes only files that have been specified as shareable to a public repository, and
+  * Is organized in a manner that facilitates submission to a public repository and human interpretability of the submitted file structure 
      
 This "shareable" version of your data package will also be created locally, and may subsequently be submitted to a public data repository by study staff.
 
