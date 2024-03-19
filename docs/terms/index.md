@@ -156,7 +156,7 @@ Please follow the links below for additional information on:
 * [Standard data package metadata files](#standard-data-package-metadata-files)
 * [Standard data package metadata files - Study-level](#standard-data-package-metadata-study-level)
 * [Experiment Tracker overview](#experiment-tracker)
-* [Experiment Tracker csv template](../csv-templates/heal-csv-experiment-tracker.csv)
+* [Experiment Tracker csv template](https://raw.githubusercontent.com/norc-heal/heal-data-pkg-tool/main/heal-csv-experiment-tracker.csv){ target= " _blank"}
 * [Experiment Tracker schema/field definitions](../schemas/md_experiment_tracker.md)
 
 </div>
@@ -175,7 +175,7 @@ Please follow the links below for additional information on:
 * [Standard data package metadata files](#standard-data-package-metadata-files)
 * [Standard data package metadata files - Study-level](#standard-data-package-metadata-study-level)
 * [Resource Tracker overview](#resource-tracker)
-* [Resource Tracker csv template](../csv-templates/heal-csv-resource-tracker.csv)
+* [Resource Tracker csv template](https://raw.githubusercontent.com/norc-heal/heal-data-pkg-tool/main/heal-csv-resource-tracker.csv){ target= " _blank"}
 * [Resource Tracker schema/field definitions](../schemas/md_resource_tracker.md)
 
 </div>
@@ -193,7 +193,7 @@ Please follow the links below for additional information on:
 * [Standard data package metadata files](#standard-data-package-metadata-files)
 * [Standard data package metadata files - File-level](#standard-data-package-metadata-file-level)
 * [Data Dictionary overview](#data-dictionary)
-* [Data Dictionary csv template](../csv-templates/heal-csv-data-dictionary.csv)
+* [Data Dictionary csv template](https://raw.githubusercontent.com/norc-heal/healdata-utils/pr-integration/data/templates/twofields.csv){ target= " _blank"}
 * [Data Dictionary schema/field definitions](../schemas/md_data_dictionary.md)
 
 </div>
@@ -211,7 +211,7 @@ Please follow the links below for additional information on:
 * [Standard data package metadata files](#standard-data-package-metadata-files)
 * [Standard data package metadata files - File-level](#standard-data-package-metadata-file-level)
 * [Results Tracker overview](#results-tracker)
-* [Results Tracker csv template](../csv-templates/heal-csv-results-tracker.csv)
+* [Results Tracker csv template](https://raw.githubusercontent.com/norc-heal/heal-data-pkg-tool/main/heal-csv-results-tracker.csv){ target= " _blank"}
 * [Results Tracker schema/field definitions](../schemas/md_results_tracker.md)
 
 </div>
