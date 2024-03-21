@@ -125,14 +125,14 @@ However, especially in the context of an effort like the NIH HEAL Initiative, wh
 
 * No one specific research community standard can be adopted by all communities 
 
-    * It would miss standards needed by other communities
-    * It would require or recommend standards not needed or even nonsensical for other communities
+  * It would miss standards needed by other communities
+  * It would require or recommend standards not needed or even nonsensical for other communities
 
 * If each community adopted their own community specific standard **and did nothing else**, there would be a lack of discoverability and usability **across** communities
 
-    * Some communities lack clear standards, and so would implement no or inconsistent/ad hoc standards
-    * Inward-facing research community specific standards may assume knowledge and understanding that cannot be taken for granted outside of that community both with respect to organization of data and metadata, and with respect to terminology used to describe it
-    * Inconsistent content or format recommendations across research communities - E.g. Many community standards require a description of the overall study in some format, however the content and format varies - some specify to provide this is a readme.txt document, others as entered into structured forms such as when registering a clinical trial on [clinicaltrials.gov](https://clinicaltrials.gov/) or a genomic study on [dbGaP](https://www.ncbi.nlm.nih.gov/gap/), and still others do not specify a format; content varies across all of these examples  
+  * Some communities lack clear standards, and so would implement no or inconsistent/ad hoc standards
+  * Inward-facing research community specific standards may assume knowledge and understanding that cannot be taken for granted outside of that community both with respect to organization of data and metadata, and with respect to terminology used to describe it
+  * Inconsistent content or format recommendations across research communities - E.g. Many community standards require a description of the overall study in some format, however the content and format varies - some specify to provide this is a readme.txt document, others as entered into structured forms such as when registering a clinical trial on [clinicaltrials.gov](https://clinicaltrials.gov/) or a genomic study on [dbGaP](https://www.ncbi.nlm.nih.gov/gap/), and still others do not specify a format; content varies across all of these examples  
 
 </div>
 
