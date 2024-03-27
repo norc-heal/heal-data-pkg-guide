@@ -16,7 +16,16 @@ nav:
   - Create your data package:
     - fit/index.md
     - Best fit questions: fit/best-fit-questions.md
-    - Best fit annotation recs: fit/best-fit-annotation-recs.md
+    - Best fit annotation recs: 
+      - fit/best-fit-recs/index.md
+      - Early, results-support, standard resources: fit/best-fit-recs/early-res-stand.md
+      - Early, results-support, low resources: fit/best-fit-recs/early-res-low.md
+      - Early, dataset-sharing, standard resources: fit/best-fit-recs/early-data-stand.md
+      - Early, dataset-sharing, low resources: fit/best-fit-recs/early-data-low.md
+      - Late, results-support, standard resources: fit/best-fit-recs/late-res-stand.md
+      - Late, results-support, low resources: fit/best-fit-recs/late-res-low.md
+      - Late, dataset-sharing, standard resources: fit/best-fit-recs/late-data-stand.md
+      - Late, dataset-sharing, low resources: fit/best-fit-recs/late-data-low.md
     #- Your data sharing orientation: fit/data-sharing-orientation.md
     #- Your study stage: fit/study-stage.md
     #- Early in study: fit/guidance-1.md
@@ -110,11 +119,18 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details
+  - pymdownx.extra:
+      pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
 plugins:
   - search
   - mkdocs-video:
       is_video: True
   - external-markdown
+  - mermaid2
 
 # TODO: add footer (this may be included in the custom jinja template?)
 #    [![](img/gen3.png)](https://ctds.uchicago.edu/gen3)[![](img/createdby.png)](https://ctds.uchicago.edu/)
