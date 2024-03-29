@@ -1,0 +1,103 @@
+<mxfile host="65bd71144e">
+    <diagram id="kfqbYSQvsbw34wrSjgwR" name="Page-1">
+        <mxGraphModel dx="1185" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="10" y="400" as="sourcePoint"/>
+                        <mxPoint x="830" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Manuscript &lt;br&gt;Submitted" link="#what-to-do-when-your-manuscript-is-finalized" id="4">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#532565;fontColor=#F0F0F0;fontStyle=1" parent="1" vertex="1">
+                        <mxGeometry x="180" y="380" width="120" height="50" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="5" value="Submit to a Repository" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#532565;fontColor=#F0F0F0;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="760" y="380" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="Right Away&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(click to expand)&lt;/span&gt;" link="#what-to-do-right-away" id="6">
+                    <mxCell style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#532565;fontColor=#F0F0F0;" parent="1" vertex="1" collapsed="1">
+                        <mxGeometry y="380" width="120" height="50" as="geometry">
+                            <mxRectangle y="380" width="140" height="130" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="7" value="1. Make sure all files are accessible" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="6" vertex="1">
+                    <mxGeometry y="50" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="2. Finalize existing resource file names/ paths" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="6" vertex="1">
+                    <mxGeometry y="80" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="Data Package:&lt;br&gt;Initialize Data Package" link="#initialize-your-data-package" id="9">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;" vertex="1" parent="1">
+                        <mxGeometry x="310" y="290" width="120" height="50" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="List results shared&lt;br&gt;List contributing experiments" link="#make-a-list-of-results-shared-and-contributing-experiments" id="10">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;" vertex="1" parent="1">
+                        <mxGeometry x="370" y="460" width="130" height="50" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Experiment Tracker" link="#start-your-experiment-tracker" id="13">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;" vertex="1" parent="1">
+                        <mxGeometry x="450" y="290" width="120" height="50" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Results Tracker" link="#start-your-results-trackers-one-per-manuscript-or-report" id="14">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;" vertex="1" parent="1">
+                        <mxGeometry x="520" y="460" width="120" height="50" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Data Dictionary" link="#create-your-data-dictionaries" id="17">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;" vertex="1" parent="1">
+                        <mxGeometry x="590" y="290" width="120" height="50" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Resource Tracker" link="#start-your-resource-tracker" id="18">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;" vertex="1" parent="1">
+                        <mxGeometry x="660" y="460" width="120" height="50" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="24" value="" style="endArrow=none;html=1;fontColor=#0F0F0F;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="370" y="400" as="sourcePoint"/>
+                        <mxPoint x="370" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=none;html=1;fontColor=#0F0F0F;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="400" as="sourcePoint"/>
+                        <mxPoint x="510" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=none;html=1;fontColor=#0F0F0F;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="650" y="400" as="sourcePoint"/>
+                        <mxPoint x="650" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=none;html=1;fontColor=#0F0F0F;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="400" as="sourcePoint"/>
+                        <mxPoint x="440" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="" style="endArrow=none;html=1;fontColor=#0F0F0F;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="580" y="400" as="sourcePoint"/>
+                        <mxPoint x="580" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=none;html=1;fontColor=#0F0F0F;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="720" y="400" as="sourcePoint"/>
+                        <mxPoint x="720" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

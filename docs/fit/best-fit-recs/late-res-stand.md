@@ -1,11 +1,14 @@
+---
+hide:
+  - toc
+full-width: true
+---
+
 # LATE, RESULTS-SUPPORT, STANDARD
 
-## GRAPHIC AT TOP
+## Data Packaging Timeline
 
-![Alt text](../../assets/svg-test.svg)
-
-<object data="docs/assets/svg-test.svg" type="image/svg+xml"></object>
-
+  ![](../../assets/late-res-stand.drawio)
 
 ### What to do **right away**   
 * Set yourself up for success

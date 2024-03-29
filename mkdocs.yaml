@@ -119,18 +119,19 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details
-  - pymdownx.extra:
-      pymdownx.superfences:
-        custom_fences:
-          - name: mermaid
-            class: mermaid
-            format: !!python/name:pymdownx.superfences.fence_code_format
+  #- pymdownx.extra:
+   #   pymdownx.superfences:
+    #    custom_fences:
+     #     - name: mermaid
+      #      class: mermaid
+       #     format: !!python/name:pymdownx.superfences.fence_code_format
 plugins:
   - search
   - mkdocs-video:
       is_video: True
   - external-markdown
-  - mermaid2
+  - drawio_file
+  #- mermaid2
 
 # TODO: add footer (this may be included in the custom jinja template?)
 #    [![](img/gen3.png)](https://ctds.uchicago.edu/gen3)[![](img/createdby.png)](https://ctds.uchicago.edu/)
