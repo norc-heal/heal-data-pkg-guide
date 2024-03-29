@@ -15,7 +15,7 @@
 ## Late
 
 * Set yourself up for success
-  * Audit all [study files/resources](../../../terms/index.md#study-filesresources) already produced by or for your study
+  * Audit all [study files/resources](https://norc.sharepoint.com/) already produced by or for your study
     * If you are late in your study and have accumulated many study files already, establishing file naming and organization conventions now and back-applying them may be quite burdensome and potentially prone to error. Therefore, we generally recommend that you leave file names and organization as is - However, we do request that you consider the following exceptions: 
       * Where practicable to implement (without duplicating original files), organize all study files/resources into a single study folder/directory (study folder/directory may of course have sub-directories; see [here](../../guidance/file-org.md) for guidance on and examples of recommended study folder/directory structure) 
       * If you have sets of "like" files (e.g. a similarly formatted tabular data file or brain imaging file per study subject per study timepoint), it may be well worth establishing file naming and organization conventions based on [HEAL recommendations for organizing and naming study files/resources](../../file-o-and-n/index.md) now and back-applying them just for these file sets - doing so may make it possible/easier to annotate these file sets in one go instead of annotating them singly one at a time, and so may substantially reduce annotation/data-sharing burden for the study group
