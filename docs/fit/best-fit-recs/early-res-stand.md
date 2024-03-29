@@ -5,7 +5,10 @@
 
 
 ### What to do **right away**    
+
+```markdown
 {{ external_markdown('https://raw.githubusercontent.com/norc-heal/heal-data-pkg-guide/modules/docs/fit/best-fit-recs/modules/set-success.md', '## Early') }}
+```
 
 * Initialize your [Data Package](../terms/index.md#data-package)  
   * Create a ["dsc-pkg" folder/directory](../terms/index.md#dsc-pkg-folder) that will hold all [Standard Data Package Metadata Files](../terms/index.md#standard-data-package-metadata-files) for your data package

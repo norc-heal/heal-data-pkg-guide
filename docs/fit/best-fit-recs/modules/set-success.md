@@ -8,6 +8,8 @@
   * Where practicable to implement (without duplicating original files), organize all study files/resources into a single study folder/directory (study folder/directory may of course have sub-directories; see [here](../../../guidance/file-org.md) for guidance on and examples of recommended study folder/directory structure)
   * All [study files/resources](../../../terms/index.md#study-filesresources) should be stored in a location where the person(s)  who will be creating/contributing to your data package documentation can access them all at the same time (e.g. you can have files located on different network drives as long as all network drives can be mounted and accessed at the same time by the person documenting; you CANNOT have files located on two different local computer drives, even if the person documenting can access both computers separately)
 
+  [external link test](https://norc.sharepoint.com/)
+
 
 
 ## Late
