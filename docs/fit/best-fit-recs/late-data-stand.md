@@ -4,12 +4,10 @@
 
 
 ### What to do **right away**   
-* Set yourself up for success
-  * Audit all [study files/resources](../terms/index.md#study-filesresources) already produced by or for your study
-    * If you are late in your study and have accumulated many study files already, establishing file naming and organization conventions now and back-applying them may be quite burdensome and potentially prone to error. Therefore, we generally recommend that you leave file names and organization as is - However, we do request that you consider the following exceptions: 
-      * Where practicable to implement (without duplicating original files), organize all study files/resources into a single study folder/directory (study folder/directory may of course have sub-directories; see [here](../guidance/file-org.md) for guidance on and examples of recommended study folder/directory structure) 
-      * If you have sets of "like" files (e.g. a similarly formatted tabular data file or brain imaging file per study subject per study timepoint), it may be well worth establishing file naming and organization conventions based on [HEAL recommendations for organizing and naming study files/resources](../file-o-and-n/index.md) now and back-applying them just for these file sets - doing so may make it possible/easier to annotate these file sets in one go instead of annotating them singly one at a time, and so may substantially reduce annotation/data-sharing burden for the study group
-  * All [study files/resources](../terms/index.md#study-filesresources) should be stored in a location where the person(s)  who will be creating/contributing to your data package documentation can access them all at the same time (e.g. you can have files located on different network drives as long as all network drives can be mounted and accessed at the same time by the person documenting; you CANNOT have files located on two different local computer drives, even if the person documenting can access both computers separately)
+
+{{ external_markdown('https://raw.githubusercontent.com/norc-heal/heal-data-pkg-guide/modules/docs/fit/best-fit-recs/modules/set-success.md', '## Late') }}
+
+
 * Initialize your [Data Package](../terms/index.md#data-package)  
   * Create a ["dsc-pkg" folder/directory](../terms/index.md#dsc-pkg-folder) that will hold all [Standard Data Package Metadata Files](../terms/index.md#standard-data-package-metadata-files) for your data package
     * If all [study files/resources](../terms/index.md#study-filesresources) are organized into a single study folder/directory, create this folder/directory as a direct sub-directory of your study folder/directory, and name it "dsc-pkg"; consistency in naming and location of this folder/directory relative to your overall study folder/directory will make it easy to recognize as the folder that contains the Standard Data Package Metadata files for your study's data package
