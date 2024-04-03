@@ -194,7 +194,7 @@ Please follow the links below for additional information on:
 * [Standard data package metadata files - File-level](#standard-data-package-metadata-file-level)
 * [Data Dictionary overview](#data-dictionary)
 * [Data Dictionary csv template](../csv-templates/heal-csv-data-dictionary.csv)
-* [Data Dictionary schema/field definitions](../schemas/md_data_dictionary_fields.md)
+* [Data Dictionary schema/field definitions](../schemas/md_data_dictionary.md)
 
 </div>
 
@@ -281,11 +281,11 @@ Please follow the links below for additional information on:
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
-As-you-go annotation implies that you will begin the [data packaging and annotation process](../intro/how.md) right away; you will audit and annotate all study resources already created, and keep up with annotation as you move through the remainder of your study timeline; you will generally audit and annotate all study resources regardless of whether these resources will ultimately be shared at a public data repository (["wholistic" annotation](#wholistic-annotation)) 
+As-you-go annotation implies that you will begin the [data packaging and annotation process](../overview/how.md) right away; you will audit and annotate all study resources already created, and keep up with annotation as you move through the remainder of your study timeline; you will generally audit and annotate all study resources regardless of whether these resources will ultimately be shared at a public data repository (["wholistic" annotation](#wholistic-annotation)) 
 
 See the alternative: [Top-down Annotation](#top-down-annotation)
 
-**As you move through the [data packaging process steps](../intro/how.md), "as-you-go" annotation implies that you will**: 
+**As you move through the [data packaging process steps](../overview/how.md), "as-you-go" annotation implies that you will**: 
 
 1. Audit relevant files
 
@@ -368,11 +368,11 @@ See the alternative: [Top-down Annotation](#top-down-annotation)
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
-Top-down annotation implies that you will generally implement the [data packaging and annotation process](../intro/how.md) in a somewhat narrower, more goal-oriented manner as compared to how you would implement if using the alternative [As-you-go annotation](#as-you-go-annotation) approach; You will generally determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation), then wait until your study has produced the goal sharing product (i.e. respectively, the final result product(s) or manuscripts containing a set of final result product(s) for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating); you will then audit and annotate the subset of study resources required to interpret, use, and/or reproduce the results or dataset already created, and annotate this subset of study resources right away; when you take the "top down" annotation approach, you will generally audit the full subset of study resources required to support your result(s) and/or dataset regardless of whether these resources will ultimately be shared at a public data repository, however you may choose to 1) annotate all resources in this subset regardless of whether they will be shared in a public repository (["wholistic" annotation](#wholistic-annotation)), or 2) annotate only the resources in this subset that will be shared in a public repository (["minimal" annotation](#minimal-annotation))
+Top-down annotation implies that you will generally implement the [data packaging and annotation process](../overview/how.md) in a somewhat narrower, more goal-oriented manner as compared to how you would implement if using the alternative [As-you-go annotation](#as-you-go-annotation) approach; You will generally determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation), then wait until your study has produced the goal sharing product (i.e. respectively, the final result product(s) or manuscripts containing a set of final result product(s) for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating); you will then audit and annotate the subset of study resources required to interpret, use, and/or reproduce the results or dataset already created, and annotate this subset of study resources right away; when you take the "top down" annotation approach, you will generally audit the full subset of study resources required to support your result(s) and/or dataset regardless of whether these resources will ultimately be shared at a public data repository, however you may choose to 1) annotate all resources in this subset regardless of whether they will be shared in a public repository (["wholistic" annotation](#wholistic-annotation)), or 2) annotate only the resources in this subset that will be shared in a public repository (["minimal" annotation](#minimal-annotation))
 
 See the alternative: [As-you-go Annotation](#as-you-go-annotation)
 
-**As you move through the [data packaging process steps](../intro/how.md), "top-down" annotation implies that you will**: 
+**As you move through the [data packaging process steps](../overview/how.md), "top-down" annotation implies that you will**: 
 
 1. Audit relevant files
 

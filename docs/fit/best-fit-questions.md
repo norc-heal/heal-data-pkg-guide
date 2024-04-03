@@ -12,7 +12,7 @@ When deciding the best fit for you with respect to how and when you will start c
 
 Move through the "best fit" questions [below](#study-stage). Select and record the answer option to each question that best fits you and your study. 
 <br><br>
-Based upon your study's answer selections, [detailed guidance](best-fit-annotation-recs.md) on how and when to create and complete your data package will be provided. 
+Based upon your study's answer selections, [detailed guidance](best-fit-recs/index.md) on how and when to create and complete your data package will be provided. 
 
 </div>
 

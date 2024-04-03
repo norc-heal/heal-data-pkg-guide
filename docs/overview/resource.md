@@ -24,4 +24,4 @@ The resource tracker is an inventory and annotated list of all data and supporti
     * Documenting all study artefacts related to your data sharing goal(s), **OR**
     * Documenting only study artefacts related to your data sharing goal that will be shared in a public repository
 
-#### [For guidance on answering these key questions, click here.](../guide/index.md){ .md-button}
+#### [For guidance on answering these key questions, click here.](../fit/index.md){ .md-button}
