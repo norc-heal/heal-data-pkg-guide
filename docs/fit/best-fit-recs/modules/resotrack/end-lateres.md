@@ -1,0 +1,5 @@
+<!-- Late results support standard-->
+* Add your manuscript and its [associated Results Tracker](../../terms/index.md#associated-results-tracker) to your Resource Tracker 
+  * Do not add the Results Tracker for your manuscript to your Resource Tracker until it is finalized 
+* For each final result product shared in your manuscript, add each of the associated files/dependencies for that final result product to your Resource Tracker, including associated files/dependencies of immediate associated files/dependencies 
+  * Check that all final result product [associated files/dependencies](../../terms/index.md#associated-filesdependencies) (listed in the associated files/dependencies fields for each final result product listed in the Results Tracker) are also listed as study resource/files in your Resource Tracker - Add any that are missing
