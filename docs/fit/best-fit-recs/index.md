@@ -12,4 +12,4 @@ full-width: true
 
 Based on your answers to the [best fit questions](../best-fit-questions.md), you can find your suggested annotation approach. Each suggested annotation approach has its own set of instructions. Find your "best fit" below and follow the link to the instructions:
 
-<!-- ![](../../assets/dec-tree-2.drawio) -->
+  ![](assets/dec-tree-2.drawio)

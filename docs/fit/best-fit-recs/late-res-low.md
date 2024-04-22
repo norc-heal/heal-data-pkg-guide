@@ -6,7 +6,9 @@ full-width: true
 
 # Late in Study, Results-Support Orientation, Low Level of Data Sharing Resources
 
-  ![](../../assets/late-res-low.drawio)
+## Data Packaging Timeline
+
+  ![](assets/late-res-low.drawio)
 
 <br>
 

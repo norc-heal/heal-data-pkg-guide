@@ -8,7 +8,7 @@ full-width: true
 
 ## Data Packaging Timeline
 
-  ![](../../assets/late-data-low.drawio)
+  ![](assets/late-data-low.drawio)
 
 <br>
 

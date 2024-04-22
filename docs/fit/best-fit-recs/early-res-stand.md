@@ -9,7 +9,7 @@ full-width: true
 
 ## Data Packaging Timeline
 
-  ![](../../assets/early-res-stand-new.drawio)
+  ![](assets/early-res-stand-new.drawio)
 
 <br>
 
