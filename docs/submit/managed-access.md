@@ -6,7 +6,7 @@ full-width: true
 
 # Creating an Managed-Access Shareable Data Package
 
-  ![](../../assets/prepare-sub-managed.drawio)
+  ![](../assets/prepare-sub-managed.drawio)
 
 <br>
 

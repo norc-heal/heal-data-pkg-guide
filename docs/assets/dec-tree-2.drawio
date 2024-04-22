@@ -1,95 +1,161 @@
 <mxfile host="65bd71144e">
-    <diagram id="WiGQS7dhg83cZKYmcUeT" name="Page-1">
-        <mxGraphModel dx="1174" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <diagram id="abx7U2HMCxDO-u5szK_p" name="Page-1">
+        <mxGraphModel dx="2024" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Study stage" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="350" y="100" width="90" height="60" as="geometry"/>
+                <mxCell id="2" value="Results-support" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="110" y="200" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="5" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="320" y="220" as="sourcePoint"/>
-                        <mxPoint x="390" y="160" as="targetPoint"/>
+                <mxCell id="3" value="Dataset-sharing" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="320" y="200" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Standard" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="45" y="320" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Low" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="110" y="320" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Are you early or late in your study?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="455" y="60" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="What is your data sharing orientation?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="192.5" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="What is your data sharing orientation?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="747.5" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="What is your level of resources for data sharing?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="60" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="What is your level of resources for data sharing?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="330" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="What is your level of resources for data sharing?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="610" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="What is your level of resources for data sharing?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="890" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="120" width="560" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;fillStyle=auto;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="220" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="220" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="75" y="380" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="6" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="460" y="220" as="sourcePoint"/>
-                        <mxPoint x="390" y="160" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="19" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;shadow=0;strokeColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="320" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Data sharing orientation" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="170" y="220" width="90" height="60" as="geometry"/>
+                <UserObject label="Early&lt;br&gt;Results-support&lt;br&gt;Low resources" link="../fit/best-fit-recs/early-res-low.md" id="20">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="120" y="380" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Early&lt;br&gt;Dataset-sharing&lt;br&gt;Standard resources" link="../fit/best-fit-recs/early-data-stand.md" id="21">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="260" y="380" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Early&lt;br&gt;Dataset-sharing&lt;br&gt;Low resources" link="../fit/best-fit-recs/early-data-low.md" id="22">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="400" y="380" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Late&lt;br&gt;Results-support&lt;br&gt;Standard resources" link="../fit/best-fit-recs/late-res-stand.md" id="23">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="545" y="380" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Late&lt;br&gt;Results-support&lt;br&gt;Low resources" link="../fit/best-fit-recs/late-res-low.md" id="24">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="680" y="380" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Late&lt;br&gt;Dataset-sharing&lt;br&gt;Standard resources" link="../fit/best-fit-recs/late-data-stand.md" id="25">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="820" y="380" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Late&lt;br&gt;Dataset-sharing&lt;br&gt;Low resources" link="../fit/best-fit-recs/late-data-low.md" id="26">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="960" y="380" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="27" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="320" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Data sharing orientation" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="540" y="220" width="90" height="60" as="geometry"/>
+                <mxCell id="28" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="320" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Resources for data sharing" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="100" y="340" width="90" height="60" as="geometry"/>
+                <mxCell id="29" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="320" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Resources for data sharing" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="240" y="340" width="90" height="60" as="geometry"/>
+                <mxCell id="30" value="Early" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="330" y="110" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Resources for data sharing" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="410" y="340" width="90" height="60" as="geometry"/>
+                <mxCell id="31" value="Late" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="680" y="110" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="Resources for data sharing" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="590" y="340" width="90" height="60" as="geometry"/>
+                <mxCell id="32" value="Results-support" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="662.5" y="200" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="7" target="5" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="132.5" y="340" as="sourcePoint"/>
-                        <mxPoint x="257.5" y="280" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="33" value="Dataset-sharing" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="872.5" y="200" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="9" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="480" y="340" as="sourcePoint"/>
-                        <mxPoint x="542.5" y="280" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="34" value="Standard" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="322.5" y="320" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="8" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="322.5" y="340" as="sourcePoint"/>
-                        <mxPoint x="220" y="280" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="35" value="Low" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="387.5" y="320" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="10" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="605" y="340" as="sourcePoint"/>
-                        <mxPoint x="540" y="280" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="36" value="Standard" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="600" y="320" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Early" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="160" width="60" height="30" as="geometry"/>
+                <mxCell id="37" value="Low" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="665" y="320" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="Late" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="470" y="160" width="60" height="30" as="geometry"/>
+                <mxCell id="38" value="Standard" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="880" y="320" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Results-support" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="110" y="290" width="120" height="30" as="geometry"/>
+                <mxCell id="39" value="Low" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="945" y="320" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="Results-support" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="400" y="290" width="120" height="30" as="geometry"/>
+                <UserObject label="Early&lt;br&gt;Results-support&lt;br&gt;Standard resources" link="../fit/best-fit-recs/early-res-stand.md" id="40">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                        <mxGeometry x="-20" y="380" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="41" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;shadow=0;strokeColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="320" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="Dataset-sharing" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="280" y="290" width="120" height="30" as="geometry"/>
+                <mxCell id="42" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="320" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="Dataset-sharing" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="560" y="290" width="120" height="30" as="geometry"/>
+                <mxCell id="44" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="320" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="80" y="460" as="sourcePoint"/>
-                        <mxPoint x="142.5" y="400" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="45" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="320" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="210" y="460" as="sourcePoint"/>
-                        <mxPoint x="145" y="400" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="46" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;fillStyle=auto;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="220" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;shadow=0;strokeColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="320" width="140" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

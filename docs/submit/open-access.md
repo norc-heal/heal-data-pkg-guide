@@ -6,7 +6,7 @@ full-width: true
 
 # Creating an Open-Access Shareable Data Package
 
-  ![](../../assets/prepare-sub-open.drawio)
+  ![](../assets/prepare-sub-open.drawio)
 
 
 <br>
