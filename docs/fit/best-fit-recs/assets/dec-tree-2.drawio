@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="abx7U2HMCxDO-u5szK_p" name="Page-1">
-        <mxGraphModel dx="2024" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1384" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -16,16 +16,16 @@
                 <mxCell id="5" value="Low" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;" parent="1" vertex="1">
                     <mxGeometry x="120" y="320" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Are you early or late in your study?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;strokeColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+                <mxCell id="6" value="How far along are you in your study?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;strokeColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="455" y="60" width="150" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="What is your data sharing orientation?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;fontColor=#FFFFFF;" parent="1" vertex="1">
+                <mxCell id="7" value="What is your data sharing goal?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="192.5" y="160" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="What is your data sharing orientation?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;fontColor=#FFFFFF;" parent="1" vertex="1">
+                <mxCell id="8" value="What is your data sharing goal?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="747.5" y="160" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="What level of resources do you have for data sharing?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;fontColor=#FFFFFF;" parent="1" vertex="1">
+                <mxCell id="9" value="Do you have low or no resources to devote to data sharing efforts?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="35" y="260" width="150" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" parent="1" vertex="1">
@@ -51,39 +51,39 @@
                 <mxCell id="19" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;shadow=0;strokeColor=default;" parent="1" vertex="1">
                     <mxGeometry x="40" y="320" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <UserObject label="Early&lt;br&gt;Results-support&lt;br&gt;Low resources" link="early-res-low" id="20">
-                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;" parent="1" vertex="1">
-                        <mxGeometry x="120" y="380" width="120" height="60" as="geometry"/>
+                <UserObject label="Early&lt;br style=&quot;font-size: 13px;&quot;&gt;Results-support&lt;br style=&quot;font-size: 13px;&quot;&gt;Low resources" link="early-res-low" id="20">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;fontSize=13;" parent="1" vertex="1">
+                        <mxGeometry x="111" y="380" width="130" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="Early&lt;br&gt;Dataset-sharing&lt;br&gt;Standard resources" link="early-data-stand" id="21">
-                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;" parent="1" vertex="1">
-                        <mxGeometry x="260" y="380" width="120" height="60" as="geometry"/>
+                <UserObject label="Early&lt;br style=&quot;font-size: 13px;&quot;&gt;Dataset-sharing&lt;br style=&quot;font-size: 13px;&quot;&gt;Standard resources" link="early-data-stand" id="21">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;fontSize=13;" parent="1" vertex="1">
+                        <mxGeometry x="253" y="380" width="130" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="Early&lt;br&gt;Dataset-sharing&lt;br&gt;Low resources" link="early-data-low" id="22">
-                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;" parent="1" vertex="1">
-                        <mxGeometry x="400" y="380" width="120" height="60" as="geometry"/>
+                <UserObject label="Early&lt;br style=&quot;font-size: 13px;&quot;&gt;Dataset-sharing&lt;br style=&quot;font-size: 13px;&quot;&gt;Low resources" link="early-data-low" id="22">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;fontSize=13;" parent="1" vertex="1">
+                        <mxGeometry x="394" y="380" width="130" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="Late&lt;br&gt;Results-support&lt;br&gt;Standard resources" link="late-res-stand" id="23">
-                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;" parent="1" vertex="1">
-                        <mxGeometry x="545" y="380" width="120" height="60" as="geometry"/>
+                <UserObject label="Late&lt;br style=&quot;font-size: 13px;&quot;&gt;Results-support&lt;br style=&quot;font-size: 13px;&quot;&gt;Standard resources" link="late-res-stand" id="23">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;fontSize=13;" parent="1" vertex="1">
+                        <mxGeometry x="536" y="380" width="130" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="Late&lt;br&gt;Results-support&lt;br&gt;Low resources" link="late-res-low" id="24">
-                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;" parent="1" vertex="1">
-                        <mxGeometry x="680" y="380" width="120" height="60" as="geometry"/>
+                <UserObject label="Late&lt;br style=&quot;font-size: 13px;&quot;&gt;Results-support&lt;br style=&quot;font-size: 13px;&quot;&gt;Low resources" link="late-res-low" id="24">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;fontSize=13;" parent="1" vertex="1">
+                        <mxGeometry x="677" y="380" width="130" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="Late&lt;br&gt;Dataset-sharing&lt;br&gt;Standard resources" link="late-data-stand" id="25">
-                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;" parent="1" vertex="1">
-                        <mxGeometry x="820" y="380" width="120" height="60" as="geometry"/>
+                <UserObject label="Late&lt;br style=&quot;font-size: 13px;&quot;&gt;Dataset-sharing&lt;br style=&quot;font-size: 13px;&quot;&gt;Standard resources" link="late-data-stand" id="25">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;fontSize=13;" parent="1" vertex="1">
+                        <mxGeometry x="819" y="380" width="130" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="Late&lt;br&gt;Dataset-sharing&lt;br&gt;Low resources" link="late-data-low" id="26">
-                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;" parent="1" vertex="1">
-                        <mxGeometry x="960" y="380" width="120" height="60" as="geometry"/>
+                <UserObject label="Late&lt;br style=&quot;font-size: 13px;&quot;&gt;Dataset-sharing&lt;br style=&quot;font-size: 13px;&quot;&gt;Low resources" link="late-data-low" id="26">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;fontSize=13;" parent="1" vertex="1">
+                        <mxGeometry x="960" y="380" width="130" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
                 <mxCell id="27" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" parent="1" vertex="1">
@@ -125,9 +125,9 @@
                 <mxCell id="39" value="Low" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;" parent="1" vertex="1">
                     <mxGeometry x="945" y="320" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <UserObject label="Early&lt;br&gt;Results-support&lt;br&gt;Standard resources" link="early-res-stand" id="40">
-                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;" parent="1" vertex="1">
-                        <mxGeometry x="-20" y="380" width="120" height="60" as="geometry"/>
+                <UserObject label="Early&lt;br style=&quot;font-size: 13px;&quot;&gt;Results-support&lt;br style=&quot;font-size: 13px;&quot;&gt;Standard resources" link="early-res-stand" id="40">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#982568;opacity=50;fontSize=13;" parent="1" vertex="1">
+                        <mxGeometry x="-30" y="380" width="130" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
                 <mxCell id="41" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;shadow=0;strokeColor=default;" parent="1" vertex="1">
@@ -148,13 +148,13 @@
                 <mxCell id="43" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;shadow=0;strokeColor=default;" parent="1" vertex="1">
                     <mxGeometry x="40" y="320" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="What level of resources do you have for data sharing?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="47" value="Do you have low or no resources to devote to data sharing efforts?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="312.5" y="260" width="150" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="What level of resources do you have for data sharing?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="48" value="Do you have low or no resources to devote to data sharing efforts?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="595" y="260" width="150" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="What level of resources do you have for data sharing?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="49" value="Do you have low or no resources to devote to data sharing efforts?" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#532565;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="875" y="260" width="150" height="60" as="geometry"/>
                 </mxCell>
             </root>

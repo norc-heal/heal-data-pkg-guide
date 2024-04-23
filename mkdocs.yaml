@@ -4,6 +4,7 @@ site_url: https://norc-heal.github.io/heal-data-pkg-guide
 repo_url: https://github.com/norc-heal/heal-data-pkg-guide
 nav:
   - Introduction: index.md
+  - Introduction II: intro/intro.md
   - "Overview":
     - overview/what.md
     - overview/who.md

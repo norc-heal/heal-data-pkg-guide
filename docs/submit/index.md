@@ -1,6 +1,14 @@
+---
+hide:
+  - toc
+full-width: true
+---
+
 # Preparing your Data Package for Submission
 
-Once you have fiished preparing your data package locally, you will need to prepare your data package for submission to a repository.
+  ![](share.drawio)
+
+Once you have finished preparing your data package locally, you will need to prepare your data package for submission to a repository.
 
 !!! note
 
