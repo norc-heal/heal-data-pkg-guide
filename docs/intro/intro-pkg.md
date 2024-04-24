@@ -1,11 +1,5 @@
----
-hide:
-  - toc
-full-width: true
----
+# Data Packaging Basics
 
-# Basics of Data Packaging for HEAL-Funded Investigators
-  
   ![](intro.drawio)
 
 **WHAT IS A DATA PACKAGE?**
