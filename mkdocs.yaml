@@ -3,10 +3,8 @@ site_name: HEAL Data Packaging
 site_url: https://norc-heal.github.io/heal-data-pkg-guide
 repo_url: https://github.com/norc-heal/heal-data-pkg-guide
 nav:
-#  - Introduction: index.md
-  - Introduction: 
-    - intro/index.md
-    - intro/intro-pkg.md
+  - Introduction: index.md
+  - Introduction II: intro/intro-pkg.md
   - "Overview":
     - overview/what.md
     - overview/who.md
