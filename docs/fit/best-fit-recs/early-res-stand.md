@@ -72,11 +72,21 @@ full-width: true
 
 #### Start your [Results Tracker(s)](../../terms/index.md#results-tracker) - one per manuscript or report
 
---8<-- "fit/best-fit-recs/modules/resulttrack/result-ressup.md"
+--8<-- "fit/best-fit-recs/modules/resulttrack/resulttrack.md"
 
---8<-- "fit/best-fit-recs/modules/resulttrack/result-final.md"
+</div>
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+#### Add items to your Resource Tracker
 
 --8<-- "fit/best-fit-recs/modules/resotrack/end-earlyres.md"
+
+</div>
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+--8<-- "fit/best-fit-recs/modules/finish.md"
 
 </div>
 </div>

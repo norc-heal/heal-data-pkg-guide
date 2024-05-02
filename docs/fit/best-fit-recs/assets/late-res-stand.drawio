@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="kfqbYSQvsbw34wrSjgwR" name="Page-1">
-        <mxGraphModel dx="1076" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1174" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -71,7 +71,7 @@
                 </mxCell>
                 <UserObject label="&lt;b&gt;Results Tracker&lt;/b&gt;" link="#start-your-results-trackers-one-per-manuscript-or-report" id="48">
                     <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;fillColor=#982568;gradientColor=none;gradientDirection=radial;opacity=50;" parent="1" vertex="1" collapsed="1">
-                        <mxGeometry x="505" y="460" width="130" height="50" as="geometry">
+                        <mxGeometry x="370" y="290" width="130" height="50" as="geometry">
                             <mxRectangle x="505" y="460" width="120" height="140" as="alternateBounds"/>
                         </mxGeometry>
                     </mxCell>
@@ -81,7 +81,7 @@
                 </mxCell>
                 <UserObject label="&lt;b&gt;Data Dictionary&lt;/b&gt;" link="#create-your-data-dictionaries" id="54">
                     <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;fillColor=#982568;gradientColor=none;gradientDirection=radial;opacity=50;arcSize=15;swimlaneFillColor=none;" parent="1" vertex="1" collapsed="1">
-                        <mxGeometry x="345" y="460" width="130" height="50" as="geometry">
+                        <mxGeometry x="500" y="460" width="130" height="50" as="geometry">
                             <mxRectangle x="590" y="290" width="120" height="130" as="alternateBounds"/>
                         </mxGeometry>
                     </mxCell>
@@ -136,7 +136,7 @@
                 </mxCell>
                 <UserObject label="&lt;b&gt;Experiment Tracker&lt;/b&gt;" link="#start-your-experiment-tracker" id="41">
                     <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;fillColor=#982568;gradientColor=none;gradientDirection=radial;opacity=50;" parent="1" vertex="1" collapsed="1">
-                        <mxGeometry x="375" y="290" width="130" height="50" as="geometry">
+                        <mxGeometry x="340" y="460" width="130" height="50" as="geometry">
                             <mxRectangle x="375" y="290" width="120" height="110" as="alternateBounds"/>
                         </mxGeometry>
                     </mxCell>

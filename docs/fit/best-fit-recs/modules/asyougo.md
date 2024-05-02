@@ -7,6 +7,6 @@
 #### As you create/collect new study files/resources: 
 * Consider applying [HEAL recommendations for file organization and naming](../../file-o-and-n/index.md) to study files/resources as they are created
   * If you came up with file organization and naming conventions based on HEAL recommendations at the start of or earlier in your study, continue to consistently apply those conventions as you create/collect new study files
-  * Add new study files/resources to your [Resource Tracker](../../terms/index.md#resource-tracker) as they are created/collected (as soon as possible), including study analysis/result files
+* Add new study files/resources to your [Resource Tracker](../../terms/index.md#resource-tracker) as they are created/collected (as soon as possible), including data and non-data support files, such as protocols, data dictionaries, code, and analysis files
 
   </div>

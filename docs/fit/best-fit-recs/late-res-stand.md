@@ -41,14 +41,6 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Create your Data Dictionaries
-
---8<-- "fit/best-fit-recs/modules/datadict/datadict-reslow.md"
-
-</div>
-
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
-
 #### Start your [Experiment Tracker](../../terms/index.md#experiment-tracker) 
 
 --8<-- "fit/best-fit-recs/modules/exptrack/exp-lateres.md"
@@ -67,11 +59,31 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
+#### Create your Data Dictionaries
+
+--8<-- "fit/best-fit-recs/modules/datadict/datadict-reslow.md"
+
+</div>
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
 #### Start your [Resource Tracker](../../terms/index.md#resource-tracker)
 
 --8<-- "fit/best-fit-recs/modules/resotrack/resotrack.md"
 
---8<-- "fit/best-fit-recs/modules/resotrack/end-lateres.md"
+</div>
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+#### Add items to your Resource Tracker
+
+--8<-- "fit/best-fit-recs/modules/resotrack/add-res-late.md"
+
+</div>
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+--8<-- "fit/best-fit-recs/modules/finish.md"
 
 </div>
 </div>
