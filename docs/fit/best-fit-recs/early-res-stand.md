@@ -62,7 +62,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Make a list of results of shared and contributing experiments
+#### Make a list of shared results and contributing experiments
 
 --8<-- "fit/best-fit-recs/modules/auditresults/audit-earlystand.md"
 
@@ -70,7 +70,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Start your [Results Tracker(s)](../../terms/index.md#results-tracker) - one per manuscript or report
+#### Start your [Results Tracker](../../terms/index.md#results-tracker) - one per manuscript
 
 --8<-- "fit/best-fit-recs/modules/resulttrack/resulttrack.md"
 
