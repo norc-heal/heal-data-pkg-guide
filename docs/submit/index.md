@@ -96,7 +96,7 @@ For a file to be considered shareable, each of the following must be true:
 
 1. The file is listed as a resource in the Resource Tracker
 2. The access field for that resource is complete
-3. If the access field value is temporary private, 1) the access date (which specifies when the file will become shareable) is complete, and 2) there is a second access value of either open or managed access (the way you want to share a file once it is no longer temporary private)
+3. If the access field value is temporary private, 1) the access date (which specifies when the file will become shareable) is complete, and 2) there is a second value in "access" of either open or managed access (the way you want to share a file once it is no longer temporary private)
 
 Check that all of the appropriate files are annotated and fields are complete before starting to perpare your data package for submission.
 

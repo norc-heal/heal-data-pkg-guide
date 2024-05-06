@@ -15,7 +15,7 @@ full-width: true
 ---
 !!! note "Reminder"
 
-    **These directions apply to studies that have a centralized study folder where all study files are saved.**
+    **These instructions apply to studies that have a centralized study folder where all study files are saved.**
 
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
@@ -54,12 +54,12 @@ Create a new folder with the same folder structure as your centralized study fol
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-Next, you will need to make some adjustments to your standard data package metadata (specifically, your Resource Tracker and Results Tracker, if applicable). You will need to adjust all file paths within the Resource Tracker and Results Tracker from full paths to paths relative to the dsc-pkg folder.
+Next, you will need to make adjustments to your standard data package metadata, specifically you will need to adjust all file paths within the Resource Tracker and Results Tracker from full paths to paths relative to the dsc-pkg folder.
 
-* Editing the resource file paths to be relative to the dsc-pkg folder will help future users to better understand the relationship of the files within the folder.
-  * It will also keep you from having to share informatin about the structure of your study team's network drive, Box, or other folder structure.
-  * This method works best when all files and the dsc-pkg folder are saved within a centralized study folder. Every path disclosed will be in relation to your dsc-pkg folder within your centralized study folder.
+* Showing all file paths as relative to the dsc-pkg folder will help future users to better understand the relationship of the resources without having to share information about the structure of your internal study team's network drive, Box, or other folder structure.
+* As mentioned previously, this method works best when all files and the dsc-pkg folder are saved within a centralized study folder. Every path disclosed will be in relation to your dsc-pkkg folder and within your centralized study folder.
 
+##### Resource Tracker
 4. Open your Resource Tracker. You will be need to adjust all file paths within the tracker from full paths to paths relative to the dsc-pkg folder within your centralized study folder.
   1. You will likely have to make adjustments to file paths within each of the below columns (if they are not empty): 
     * path
@@ -72,6 +72,7 @@ Next, you will need to make some adjustments to your standard data package metad
 
 5. After setting up your relative file paths, copy your edited Resource Tracker and your Experiment Tracker into your new open-access now shareable data package folder. No edits should need to be made to the Experiment Tracker before copying over to the shareable data package folder.
 
+##### Results Tracker(s)
 5. If your Results Tracker is included in the files able to be shared as open-access as of today's date, open your Results Tracker.
 
   !!! warning
