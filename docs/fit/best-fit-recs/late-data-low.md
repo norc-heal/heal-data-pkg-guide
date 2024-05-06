@@ -33,7 +33,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Make a list of contributing experiments/actities for the final dataset-of-interest
+#### Make a list of contributing experiments/activities for the final dataset-of-interest
 
 --8<-- "fit/best-fit-recs/modules/auditresults/audit-datalow.md"
 

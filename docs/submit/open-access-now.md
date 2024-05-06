@@ -21,17 +21,30 @@ full-width: true
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
 
-#### Create your shareable data package folder
-
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-Create a new folder with the same folder structure as your centralized study folder. This is where you will create your open-access now shareable data package.
+#### Create your shareable data package folder
+
+You will need to create a folder to hold all data and non-data supporting files that you have designated as shareable from your study. You can create your folder however you see fit, but a suggested structure is below:
+
+* Create a folder called "my-study-share-current date." (*Note: You can name this folder whatever you would like - this is just a recommended name.*)
+  * This folder will hold your shareable data package as well as some supporting documentation.
+* Within that folder, create another folder called "my-study-share-open-access-now." This is where your data package will live. 
+  * In this folder, you will want to mirror the folder structure of your current internal centralized study folder where all your files and supporting documentation are held. **All folders you create here should be empty right now.**
+    * Mirroring the structure of your centralized study folder will allow a secondary user to find files referenced in the Resource Tracker in the folder based on their provided file path.
+    * This is where you will copy in the files from your centralized study folder that are meant to be shared in your "open-access now" shareable data package. Continue to the next step for more information on this.
 
 </div>
 
-#### Copy open-access files into your shareable data package folder
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+#### Identify resources that meet sharing requirements
+
+</div>
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+#### Copy open-access files into your shareable data package folder
 
 2. Navigate to your dsc-pkg folder and open your Resource Tracker. 
   1. The two fields most important to this step are "access" and "access-date." You will use the values in these columns to determine which files will go into your open-access shareable data package.
@@ -50,9 +63,9 @@ Create a new folder with the same folder structure as your centralized study fol
 
 </div>
 
-#### Prepare and copy over standard data package metadata
-
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+#### Prepare and copy over standard data package metadata
 
 Next, you will need to make adjustments to your standard data package metadata, specifically you will need to adjust all file paths within the Resource Tracker and Results Tracker from full paths to paths relative to the dsc-pkg folder.
 
@@ -93,18 +106,17 @@ Next, you will need to make adjustments to your standard data package metadata, 
 
 </div>
 
-#### Zip up your shareable data package
-
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+#### Zip up your shareable data package
 
 Your open-access now shareable data package folder is ready to zip up for submission. You can zip it up in whatever way is most comfortable for you.
 
 </div>
 
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
 #### Prepare other materials for submission
-
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
 8. Return to your original dsc-pkg folder. 
 9. Make a copy of your edited Resource Tracker (the version with relative paths).
@@ -115,9 +127,9 @@ Your open-access now shareable data package folder is ready to zip up for submis
 
 </div>
 
-#### Upload your shareable data package to your repository
-
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+#### Upload your shareable data package to your repository
 
 **Congratulations! You are ready to upload your open-access now shareable data package.**
 

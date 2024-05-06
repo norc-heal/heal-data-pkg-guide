@@ -34,8 +34,8 @@ nav:
   
   - Prepare your data package for submission:
     - submit/index.md
-    - Create an open-access shareable data package: submit/open-access.md
-    - Create a managed-access shareable data package: submit/managed-access.md
+    - Create an open-access shareable data package: submit/open-access-now.md
+    - Create a managed-access shareable data package: submit/managed-access-now.md
     - README template: submit/readme.md
   #- Annotation: 
   #  - Annotation Approaches: annot/index.md
