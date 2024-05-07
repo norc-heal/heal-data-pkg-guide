@@ -18,5 +18,5 @@ Download metadata csv templates.
 * <a href="https://raw.githubusercontent.com/norc-heal/heal-data-pkg-tool/main/heal-csv-experiment-tracker.csv" download>Experiment Tracker</a>
 * <a href="https://raw.githubusercontent.com/norc-heal/heal-data-pkg-tool/main/heal-csv-resource-tracker.csv" download>Resource Tracker</a>
 * <a href="https://raw.githubusercontent.com/norc-heal/heal-data-pkg-tool/main/heal-csv-results-tracker.csv" download>Results Tracker</a>
-* <a href="../csv-templates/heal-csv-data-dictionary.csv" download>Data Dictionary</a>
+* <a href="https://raw.githubusercontent.com/norc-heal/healdata-utils/pr-integration/data/templates/twofields.csv" download>Data Dictionary</a>
 
