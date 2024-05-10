@@ -15,7 +15,7 @@
                         <mxGeometry x="707" y="368" width="124" height="63" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="Copy over files to share" link="#copy-open-access-files-into-your-open-access-now-shareable-data-package-folder" id="10">
+                <UserObject label="Copy over files to share" link="#copy-open-access-files-into-your-open-access-by-date-shareable-data-package-folder" id="10">
                     <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;" parent="1" vertex="1">
                         <mxGeometry x="330" y="460" width="130" height="50" as="geometry"/>
                     </mxCell>
@@ -82,7 +82,7 @@
                         <mxPoint x="590" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <UserObject label="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Create Open-Access Now Shareable Data Package&lt;/b&gt;&lt;/font&gt;" id="113">
+                <UserObject label="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Create Open-Access by Date Shareable Data Package&lt;/b&gt;&lt;/font&gt;" id="113">
                     <mxCell style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.6;arrowSize=0.042105263157894736;fillColor=#532565;strokeColor=#532565;fontSize=13;labelBorderColor=none;" parent="1" vertex="1">
                         <mxGeometry x="182" y="381" width="475" height="40" as="geometry"/>
                     </mxCell>

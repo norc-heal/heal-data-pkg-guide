@@ -4,7 +4,7 @@ hide:
 full-width: true
 ---
 
-# Creating an Open-Access Shareable Data Package
+# Creating an Open-Access Now Shareable Data Package
 
   ![](../assets/prepare-sub-open.drawio)
 
@@ -111,7 +111,7 @@ full-width: true
   1. Your zipped "open-access now" shareable data package
   2. Your edited Resource Tracker, which designates which files are included in the zipped data package.
   3. Your README file.
-2. You should share these at your chosen data repository as open access files.
+2. You should share these at your chosen data repository as open-access files.
 
 </div>
 </div>

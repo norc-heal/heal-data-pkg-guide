@@ -54,7 +54,7 @@ Situations in which you may want to create and share multiple shareable data pac
 Creating a shareable data package largely consists of starting with your local data package and filtering in study files you've indicated you want to share and filtering out study files you've indicated you do not want to share.
 
 * The Resource Tracker and Experiment Tracker should be included by default in any shareable data package created.
-* Results Tracker(s) and data dictionary(ies) will only be inlcuded in a shareable data package if they are listed in the Resource Tracker as shareable
+* Results Tracker(s) and Data Dictionary(ies) will only be included in a shareable data package if they are listed in the Resource Tracker as shareable
 
 Once the shareable data package has been reviewed and approved by the study PI or other appropriate study staff, the shareable data package should be zipped up into a zip archive. The full shareable data package submitted to a public repository will include:
 * Zipped data package
@@ -98,7 +98,7 @@ For a file to be considered shareable, each of the following must be true:
 2. The access field for that resource is complete
 3. If the access field value is temporary private, 1) the access date (which specifies when the file will become shareable) is complete, and 2) there is a second value in "access" of either open or managed access (the way you want to share a file once it is no longer temporary private)
 
-Check that all of the appropriate files are annotated and fields are complete before starting to perpare your data package for submission.
+Check that all of the appropriate files are annotated and fields are complete before starting to prepare your data package for submission.
 
 ## Next steps
 

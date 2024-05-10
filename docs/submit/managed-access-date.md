@@ -4,9 +4,9 @@ hide:
 full-width: true
 ---
 
-# Creating an Open-Access Shareable Data Package
+# Creating a Managed-Access by Specified Date Shareable Data Package
 
-  ![](../assets/prepare-sub-open.drawio)
+  ![](../assets/prepare-sub-managed-date.drawio)
 
 
 <br>
@@ -26,7 +26,7 @@ full-width: true
 
 --8<-- "submit/modules/create.md"
 
---8<-- "submit/modules/intro/open-acc-now.md"
+--8<-- "submit/modules/intro/man-acc-date.md"
 
 </div>
 
@@ -57,7 +57,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Copy open-access files into your "open-access now" shareable data package folder
+#### Copy open-access and managed-access files into your "managed-access-by-date" shareable data package folder
 
 --8<-- "submit/modules/copyover.md"
         
@@ -89,7 +89,7 @@ full-width: true
 
 1. Navigate to the edited Resource Tracker you saved in your "my-study-share-current-date" directory in the previous step.
 1. Add a column to the Resource Tracker called "managed-access-by-date-shareable-data-pkg." Replace "date" with the applicable date on which you intend to share your data package at a repository.
-  2. For each row, enter a 1 if the file will be shared in this "open-access-by-date" shareable data package. If not shared in this shareable data package, enter a 0.
+  2. For each row, enter a 1 if the file will be shared in this "managed-access-by-date" shareable data package. If not shared in this shareable data package, enter a 0.
 
 </div>
 
@@ -106,13 +106,14 @@ full-width: true
 
 #### Upload your shareable data package to your repository
 
-**Congratulations! You are ready to upload your "open-access now" shareable data package.**
+**Congratulations! You are ready to upload your "managed-access-by-date" shareable data package.**
 
-1. Your final "open-access now" shareable data package should include 3 open-access items:
-  1. Your zipped "open-access now" shareable data package
-  2. Your edited Resource Tracker, which designates which files are included in the zipped data package.
-  3. Your README file.
-2. You should share these at your chosen data repository as open access files.
+1. Your final "managed-access-by-date" shareable data package should include 3 items:
+  1. Your zipped "managed-access-by-date" shareable data package
+  2. Two open-access files
+    1. Your edited Resource Tracker, which designates which files are included in the zipped data package.
+    2. Your README.
+2. You should share the edited Resource Tracker and README at your chosen data repository as open-access files and the zipped "managed-access-by-date" shareable data package as managed-access with embargo restrictions applied through the repository until the date intended for sharing.
 
 </div>
 </div>

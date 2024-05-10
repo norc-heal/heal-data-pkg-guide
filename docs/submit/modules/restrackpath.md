@@ -5,7 +5,7 @@ Next, you will need to make adjustments to your Resource Tracker and Results Tra
 * Adjusting the paths within these trackers to be relative to the dsc-pkg folder protects your study team's privacy, as it means people won't see your local folder structure, while also increasing utility for secondary users.
 * As mentioned previously, this method works best when all files and the dsc-pkg folder are saved within a centralized study folder. Every path disclosed will be in relation to your dsc-pkg folder and within your centralized study folder.
 
-See below for information on adjustments to make within each tracker. ***Reminder:** You will be making these adjustments the Resource Tracker and Results Tracker(s) within your shareable data package folder, not your dsc-pkg folder.*
+See below for information on adjustments to make within each tracker. ***Reminder:** You will be making these adjustments the Resource Tracker and Results Tracker(s) within your shareable data package folder, not the versions of these files in the dsc-pkg folder.*
 
 ##### Resource Tracker
 

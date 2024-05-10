@@ -4,9 +4,9 @@ hide:
 full-width: true
 ---
 
-# Creating an Open-Access Shareable Data Package
+# Creating an Open-Access by Specified Date Shareable Data Package
 
-  ![](../assets/prepare-sub-open.drawio)
+  ![](../assets/prepare-sub-open-date.drawio)
 
 
 <br>
@@ -26,7 +26,7 @@ full-width: true
 
 --8<-- "submit/modules/create.md"
 
---8<-- "submit/modules/intro/open-acc-now.md"
+--8<-- "submit/modules/intro/open-acc-date.md"
 
 </div>
 
@@ -56,7 +56,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Copy open-access files into your "open-access now" shareable data package folder
+#### Copy open-access files into your "open-access-by-date" shareable data package folder
 
 --8<-- "submit/modules/copyover.md"
         
@@ -105,13 +105,13 @@ full-width: true
 
 #### Upload your shareable data package to your repository
 
-**Congratulations! You are ready to upload your "open-access now" shareable data package.**
+**Congratulations! You are ready to upload your "open-access-by-date" shareable data package.**
 
-1. Your final "open-access now" shareable data package should include 3 open-access items:
-  1. Your zipped "open-access now" shareable data package
+1. Your final "open-access-by-date" shareable data package should include 3 open-access items:
+  1. Your zipped "open-access-by-date" shareable data package
   2. Your edited Resource Tracker, which designates which files are included in the zipped data package.
   3. Your README file.
-2. You should share these at your chosen data repository as open access files.
+2. You should share the edited Resource Tracker and README at your chosen data repository as open-access files and the zipped "open-access-by-date" shareable data package as open-access with embargo restrictions applied through the repository until the date intended for sharing.
 
 </div>
 </div>

@@ -33,4 +33,4 @@ This catalog includes:
       * created: [insert creation date and time]
       * file-name: [insert file name of zip file]
       * files included:
-        *instructions: files with a value of 1 in [resource-tracker-flag-name: open-access-shareable-data-package OR managed-access-shareable-data-package] column of heal-csv-resource-tracker file are included in the shareable data package
+        * instructions: files with a value of 1 in [resource-tracker-flag-name: open-access-shareable-data-package OR managed-access-shareable-data-package] column of heal-csv-resource-tracker file are included in the shareable data package

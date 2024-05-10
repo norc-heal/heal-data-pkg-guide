@@ -4,7 +4,7 @@ hide:
 full-width: true
 ---
 
-# Creating an Managed-Access Shareable Data Package
+# Creating a Managed-Access Now Shareable Data Package
 
   ![](../assets/prepare-sub-managed.drawio)
 
@@ -102,7 +102,7 @@ full-width: true
 
 #### Upload your shareable data package to your repository
 
-**Congratulations! You are ready to upload your managed-access shareable data package.**
+**Congratulations! You are ready to upload your "managed-access now" shareable data package.**
 
 1. Your final "managed-access now" shareable data package should include 3 items:
   1. Your zipped "managed-access now" shareable data package
