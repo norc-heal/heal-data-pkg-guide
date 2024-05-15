@@ -8,20 +8,24 @@ full-width: true
 
   ![](share.drawio)
 
-Once you have finished preparing your data package locally, you will need to prepare your data package for submission to a repository. This section will walk through the different types of shareable data packages you can consider, how to determine which files should go into your final shareable data package, and how to finalize this data package for submission to a data repository.
+Once you have finished preparing your data package locally, you will need to prepare your data package for submission to a repository, by creating a "shareable" data package or packages. A shareable data package includes the subset of study files that you intend to share, while excluding study files that you do NOT intend to share. 
 
-You should start by thinking about what sorts of shareable data packages you want to produce. You likely have some files designated as open access and some managed access. Other files may be embargoed until a certain date, at which point they will become open or managed access. You may also have some files that are permanent private, which you will not be sharing. This step will help you determine which files will go into your final shareable data package(s) and how to create them.
+There are several different "flavors" or types of shareable data package that allow you to share study files in different ways (e.g. fully open access, only with managed access, under embargo until a specific date, etc.), and if you want to share different sets of study files in different ways, you may want to create more than one shareable data package of different flavors to accomplish this easily. This section will walk through the different types of shareable data packages you can consider, how to determine which files should go into your final shareable data package depending upon the flavor or type of your shareable data package, and how to finalize your shareable data package or packages for submission to a data repository.
 
 ## Determining what your shareable data package will look like
+
+You should start by thinking about what sorts of shareable data packages you want to produce. You likely have some files designated as open access and some managed access. Other files may be embargoed until a certain date, at which point they will become open or managed access. You may also have some files that are permanent private, which you will not be sharing. This step will help you determine which files will go into your final shareable data package(s) and how to create them.
 
 Depending on your specific study situation, you may not want to share all your files in a public data repository (e.g., if you collected human subjects data, you would not want to share fully identified versions of this data publicly) or you may not want to share all files in the same way or at the same time.
 
 !!! example ""
     === "Sharing study files with different levels of protection"
 
-        Your study may have generated sensitive data (e.g., deidentified human subjects data with some level of disclosure risk).
-
-        In this case, you may want to share the sensitive data as managed access while sharing study data that are not sensitive (e.g., non-human subject data) or non-data supporting files such as data dictionaries, protocols, and code as open access.
+        * <b>Managed Access:</b> Your study may have generated sensitive data (e.g., deidentified human subjects data with some level of disclosure risk). In this case, you may want to:
+          * share the sensitive data as <u>managed access</u> 
+          * while sharing study data that are not sensitive (e.g., non-human subject data) or non-data supporting files such as data dictionaries, protocols, and code as <u>open access</u>.
+        * <b>Open Access:</b> Your study may have generated only non-sensitive data (e.g., non-human subjects data). In this case, you may want to:
+          * share all study data and non-data supporting files such as data dictionaries, protocols, and code as <u>open access</u>.
 
     === "Sharing study files at different times"
 
