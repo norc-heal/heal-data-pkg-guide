@@ -10,13 +10,15 @@ full-width: true
 
 Once you have finished preparing your data package locally, you will need to prepare your data package for submission to a repository, by creating a "shareable" data package or packages. A shareable data package includes the subset of study files that you intend to share, while excluding study files that you do NOT intend to share. 
 
-There are several different "flavors" or types of shareable data package that allow you to share study files in different ways (e.g. fully open access, only with managed access, under embargo until a specific date, etc.), and if you want to share different sets of study files in different ways, you may want to create more than one shareable data package of different flavors to accomplish this easily. This section will walk through the different types of shareable data packages you can consider, how to determine which files should go into your final shareable data package depending upon the flavor or type of your shareable data package, and how to finalize your shareable data package or packages for submission to a data repository.
+There are several different "flavors" or types of shareable data package that allow you to share study files in different ways (e.g. open access, managed access, right away, under embargo until a specific date, etc.), and if you want to share different sets of study files in different ways, you may want to create more than one shareable data package of different flavors to accomplish this easily.
 
-## Determining what your shareable data package will look like
+This section will walk through the different ways you may want to share your data and why you might want to share your data in different ways, the flavors or types of shareable data packages that allow you to share in different ways, how to determine which study files should go into your shareable data package depending upon the flavor or type of your shareable data package, and how to finalize your shareable data package or packages for submission to a data repository.
 
-You should start by thinking about what sorts of shareable data packages you want to produce. You likely have some files designated as open access and some managed access. Other files may be embargoed until a certain date, at which point they will become open or managed access. You may also have some files that are permanent private, which you will not be sharing. This step will help you determine which files will go into your final shareable data package(s) and how to create them.
+## Why you might want to share your data in different ways
 
-Depending on your specific study situation, you may not want to share all your files in a public data repository (e.g., if you collected human subjects data, you would not want to share fully identified versions of this data publicly) or you may not want to share all files in the same way or at the same time.
+Depending on your specific study situation, you may not want to share all your files in a public data repository regardless of how protected they may be or the timing of sharing (e.g., if you collected human subjects data, you would not want to share fully identified versions of this data publicly). Importantly, these "unshareable" study files should never be included in a shareable data package of any type.
+
+Leaving these "unshareable" study files aside, you still may not want to share all study files in the same way or at the same time:
 
 !!! example ""
     === "Sharing study files with different levels of protection"
@@ -29,13 +31,16 @@ Depending on your specific study situation, you may not want to share all your f
 
     === "Sharing study files at different times"
 
-        Certain data and results related to your study may not be able to be shared right away. 
-        
-        You may want to wait for study milestones that will allow you to share your data publicly such as when your study team publishes a manuscript based on this data or secures intellectual property rights. In these cases, you may want to embargo all or some of the data until that date.
+        * <b>At a later date:</b> Your study group may have not yet published on the study results and/or secured any intellectual property rights applicable to the study, and you may want to wait to share until after reaching these milestones. In this case, you may want to:
+          * share certain data, results, or other study documents under embargo, so that they are shared <u>at a later date</u> 
+          * while perhaps sharing other study files (e.g. certain subsets of data that you will not use to publish , certain subsets of data that do not contain intellectual property, data dictionaries, protocols, and code) without an embargo, so that they are shared <u>now</u>.
+        * <b>Now:</b> Your study group may have already published on the data and/or secured any intellectual property rights applicable to the study. In this case, you may want to:
+          * share all study data and non-data supporting files such as data dictionaries, protocols, and code without an embargo, so that they are shared <u>now</u>.
 
+         
 How and when you want to share all or some of your study files will determine the approach you take to preparing your data package for submission. 
 
-### Shareable data packages come in multiple "flavors"
+### Shareable data packages "flavors" and when to create them 
 
 | Flavor                   | Process                |
 | -------------------------| ----------------------------|
