@@ -113,13 +113,6 @@ Because it will be faster for secondary users to get access to an open-access-no
 </div>
 
 
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
-
-If you already know what flavor of shareable data package you want to create, and whether you will create more than shareable data package, use [these links](#step-by-step-instructions-for-how-to-create-each-flavor-of-shareable-data-package) to head directly to step-by-step instruction for how to create each flavor of shareable data package: 
-
-</div>
-
-Otherwise, keep reading for more information on how to decide.
 
 </div>
 
