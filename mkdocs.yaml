@@ -3,15 +3,11 @@ site_name: HEAL Data Packaging
 site_url: https://norc-heal.github.io/heal-data-pkg-guide
 repo_url: https://github.com/norc-heal/heal-data-pkg-guide
 nav:
-  - Introduction: index.md
-  - Introduction II: intro/intro-pkg.md
-  - "Overview":
-    - overview/what.md
-    - overview/who.md
-    - overview/why.md
-    - overview/where.md
-    - overview/when.md
-    - overview/how.md
+  - What is a data package:
+    - intro/index.md
+    - Study files: intro/study-file.md
+    - Standard data package metadata: intro/sdpmd.md
+    - Shareable data package: intro/shareable.md
     #- The Resource Tracker: overview/resource.md
 
   - Create your data package:
@@ -44,6 +40,15 @@ nav:
   #  - Wholistic vs. Minimal: annot/introholmin.md
   #  - As you go vs. Top-down: annot/introaddtop.md
 
+  - More information about data packaging:
+    - overview/index.md
+    - What is a data package?: overview/what.md
+    - Who should create a data package?: overview/who.md
+    - Why should you create a data package?: overview/why.md
+    - Where should you create a data package?: overview/where.md
+    - When should you start thinking about creating a data package?: overview/when.md
+    - How should you create your data package?: overview/how.md
+
   - Guidance & Resources:
     - g-and-r/index.md
     - Guidance:
@@ -62,8 +67,6 @@ nav:
         - Results Tracker: schemas/md_results_tracker.md
         - Data Dictionary: schemas/md_data_dictionary.md
 
-      
-  
   - Terms & Concepts: 
     - terms/index.md
     #- File Types: terms/files.md
