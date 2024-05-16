@@ -65,6 +65,7 @@ Leaving these "unshareable" study files aside, you still may not want to share a
          
 How and when you want to share all or some of your study files will determine the approach you take to preparing your data package for submission, including what flavor or type of shareable data package you will create, and whether you will create more than one type of shareable data package. 
 
+
 </div>
 
 ## Shareable data packages "flavors" and when to create them 
@@ -78,14 +79,6 @@ How and when you want to share all or some of your study files will determine th
 | **managed-access-now** | <ul><li>A version of shareable data package that only includes study files that you want to share right away (i.e., no embargo or embargo has already expired) and that you have indicated will be shared as either open access or managed access</li><li>Share this shareable data package at your data repository as **managed access without embargo restrictions**</li><li>Data repository users will be able to begin the process of requesting access right away, and will be able to see/use these files after subsequently completing the (relatively high barrier) process of requesting access in accordance with repository policies</li><li>**Create if:** You have at least some study files that you want to share as managed access and right away (no embargo)</li>|
 | **open-access-by-date** | <ul><li>A version of shareable data package that includes study files that you want to share right away as well as study files that you will share once a specific date has passed (i.e., under embargo until a specific date in the future) and that you have indicated will be shared as open access</li><li>Share this shareable data package at your data repository as **open access with embargo restrictions**</li><li>Data repository users will be able to see/use these files once the embargo date has passed with a low barrier</li><li>**Create if:** You have at least some study files that you want to share as open access but only after a milestone date has been reached (under embargo)</li> |
 | **managed-access-by-date** | <ul><li>A version of shareable data package that includes study files that you want to share right away as well as study files that you will share once a specific date has passed (i.e., under embargo until a specific date in the future) and that you have indicated will be shared either as open access or managed access</li><li>Share this shareable data package at your data repository as **managed access with embargo restrictions**</li><li>Data repository users will be able to begin the process of requesting access once the embargo date passes, and will be able to see/use these files after subsequently completing the (relatively high barrier) process of requesting access in accordance with repository policies </li><li>**Create if:** You have at least some study files that you want to share as managed access but only after a milestone date has been reached (under embargo)</li> |
-
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
-
-If you already know what flavor of shareable data package you want to create, and whether you will create more than shareable data package, use [these links](#step-by-step-instructions-for-how-to-create-each-flavor-of-shareable-data-package) to head directly to step-by-step instruction for how to create each flavor of shareable data package: 
-
-</div>
-
-Otherwise, keep reading for more information on how to decide.
 
 </div>
 
@@ -116,77 +109,75 @@ Because it will be faster for secondary users to get access to an open-access-no
 
 </div>
 
-## Creating your shareable data package(s)
+## Create your shareable data package - Overview
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
 
-Creating a shareable data package largely consists of starting with your local data package and filtering in study files you've indicated you want to share and filtering out study files you've indicated you do not want to share.
+Creating a shareable data package starts with you local data package, which includes study files plus standard data package metadata. 
 
-* The Resource Tracker and Experiment Tracker should be included by default in any shareable data package created.
-* Results Tracker(s) and Data Dictionary(ies) will only be included in a shareable data package if they are listed in the Resource Tracker as shareable
+A shareable data packagage is essentially a "filtered" version of your local data package, including only the subset of study files you intend to share, along with all shareable standard data package metadata to provide context, understandability, and navigation to secondary user. 
 
-Once the shareable data package has been reviewed and approved by the study PI or other appropriate study staff, the shareable data package should be zipped up into a zip archive. The full shareable data package submitted to a public repository will include:
-* Zipped data package
-* An edited version of your study's Resource Tracker, which designates which files are included in the zipped data package
-* A README
-
-Finally, once the full shareable data package is complete, it can be submitted to the data repository selected by the study group.
-
-### First steps to creating a shareable data package
-
-Before you can begin creating your shareable data package, you should make sure your data and metadata are organized and annotated appropriately to facilitate this process.
-
-#### Using standard data package metadata
-
-If you have set up your local data package by adding standard data package metadata (including a resource tracker), **you have already specified which files you will share as well as how and when you will share them** using the "access" and "access date" fields in the Resource Tracker.
-
-!!! info "Key shareable data package fields"
-    === "Access"
-
-        See the table below for an refresher on the "access" fields:
-
-        | Field    | Description                 |
-        | ----------------| ----------------------------|
-        | **open access** | Share with very low barrier to access |
-        | **managed access** | Share with relatively high barrier to access, managed either by<br>repository staff or by study staff depending on the repository |
-        | **temporary private** | Share after the access date specified |
-        | **permanent private** | Do not share |
-
-    === "Access date"
-
-        Access date field is a date value that specifies when a file should be shared.
-
-        This field will only be used if the file to be shared is currently marked as temporary private.
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
 
-#### Ensuring your study files are shareable
+<b>Local data package:</b> Make a copy of your local data package directory structure
 
-For a file to be considered shareable, each of the following must be true:
+<b>Study files:</b> Filter in a copy of only the study files you've indicated you want to share 
 
-1. The file is listed as a resource in the Resource Tracker
-2. The access field for that resource is complete
-3. If the access field value is temporary private, 1) the access date (which specifies when the file will become shareable) is complete, and 2) there is a second value in "access" of either open or managed access (the way you want to share a file once it is no longer temporary private)
+* While creating the standard data package metadata for your local data package, you should have created a Resource Tracker, listing all study files, or a subset of files most relevant to the data or results you are sharing - For each study file/resource listed you should have filled out the "access" and "access date" fields ([Resource Tracker schema](../schemas/md_resource_tracker.md))
+* Use the values listed for each resource in the "access" and "access date" fields in your local data package's Resource Tracker to determine which study files should be included in your shareable data package
+* For a file to be considered for shareability as part of a shareable data package of any flavor, the file must be listed as a resource in the Resource Tracker, the "access" field for that study file/resource is complete and not set to "permanent private", and if the "access" field has a value of "temporary private", the "access date" field (which specifies when the file will become shareable) is complete, and there is a second value set in the "access" field of either "open access" or "managed access" (the way you want to share a file once it is no longer temporary private)  
+ 
+<b>Standard data package metadata:</b> Standard data package metadata include an Experiment Tracker, a Resource Tracker, one Data Dictionary per tabular data file, and one Results Tracker per publication. Filter in shareable standard data package metadata as below: 
 
-Check that all of the appropriate files are annotated and fields are complete before starting to prepare your data package for submission.
+* A copy of the Resource Tracker and Experiment Tracker should be included by default in any shareable data package created.
+* A copy of Results Tracker(s) and Data Dictionary(ies) should only be included in a shareable data package if they are considered shareable based on the flavor of shareable data package you are creating, and the "access" and "access date" field values set for these files in the local data package Resource Tracker
+* All local file paths to study files/resources or to dependencies of study results or resources listed in the Resource Tracker or any Results Tracker to be included in a shareable data package should be converted to relative file paths for the modified Tracker versions included in any shareable data package - this is to protect the privacy of local computer systems and to make navigation of study files easier for secondary users 
 
 </div>
+
+</div>
+
+## Finalize your shareable data package for submission - Overview
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
+
+Finalizing your shareable data package for submission starts with your shareable data package(s). 
+
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
+
+<b>Review Shareable Data Package:</b> Review your shareable data package(s) to confirm that you are sharing all study and standard data package metadata files you intend to share and that you are not sharing any files you do not intend to share.
+
+<b>Create Accessory Files:</b> Accessory files you'll submit alongside your shareable data package(s) include an "overview" Resource Tracker, and a readme file. While your shareable data package(s) will be zip archives and not transparent to secondary users until they download and extract, these accessory files will be submitted as single files that may be viewed/downloaded easily on their own. They are intended to orient potential secondary users to what has been shared in each shareable data package, to provide context that may help potential secondary users to understand if what has been shared will be useful for their purposes, and (if more than one shareable data package has been shared) which shareable data package(s) they may want to access.
+
+* <b>"Overview" Resource Tracker:</b> A copy of the Resource Tracker from your shareable data package with an added column, one per shareable data package you will share, indicating whether or not each file in the Resource Tracker is shared in each shareable data package 
+* <b>Readme file:</b> A text file that provides a high level orientation into what what a shareable data package is, what shareable data packages have been shared, and how to use the "overview" Resource Tracker to understand what study files have been shared in which shareable data package. This file also contains links back to data packaging and standard data package metadata specifications to aid secondary users in using standard data package metadata to navigate, understand, use, and replicate shared data and results in the shareable data package(s)  
+
+<b>Zip Shareable Data Package:</b> Zip up your shareable data package(s). Zipping up your shareable data packages creates a single zip file per shareable data package and provided file size compression. You'll submit just one zip file per shareable data package. 
+
+<b>Submit Shareable Data Package and Accessory Files:</b> Submit your zipped up shareable data package(s) along with your "overview" Resource Tracker and Readme file accessory files at the data repository you've selected. The full inventory of items you will submit, and under what access conditions to share them at your repository, include:
+
+* <b>Zipped up shareable data package(s):</b> share each of your zipped up shareable data packages at your data repository with access conditions [based on the shareable data package flavor](#shareable-data-packages-flavors-and-when-to-create-them)
+* <b>"Overview" Resource Tracker:</b> share at your data repository as open access without embargo restrictions
+* <b>Readme file:</b> share at your data repository as open access without embargo restrictions
+
+</div>
+</div>
+
+
+
 
 ## Next steps
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
 
-After you decide what "flavor(s)" of shareable data packages you will create for repository submission and confirm your Resource Tracker has the appropriate information for shareable data package creation, see below for instructions on how to create each type of shareable data package.
+<b>Decide:</b> Decide what type or flavor of shareable data package(s) it makes sense for your study group to create. It may help to review the table of shareable data package flavors [here](#shareable-data-packages-flavors-and-when-to-create-them).
+
+<b>Step-by-step instructions:</b> Then, use [these links](#step-by-step-instructions-for-how-to-create-each-flavor-of-shareable-data-package) to head directly to step-by-step instructions for how to create each flavor of shareable data package. 
 
 </div>
 
-## Creating a shareable data package
 
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
-
-[Creating an open-access shareable data package](open-access.md){ .md-button}
-
-[Creating a managed-access shareable data package](managed-access.md){ .md-button}
-
-</div>
