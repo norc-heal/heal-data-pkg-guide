@@ -22,9 +22,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Create your shareable data package folder
-
---8<-- "submit/modules/create.md"
+--8<-- "submit/modules/set.md"
 
 --8<-- "submit/modules/intro/man-acc-date.md"
 
@@ -57,7 +55,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Copy open-access and managed-access files into your "managed-access-by-date" shareable data package folder
+#### Copy open-access and managed-access files into your 'managed-access-by-date' shareable data package folder
 
 --8<-- "submit/modules/copyover.md"
         

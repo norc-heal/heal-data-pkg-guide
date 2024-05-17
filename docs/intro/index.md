@@ -24,7 +24,7 @@ A data package is made up of your study files and the Standard Data Package Meta
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-Creating a data package facilitates the creation of a shareable data package that can be directly submitted to a repository, **fulfilling your HEAL data sharing requirements**.
+Creating a data package facilitates the creation of a [shareable data package](shareable.md) that can be directly submitted to a repository, **fulfilling your HEAL data sharing requirements**.
 
 Creating a data package also has additional great benefits, including:
   

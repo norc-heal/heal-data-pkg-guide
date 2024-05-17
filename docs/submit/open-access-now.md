@@ -22,11 +22,10 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Create your shareable data package folder
 
---8<-- "submit/modules/create.md"
+--8<-- "submit/modules/set.md"
 
---8<-- "submit/modules/intro/open-acc-date.md"
+--8<-- "submit/modules/intro/open-acc-now.md"
 
 </div>
 
@@ -56,7 +55,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Copy open-access files into your "open-access now" shareable data package folder
+#### Copy open-access files into your 'open-access now' shareable data package folder
 
 --8<-- "submit/modules/copyover.md"
         

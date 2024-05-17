@@ -24,7 +24,7 @@ The material in this guide is organized into 3 main sections:
 
 This guide also contains a few additional sections:
 
-* The ["**More information about data packaging**"](overview/index.md) section provides some additional, more detailed information about data packaging.
+* The ["**More information about data packaging**"](overview/index.md) section provides some additional, more detailed information about the data packaging process.
 * The ["**Guidance & Resources**"](g-and-r/index.md) section provides additional guidance on specific topics as well as references to additional resources that may be helpful. Links to specific parts of this sections are provided throughout the first three sections, when appropriate.
 * The ["**Terms & Concepts**"](terms/index.md) section provides definitions of terms and concepts used throughout this guide. LInks to specific parts of this section are provided throughout the first three sections to clarify concepts and recommendations as they come up.
 
