@@ -31,7 +31,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Identify resources that meet sharing requirements
+#### Identify resources and standard data package metadata that meet sharing requirements
 
 1. Navigate to your dsc-pkg folder and open your Resource Tracker. 
 2. The two fields most important to this step are "access" and "access-date." You will use the values in these columns to determine which files will go into your shareable data package folder.
@@ -71,6 +71,37 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
+#### Review your shareable data package
+
+--8<-- "submit/modules/review.md"
+
+</div>
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+#### Prepare other materials for submission
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+##### Overview Resource Tracker
+
+1. Create a copy of the Resource Tracker in your shareable data package folder and move that copy into your "my-study-share" folder. This will be your "Overview" Resource Tracker, which will indicate whether or not each file in the Resource Tracker is shared in the shareable data package.
+1. Add a column to the Resource Tracker. A suggested name for this column might be "open-access--shareable-data-pkg."
+  2. For each row, enter a 1 if the file will be shared in this "open-access now" shareable data package. If not shared in this shareable data package, enter a 0.
+
+</div>
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
+##### README File
+
+--8<-- "submit/modules/readme1.md"
+
+</div>
+</div>
+
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+
 #### Zip up your shareable data package
 
 --8<-- "submit/modules/zipup.md"
@@ -85,9 +116,9 @@ full-width: true
 
 ##### Overview Resource Tracker
 
-1. Navigate to the edited Resource Tracker you saved in your "my-study-share-current-date" directory in the previous step.
-1. Add a column to the Resource Tracker called "open-access-by-date-shareable-data-pkg." Replace "date" with the applicable date on which you intend to share your data package at a repository.
-  2. For each row, enter a 1 if the file will be shared in this "open-access-by-date" shareable data package. If not shared in this shareable data package, enter a 0.
+1. Create a copy of the Resource Tracker in your shareable data package folder and move that copy into your "my-study-share" folder. This will be your "Overview" Resource Tracker, which will indicate whether or not each file in the Resource Tracker is shared in the shareable data package.
+2. Add a column to the Resource Tracker called "open-access-by-[YYYY-MM-DD]-shareable-data-pkg." Replace "date" with the applicable date on which you intend to share your data package at a repository.
+  1. For each row, enter a 1 if the file will be shared in this "open-access-by-[YYYY-MM-DD]" shareable data package. If not shared in this shareable data package, enter a 0.
 
 </div>
 

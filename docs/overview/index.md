@@ -3,15 +3,14 @@ hide:
   - toc
 full-width: true
 ---
+# More Information about Data Packaging
 
 
 ![](process.drawio)
 
-# Introduction
-
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-A data package is an archive containing research data together with the metadata,
+A data package is a collection of research data together with metadata,
 supporting files and documentation needed to permit someone unconnected to the original 
 study to discover, understand, replicate, and/or (re)use the data or other study materials
 (e.g. code, protocol, survey instrument) for a specific purpose. 

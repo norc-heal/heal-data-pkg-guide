@@ -6,6 +6,11 @@ full-width: true
 
 # HEAL Data Packaging Guide
 
+<figure markdown="span">
+  ![](assets/intro.drawio){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
 ## Navigating this guide
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">

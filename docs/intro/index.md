@@ -14,7 +14,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-A data package is made up of your study files and the Standard Data Package Metadata, a set of metadata files that describe your study, study files and results, and study file and results relationships. 
+A data package is made up of your [study files](study-file.md) and the [Standard Data Package Metadata](sdpmd.md), a set of metadata files that describe your study, study files and results, and study file and results relationships. 
 
 * Add the Standard Data Package Metadata to your study files, wherever your study files naturally reside.
 

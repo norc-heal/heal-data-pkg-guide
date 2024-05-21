@@ -1,4 +1,4 @@
-## Creating a Shareable Data Package
+# Creating a Shareable Data Package
 
 ![](share.drawio)
 

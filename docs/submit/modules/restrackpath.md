@@ -1,15 +1,17 @@
 <!-- File path updates for Resource and Results Trackers -->
 
-Next, you will need to make adjustments to your Resource Tracker and Results Tracker(s) that you copied into your shareable data package folder from full paths to paths relative to the dsc-pkg folder.
+Next, you will need to make one adjustment to the Resource Tracker and any Results Tracker(s) in your shareable data package folder. 
 
-* Adjusting the paths within these trackers to be relative to the dsc-pkg folder protects your study team's privacy, as it means people won't see your local folder structure, while also increasing utility for secondary users.
-* As mentioned previously, this method works best when all files and the dsc-pkg folder are saved within a centralized study folder. Every path disclosed will be in relation to your dsc-pkg folder and within your centralized study folder.
+* All local file paths to study files/resources or to dependencies of study results or resources listed in the Resource Tracker or any Results Tracker to be included in a shareable data package should be converted to relative file paths for the modified Tracker versions included in any shareable data package.
+  * Every path disclosed will be in relation to your dsc-pkg folder.
+  * This is to protect the privacy of local computer systems and to make navigation of study files easier for secondary users.
+  * As mentioned previously, this method works best when your local data package is centralized (i.e., all study files and your dsc-pkg folder containing standard data package metadata are in a single, centralized local data package or my-study folder). 
 
-See below for information on adjustments to make within each tracker. ***Reminder:** You will be making these adjustments the Resource Tracker and Results Tracker(s) within your shareable data package folder, not the versions of these files in the dsc-pkg folder.*
+See below for information on which fields in your Resource Tracker or Results Tracker(s) may hold file paths that will need to be adjusted. ***Reminder:** You will be making these adjustments to the Resource Tracker and Results Tracker(s) within your shareable data package folder, not the versions of these files in your local data package's dsc-pkg folder.*
 
-##### Resource Tracker
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-You will likely have to make adjustments to file paths within each of the below columns (if they are not empty): 
+##### [Resource Tracker](link to schema)
 
 * path
 * associatedFileDataDict
@@ -19,9 +21,9 @@ You will likely have to make adjustments to file paths within each of the below 
 * associatedFileResultsDependOn
 * associatedFileMultiLikeFiles
 
-##### Results Tracker(s)
-
-You will likely have to make adjustments to file paths within each of the below columns (if they are not empty):
+##### [Results Tracker(s)](link to schema)
 
 * associatedFilePublication
 * associatedFileDependsOn
+
+</div>

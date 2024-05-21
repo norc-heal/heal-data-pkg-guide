@@ -1,4 +1,4 @@
-## Standard Data Package Metadata Files
+# Standard Data Package Metadata Files
 
 ![](metadata.drawio)
 
