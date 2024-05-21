@@ -8,9 +8,12 @@ full-width: true
 
 If your study has collected human subjects data and would like to share this data at a public repository, whether open-access or managed-access, you will need to consider what deidentification or anonymization you will apply to your data to be able to share while protecting participant privacy and confidentiality. Whether this data can be shared and what steps you will take to adequately deidentify the data will depend on a few factors, including your study's consent language, your chosen repository's requirements relating to deidentification, and your team's need for outside help with deidentification and resources available to devote to deidentification. 
 
-Below are a few resources that can provide starting guidance on how to deidentify your research data before submission to a repository. You should also consult the documentation of the repository where you plan to submit your data to confirm its requirements for deidentification as well as review any additional resources and guidance provided there. Additionally, it may be useful to consult your institution to confirm whether deidentification services are available to you as well as any institutional requirements for data sharing. 
+Below are a few resources that can provide starting guidance on how to deidentify your research data before submission to a repository. You should also consult:
 
-This is not a comprehensive list of resources or a definitive guide. These are resources to get you started and guide you in making decisions related to deidentification. If you are dealing with especially sensitive data, such as genomic data, data from sensitive populations, or data concerning sensitive subjects, you should consult with a deidentification expert.
+* The documentation of the repository where you plan to submit your data to confirm its requirements for deidentification and any additional resources and guidance provided there
+* Your institution to confirm whether deidentification services are available to you and whether there are institutional requirements for data sharing
+
+**This is not a comprehensive list of resources or a definitive guide.** These are resources to get you started and guide you in making decisions related to deidentification. If you are dealing with especially sensitive data, such as genomic data, data from sensitive populations, or data concerning sensitive subjects, you should consult with a deidentification expert.
 
 **NIH policies and guidance**
 
