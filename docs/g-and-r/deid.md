@@ -17,7 +17,7 @@ Below are a few resources that can provide starting guidance on how to deidentif
 
 **NIH policies and guidance**
 
-* [NIH Data Managment and Sharing Policy](https://oir.nih.gov/sourcebook/intramural-program-oversight/intramural-data-sharing/2023-nih-data-management-sharing-policy), effective January 25, 2023
+* [NIH Data Management and Sharing Policy](https://oir.nih.gov/sourcebook/intramural-program-oversight/intramural-data-sharing/2023-nih-data-management-sharing-policy), effective January 25, 2023
 * Although NIH states that all researchers should take steps to maximize scientific data sharing, NIH recognizes that there may be limits to the ability to share. For guidance on these circumstances, see: [Justifiable reasons for limiting sharing of data](https://sharing.nih.gov/faqs#/data-management-and-sharing-policy.htm?anchor=56549)
 
 **General guidance**

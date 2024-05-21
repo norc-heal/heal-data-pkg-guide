@@ -52,7 +52,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Copy open-access and managed-access files into your 'managed-access-now' shareable data package folder
+#### Copy files that meet sharing requirements into your shareable data package folder
 
 --8<-- "submit/modules/copyover.md"
 
@@ -107,34 +107,11 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Prepare other materials for submission
-
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
-
-##### Overview Resource Tracker
-
-1. Navigate to the edited Resource Tracker yous saved in your "my-study-share-current-date" directory in the previous step.
-2. Add a column to the Resource Tracker called "managed-access-shareable-data-pkg."
-  1. For each row, enter a 1 if the file will be shared in this "managed-access now" shareable data package. If not shared in this shareable data package, enter a 0.
-
-</div>
-
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
-
-###### README File
-
---8<-- "submit/modules/readme1.md"
-
-</div>
-</div>
-
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
-
 #### Upload your shareable data package to your repository
 
 **Congratulations! You are ready to upload your "managed-access now" shareable data package.**
 
-1. Submit your "open-access-now" zipped up shareable data package along with your "overview" Resource Tracker and README file accessory files at the data repository you've selected. The full inventory of items you will submit, and under what access conditions to share them at your repository, include: 
+1. Submit your "managed-access-now" zipped up shareable data package along with your "overview" Resource Tracker and README file accessory files at the data repository you've selected. The full inventory of items you will submit, and under what access conditions to share them at your repository, include: 
   1. Zipped "managed-access now": share as managed-access without embargo restrictions
   2. "Overview" Resource Tracker: share as open-access without embargo restrictions
   3. Your README: share as open-access without embargo restrictions

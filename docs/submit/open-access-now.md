@@ -116,11 +116,10 @@ full-width: true
 
 **Congratulations! You are ready to upload your "open-access now" shareable data package.**
 
-1. Your final "open-access now" shareable data package should include 3 items:
-  1. Your zipped "open-access now" shareable data package
-  2. Your overview Resource Tracker, which designates which files are included in the zipped data package.
-  3. Your README file.
-2. You should share each of these items at your chosen data repository as open-access files.
+1. Submit your "open-access-now" zipped up shareable data package along with your "overview" Resource Tracker and README file accessory files at the data repository you've selected. The full inventory of items you will submit, and under what access conditions to share them at your repository, include: 
+  1. Zipped "open-access now": share as open-access without embargo restrictions
+  2. "Overview" Resource Tracker: share as open-access without embargo restrictions
+  3. Your README: share as open-access without embargo restrictions
 
 </div>
 </div>
