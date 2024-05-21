@@ -51,7 +51,7 @@ full-width: true
 
 #### Start your [Results Tracker(s)](../../terms/index.md#results-tracker) - one per manuscript or report
 
---8<-- "fit/best-fit-recs/modules/resulttrack/result-ressup.md"
+--8<-- "fit/best-fit-recs/modules/resulttrack/resulttrack.md"
 
 --8<-- "fit/best-fit-recs/modules/resulttrack/result-final.md"
 
