@@ -1,3 +1,9 @@
+---
+hide:
+  - toc
+full-width: true
+---
+
 # Research Community-Specific Metadata Standards
 
 Many research communities have developed their own metadata standards for specific data types. The metadata standards included in this guidance are not intended to replace any existing research community-specific metadata standards, but rather to supplement with some additional metadata. Use of existing research community-specific metadata standards can greatly contribute the findability and usability of your data for your research community. If you are not aware whether there are metadata standards already established within your research community, it may be useful to determine whether these exist and implementing them before submitting your data to a repository. 
