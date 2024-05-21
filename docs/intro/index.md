@@ -16,7 +16,7 @@ full-width: true
 
 A data package is the combination of your [study files](study-file.md) and [Standard Data Package Metadata](sdpmd.md), which is a set of structured metadata files that describe your study, study files and results, and study file and result relationships. 
 
-The addition of Standard Data Package Metadata to your study files provides critical context for your study files and results within your own research team (allowing for efficient intra-team communication, coordination, and replication), and to potential secondary users of the valuable data and results you've collected and created that.   
+The addition of Standard Data Package Metadata to your study files provides critical context for your study files and results within your own research team (allowing for efficient intra-team communication, coordination, and replication), and to potential secondary users of the valuable data and results you've collected and created.   
 
 * Add the Standard Data Package Metadata to your study files, wherever your study files naturally reside.
 
