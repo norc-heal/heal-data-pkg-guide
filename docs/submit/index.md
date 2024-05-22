@@ -14,13 +14,13 @@ full-width: true
 
 
 
-Once you have finished preparing your data package locally, you will need to prepare your data package for submission to a repository, by creating a "shareable data package" or packages. A shareable data package includes the subset of study files that you intend to share, while excluding study files that you do NOT intend to share. 
+Once you have finished creating your data package locally, you will need to prepare your data package for submission to a repository, by creating a "shareable data package" or packages. A shareable data package includes the subset of study files that you intend to share, while excluding study files that you do NOT intend to share. 
 
 There are several different "flavors" or types of shareable data package that allow you to share study files in different ways (e.g. open access, managed access, right away, under embargo until a specific date, etc.), and if you want to share different sets of study files in different ways, you may want to create more than one shareable data package of different flavors to accomplish this easily.
 
-This section will walk through the different ways you may want to share your data and why you might want to share your data in different ways, the flavors or types of shareable data packages that allow you to share in different ways, how to determine which study files should go into your shareable data package depending upon the flavor or type of your shareable data package, and how to finalize your shareable data package or packages for submission to a data repository.
+This section will walk through the different ways you may want to share your data, why you might want to share your data in different ways, the flavors or types of shareable data packages that allow you to share in different ways, how to determine which study files should go into your shareable data package depending upon the flavor or type of your shareable data package you're creating, and how to finalize your shareable data package or packages for submission to a data repository.
 
-If you already know what flavor of shareable data package you want to create, and whether you will create more than shareable data package, use these links to head directly to step-by-step instruction for how to create each flavor of shareable data package: 
+If you already know what flavor of shareable data package you want to create, and whether you will create more than one shareable data package, use these links to head directly to step-by-step instructions for how to create each flavor of shareable data package: 
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
@@ -116,7 +116,7 @@ Because it will be faster for secondary users to get access to an open-access-no
 
 Creating a shareable data package starts with you local data package, which includes study files plus standard data package metadata. 
 
-A shareable data packagage is essentially a "filtered" version of your local data package, including only the subset of study files you intend to share, along with all shareable standard data package metadata to provide context, understandability, and navigation to secondary user. 
+A shareable data packagage is essentially a "filtered" version of your local data package, including only the subset of study files you intend to share, along with all shareable standard data package metadata to provide context, understandability, and navigation to secondary users. 
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 
@@ -125,15 +125,15 @@ A shareable data packagage is essentially a "filtered" version of your local dat
 
 <b>Study files:</b> Filter in a copy of only the study files you've indicated you want to share 
 
-* While creating the standard data package metadata for your local data package, you should have created a Resource Tracker, listing all study files, or a subset of files most relevant to the data or results you are sharing - For each study file/resource listed you should have filled out the "access" and "access date" fields ([Resource Tracker schema](../schemas/md_resource_tracker.md))
-* Use the values listed for each resource in the "access" and "access date" fields in your local data package's Resource Tracker to determine which study files should be included in your shareable data package
+* While creating the standard data package metadata for your local data package, you should have created a Resource Tracker, listing all study files, or a subset of files most relevant to the data or results you are sharing; For each study file/resource listed you should have filled out the "access" and "access date" fields ([Resource Tracker schema](../schemas/md_resource_tracker.md))
+* Use the values listed for each resource in the "access" and "access date" fields in your local data package's Resource Tracker to determine which study files should be included in your shareable data package; Files that should be included will depend on the shareable data package flavor
 * For a file to be considered for shareability as part of a shareable data package of any flavor, the file must be listed as a resource in the Resource Tracker, the "access" field for that study file/resource is complete and not set to "permanent private", and if the "access" field has a value of "temporary private", the "access date" field (which specifies when the file will become shareable) is complete, and there is a second value set in the "access" field of either "open access" or "managed access" (the way you want to share a file once it is no longer temporary private)  
  
 <b>Standard data package metadata:</b> Standard data package metadata include an Experiment Tracker, a Resource Tracker, one Data Dictionary per tabular data file, and one Results Tracker per publication. Filter in shareable standard data package metadata as below: 
 
 * A copy of the Resource Tracker and Experiment Tracker should be included by default in any shareable data package created.
 * A copy of Results Tracker(s) and Data Dictionary(ies) should only be included in a shareable data package if they are considered shareable based on the flavor of shareable data package you are creating, and the "access" and "access date" field values set for these files in the local data package Resource Tracker
-* All local file paths to study files/resources or to dependencies of study results or resources listed in the Resource Tracker or any Results Tracker to be included in a shareable data package should be converted to relative file paths for the modified Tracker versions included in any shareable data package - this is to protect the privacy of local computer systems and to make navigation of study files easier for secondary users 
+* All local file paths to study files/resources listed in the Resource Tracker or any Results Tracker to be included in a shareable data package should be converted to relative file paths for the modified Tracker versions included in any shareable data package - this is to protect the privacy of local computer systems and to make navigation of study files easier for secondary users 
 
 </div>
 
@@ -153,9 +153,9 @@ Finalizing your shareable data package for submission starts with your shareable
 <b>Create Accessory Files:</b> Accessory files you'll submit alongside your shareable data package(s) include an "overview" Resource Tracker, and a readme file. While your shareable data package(s) will be zip archives and not transparent to secondary users until they download and extract, these accessory files will be submitted as single files that may be viewed/downloaded easily on their own. They are intended to orient potential secondary users to what has been shared in each shareable data package, to provide context that may help potential secondary users to understand if what has been shared will be useful for their purposes, and (if more than one shareable data package has been shared) which shareable data package(s) they may want to access.
 
 * <b>"Overview" Resource Tracker:</b> A copy of the Resource Tracker from your shareable data package with an added column, one per shareable data package you will share, indicating whether or not each file in the Resource Tracker is shared in each shareable data package 
-* <b>Readme file:</b> A text file that provides a high level orientation into what what a shareable data package is, what shareable data packages have been shared, and how to use the "overview" Resource Tracker to understand what study files have been shared in which shareable data package. This file also contains links back to data packaging and standard data package metadata specifications to aid secondary users in using standard data package metadata to navigate, understand, use, and replicate shared data and results in the shareable data package(s)  
+* <b>Readme file:</b> A text file that provides a high level orientation into what a shareable data package is, what shareable data packages have been shared, and how to use the "overview" Resource Tracker to understand what study files have been shared in which shareable data package. This file also contains links back to data packaging and standard data package metadata specifications to aid secondary users in using standard data package metadata to navigate, understand, use, and replicate shared data and results in the shareable data package(s)  
 
-<b>Zip Shareable Data Package:</b> Zip up your shareable data package(s). Zipping up your shareable data packages creates a single zip file per shareable data package and provided file size compression. You'll submit just one zip file per shareable data package. 
+<b>Zip Shareable Data Package:</b> Zip up your shareable data package(s). Zipping up your shareable data packages creates a single zip file per shareable data package and provides file size compression. You'll submit just one zip file per shareable data package. 
 
 <b>Submit Shareable Data Package and Accessory Files:</b> Submit your zipped up shareable data package(s) along with your "overview" Resource Tracker and Readme file accessory files at the data repository you've selected. The full inventory of items you will submit, and under what access conditions to share them at your repository, include:
 
