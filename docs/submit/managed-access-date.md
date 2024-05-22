@@ -89,7 +89,7 @@ Prepare the accessory files that you will submit along with your shareable data 
 ##### Overview Resource Tracker
 
 1. Create a copy of the Resource Tracker in your shareable data package folder and move that copy into your "my-study-share" folder. This will be your "Overview" Resource Tracker, which will indicate whether or not each file in the Resource Tracker is shared in the shareable data package.
-1. Add a column to the Resource Tracker. A suggested name for this column might be "managed-access-by-[YYYY-MM-DD]-shareable-data-pkg."
+1. Add a column to the Resource Tracker. A suggested name for this column might be "share-managed-access-by-[YYYY-MM-DD]."
   2. For each row, enter a 1 if the file will be shared in this "open-access now" shareable data package. If not shared in this shareable data package, enter a 0.
 
 </div>
