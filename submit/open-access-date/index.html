@@ -1,0 +1,893 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="https://norc-heal.github.io/heal-data-pkg-guide/submit/open-access-date/" rel="canonical"/>
+<link href="../../assets/heal_logo.png" rel="icon"/>
+<meta content="mkdocs-1.5.3, mkdocs-material-8.5.3" name="generator"/>
+<title>Create an open-access by date shareable data package - HEAL Data Packaging</title>
+<link href="../../assets/stylesheets/main.7a952b86.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Montserrat";--md-code-font:"Roboto Mono"}</style>
+<link href="../../stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="" data-md-color-primary="" data-md-color-scheme="heal_platform" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#creating-an-open-access-by-specified-date-shareable-data-package">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="HEAL Data Packaging" class="md-header__button md-logo" data-md-component="logo" href="https://github.com/norc-heal" title="HEAL Data Packaging">
+<img alt="logo" src="../../assets/HEAL_Initiative_White-cropped.svg"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            HEAL Data Packaging
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Create an open-access by date shareable data package
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/norc-heal/heal-data-pkg-guide" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="HEAL Data Packaging" class="md-nav__button md-logo" data-md-component="logo" href="https://github.com/norc-heal" title="HEAL Data Packaging">
+<img alt="logo" src="../../assets/HEAL_Initiative_White-cropped.svg"/>
+</a>
+    HEAL Data Packaging
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/norc-heal/heal-data-pkg-guide" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../intro/">What is a data package</a>
+<label for="__nav_1">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="What is a data package" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_1">
+<span class="md-nav__icon md-icon"></span>
+          What is a data package
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../intro/study-file/">
+        Study files
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../intro/sdpmd/">
+        Standard data package metadata
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../intro/shareable/">
+        Shareable data package
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../fit/">Create your data package</a>
+<label for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Create your data package" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Create your data package
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fit/best-fit-questions/">
+        Best fit questions
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" id="__nav_2_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../fit/best-fit-recs/">Best fit annotation recs</a>
+<label for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Best fit annotation recs" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+          Best fit annotation recs
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fit/best-fit-recs/early-res-stand/">
+        Early, results-support, standard resources
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fit/best-fit-recs/early-res-low/">
+        Early, results-support, low resources
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fit/best-fit-recs/early-data-stand/">
+        Early, dataset-sharing, standard resources
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fit/best-fit-recs/early-data-low/">
+        Early, dataset-sharing, low resources
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fit/best-fit-recs/late-res-stand/">
+        Late, results-support, standard resources
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fit/best-fit-recs/late-res-low/">
+        Late, results-support, low resources
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fit/best-fit-recs/late-data-stand/">
+        Late, dataset-sharing, standard resources
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fit/best-fit-recs/late-data-low/">
+        Late, dataset-sharing, low resources
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../">Prepare your data package for submission</a>
+<label for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Prepare your data package for submission" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Prepare your data package for submission
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../open-access-now/">
+        Create an open-access now shareable data package
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Create an open-access by date shareable data package
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Create an open-access by date shareable data package
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-yourself-up-for-success">
+    Set yourself up for success
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#create-your-open-access-by-date-shareable-data-package-folder">
+    Create your 'open-access-by-date' shareable data package folder
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identify-resources-and-standard-data-package-metadata-that-meet-sharing-requirements">
+    Identify resources and standard data package metadata that meet sharing requirements
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#copy-files-that-meet-sharing-requirements-into-your-shareable-data-package-folder">
+    Copy files that meet sharing requirements into your shareable data package folder
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prepare-resource-and-results-trackers">
+    Prepare Resource and Results Trackers
+  </a>
+<nav aria-label="Prepare Resource and Results Trackers" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resource-tracker">
+    Resource Tracker
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#results-trackers">
+    Results Tracker(s)
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#review-your-shareable-data-package">
+    Review your shareable data package
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prepare-other-materials-for-submission">
+    Prepare other materials for submission
+  </a>
+<nav aria-label="Prepare other materials for submission" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overview-resource-tracker">
+    Overview Resource Tracker
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#readme-file">
+    README File
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#zip-up-your-shareable-data-package">
+    Zip up your shareable data package
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#upload-your-shareable-data-package-to-your-repository">
+    Upload your shareable data package to your repository
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../managed-access-now/">
+        Create a managed-access now shareable data package
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../managed-access-date/">
+        Create a managed-access by date shareable data package
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../overview/">More information about data packaging</a>
+<label for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="More information about data packaging" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          More information about data packaging
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../overview/what/">
+        What is a data package?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../overview/who/">
+        Who should create a data package?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../overview/why/">
+        Why should you create a data package?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../overview/where/">
+        Where should you create a data package?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../overview/when/">
+        When should you start thinking about creating a data package?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../overview/how/">
+        How should you create your data package?
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../g-and-r/">Guidance &amp; Resources</a>
+<label for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Guidance &amp; Resources" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          Guidance &amp; Resources
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" id="__nav_5_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../guidance/">Guidance</a>
+<label for="__nav_5_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Guidance" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_2">
+<span class="md-nav__icon md-icon"></span>
+          Guidance
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2_2" id="__nav_5_2_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../file-o-and-n/">File org and naming</a>
+<label for="__nav_5_2_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="File org and naming" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_5_2_2">
+<span class="md-nav__icon md-icon"></span>
+          File org and naming
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../guidance/file-org/">
+        File organization
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../guidance/file-name/">
+        File naming
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../g-and-r/deid/">
+        Deidentification
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../g-and-r/repo/">
+        Repository selection
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../g-and-r/rescommet/">
+        Research community-specific metadata standards
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" id="__nav_5_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../resources/">Resources</a>
+<label for="__nav_5_3">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Resources" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_3">
+<span class="md-nav__icon md-icon"></span>
+          Resources
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3_2" id="__nav_5_3_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../schemas/">Metadata schemas</a>
+<label for="__nav_5_3_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Metadata schemas" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_5_3_2">
+<span class="md-nav__icon md-icon"></span>
+          Metadata schemas
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../schemas/md_study_overview/">
+        Study Overview
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../schemas/md_experiment_tracker/">
+        Experiment Tracker
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../schemas/md_resource_tracker/">
+        Resource Tracker
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../schemas/md_results_tracker/">
+        Results Tracker
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../schemas/md_data_dictionary/">
+        Data Dictionary
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" id="__nav_6" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../terms/">Terms &amp; Concepts</a>
+</div>
+<nav aria-label="Terms &amp; Concepts" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+          Terms &amp; Concepts
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden="">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-yourself-up-for-success">
+    Set yourself up for success
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#create-your-open-access-by-date-shareable-data-package-folder">
+    Create your 'open-access-by-date' shareable data package folder
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identify-resources-and-standard-data-package-metadata-that-meet-sharing-requirements">
+    Identify resources and standard data package metadata that meet sharing requirements
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#copy-files-that-meet-sharing-requirements-into-your-shareable-data-package-folder">
+    Copy files that meet sharing requirements into your shareable data package folder
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prepare-resource-and-results-trackers">
+    Prepare Resource and Results Trackers
+  </a>
+<nav aria-label="Prepare Resource and Results Trackers" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resource-tracker">
+    Resource Tracker
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#results-trackers">
+    Results Tracker(s)
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#review-your-shareable-data-package">
+    Review your shareable data package
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prepare-other-materials-for-submission">
+    Prepare other materials for submission
+  </a>
+<nav aria-label="Prepare other materials for submission" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overview-resource-tracker">
+    Overview Resource Tracker
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#readme-file">
+    README File
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#zip-up-your-shareable-data-package">
+    Zip up your shareable data package
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#upload-your-shareable-data-package-to-your-repository">
+    Upload your shareable data package to your repository
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/norc-heal/heal-data-pkg-guide/edit/master/docs/submit/open-access-date.md" title="Edit this page">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
+</a>
+<h1 id="creating-an-open-access-by-specified-date-shareable-data-package">Creating an Open-Access by Specified Date Shareable Data Package<a class="headerlink" href="#creating-an-open-access-by-specified-date-shareable-data-package" title="Permanent link">¶</a></h1>
+<p><div class="mxgraph" data-mxgraph='{"highlight":"#0000ff","nav":true,"resize":true,"toolbar":"zoom layers tags lightbox","edit":"_blank","xml":"&lt;mxfile host=\"65bd71144e\"&gt;    &lt;diagram id=\"kfqbYSQvsbw34wrSjgwR\" name=\"Page-1\"&gt;        &lt;mxGraphModel dx=\"1174\" dy=\"787\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"850\" pageHeight=\"1100\" math=\"0\" shadow=\"0\"&gt;            &lt;root&gt;                &lt;mxCell id=\"0\"/&gt;                &lt;mxCell id=\"1\" parent=\"0\"/&gt;                &lt;mxCell id=\"131\" value=\"\" style=\"endArrow=none;html=1;rounded=0;endFill=0;startArrow=none;\" edge=\"1\" parent=\"1\"&gt;                    &lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;                        &lt;mxPoint x=\"40\" y=\"400\" as=\"sourcePoint\"/&gt;                        &lt;mxPoint x=\"760\" y=\"400\" as=\"targetPoint\"/&gt;                    &lt;/mxGeometry&gt;                &lt;/mxCell&gt;                &lt;UserObject label=\"Upload Shareable Data Package to Repository\" link=\"#upload-your-shareable-data-package-to-your-repository\" id=\"132\"&gt;                    &lt;mxCell style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#532565;fontColor=#F0F0F0;fontStyle=1;glass=0;fontSize=13;strokeColor=#532565;\" vertex=\"1\" parent=\"1\"&gt;                        &lt;mxGeometry x=\"640\" y=\"368\" width=\"124\" height=\"63\" as=\"geometry\"/&gt;                    &lt;/mxCell&gt;                &lt;/UserObject&gt;                &lt;UserObject label=\"Copy over files to share\" link=\"#copy-files-that-meet-sharing-requirements-into-your-shareable-data-package-folder\" id=\"133\"&gt;                    &lt;mxCell style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;\" vertex=\"1\" parent=\"1\"&gt;                        &lt;mxGeometry x=\"170\" y=\"291\" width=\"130\" height=\"50\" as=\"geometry\"/&gt;                    &lt;/mxCell&gt;                &lt;/UserObject&gt;                &lt;mxCell id=\"134\" value=\"\" style=\"endArrow=none;html=1;fontColor=#0F0F0F;rounded=0;\" edge=\"1\" parent=\"1\"&gt;                    &lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;                        &lt;mxPoint x=\"85\" y=\"401\" as=\"sourcePoint\"/&gt;                        &lt;mxPoint x=\"85\" y=\"341\" as=\"targetPoint\"/&gt;                    &lt;/mxGeometry&gt;                &lt;/mxCell&gt;                &lt;mxCell id=\"135\" value=\"\" style=\"endArrow=none;html=1;fontColor=#0F0F0F;rounded=0;\" edge=\"1\" parent=\"1\"&gt;                    &lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;                        &lt;mxPoint x=\"234.5\" y=\"401\" as=\"sourcePoint\"/&gt;                        &lt;mxPoint x=\"234.5\" y=\"341\" as=\"targetPoint\"/&gt;                    &lt;/mxGeometry&gt;                &lt;/mxCell&gt;                &lt;mxCell id=\"136\" value=\"\" style=\"endArrow=none;html=1;fontColor=#0F0F0F;rounded=0;\" edge=\"1\" parent=\"1\"&gt;                    &lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;                        &lt;mxPoint x=\"188\" y=\"461\" as=\"sourcePoint\"/&gt;                        &lt;mxPoint x=\"188\" y=\"401\" as=\"targetPoint\"/&gt;                    &lt;/mxGeometry&gt;                &lt;/mxCell&gt;                &lt;mxCell id=\"137\" value=\"\" style=\"endArrow=none;html=1;fontColor=#0F0F0F;rounded=0;\" edge=\"1\" parent=\"1\"&gt;                    &lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;                        &lt;mxPoint x=\"380\" y=\"340\" as=\"sourcePoint\"/&gt;                        &lt;mxPoint x=\"380\" y=\"400\" as=\"targetPoint\"/&gt;                    &lt;/mxGeometry&gt;                &lt;/mxCell&gt;                &lt;UserObject label=\"Set yourself up for success\" link=\"#set-yourself-up-for-success\" id=\"138\"&gt;                    &lt;mxCell style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;\" vertex=\"1\" parent=\"1\"&gt;                        &lt;mxGeometry x=\"20\" y=\"291\" width=\"130\" height=\"50\" as=\"geometry\"/&gt;                    &lt;/mxCell&gt;                &lt;/UserObject&gt;                &lt;UserObject label=\"Review your shareable data package\" link=\"#review-your-shareable-data-package\" id=\"139\"&gt;                    &lt;mxCell style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;\" vertex=\"1\" parent=\"1\"&gt;                        &lt;mxGeometry x=\"320\" y=\"291\" width=\"130\" height=\"50\" as=\"geometry\"/&gt;                    &lt;/mxCell&gt;                &lt;/UserObject&gt;                &lt;UserObject label=\"Identify resources that meet sharing requirements\" link=\"#identify-resources-and-standard-data-package-metadata-that-meet-sharing-requirements\" id=\"140\"&gt;                    &lt;mxCell style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;\" vertex=\"1\" parent=\"1\"&gt;                        &lt;mxGeometry x=\"120\" y=\"461\" width=\"130\" height=\"50\" as=\"geometry\"/&gt;                    &lt;/mxCell&gt;                &lt;/UserObject&gt;                &lt;UserObject label=\"Prepare Resource Tracker and Results Tracker(s)\" link=\"#prepare-resource-and-results-trackers\" id=\"141\"&gt;                    &lt;mxCell style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;\" vertex=\"1\" parent=\"1\"&gt;                        &lt;mxGeometry x=\"275\" y=\"461\" width=\"130\" height=\"50\" as=\"geometry\"/&gt;                    &lt;/mxCell&gt;                &lt;/UserObject&gt;                &lt;mxCell id=\"142\" value=\"\" style=\"endArrow=none;html=1;fontColor=#0F0F0F;rounded=0;\" edge=\"1\" parent=\"1\"&gt;                    &lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;                        &lt;mxPoint x=\"335\" y=\"461\" as=\"sourcePoint\"/&gt;                        &lt;mxPoint x=\"335\" y=\"401\" as=\"targetPoint\"/&gt;                    &lt;/mxGeometry&gt;                &lt;/mxCell&gt;                &lt;mxCell id=\"143\" value=\"\" style=\"endArrow=none;html=1;fontColor=#0F0F0F;rounded=0;\" edge=\"1\" parent=\"1\"&gt;                    &lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;                        &lt;mxPoint x=\"533\" y=\"401\" as=\"sourcePoint\"/&gt;                        &lt;mxPoint x=\"533\" y=\"341\" as=\"targetPoint\"/&gt;                    &lt;/mxGeometry&gt;                &lt;/mxCell&gt;                &lt;UserObject label=\"&amp;lt;b&amp;gt;Prepare other materials for submission&amp;lt;/b&amp;gt;\" link=\"#prepare-other-materials-for-submission\" id=\"145\"&gt;                    &lt;mxCell style=\"swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;fillColor=#982568;gradientColor=none;gradientDirection=radial;opacity=50;swimlaneLine=1;\" vertex=\"1\" collapsed=\"1\" parent=\"1\"&gt;                        &lt;mxGeometry x=\"425\" y=\"461\" width=\"130\" height=\"50\" as=\"geometry\"&gt;                            &lt;mxRectangle x=\"425\" y=\"461\" width=\"190\" height=\"110\" as=\"alternateBounds\"/&gt;                        &lt;/mxGeometry&gt;                    &lt;/mxCell&gt;                &lt;/UserObject&gt;                &lt;mxCell id=\"146\" value=\"Overview Resource Tracker\" style=\"text;strokeColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;\" vertex=\"1\" parent=\"145\"&gt;                    &lt;mxGeometry y=\"50\" width=\"190\" height=\"30\" as=\"geometry\"/&gt;                &lt;/mxCell&gt;                &lt;mxCell id=\"147\" value=\"&amp;lt;span style=&amp;quot;font-weight: 400;&amp;quot;&amp;gt;README&amp;lt;/span&amp;gt;\" style=\"text;strokeColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;fontStyle=1\" vertex=\"1\" parent=\"145\"&gt;                    &lt;mxGeometry y=\"80\" width=\"190\" height=\"30\" as=\"geometry\"/&gt;                &lt;/mxCell&gt;                &lt;mxCell id=\"148\" value=\"\" style=\"endArrow=none;html=1;fontColor=#0F0F0F;rounded=0;\" edge=\"1\" parent=\"1\"&gt;                    &lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;                        &lt;mxPoint x=\"490\" y=\"461\" as=\"sourcePoint\"/&gt;                        &lt;mxPoint x=\"490\" y=\"401\" as=\"targetPoint\"/&gt;                    &lt;/mxGeometry&gt;                &lt;/mxCell&gt;                &lt;UserObject label=\"Zip up your shareable data package\" link=\"#zip-up-your-shareable-data-package\" id=\"149\"&gt;                    &lt;mxCell style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;\" vertex=\"1\" parent=\"1\"&gt;                        &lt;mxGeometry x=\"470\" y=\"291\" width=\"130\" height=\"50\" as=\"geometry\"/&gt;                    &lt;/mxCell&gt;                &lt;/UserObject&gt;                &lt;UserObject label=\"&amp;lt;font color=&amp;quot;#ffffff&amp;quot; style=&amp;quot;font-size: 13px;&amp;quot;&amp;gt;&amp;lt;b style=&amp;quot;font-size: 13px;&amp;quot;&amp;gt;Create Open-Access By Date Shareable Data Package&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;\" id=\"144\"&gt;                    &lt;mxCell style=\"shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.6;arrowSize=0.042105263157894736;fillColor=#532565;strokeColor=#532565;fontSize=13;labelBorderColor=none;\" vertex=\"1\" parent=\"1\"&gt;                        &lt;mxGeometry x=\"40\" y=\"381\" width=\"540\" height=\"40\" as=\"geometry\"/&gt;                    &lt;/mxCell&gt;                &lt;/UserObject&gt;            &lt;/root&gt;        &lt;/mxGraphModel&gt;    &lt;/diagram&gt;&lt;/mxfile&gt;"}' style="max-width:100%;border:1px solid transparent;"></div></p>
+<p><br/></p>
+<hr/>
+<div class="admonition note">
+<p class="admonition-title">Reminder</p>
+<p><strong>These instructions apply to studies that have a centralized study folder where all study files are saved.</strong></p>
+</div>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<h4 id="set-yourself-up-for-success">Set yourself up for success<a class="headerlink" href="#set-yourself-up-for-success" title="Permanent link">¶</a></h4>
+<p>In previous steps, you transformed your centralized study folder into a local <a href="../../terms/#data-package">data package</a> by adding <a href="../../terms/#standard-data-package-metadata-files">Standard Data Package Metadata</a>. In the instructions that follow, this folder will be referred to as either your "local data package" or "my-study" folder.</p>
+<p>Before you begin, you should review a few things to ensure you are ready to prepare your data package for submission. </p>
+<ol>
+<li>
+<p>Review the contents of your local data package or "my-study" folder. Ensure that all study files and standard data package metadata stored in your dsc-pkg folder (i.e., Resource Tracker, Results Tracker(s), Experiment Tracker, Data Dictionary(ies)) are saved within your centralized study folder. Your study folder may look something like this:</p>
+<p><img alt="my-study directory structure" src="../../assets/basic-study-folder-structure.png" width="400"/></p>
+</li>
+<li>
+<p>Review your Resource Tracker and Results Tracker(s) to ensure that you have annotated all resources that you are planning to share in a repository. Also confirm that:</p>
+<ol>
+<li>All "access" and "access-date" fields are filled out completely and in accordance with your plan on how and when to share each resource. Accuracy of these fields will be essential for creating your shareable data package. See the <a href="../../schemas/md_resource_tracker.md">Resource Tracker schema</a> for more information about how to fill out these fields.</li>
+<li>In addition to all relevant study files/resources, your Results Tracker(s) and Data Dictionary(ies) have been added to your Resource Tracker as resource(s).</li>
+</ol>
+</li>
+<li>
+<p>If your my-study folder looks complete and all resources have been annotated, then you are ready to move to creating shareable data package(s).</p>
+</li>
+<li>
+<p>Create another folder at the same level as your my-study folder. This folder will hold all shareable data package(s) you create, plus the accessory files that you will submit alongside your shareable data package(s) (i.e., an overview Resource Tracker and a README). In the instructions that follow, this folder will be referred to as your "my-study-share" folder.</p>
+<p><img alt="my-study directory structure" src="../../assets/shareable-pkg-folder-add.png" width="200"/></p>
+</li>
+</ol>
+<!-- open access date intro -->
+<h4 id="create-your-open-access-by-date-shareable-data-package-folder">Create your 'open-access-by-date' shareable data package folder<a class="headerlink" href="#create-your-open-access-by-date-shareable-data-package-folder" title="Permanent link">¶</a></h4>
+<ul>
+<li>Within the my-study-share folder, create a new folder - this will be your shareable data package folder. A name suggestion and convention that we will use here is to call it "my-study-share-open-access-by-[YYYY-MM-DD]". You should replace [YYYY-MM-DD] with the milestone date after which you intend to share the files that will be shared in this shareable data package - i.e. the date after which any embargo on sharing these files will expire. (<em>Note: In the instructions that follow, this folder will be referred to as your "shareable data package folder"</em>)</li>
+<li>
+<p>If your local data package or my-study folder has sub-folders (it will have at least one - i.e., the dsc-pkg folder containing your standard data package metadata) - create sub-folders within your shareable data package folder that reflect the same structure as your local data package or my-study folder. <strong>All folders you create here should be empty right now.</strong></p>
+<ul>
+<li>This is the structure into which you will copy in the files from your local data package or my-study folder once you have determined which files are meant to be shared in your shareable data package folder. For more information on how to decide which files will be copied into this folder, move to the next section.</li>
+<li>Mirroring the structure of your local data package or my-study folder in your shareable data package folder will allow a secondary user to easily find files referenced in the Resource Tracker by their provided relative file path.</li>
+</ul>
+<p><img alt="my-study directory structure" src="../../assets/open-access-date-dir-structure.png" width="400"/></p>
+</li>
+</ul>
+</div>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<h4 id="identify-resources-and-standard-data-package-metadata-that-meet-sharing-requirements">Identify resources and standard data package metadata that meet sharing requirements<a class="headerlink" href="#identify-resources-and-standard-data-package-metadata-that-meet-sharing-requirements" title="Permanent link">¶</a></h4>
+<ol>
+<li>Use the <a href="../../terms/#resource-tracker">Resource Tracker</a> from your local data package to identify study files/resources and standard data package metadata that meet sharing requirements.</li>
+<li>The two fields most important to this step are "access" and "access-date." You will use the values in these columns to determine which files will go into your shareable data package folder.</li>
+<li>
+<p>Identify all study files/resources that are designated as open-access as of the milestone date after which any embargo on this shareable data package at a repository will expire. For reference, the requirements for access and access-date are below:</p>
+<ol>
+<li><strong>"open-access" in access AND "temporary-private" not in access</strong> OR</li>
+<li><strong>"open-access" in access AND "temporary-private" in access AND access date &lt;= milestone/embargo expiration date</strong></li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>These files <strong>should not</strong> be copied into your shareable data package folder:</p>
+<ul>
+<li>A file with an access date after the milestone/embargo expiration date for this shareable data package</li>
+<li>A file designated as managed access</li>
+<li>A file designated as permanent private</li>
+<li>A file that is not listed in your Resource Tracker</li>
+</ul>
+</div>
+</li>
+<li>
+<p>In addition to your study files, you will need to identify which standard data package metadata should be copied into your shareable data package. Standard data package metadata includes the Experiment Tracker, Resource Tracker, Results Tracker(s), and Data Dictionary(ies)</p>
+<ol>
+<li>You should automatically copy the Resource Tracker and Experiment Tracker into any shareable data package you create.</li>
+<li>Results Tracker(s) and Data Dictionary(ies) have similar restrictions as other study files/resources - you should only copy each over if it meets the requirements listed above.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<h4 id="copy-files-that-meet-sharing-requirements-into-your-shareable-data-package-folder">Copy files that meet sharing requirements into your shareable data package folder<a class="headerlink" href="#copy-files-that-meet-sharing-requirements-into-your-shareable-data-package-folder" title="Permanent link">¶</a></h4>
+<!-- copy over study files -->
+<ol>
+<li>After identifying the study files/resources and study-level metadata files that meet the requirements, copy each of those resources and study-level metadata files from your local data package or my-study folder into your shareable data package folder<ol>
+<li>This includes any data or non-data supporting files as well as Results Tracker(s) or Data Dictionary(ies) documented in the Resource Tracker that meet the requirements for sharing at this time (as detailed above)</li>
+<li>This always includes your Resource Tracker and Experiment Tracker </li>
+</ol>
+</li>
+</ol>
+</div>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<h4 id="prepare-resource-and-results-trackers">Prepare Resource and Results Trackers<a class="headerlink" href="#prepare-resource-and-results-trackers" title="Permanent link">¶</a></h4>
+<!-- File path updates for Resource and Results Trackers -->
+<p>Next, you will need to make one adjustment to the Resource Tracker and any Results Tracker(s) in your shareable data package folder. </p>
+<ul>
+<li>All local file paths to study files/resources listed in the Resource Tracker or any Results Tracker to be included in a shareable data package should be converted to relative file paths for the modified Tracker versions included in any shareable data package.<ul>
+<li>Every path disclosed will be in relation to your dsc-pkg folder.</li>
+<li>This is to protect the privacy of local computer systems and to make navigation of study files easier for secondary users.</li>
+<li>As mentioned previously, this method works best when your local data package is centralized (i.e., all study files and your dsc-pkg folder containing standard data package metadata are in a single, centralized local data package or my-study folder). </li>
+</ul>
+</li>
+</ul>
+<p>See below for information on which fields in your Resource Tracker or Results Tracker(s) may hold file paths that will need to be adjusted. <em><strong>Reminder:</strong> You will be making these adjustments to the Resource Tracker and Results Tracker(s) within your shareable data package folder (copied over from your local data package), not to the versions of these files in your local data package's dsc-pkg folder.</em></p>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<h5 id="resource-tracker"><a href="link to schema">Resource Tracker</a><a class="headerlink" href="#resource-tracker" title="Permanent link">¶</a></h5>
+<ul>
+<li>path</li>
+<li>associatedFileDataDict</li>
+<li>associatedFileProtocol</li>
+<li>associatedFileResultsTracker</li>
+<li>associatedFileDependsOn</li>
+<li>associatedFileResultsDependOn</li>
+<li>associatedFileMultiLikeFiles</li>
+</ul>
+<h5 id="results-trackers"><a href="link to schema">Results Tracker(s)</a><a class="headerlink" href="#results-trackers" title="Permanent link">¶</a></h5>
+<ul>
+<li>associatedFilePublication</li>
+<li>associatedFileDependsOn</li>
+</ul>
+</div>
+</div>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<h4 id="review-your-shareable-data-package">Review your shareable data package<a class="headerlink" href="#review-your-shareable-data-package" title="Permanent link">¶</a></h4>
+<!-- review shareable data package -->
+<p>Review your shareable data package folder to ensure that you have shared all study files/resources and standard data package metadata files you intend to share and have not shared anything you don't intend to share.</p>
+</div>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<h4 id="prepare-other-materials-for-submission">Prepare other materials for submission<a class="headerlink" href="#prepare-other-materials-for-submission" title="Permanent link">¶</a></h4>
+<p>Prepare the accessory files that you will submit along with your shareable data package - This includes the 1) "Overview" Resource Tracker, and 2) Readme file. </p>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<h5 id="overview-resource-tracker">Overview Resource Tracker<a class="headerlink" href="#overview-resource-tracker" title="Permanent link">¶</a></h5>
+<ol>
+<li>Create a copy of the Resource Tracker in your shareable data package folder and move that copy into your "my-study-share" folder. This will be your "Overview" Resource Tracker, which will indicate whether or not each file in the Resource Tracker is shared in the shareable data package.</li>
+<li>Add a column to the Resource Tracker. A suggested name for this column might be "share-open-access-by-[YYYY-MM-DD]" where the date is the milestone/embargo expiration date for this shareable data package<ol>
+<li>For each row, enter a 1 if the file will be shared in this "open-access-by-date" shareable data package. If not shared in this shareable data package, enter a 0.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<h5 id="readme-file">README File<a class="headerlink" href="#readme-file" title="Permanent link">¶</a></h5>
+<ol>
+<li>Create a README file, which will provide a brief, structured description of the shareable data package(s) included in the "my-study-share-current-date" folder. <ol>
+<li>You can find a README template <a href="https://raw.githubusercontent.com/norc-heal/heal-data-pkg-tool/main/readme.yaml">here</a>.</li>
+<li>There are three sections in the README document - Description, Specifications, and Contents<ol>
+<li>The only section you will need to modify within the README file is the Contents section</li>
+<li>There are three sections in the Contents section - readme, resource-tracker, and shareable-data-packages<ol>
+<li>The only section you will need to modify within the Contents section is the shareable-data-packages section<ol>
+<li>Within this section you will want to create an entry to describe each shareable data package you will submit to your repository</li>
+<li>The template has a single "example" shareable data package entry - If this is the first shareable data package you are creating, proceed to modify this "example" entry - If this is NOT the first shareable data package you are creating, make a copy of the shareable data package entry for the latest shareable data package you created, and append this new copied entry to the list of entries, then proceed to modify this entry - <ol>
+<li>Modify the "key" of this entry to be the name of your shareable data package folder</li>
+<li>Modify the file-name entry to be the name of your shareable data package folder plus the .zip extension (this is how the shareable data package zip file will be named after you've zipped up the folder and shared it in your repository as a zip archive)</li>
+<li>Modify the access-regime to be the flavor of shareable data package (open-access-now, managed-access-now, open-access-by-date, managed-access-by-date)</li>
+<li>Modify the by-date to be the milestone date after which you intend to share the files in this shareable data package (i.e. the date after which any embargo will expire) in YYYY-MM-DD format; This is only applicable if the shareable data package is either open-access-by-date or managed-access-by-date flavor - If the shareable data package is open-access-now or managed-access-now the value should be set to NULL</li>
+<li>Modify the created date to be the date on which the shareable data package was created in YYYY-MM-DD format</li>
+<li>Modify the resource-tracker-flag-name to be equal to the name of the column you added to the "overview" Resource Tracker to indicate which study files/resources are shared in this shareable data package</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Save the README file in the "my-study-share" folder.</li>
+</ol>
+</div>
+</div>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<h4 id="zip-up-your-shareable-data-package">Zip up your shareable data package<a class="headerlink" href="#zip-up-your-shareable-data-package" title="Permanent link">¶</a></h4>
+<!-- zip up shareable data package -->
+<ol>
+<li>Now, your shareable data package folder is ready to zip up for submission. <ol>
+<li>You can zip it up in whichever way you choose.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+<h4 id="upload-your-shareable-data-package-to-your-repository">Upload your shareable data package to your repository<a class="headerlink" href="#upload-your-shareable-data-package-to-your-repository" title="Permanent link">¶</a></h4>
+<p><strong>Congratulations! You are ready to upload your "open-access-by-date" shareable data package.</strong></p>
+<ol>
+<li>Submit your "open-access-by-[YYYY-MM-DD]" zipped up shareable data package along with your "overview" Resource Tracker and README file accessory files at the data repository you've selected. The full inventory of items you will submit, and under what access conditions to share them at your repository, include: <ol>
+<li><strong>Zipped "open-access-by-[YYYY-MM-DD]" shareable data package:</strong> share as open-access with embargo restrictions, with an embargo date equal to the milestone/embargo expiration date for this shareable data package</li>
+<li><strong>"Overview" Resource Tracker:</strong> share as open-access without embargo restrictions</li>
+<li><strong>README:</strong> share as open-access without embargo restrictions</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Create an open-access now shareable data package" class="md-footer__link md-footer__link--prev" href="../open-access-now/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Create an open-access now shareable data package
+            </div>
+</div>
+</a>
+<a aria-label="Next: Create a managed-access now shareable data package" class="md-footer__link md-footer__link--next" href="../managed-access-now/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Create a managed-access now shareable data package
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.indexes", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.37e9125f.min.js"></script>
+<script src="https://viewer.diagrams.net/js/viewer-static.min.js"></script></body>
+</html>

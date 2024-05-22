@@ -2,312 +2,457 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/section1/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/annot/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/annot/introaddtop/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/annot/introholmin/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/file-o-and-n/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-annotation-recs/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-annotation-recs-archive-1/</loc>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-questions/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/data-sharing-orientation/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/</loc>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/early/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/early-data-low/</loc>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/guidance-1/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/early-data-stand/</loc>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/index-archive/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/early-res-low/</loc>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/late/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/early-res-stand/</loc>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/study-stage/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/late-data-low/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/late-data-stand/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/late-res-low/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/late-res-stand/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/asyougo/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/data-package/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/finish/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/auditresults/audit-datalow/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/auditresults/audit-earlystand/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/auditresults/audit-reslow/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/datadict/datadict-datalow/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/datadict/datadict-earlystand/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/datadict/datadict-reslow/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/exptrack/exp-earlystand/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/exptrack/exp-latedata/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/exptrack/exp-lateres/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resotrack/add-data-late/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resotrack/add-data-low/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resotrack/add-data-stand/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resotrack/add-res-late/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resotrack/add-res-low/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resotrack/end-datalow/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resotrack/end-datastand/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resotrack/end-earlyres/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resotrack/end-lateres/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resotrack/end-reslow/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resotrack/resotrack/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resotrack/start-resotrack/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resulttrack/result-final/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resulttrack/result-ressup/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/resulttrack/resulttrack/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/set-success/set-success-early/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/fit/best-fit-recs/modules/set-success/set-success-late/</loc>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/g-and-r/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/g-and-r/deid/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/g-and-r/repo/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/g-and-r/rescommet/</loc>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/guidance/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/guidance/file-name/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/guidance/file-org/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/intro/flmd/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/intro/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/intro/intro-pkg/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/intro/sdpmd/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/intro/shareable/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/intro/study-file/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/overview/</loc>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/overview/how/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/overview/resource/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/overview/slmd/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/overview/what/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/overview/when/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/overview/where/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/overview/who/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/overview/why/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/resources/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/md_data_dictionary/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/md_experiment_tracker/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/md_experiment_tracker_archive/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/md_resource_tracker/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/md_resource_tracker_archive/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/md_results_tracker/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/md_results_tracker_archive/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/md_study_overview/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/archive/jsonschema-csvtemplate-fields/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/archive/jsonschema-csvtemplate-fields_v2/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/archive/jsonschema-csvtemplate-fields_v3/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/schemas/archive/jsonschema-csvtemplate-fields_v3_manual_edits/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/section3/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/section3/dec/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/section3/dec/early/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/section3/dec/late/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/section3/dec/late/large/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/section3/dec/late/small/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/section3/orient/orient/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/section3/orient/resultsupp/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/access-fields/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/managed-access-date/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/managed-access-now/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/open-access-date/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/open-access-now/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/readme_template/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/copyover/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/create/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/readme1/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/remind/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/restrackpath/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/review/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/set/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/zipup/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/id/intro/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/id/sdpmd/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/intro/man-acc-date/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/intro/man-acc-now/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/intro/open-acc-date/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://norc-heal.github.io/heal-data-pkg-guide/submit/modules/intro/open-acc-now/</loc>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://norc-heal.github.io/heal-data-pkg-guide/terms/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/terms/addtop/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/terms/depend/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/terms/filelevel/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/terms/files/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/terms/holmin/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/terms/index-archive/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/terms/name/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/terms/sharing/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/terms/studylevel/exp/</loc>
-         <lastmod>2024-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://norc-heal.github.io/heal-data-pkg-guide/terms/studylevel/resource/</loc>
-         <lastmod>2024-03-21</lastmod>
+         <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
