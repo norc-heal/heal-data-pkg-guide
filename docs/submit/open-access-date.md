@@ -81,13 +81,15 @@ full-width: true
 
 #### Prepare other materials for submission
 
+Prepare the accessory files that you will submit along with your shareable data package - This includes the 1) "Overview" Resource Tracker, and 2) Readme file. 
+
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
 ##### Overview Resource Tracker
 
 1. Create a copy of the Resource Tracker in your shareable data package folder and move that copy into your "my-study-share" folder. This will be your "Overview" Resource Tracker, which will indicate whether or not each file in the Resource Tracker is shared in the shareable data package.
-1. Add a column to the Resource Tracker. A suggested name for this column might be "open-access--shareable-data-pkg."
-  2. For each row, enter a 1 if the file will be shared in this "open-access now" shareable data package. If not shared in this shareable data package, enter a 0.
+1. Add a column to the Resource Tracker. A suggested name for this column might be "share-open-access-by-[YYYY-MM-DD]" where the date is the milestone/embargo expiration date for this shareable data package
+  2. For each row, enter a 1 if the file will be shared in this "open-access-by-date" shareable data package. If not shared in this shareable data package, enter a 0.
 
 </div>
 
@@ -115,7 +117,7 @@ full-width: true
 **Congratulations! You are ready to upload your "open-access-by-date" shareable data package.**
 
 1. Submit your "open-access-by-[YYYY-MM-DD]" zipped up shareable data package along with your "overview" Resource Tracker and README file accessory files at the data repository you've selected. The full inventory of items you will submit, and under what access conditions to share them at your repository, include: 
-  1. Zipped "open-access-by-[YYYY-MM-DD]": share as open-access with embargo restrictions
+  1. Zipped "open-access-by-[YYYY-MM-DD]" shareable data package: share as open-access with embargo restrictions, with an embargo date equal to the milestone/embargo expiration date for this shareable data package
   2. "Overview" Resource Tracker: share as open-access without embargo restrictions
   3. Your README: share as open-access without embargo restrictions
 
