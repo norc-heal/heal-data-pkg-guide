@@ -37,7 +37,7 @@ full-width: true
 2. The two fields most important to this step are "access" and "access-date." You will use the values in these columns to determine which files will go into your shareable data package folder.
 3. Identify all study files/resources that are designated as open-access as of today's date. For reference, the requirements for access and access-date fields are below:
   1. **"open-access" value in access field AND "temporary-private" value not in access field** OR
-  2. **"open-access" value in access field AND "temporary-private" value in access field AND today's date >= access-date field value**
+  2. **"open-access" value in access field AND "temporary-private" value in access field AND access date <= today's date**
 
   !!! warning
 

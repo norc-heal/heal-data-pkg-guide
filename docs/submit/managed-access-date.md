@@ -34,18 +34,19 @@ full-width: true
 
 1. Use the [Resource Tracker](../terms/index.md#resource-tracker) from your local data package to identify study files/resources and standard data package metadata that meet sharing requirements.
 2. The two fields most important to this step are "access" and "access-date." You will use the values in these columns to determine which files will go into your shareable data package folder.
-3. Identify all study files/resources that are designated as managed-access as of the date you are planning to share your data package at a repository. For reference, the requirements for access and access-date are below:
+3. Identify all study files/resources that are designated as open-access or managed-access as of the milestone date after which any embargo on this shareable data package at a repository will expire. For reference, the requirements for access and access-date are below:
   1. **"open-access" in access AND "temporary-private" not in access** OR
-  2. **"open-access" in access AND "temporary-private" in access AND date planned for sharing at a repository >= access date**
+  2. **"open-access" in access AND "temporary-private" in access AND access date <= milestone/embargo expiration date**
   3. **"managed-access" in access AND "temporary-private" not in access** OR
-  4. **"managed-access" in access AND "temporary-private" in access AND date planned for sharing at a repository >= access-date** OR
+  4. **"managed-access" in access AND "temporary-private" in access AND access date <= milestone/embargo expiration date** 
 
   !!! warning
 
       These files **should not** be copied into your shareable data package folder:
     
-      * A file designated as temporary private with an access date later than the intended sharing date for this data package
+      * A file with an access date after the milestone/embargo expiration date for this shareable data package
       * A file designated as permanent private
+      * A file that is not listed in your Resource Tracker
 
 4. In addition to your study files, you will need to identify which standard data package metadata should be copied into your shareable data package. Standard data package metadata includes the Experiment Tracker, Resource Tracker, Results Tracker(s), and Data Dictionary(ies)
   1. You should automatically copy the Resource Tracker and Experiment Tracker into any shareable data package you create.

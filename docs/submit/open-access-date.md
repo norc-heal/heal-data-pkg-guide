@@ -43,9 +43,10 @@ full-width: true
 
       These files **should not** be copied into your shareable data package folder:
     
-      * A file designated as temporary private with an access date later than the milestone/embargo expiration date for this shareable data package
+      * A file with an access date after the milestone/embargo expiration date for this shareable data package
       * A file designated as managed access
       * A file designated as permanent private
+      * A file that is not listed in your Resource Tracker
 
 4. In addition to your study files, you will need to identify which standard data package metadata should be copied into your shareable data package. Standard data package metadata includes the Experiment Tracker, Resource Tracker, Results Tracker(s), and Data Dictionary(ies)
   1. You should automatically copy the Resource Tracker and Experiment Tracker into any shareable data package you create.

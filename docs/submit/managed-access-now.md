@@ -31,19 +31,21 @@ full-width: true
 
 1. Use the [Resource Tracker](../terms/index.md#resource-tracker) from your local data package to identify study files/resources and standard data package metadata that meet sharing requirements.
 2. The two fields most important to this step are "access" and "access-date." You will use the values in these columns to determine which files will go into your shareable data package folder.
-3. Identify all study files/resources that are designated as managed-access or open-access as of today's date. For reference, the requirements for access and access-date are below:
+3. Identify all study files/resources that are designated as open-access or managed-access as of today's date. For reference, the requirements for access and access-date are below:
   1. **"open-access" in access AND "temporary-private" not in access** OR
-  2. **"open-access" in access AND "temporary-private" in access AND today's date >= access-date** OR
+  2. **"open-access" in access AND "temporary-private" in access AND access date <= today's date** OR
   3. **"managed-access" in access AND "temporary-private" not in access** OR
-  4. **"managed-access" in access AND "temporary-private" in access AND today's date >= access-date**
+  4. **"managed-access" in access AND "temporary-private" in access AND access date <= today's date**
 
   !!! warning
 
       These files **should not** be copied into your new shareable data package folder:
     
-      * A file designated as temporary private as of today's date
-      * A file designated as permanent private
+      * A file with an access date after today's date in your Resource Tracker
+      * A file designated as permanent private in your Resource Tracker
+      * A file that is not listed in your Resource Tracker
 
+      
 4. In addition to your study files, you will need to identify which standard data package metadata should be copied into your shareable data package. Standard data package metadata includes the Experiment Tracker, Resource Tracker, Results Tracker(s), and Data Dictionary(ies)
   1. You should automatically copy the Resource Tracker and Experiment Tracker into any shareable data package you create.
   2. Results Tracker(s) and Data Dictionary(ies) have similar restrictions as other files/resources - you should only copy each over if it meets the requirements listed above.
