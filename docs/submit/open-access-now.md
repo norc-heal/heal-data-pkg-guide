@@ -119,9 +119,9 @@ Prepare the accessory files that you will submit along with your shareable data 
 **Congratulations! You are ready to upload your "open-access now" shareable data package.**
 
 1. Submit your "open-access-now" zipped up shareable data package along with your "overview" Resource Tracker and README file accessory files at the data repository you've selected. The full inventory of items you will submit, and under what access conditions to share them at your repository, include: 
-  1. Zipped "open-access now": share as open-access without embargo restrictions
+  1. Zipped "open-access now" shareable data package: share as open-access without embargo restrictions
   2. "Overview" Resource Tracker: share as open-access without embargo restrictions
-  3. Your README: share as open-access without embargo restrictions
+  3. README: share as open-access without embargo restrictions
 
 </div>
 </div>
