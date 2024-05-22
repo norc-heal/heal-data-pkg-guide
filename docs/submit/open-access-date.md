@@ -33,7 +33,7 @@ full-width: true
 
 #### Identify resources and standard data package metadata that meet sharing requirements
 
-1. Navigate to your dsc-pkg folder and open your Resource Tracker. 
+1. Use the [Resource Tracker](../terms/index.md#resource-tracker) from your local data package to identify study files/resources and standard data package metadata that meet sharing requirements.
 2. The two fields most important to this step are "access" and "access-date." You will use the values in these columns to determine which files will go into your shareable data package folder.
 3. Identify all study files/resources that are designated as open-access as of the milestone date after which any embargo on this shareable data package at a repository will expire. For reference, the requirements for access and access-date are below:
   1. **"open-access" in access AND "temporary-private" not in access** OR
