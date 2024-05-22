@@ -82,6 +82,8 @@ full-width: true
 
 #### Prepare other materials for submission
 
+Prepare the accessory files that you will submit along with your shareable data package - This includes the 1) "Overview" Resource Tracker, and 2) Readme file. 
+
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
 ##### Overview Resource Tracker

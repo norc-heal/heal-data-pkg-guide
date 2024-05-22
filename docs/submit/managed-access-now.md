@@ -46,6 +46,8 @@ full-width: true
       * A file that is not listed in your Resource Tracker
 
       
+
+      
 4. In addition to your study files, you will need to identify which standard data package metadata should be copied into your shareable data package. Standard data package metadata includes the Experiment Tracker, Resource Tracker, Results Tracker(s), and Data Dictionary(ies)
   1. You should automatically copy the Resource Tracker and Experiment Tracker into any shareable data package you create.
   2. Results Tracker(s) and Data Dictionary(ies) have similar restrictions as other files/resources - you should only copy each over if it meets the requirements listed above.
@@ -79,6 +81,8 @@ full-width: true
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
 #### Prepare other materials for submission
+
+Prepare the accessory files that you will submit along with your shareable data package - This includes the 1) "Overview" Resource Tracker, and 2) Readme file. 
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
