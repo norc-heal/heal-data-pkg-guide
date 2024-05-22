@@ -6,7 +6,7 @@ Before you begin, you should review a few things to ensure you are ready to prep
 
 1. Review the contents of your local data package or "my-study" folder. Ensure that all study files and standard data package metadata stored in your dsc-pkg folder (i.e., Resource Tracker, Results Tracker(s), Experiment Tracker, Data Dictionary(ies)) are saved within your centralized study folder. Your study folder may look something like this:
 
-  <img src="../../assets/basic-study-folder-structure.png" alt="my-study directory structure" width="400"/>
+  <img src="../../assets/basic-study-folder-structure.PNG" alt="my-study directory structure" width="400"/>
 
 2. Review your Resource Tracker and Results Tracker(s) to ensure that you have annotated all resources that you are planning to share in a repository. Also confirm that:
   1. All "access" and "access-date" fields are filled out completely and in accordance with your plan on how and when to share each resource. Accuracy of these fields will be essential for creating your shareable data package. See the [Resource Tracker schema](../../schemas/md_resource_tracker.md) for more information about how to fill out these fields.
@@ -16,4 +16,4 @@ Before you begin, you should review a few things to ensure you are ready to prep
 
 4. Create another folder at the same level as your my-study folder. This folder will hold all shareable data package(s) you create, plus the accessory files that you will submit alongside your shareable data package(s) (i.e., an overview Resource Tracker and a README). In the instructions that follow, this folder will be referred to as your "my-study-share" folder.
 
-  <img src="../../assets/shareable-pkg-folder-add.png" alt="my-study directory structure" width="200"/>
+  <img src="../../assets/shareable-pkg-folder-add.PNG" alt="my-study directory structure" width="200"/>
