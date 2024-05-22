@@ -21,7 +21,7 @@ full-width: true
 
 --8<-- "submit/modules/set.md"
 
---8<-- "submit/modules/intro/man-acc-date.md"
+--8<-- "submit/modules/intro/man-acc-now.md"
 
 </div>
 
