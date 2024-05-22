@@ -118,9 +118,9 @@ Prepare the accessory files that you will submit along with your shareable data 
 **Congratulations! You are ready to upload your "managed-access-by-date" shareable data package.**
 
 1. Submit your "managed-access-by-[YYYY-MM-DD]" zipped up shareable data package along with your "overview" Resource Tracker and README file accessory files at the data repository you've selected. The full inventory of items you will submit, and under what access conditions to share them at your repository, include: 
-  1. Zipped "managed-access-by-[YYYY-MM-DD]" shareable data package: share as managed-access with embargo restrictions, with an embargo date equal to the milestone/embargo expiration date for this shareable data package
-  2. "Overview" Resource Tracker: share as open-access without embargo restrictions
-  3. README: share as open-access without embargo restrictions
+  1. **Zipped "managed-access-by-[YYYY-MM-DD]" shareable data package:** share as managed-access with embargo restrictions, with an embargo date equal to the milestone/embargo expiration date for this shareable data package
+  2. **"Overview" Resource Tracker:** share as open-access without embargo restrictions
+  3. **README:** share as open-access without embargo restrictions
 
 </div>
 </div>
