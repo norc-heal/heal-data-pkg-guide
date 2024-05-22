@@ -83,12 +83,14 @@ full-width: true
 
 #### Prepare other materials for submission
 
+Prepare the accessory files that you will submit along with your shareable data package - This includes the 1) "Overview" Resource Tracker, and 2) Readme file. 
+
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
 ##### Overview Resource Tracker
 
-1. Create a copy of the Resource Tracker in your shareable data package folder and move that copy into your "my-study-share" folder. This will be your "Overview" Resource Tracker, which will indicate whether or not each file in the Resource Tracker is shared in the shareable data package.
-2. Add a column to this Resource Tracker. A suggested name for this column might be "open-access-now-shareable-data-pkg."
+1. Create a copy of the Resource Tracker version in your shareable data package folder and move that copy into your "my-study-share" folder. This will be your "Overview" Resource Tracker, which will indicate whether or not each file in the Resource Tracker is shared in the shareable data package.
+2. Add a column to this Resource Tracker. A suggested name for this column might be "share-open-access-now."
   1. For each row, enter a 1 if the file will be shared in this "open-access now" shareable data package. If not shared in this shareable data package, enter a 0.
 
 </div>
