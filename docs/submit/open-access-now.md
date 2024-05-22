@@ -33,9 +33,9 @@ full-width: true
 
 #### Identify resources and standard data package metadata that meet sharing requirements
 
-1. Use the Resource Tracker from your local data package to identify resources and standard data package metadata that meet sharing requirements.
+1. Use the [Resource Tracker](../terms/index.md#resource-tracker) from your local data package to identify study files/resources and standard data package metadata that meet sharing requirements.
 2. The two fields most important to this step are "access" and "access-date." You will use the values in these columns to determine which files will go into your shareable data package folder.
-3. Identify all study files/resources that are designated as open-access as of today's date. For reference, the requirements for access and access-date are below:
+3. Identify all study files/resources that are designated as open-access as of today's date. For reference, the requirements for access and access-date fields are below:
   1. **"open-access" value in access field AND "temporary-private" value not in access field** OR
   2. **"open-access" value in access field AND "temporary-private" value in access field AND today's date >= access-date field value**
 
@@ -50,8 +50,8 @@ full-width: true
 
 4. In addition to your study files, you will need to identify which standard data package metadata should be copied from the dsc-pkg folder in your local data package into the dsc-pkg folder in your shareable data package. Standard data package metadata includes the Experiment Tracker, Resource Tracker, Results Tracker(s), and Data Dictionary(ies).
   1. You should automatically copy the Resource Tracker and Experiment Tracker into any shareable data package you create. These standard data package metadata files are not listed in your Resource Tracker. This is the only exception to the general rule that you should not share any files that are not listed in your Resource Tracker in a shareable data package.
-  2. Results Tracker(s) and Data Dictionary(ies) have similar restrictions as other files/resources. Results Tracker(s) and Data Dictionary(ies) should also be listed in your Resource Tracker. 
-    1. Use the "access" and "access-date" fields for your Results Tracker and Data Dictionaries to determine whether they should be copied into your shareable data package, based on the requirements listed above in step 3.
+  2. Results Tracker(s) and Data Dictionary(ies) have similar restrictions as other study files/resources. Results Tracker(s) and Data Dictionary(ies) should be listed in your Resource Tracker. 
+    1. Use the "access" and "access-date" fields for your Results Tracker(s) and Data Dictionary(ies) to determine whether they should be copied into your shareable data package, based on the requirements listed above in step 3.
 
 </div>
 
