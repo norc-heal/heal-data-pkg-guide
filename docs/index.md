@@ -1,86 +1,37 @@
-# Introduction
+---
+hide:
+  - toc
+full-width: true
+---
 
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
+# HEAL Data Packaging Guide
 
-A data package is an archive containing research data together with the metadata,
-supporting files and documentation needed to permit someone unconnected to the original 
-study to discover, understand, replicate, and/or (re)use the data or other study materials
-(e.g. code, protocol, survey instrument) for a specific purpose. 
-
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
-
-This guide aims to provide **clear, step-by-step instructions** for how to:
-
-1. Create a *data package*
-2. Prepare a *data package* for submission to a public data repository
-
-</div>
-
-Creating a data package inherently makes the originating study group's job of preparing the data package for submission to a
-public data repository easier!
-
-</div>
-
-## Benefit for Secondary Users 
-
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
-
-The focus here is on creating data packages suitable for submission to a public data repository to permit replication of a previous analysis and/or secondary analyses. 
-
-Such packages include the information necessary to make
-the data *findable*, *accessible*, *interoperable* and *reusable*
-([FAIR](https://www.go-fair.org/fair-principles/)). In particular, they (1)
-include metadata that may be indexed and searched to permit researchers to
-find the data; (2) organize and store data and supporting files using common,
-open standards and formats that make them easy to use; and (3) include
-sufficient documentation, including information on provenance and data use
-requirements and restrictions, to permit researchers to understand and reuse the data.
-
-</div>
-
-## Benefit for Originating study group & <br>Data Packages without data
-
-<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
-
-Importantly, while data packages are the best way to share primary research
-data with potential secondary users, *they are also useful for the originating 
-study group* AND *they are also useful even when the originating study group is 
-generating data that cannot be shared or is working with secondary data that cannot 
-be redistributed*. 
-
-A data package provides an ideal way to organize your work locally, increasing
-the efficiency and reproducibility of your own work and facilitating
-collaboration among your team. In addition, a data package may be easily
-modified to exclude all or some of the data themselves—possibly replacing them with links to
-their sources in the case of secondary data or with synthetic data—leaving you
-with a product that can then be shared in order to document your work and
-permit other researchers to replicate your analysis.
-
-</div>
+<figure markdown="span">
+  ![](assets/intro.drawio){ width="300" }
+  <figcaption></figcaption>
+</figure>
 
 ## Navigating this guide
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-The material in this guide is organized into four main sections. 
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-The first section provides
-[a general overview](overview/what) of data packages, including what they are,
-why they're useful, and when and how to make one. 
+The material in this guide is organized into 3 main sections: 
 
-The second section is a
-[step-by-step tutorial](fit) on creating your first data package, with
-instructions tailored to your own situation based on your answers to three
-simple questions. 
+1. The ["**What is a data package**"](intro/index.md) section provides a general overview of data packages, including what they are, why they're useful, and the general process of creating a data package.
+2. The ["**Create your data package**"](fit/index.md) section provides a step-by-step tutorial on creating your first data package, with instructions tailored to your own study's situation based on your answers to three simple questions.
+3. The ["**Prepare your data package for submission**"](submit/index.md) section provides step-by-step instructions on preparing your first data package for submission to a public data repository, with instructions tailored to your own study's situation.
 
-The third section is a
-[step-by-step tutorial](submit) on preparing your first data package for submission to a public data repository, with
-instructions tailored to your own situation based on your answers to three
-simple questions.
+</div>
 
-The fourth section provides [additional guidance](g-and-r) on
-specific topics as well as references to additional resources that may be
-helpful. Links to specific parts of this last section are provided throughout the 
-first three sections to clarify concepts and recommendations as they come up.  
+<div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
+This guide also contains a few additional sections:
+
+* The ["**More information about data packaging**"](overview/index.md) section provides some additional, more detailed information about the data packaging process.
+* The ["**Guidance & Resources**"](g-and-r/index.md) section provides additional guidance on specific topics as well as references to additional resources that may be helpful. Links to specific parts of this sections are provided throughout the first three sections, when appropriate.
+* The ["**Terms & Concepts**"](terms/index.md) section provides definitions of terms and concepts used throughout this guide. LInks to specific parts of this section are provided throughout the first three sections to clarify concepts and recommendations as they come up.
+
+</div>
 </div>

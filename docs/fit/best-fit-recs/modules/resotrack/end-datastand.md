@@ -1,0 +1,4 @@
+<!-- Early dataset standard and late dataset standard-->
+* Add your finalized dataset-of-interest to your Resource Tracker 
+* Confirm that all [associated files/dependencies](../../terms/index.md#associated-filesdependencies) for the finalized dataset-of-interest (i.e. files required to interpret, replicate, or use the finalized dataset-of-interest) are also listed as study resource/files in your Resource Tracker - Add any that are missing 
+* Confirm that all [associated files/dependencies](../../terms/index.md#associated-filesdependencies) for each study file/resource listed in your Resource Tracker are also listed as study files/resources in your Resource Tracker - Add any that are missing

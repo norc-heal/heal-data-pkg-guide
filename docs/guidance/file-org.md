@@ -26,13 +26,15 @@ Organize all [study files/resources](../terms/index.md#study-filesresources) int
 
 * Organize all your files (whether you will share them or not), into folders.
 * In general, **minimize the number of folders** at each level, and the number of 'layers' of your whole directory.
-    *   File naming conventions can often be used quite effectively to 'organize' files and to provide clues as to what the files are and how they relate to each other without resorting to using separation into different directories to serve that purpose.
-* However, there is a limit to naming conventions, and you may want to separate your files into directories based on some type of logical groupings and/or based on th elevel or timing of access to the files you expect to provide. See below for further details.
+  * File naming conventions can often be used quite effectively to 'organize' files and to provide clues as to what the files are and how they relate to each other without resorting to using separation into different directories to serve that purpose.
+* However, there is a limit to naming conventions, and you may want to separate your files into directories based on some type of logical groupings. See below for further details.
 
-    !!! note "Reminder"
-        Before creating more directories or directory layers, consider whether file-naming conventions may be used more efficiently to create this organization.
+    
 
 </div>
+
+!!! note "Reminder"
+    Before creating more directories or directory layers, consider whether file-naming conventions may be used more efficiently to create this organization.
 
 ### Create logical groupings
 
