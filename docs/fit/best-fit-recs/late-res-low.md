@@ -33,7 +33,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Make a list of results of shared and contributing experiments
+#### Make a list of shared results and contributing experiments
 
 --8<-- "fit/best-fit-recs/modules/auditresults/audit-reslow.md"
 
@@ -49,9 +49,9 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Start your [Results Tracker(s)](../../terms/index.md#results-tracker) - one per manuscript
+#### Start your [Results Tracker(s)](../../terms/index.md#results-tracker) 
 
---8<-- "fit/best-fit-recs/modules/resulttrack/result-ressup.md"
+--8<-- "fit/best-fit-recs/modules/resulttrack/resulttrack.md"
 
 --8<-- "fit/best-fit-recs/modules/resulttrack/result-final.md"
 
@@ -59,7 +59,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Create data dictionaries
+#### Start your [Data Dictionary(ies)](../../terms/index.md#data-dictionary)
 
 --8<-- "fit/best-fit-recs/modules/datadict/datadict-reslow.md"
 
@@ -69,7 +69,7 @@ full-width: true
 
 #### Start your [Resource Tracker](../../terms/index.md#resource-tracker)
 
---8<-- "fit/best-fit-recs/modules/resotrack/resotrack.md"
+--8<-- "fit/best-fit-recs/modules/resotrack/start-resotrack.md"
 
 </div>
 
