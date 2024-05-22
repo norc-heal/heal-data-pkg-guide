@@ -59,7 +59,7 @@ full-width: true
 
 #### Start your [Resource Tracker](../../terms/index.md#resource-tracker)
 
---8<-- "fit/best-fit-recs/modules/resotrack/resotrack.md"
+--8<-- "fit/best-fit-recs/modules/resotrack/start-resotrack.md"
 
 </div>
 
@@ -67,7 +67,7 @@ full-width: true
 
 #### Add items to your Resource Tracker
 
---8<-- "fit/best-fit-recs/modules/resotrack/add-data-late.md"
+--8<-- "fit/best-fit-recs/modules/resotrack/add-data-stand.md"
 
 </div>
 
