@@ -7,7 +7,7 @@
   * This is the structure into which you will copy in the files from your local data package or my-study folder once you have determined which files are meant to be shared in your shareable data package folder. For more information on how to decide which files will be copied into this folder, move to the next section.
   * Mirroring the structure of your local data package or my-study folder in your shareable data package folder will allow a secondary user to easily find files referenced in the Resource Tracker by their provided relative file path.
 
-  <img src="../../assets/open-access-date-dir-structure.png" alt="my-study directory structure" width="400"/>
+  <img src="../../assets/open-access-date-dir-structure.PNG" alt="my-study directory structure" width="400"/>
 
 
 

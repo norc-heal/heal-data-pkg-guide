@@ -8,4 +8,4 @@
   * Mirroring the structure of your local data package or my-study folder in your shareable data package folder will allow a secondary user to easily find files referenced in the Resource Tracker by their provided relative file path.
   
 
-  <img src="../../assets/open-access-now-dir-structure.png" alt="my-study directory structure" width="400"/>
+  <img src="../../assets/open-access-now-dir-structure.PNG" alt="my-study directory structure" width="400"/>
