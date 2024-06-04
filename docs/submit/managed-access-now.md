@@ -29,13 +29,13 @@ full-width: true
 
 #### Identify resources and standard data package metadata that meet sharing requirements
 
-1. Use the [Resource Tracker](../terms/index.md#resource-tracker) from your local data package to identify study files/resources and standard data package metadata that meet sharing requirements.
-2. The two fields most important to this step are "access" and "access-date." You will use the values in these columns to determine which files will go into your shareable data package folder.
-3. Identify all study files/resources that are designated as open-access or managed-access as of today's date. For reference, the requirements for access and access-date are below:
-  1. **"open-access" in access AND "temporary-private" not in access** OR
-  2. **"open-access" in access AND "temporary-private" in access AND access date <= today's date** OR
-  3. **"managed-access" in access AND "temporary-private" not in access** OR
-  4. **"managed-access" in access AND "temporary-private" in access AND access date <= today's date**
+* Use the [Resource Tracker](../terms/index.md#resource-tracker) from your local data package to identify study files/resources and standard data package metadata that meet sharing requirements.
+* The two fields most important to this step are "access" and "access-date." You will use the values in these columns to determine which files will go into your shareable data package folder.
+* Identify all study files/resources that are designated as open-access or managed-access as of today's date. For reference, the requirements for access and access-date are below:
+  * **"open-access" in access AND "temporary-private" not in access** OR
+  * **"open-access" in access AND "temporary-private" in access AND access date <= today's date** OR
+  * **"managed-access" in access AND "temporary-private" not in access** OR
+  * **"managed-access" in access AND "temporary-private" in access AND access date <= today's date**
 
   !!! warning
 
@@ -46,11 +46,7 @@ full-width: true
       * A file that is not listed in your Resource Tracker
 
       
-
-      
-4. In addition to your study files, you will need to identify which standard data package metadata should be copied into your shareable data package. Standard data package metadata includes the Experiment Tracker, Resource Tracker, Results Tracker(s), and Data Dictionary(ies)
-  1. You should automatically copy the Resource Tracker and Experiment Tracker into any shareable data package you create.
-  2. Results Tracker(s) and Data Dictionary(ies) have similar restrictions as other files/resources - you should only copy each over if it meets the requirements listed above.
+--8<-- "submit/modules/id/sdpmd.md"
 
 </div>
 
@@ -82,15 +78,15 @@ full-width: true
 
 #### Prepare other materials for submission
 
-Prepare the accessory files that you will submit along with your shareable data package - This includes the 1) "Overview" Resource Tracker, and 2) Readme file. 
+Prepare the accessory files that you will submit along with your shareable data package - This includes the 1) "Overview" Resource Tracker, and 2) readme file. 
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
 ##### Overview Resource Tracker
 
-1. Create a copy of the Resource Tracker in your shareable data package folder and move that copy into your "my-study-share" folder. This will be your "Overview" Resource Tracker, which will indicate whether or not each file in the Resource Tracker is shared in the shareable data package.
-1. Add a column to the Resource Tracker. A suggested name for this column might be "share-managed-access-now."
-  2. For each row, enter a 1 if the file will be shared in this "managed-access now" shareable data package. If not shared in this shareable data package, enter a 0.
+* Create a copy of the Resource Tracker in your shareable data package folder and move that copy into your "my-study-share" folder. This will be your "Overview" Resource Tracker, which will indicate whether or not each file in the Resource Tracker is shared in the shareable data package.
+* Add a column to the Resource Tracker. A suggested name for this column might be "share-managed-access-now."
+  * For each row, enter a 1 if the file will be shared in this "managed-access now" shareable data package. If not shared in this shareable data package, enter a 0.
 
 </div>
 
@@ -117,10 +113,10 @@ Prepare the accessory files that you will submit along with your shareable data 
 
 **Congratulations! You are ready to upload your "managed-access now" shareable data package.**
 
-1. Submit your "managed-access-now" zipped up shareable data package along with your "overview" Resource Tracker and README file accessory files at the data repository you've selected. The full inventory of items you will submit, and under what access conditions to share them at your repository, include: 
-  1. **Zipped "managed-access now" shareable data package:** share as managed-access without embargo restrictions
-  2. **"Overview" Resource Tracker:** share as open-access without embargo restrictions
-  3. **README:** share as open-access without embargo restrictions
+* Submit your "managed-access-now" zipped up shareable data package along with your "overview" Resource Tracker and readme file accessory files at the data repository you've selected. The full inventory of items you will submit, and under what access conditions to share them at your repository, include: 
+  * **Zipped "managed-access now" shareable data package:** share as managed-access without embargo restrictions
+  * **"Overview" Resource Tracker:** share as open-access without embargo restrictions
+  * **README:** share as open-access without embargo restrictions
 
 </div>
 </div>

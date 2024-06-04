@@ -6,13 +6,13 @@ full-width: true
 
 # Research Community-Specific Metadata Standards
 
-Many research communities have developed their own metadata standards for specific data types. The metadata standards included in this guidance are not intended to replace any existing research community-specific metadata standards, but rather to supplement with some additional metadata. Use of existing research community-specific metadata standards can greatly contribute the findability and usability of your data for your research community. If you are not aware whether there are metadata standards already established within your research community, it may be useful to determine whether these exist and implementing them before submitting your data to a repository. 
+Many research communities have developed their own metadata standards for specific data types. The metadata standards included in this guidance are not intended to replace any existing research community-specific metadata standards, but rather to supplement with some additional metadata. Use of existing research community-specific metadata standards can greatly contribute the findability and usability of your data for your research community. If you are not aware whether there are metadata standards already established within your research community, it may be useful to determine whether these exist and to implement them before submitting your data to a repository. 
 
 This page includes some guidance on existing research community-specific metadata standards that may be applicable to HEAL investigators. Given the wide range of research communities involved in HEAL-funded studies, this is not a comprehensive list. Additionally, some research communities have not yet reached consensus on metadata standards.
 
 ### General resources
 
-* The [Data Curation Network](https://github.com/DataCurationNetwork/data-primers/tree/main) has put together a series of data primers that include information on data curation for multiple different study and data types. This includes some research community-specific standards as well as best practices for some general data types. Includes guidance on:
+* The [Data Curation Network](https://github.com/DataCurationNetwork/data-primers/tree/main) has put together a series of data primers that include information on data curation for multiple different study and data types. This includes some research community-specific standards as well as best practices for some general data types. This includes guidance on:
   * CARE Data Principles (data involving indigenous peoples, interests, lands, environments, resources, territories, traditions, cultures, archives, and histories)
   * Clinical Trials data, human participants data, consent forms
   * Genetic data

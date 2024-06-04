@@ -5,4 +5,5 @@
   * Save your Data Dictionary in your ["dsc-pkg" folder](../../terms/index.md#dsc-pkg-folder) as "heal-csv-dd-my-datafile.csv" (i.e. the file name starts with the prefix "heal-csv-dd-", you append the name of the data file to which the Data Dictionary applies, and save as a csv file)
   * Each row in your Data Dictionary will represent a variable that is collected/populated in your tabular data file 
   * Use the [Data Dictionary schema](../../schemas/md_data_dictionary.md) to understand what each "question"/field in the Data Dictionary means and how to "answer"/complete each "question"/field
-* Add all variables in the tabular data file to your Data Dictionary
+  * Add all variables in the tabular data file to your Data Dictionary
+* Add a Data Dictionary for each tabular data file

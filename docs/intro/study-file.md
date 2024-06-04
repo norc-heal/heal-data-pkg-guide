@@ -17,7 +17,7 @@ Files naturally related to or resulting from your study as you design, implement
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-Your "working" study folder, wherever you naturally save files related to your study as you design, implement, and complete yours tudy, and publish your study results.
+Your "working" study folder, wherever you naturally save files related to your study as you design, implement, and complete your study, and publish your study results.
 
 * Ideally this would be in a single, centralized overall "my study" study folder, but the process works even if files are decentralized.
 

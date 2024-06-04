@@ -37,7 +37,7 @@ The focus here is on creating data packages suitable for submission to a public 
 
 Such packages include the information necessary to make
 the data *findable*, *accessible*, *interoperable* and *reusable*
-([FAIR](https://www.go-fair.org/fair-principles/)). In particular, they (1)
+([FAIR](https://www.go-fair.org/fair-principles/){:target="_blank"}). In particular, they (1)
 include metadata that may be indexed and searched to permit researchers to
 find the data; (2) organize and store data and supporting files using common,
 open standards and formats that make them easy to use; and (3) include

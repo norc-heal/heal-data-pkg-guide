@@ -1,5 +1,6 @@
 <!-- standard data package metadata to identify to include -->
 
-4. In addition to your study files, you will need to identify which standard data package metadata should be copied into your shareable data package. Standard data package metadata includes the Experiment Tracker, Resource Tracker, Results Tracker(s), and Data Dictionary(ies) { start=4}
-  1. You should automatically copy the Resource Tracker and Experiment Tracker into any shareable data package you create.
-  2. Results Tracker(s) and Data Dictionary(ies) have similar restrictions as other files/resources - you should only copy each over if it meets the requirements listed above.
+* In addition to your study files, you will need to identify which standard data package metadata should be copied from the dsc-pkg folder in your local data package/my-study folder into the dsc-pkg folder in your shareable data package. Standard data package metadata includes the Experiment Tracker, Resource Tracker, Results Tracker(s), and Data Dictionary(ies).
+  * You should automatically copy the Resource Tracker and Experiment Tracker into any shareable data package you create. These standard data package metadata files are not listed in your Resource Tracker. This is the only exception to the general rule that you should not share any files that are not listed in your Resource Tracker in a shareable data package.
+  * Results Tracker(s) and Data Dictionary(ies) have similar restrictions as other study files/resources. Results Tracker(s) and Data Dictionary(ies) should be listed in your Resource Tracker. 
+    * Use the "access" and "access-date" fields for your Results Tracker(s) and Data Dictionary(ies) to determine whether they should be copied into your shareable data package, based on the requirements listed above.
