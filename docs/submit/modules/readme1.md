@@ -1,15 +1,13 @@
-1. Create a README file, which will provide a brief, structured description of the shareable data package(s) included in the "my-study-share-current-date" folder. 
-  1. You can find a README template [here](https://raw.githubusercontent.com/norc-heal/heal-data-pkg-tool/main/readme.yaml).
-  2. There are three sections in the README document - Description, Specifications, and Contents
-    1. The only section you will need to modify within the README file is the Contents section
-    2. There are three sections in the Contents section - readme, resource-tracker, and shareable-data-packages
-      1. The only section you will need to modify within the Contents section is the shareable-data-packages section
-        1. Within this section you will want to create an entry to describe each shareable data package you will submit to your repository
-        2. The template has a single "example" shareable data package entry - If this is the first shareable data package you are creating, proceed to modify this "example" entry - If this is NOT the first shareable data package you are creating, make a copy of the shareable data package entry for the latest shareable data package you created, and append this new copied entry to the list of entries, then proceed to modify this entry - 
-          1. Modify the "key" of this entry to be the name of your shareable data package folder
-          2. Modify the file-name entry to be the name of your shareable data package folder plus the .zip extension (this is how the shareable data package zip file will be named after you've zipped up the folder and shared it in your repository as a zip archive)
-          3. Modify the access-regime to be the flavor of shareable data package (open-access-now, managed-access-now, open-access-by-date, managed-access-by-date)
-          4. Modify the by-date to be the milestone date after which you intend to share the files in this shareable data package (i.e. the date after which any embargo will expire) in YYYY-MM-DD format; This is only applicable if the shareable data package is either open-access-by-date or managed-access-by-date flavor - If the shareable data package is open-access-now or managed-access-now the value should be set to NULL
-          5. Modify the created date to be the date on which the shareable data package was created in YYYY-MM-DD format
-          6. Modify the resource-tracker-flag-name to be equal to the name of the column you added to the "overview" Resource Tracker to indicate which study files/resources are shared in this shareable data package
-2. Save the README file in the "my-study-share" folder.
+* Create a readme txt file, which will provide a brief, structured description of the shareable data package(s) included in the "my-study-share-current-date" folder. 
+  * You can find a readme template [here](https://raw.githubusercontent.com/norc-heal/heal-data-pkg-tool/main/readme.yaml).
+  * There are three sections in the readme document - **Description**, **Specifications**, and **Contents**. The only section you will need to modify will be the **Contents** section.
+    * There are three sections in the **Contents** section - *readme*, *resource-tracker*, and *shareable-data-packages*. The only section you will need to modify is the *shareable-data-packages* section.
+      * Within this section you will want to create an entry to describe each shareable data package you will submit to your repository
+      * The template has a single "example" shareable data package entry - If this is the first shareable data package you are creating, proceed to modify this "example" entry - If this is NOT the first shareable data package you are creating, make a copy of the shareable data package entry for the latest shareable data package you created, and append this new copied entry to the list of entries, then proceed to modify this entry - 
+        * Modify the "key" of this entry to be the name of your shareable data package folder
+        * Modify the file-name entry to be the name of your shareable data package folder plus the .zip extension (this is how the shareable data package zip file will be named after you've zipped up the folder and shared it in your repository as a zip archive)
+        * Modify the access-regime to be the flavor of shareable data package (open-access-now, managed-access-now, open-access-by-date, managed-access-by-date)
+        * Modify the by-date to be the milestone date after which you intend to share the files in this shareable data package (i.e. the date after which any embargo will expire) in YYYY-MM-DD format; This is only applicable if the shareable data package is either open-access-by-date or managed-access-by-date flavor - If the shareable data package is open-access-now or managed-access-now the value should be set to NULL
+        * Modify the created date to be the date on which the shareable data package was created in YYYY-MM-DD format
+        * Modify the resource-tracker-flag-name to be equal to the name of the column you added to the "overview" Resource Tracker to indicate which study files/resources are shared in this shareable data package
+* Save the readme file in the "my-study-share" folder.

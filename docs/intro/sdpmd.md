@@ -9,8 +9,8 @@
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
 * Structured metadata files that, altogether, describe your study, study files and results, and study file and result relationships
-* These metadata provides the essential sharing, usability, and context information about the study as a whole and about the data files your study has produced/collected that allows understanding and re-use across research communities
-* These metadata are not meant to replace or supercede research community specific standards. Rather, they are meant to fully accommodate, never conflict with, and lightly add value to research community specific metadata standards.
+* These metadata provide the essential sharing, usability, and context information about the study as a whole and about the data files your study has produced/collected that allows understanding and re-use across research communities
+* These metadata are not meant to replace or supersede research community specific standards. Rather, they are meant to fully accommodate, never conflict with, and lightly add value to research community specific metadata standards.
 * [Standard Data Package Metadata](../terms/index.md#standard-data-package-metadata-files) files include:
 
   * Study overview

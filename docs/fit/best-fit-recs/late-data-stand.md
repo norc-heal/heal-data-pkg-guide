@@ -49,7 +49,7 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-#### Create data dictionaries
+#### Start your [Data Dictionary(ies)](../../terms/index.md#data-dictionary)
 
 --8<-- "fit/best-fit-recs/modules/datadict/datadict-datalow.md"
 

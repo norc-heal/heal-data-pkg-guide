@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="kfqbYSQvsbw34wrSjgwR" name="Page-1">
-        <mxGraphModel dx="1076" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1121" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -18,11 +18,6 @@
                 <mxCell id="5" value="Finish Preparing Data Package Locally" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#532565;fontColor=#F0F0F0;fontStyle=1;glass=0;fontSize=13;" parent="1" vertex="1">
                     <mxGeometry x="926" y="375" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <UserObject label="Add finalized &lt;br&gt;dataset-of-interest to Resource Tracker" link="#what-to-do-when-your-dataset-of-interest-is-finalized" id="10">
-                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;" parent="1" vertex="1">
-                        <mxGeometry x="727" y="290" width="130" height="50" as="geometry"/>
-                    </mxCell>
-                </UserObject>
                 <mxCell id="24" value="" style="endArrow=none;html=1;fontColor=#0F0F0F;rounded=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="140" y="460" as="sourcePoint"/>
@@ -63,7 +58,7 @@
                 <mxCell id="46" value="Initialize data package" style="text;strokeColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" parent="45" vertex="1">
                     <mxGeometry y="50" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <UserObject label="&lt;b&gt;Data Dictionary&lt;/b&gt;" link="#create-data-dictionaries" id="54">
+                <UserObject label="&lt;b&gt;Data Dictionary&lt;/b&gt;" link="#start-your-data-dictionaryies" id="54">
                     <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;fillColor=#982568;gradientColor=none;gradientDirection=radial;opacity=50;arcSize=15;swimlaneFillColor=none;" parent="1" vertex="1" collapsed="1">
                         <mxGeometry x="210" y="460" width="100" height="50" as="geometry">
                             <mxRectangle x="590" y="290" width="120" height="130" as="alternateBounds"/>
@@ -75,8 +70,8 @@
                 </mxCell>
                 <mxCell id="58" value="" style="endArrow=none;html=1;fontColor=#0F0F0F;rounded=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="79.5" y="340" as="sourcePoint"/>
-                        <mxPoint x="79.5" y="400" as="targetPoint"/>
+                        <mxPoint x="78" y="340" as="sourcePoint"/>
+                        <mxPoint x="78" y="400" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <UserObject label="Right Away" link="#what-to-do-right-away" id="68">
@@ -90,12 +85,12 @@
                         <mxPoint x="530" y="400" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <UserObject label="Create Data Dictionaries for new tabular files" link="#what-to-do-continuously-as-you-go" id="95">
+                <UserObject label="Create Data Dictionaries for new tabular files" link="#new-tabular-data-files" id="95">
                     <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;" parent="1" vertex="1">
                         <mxGeometry x="470.5" y="290" width="120" height="50" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="Add new study experiments to Experiment Tracker" link="#what-to-do-continuously-as-you-go" id="96">
+                <UserObject label="Add new study experiments to Experiment Tracker" link="#new-study-experimentsactivities" id="96">
                     <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;" parent="1" vertex="1">
                         <mxGeometry x="400" y="460" width="120" height="50" as="geometry"/>
                     </mxCell>
@@ -106,7 +101,7 @@
                         <mxPoint x="459.5" y="460" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <UserObject label="Add new study resources to Resource Tracker" link="#what-to-do-continuously-as-you-go" id="99">
+                <UserObject label="Add new study resources to Resource Tracker" link="#new-study-filesresources" id="99">
                     <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#982568;fontColor=#0F0F0F;fontStyle=1;opacity=50;" parent="1" vertex="1">
                         <mxGeometry x="541" y="460" width="120" height="50" as="geometry"/>
                     </mxCell>
@@ -122,27 +117,11 @@
                         <mxGeometry x="420" y="381" width="220" height="40" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;After Dataset-of-Interest Finalized&lt;/b&gt;&lt;/font&gt;" link="/#what-to-do-when-your-dataset-of-interest-is-finalized" id="102">
+                <UserObject label="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;After Dataset-of-Interest Finalized&lt;/b&gt;&lt;/font&gt;" link="#what-to-do-when-your-dataset-of-interest-is-finalized" id="102">
                     <mxCell style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.6400000000000035;arrowSize=0.09217391304347797;fillColor=#532565;strokeColor=#532565;fontSize=13;labelBorderColor=none;" parent="1" vertex="1">
                         <mxGeometry x="674" y="381" width="230" height="40" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="&lt;b&gt;Resource Tracker&lt;/b&gt;" link="#start-your-resource-tracker" id="50">
-                    <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;fillColor=#982568;gradientColor=none;gradientDirection=radial;opacity=50;swimlaneLine=1;" parent="1" vertex="1" collapsed="1">
-                        <mxGeometry x="270" y="290" width="100" height="50" as="geometry">
-                            <mxRectangle x="270" y="290" width="190" height="340" as="alternateBounds"/>
-                        </mxGeometry>
-                    </mxCell>
-                </UserObject>
-                <mxCell id="51" value="&lt;b&gt;Step 1&lt;/b&gt;: Add your manuscript and results tracker, documenting their location and association (e.g., your manuscript depends on your results tracker." style="text;strokeColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" parent="50" vertex="1">
-                    <mxGeometry y="50" width="190" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="53" value="&lt;b&gt;Step 2&lt;/b&gt;: For each file that a shared result depends upon, document any dependencies (e.g., data dictionary, raw data, code, protocol, etc.)" style="text;strokeColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" parent="50" vertex="1">
-                    <mxGeometry y="140" width="190" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="52" value="&lt;b&gt;Step 3&lt;/b&gt;: For each file documented as a resource:&lt;br&gt;1) Create a data dictionary if tabular data&lt;br&gt;2) Document any dependencies&lt;br&gt;Continue until there are no more dependencies to document." style="text;strokeColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" parent="50" vertex="1">
-                    <mxGeometry y="230" width="190" height="110" as="geometry"/>
-                </mxCell>
                 <UserObject label="&lt;b&gt;Experiment Tracker&lt;/b&gt;" link="#start-your-experiment-tracker" id="41">
                     <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;fillColor=#982568;gradientColor=none;gradientDirection=radial;opacity=50;" parent="1" vertex="1" collapsed="1">
                         <mxGeometry x="150" y="290" width="100" height="50" as="geometry">
@@ -153,18 +132,47 @@
                 <mxCell id="42" value="Document contributing experiments" style="text;strokeColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" parent="41" vertex="1">
                     <mxGeometry y="50" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <UserObject label="&lt;b&gt;Set Yourself Up For Success&lt;/b&gt;" link="#what-to-do-right-away" id="56">
-                    <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;fillColor=#982568;gradientColor=none;gradientDirection=radial;opacity=50;" parent="1" vertex="1" collapsed="1">
+                <UserObject label="&lt;b&gt;Set Yourself Up For Success&lt;/b&gt;" link="#set-yourself-up-for-success" id="113">
+                    <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;fillColor=#982568;gradientColor=none;gradientDirection=radial;opacity=50;" vertex="1" collapsed="1" parent="1">
                         <mxGeometry x="30" y="290" width="100" height="50" as="geometry">
-                            <mxRectangle x="90" y="290" width="120" height="150" as="alternateBounds"/>
+                            <mxRectangle x="30" y="290" width="150" height="220" as="alternateBounds"/>
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="57" value="&lt;span style=&quot;&quot;&gt;1. Make sure all files are accessible&lt;/span&gt;" style="text;strokeColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" parent="56" vertex="1">
-                    <mxGeometry y="50" width="120" height="40" as="geometry"/>
+                <mxCell id="114" value="&lt;span style=&quot;&quot;&gt;1. Review all files produced by your study&lt;/span&gt;" style="text;strokeColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" vertex="1" parent="113">
+                    <mxGeometry y="50" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="&lt;span style=&quot;&quot;&gt;2. Finalize existing resource file names/ paths&lt;/span&gt;" style="text;strokeColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" parent="56" vertex="1">
-                    <mxGeometry y="90" width="120" height="60" as="geometry"/>
+                <mxCell id="115" value="2. Apply file organization and naming conventions" style="text;strokeColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" vertex="1" parent="113">
+                    <mxGeometry y="90" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="3. Organize study files into a single folder/ directory" style="text;strokeColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" vertex="1" parent="113">
+                    <mxGeometry y="130" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="4. Ensure study files and folders are accessible" style="text;strokeColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" vertex="1" parent="113">
+                    <mxGeometry y="180" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <UserObject label="&lt;b&gt;Add items to Resource Tracker&lt;/b&gt;" link="#add-items-to-your-resource-tracker" id="118">
+                    <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;fillColor=#982568;gradientColor=none;gradientDirection=radial;opacity=50;swimlaneLine=1;" vertex="1" collapsed="1" parent="1">
+                        <mxGeometry x="720" y="290" width="130" height="50" as="geometry">
+                            <mxRectangle x="720" y="290" width="190" height="220" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="119" value="&lt;b&gt;Step 1&lt;/b&gt;: Add your finalized dataset-of-interest to your Resource Tracker." style="text;strokeColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" vertex="1" parent="118">
+                    <mxGeometry y="50" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Step 2&lt;/b&gt;: Confirm that all associated files/dependencies for the finalized-dataset-of-interest are listed as study files in your Resource Tracker and associated files/dependencies for each of these study files are listed in your Resource Tracker" style="text;strokeColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" vertex="1" parent="118">
+                    <mxGeometry y="100" width="190" height="120" as="geometry"/>
+                </mxCell>
+                <UserObject label="&lt;b&gt;Resource Tracker&lt;/b&gt;" link="#start-your-resource-tracker" id="124">
+                    <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;fillColor=#982568;gradientColor=none;gradientDirection=radial;opacity=50;" vertex="1" collapsed="1" parent="1">
+                        <mxGeometry x="270" y="290" width="100" height="50" as="geometry">
+                            <mxRectangle x="270" y="290" width="120" height="110" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="125" value="Add all study files already produced by your study as resources" style="text;strokeColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;" vertex="1" parent="124">
+                    <mxGeometry y="50" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

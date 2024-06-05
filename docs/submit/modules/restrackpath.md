@@ -11,7 +11,7 @@ See below for information on which fields in your Resource Tracker or Results Tr
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
-##### [Resource Tracker](link to schema)
+##### [Resource Tracker](../../schemas/md_resource_tracker/)
 
 * path
 * associatedFileDataDict
@@ -21,7 +21,7 @@ See below for information on which fields in your Resource Tracker or Results Tr
 * associatedFileResultsDependOn
 * associatedFileMultiLikeFiles
 
-##### [Results Tracker(s)](link to schema)
+##### [Results Tracker(s)](../../schemas/md_results_tracker/)
 
 * associatedFilePublication
 * associatedFileDependsOn

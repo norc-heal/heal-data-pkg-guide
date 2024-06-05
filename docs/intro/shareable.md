@@ -13,7 +13,7 @@
 * More than one 'flavor' possible depending on how and when you want to share specific files or sets of files; For example, you may want to: 
   
   * Share some files as open-access right away
-  * Share some files as managed-aggess right away
+  * Share some files as managed-access right away
   * Share some files as open-access, after a certain date (e.g. manuscript published, intellectual property secured)
   * Share some files as managed-access, after a certain date (e.g. manuscript published, intellectual property secured)
 

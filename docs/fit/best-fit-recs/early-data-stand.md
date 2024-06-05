@@ -62,6 +62,8 @@ full-width: true
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 
+#### Add items to your Resource Tracker
+
 --8<-- "fit/best-fit-recs/modules/resotrack/end-datastand.md"
 
 </div>
