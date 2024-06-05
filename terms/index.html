@@ -1311,8 +1311,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#final-result-products" class="md-nav__link">
-    Final Result Products
+  <a href="#results" class="md-nav__link">
+    Results
   </a>
   
 </li>
@@ -1520,7 +1520,7 @@
 </div>
 <h2 id="associated-filesdependencies">Associated Files/Dependencies<a class="headerlink" href="#associated-filesdependencies" title="Permanent link">&para;</a></h2>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
-<p>The term <strong>Associated Files/Dependencies</strong> may be used with respect to a <strong>Resource</strong> (i.e. <a href="#study-filesresources">study file/resource</a>) or with respect to a <strong>Result</strong> (i.e. <a href="#final-result-products">final result product</a>).</p>
+<p>The term <strong>Associated Files/Dependencies</strong> may be used with respect to a <strong>Resource</strong> (i.e. <a href="#study-filesresources">study file/resource</a>) or with respect to a <strong>Result</strong> (i.e. <a href="#results">results</a>).</p>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 <p><strong>Resource</strong></p>
 <ul>
@@ -1538,6 +1538,15 @@
 </ul>
 </li>
 </ul>
+<ul>
+<li>When documenting associated files/dependencies of a resource, only list the files <strong>directly</strong> underlying or associated with the resource.<ul>
+<li>You will then document each of these associated files/dependencies as resources, only listing the files <strong>directly</strong> underlying or associated with the resource as associated files/dependencies.<ul>
+<li>Continue documenting in this "stepping backward" process until the fields you are listing as associated files/dependencies have no direct associated files/dependencies themselves.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul>
@@ -1549,7 +1558,7 @@
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 <p><strong>Result</strong></p>
 <ul>
-<li>When adding a final result product to your study's <a href="#results-tracker">Results Tracker</a>, you will be asked to supply Associated Files/Dependencies for that result. </li>
+<li>When adding a result to your study's <a href="#results-tracker">Results Tracker</a>, you will be asked to supply Associated Files/Dependencies for that result. </li>
 </ul>
 <ul>
 <li>An Associated File/Dependency, is any file that the current result depends on to be interpreted, replicated, or used. </li>
@@ -1566,15 +1575,16 @@
 </ul>
 </li>
 </ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
 <ul>
-<li>When listing Associated Files/Dependencies for a result in the Results Tracker, start by following the full dependency trail backwards from the result, as demonstrated in the example above </li>
-<li>Specifically, think about all Associated Files/Dependencies <strong>directly</strong> underlying or associated with the result, <strong>then</strong> the Associated Files/Dependencies directly underlying those files, etc. </li>
-<li>Continue this "stepping backwards" process until the files you are listing as Associated Files/Dependencies have no direct Associated Files/Dependencies themselves</li>
-<li>List all of these files as Associated Files/Dependencies for the result in the Results Tracker</li>
+<li>When listing Associated Files/Dependencies for a result in the Results Tracker, including only the Associated Files/Dependencies <strong>directly</strong> underlying the result.<ul>
+<li>In the above example, that would mean documenting only the png or jpg image file underlying Figure 1.</li>
+<li>You would then document the png or jpg image file as a resource in the Resource Tracker, including only the associated files/dependencies <strong>directly</strong> underlying the resource (i.e., png or jpg image file underlying Figure 1A, specifically).<ul>
+<li>Continue this "stepping backwards" process documenting resources in the Resource Tracker until the files you are listing as associated files/dependencies have no direct associated files/dependencies themselves.</li>
 </ul>
-</div>
+</li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 <h2 id="associated-data-dictionary">Associated Data Dictionary<a class="headerlink" href="#associated-data-dictionary" title="Permanent link">&para;</a></h2>
@@ -1587,9 +1597,9 @@
 </div>
 <h2 id="associated-results-tracker">Associated Results Tracker<a class="headerlink" href="#associated-results-tracker" title="Permanent link">&para;</a></h2>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
-<p>The <a href="#results-tracker">Results Tracker</a> that inventories and provides detailed information regarding all <a href="#final-result-products">final result products</a> (e.g. figures, figure panels, tables, text statements) shared in the specific publication or report for which it is the Associated Results Tracker. </p>
+<p>The <a href="#results-tracker">Results Tracker</a> that inventories and provides detailed information regarding all <a href="#results">results</a> (e.g. figures, figure panels, tables, text statements) shared in the specific publication or report for which it is the Associated Results Tracker. </p>
 </div>
-<h2 id="final-result-products">Final Result Products<a class="headerlink" href="#final-result-products" title="Permanent link">&para;</a></h2>
+<h2 id="results">Results<a class="headerlink" href="#results" title="Permanent link">&para;</a></h2>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
 <p>A figure, figure panel, table, or text statement that communicates a result and is, will, or may be shared in the context of a publication, report or presentation</p>
 </div>
@@ -1782,11 +1792,11 @@
 </li>
 </ul>
 <ul>
-<li><strong>Wait until your study is at the point of producing final result products</strong> (e.g. figures, tables, text statements)<ul>
-<li>Once your study has reached this point, and <u>if your study has determined that a data sharing goal of the study is to provide results-support</u>, start annotating final result products right away, even if you have not formally begun to add them to a publication or report</li>
-<li>As new final result products are produced by your study, annotate each final result product right away</li>
+<li><strong>Wait until your study is at the point of producing manuscript(s)</strong> (e.g. figures, tables, text statements)<ul>
+<li>Once your study has reached this point, and <u>if your study has determined that a data sharing goal of the study is to provide results-support</u>, start annotating results right away, even if you have not formally begun to add them to a publication or report</li>
+<li>As new results are produced by your study, annotate each result right away</li>
 <li>Once your study has started to formally add final results to a publication, start adding result annotation files you've already produced (in the step just above) to a results tracker document for the publication - one results tracker per publication</li>
-<li>As new publications or reports are produced by your study, use the result annotation files you create for each final result product in the publication to create a results tracker document for the new publication</li>
+<li>As new publications or reports are produced by your study, use the result annotation files you create for each result included in the publication to create a results tracker document for the new publication</li>
 </ul>
 </li>
 </ul>
@@ -1840,7 +1850,7 @@
     <ul>
     <li markdown="span"> The "as-you-go" annotation approach, **when applied broadly as outlined above** is strongly recommended for study groups that are early on in their study as the burden of starting up is relatively light when few study files/resources have so far been collected or produced by or for the study. However, the start up burden of this approach may be quite substantial for studies groups that are late or even well into their study and have already accumulated many study files/resources, and we generally recommend these groups consider the alternative, more goal-focused and narrow annotation approach: [Top-down annotation](#top-down-annotation).
     </li>
-    <li markdown="span"> **The "as-you-go" annotation approach may also be applied in a narrower sense**, especially by study groups that are later in their study and who will not apply the "as-you-go" annotation approach in the broadest sense. This implies that studies will consider the whole packaging overview process and complete items as they can, as opposed to waiting until the very end (for example, when they are about to submit a study manuscript for peer review) to start the process. Some examples include, 1) auditing study files for tabular data files, creating data dictionaries for existing tabular data files right away, and creating data dictionaries right away for new tabular data files as the study collects or produces them, 2) annotating final result products the study group knows will or likely will be included in a final manuscript as they are produced, and creating a results tracker for final manuscript documents as drafts begin to be forumulated by the study group, 3) annotating component experiments and other activities that are part of the study right away if already designed, or as soon as they are designed (especially if it is clear that the experiment or activity will or likely will produce data that will be used to support/produce final result products that will be included in a final manuscript).
+    <li markdown="span"> **The "as-you-go" annotation approach may also be applied in a narrower sense**, especially by study groups that are later in their study and who will not apply the "as-you-go" annotation approach in the broadest sense. This implies that studies will consider the whole packaging overview process and complete items as they can, as opposed to waiting until the very end (for example, when they are about to submit a study manuscript for peer review) to start the process. Some examples include, 1) auditing study files for tabular data files, creating data dictionaries for existing tabular data files right away, and creating data dictionaries right away for new tabular data files as the study collects or produces them, 2) annotating results the study group knows will or likely will be included in a final manuscript as they are produced, and creating a results tracker for final manuscript documents as drafts begin to be forumulated by the study group, 3) annotating component experiments and other activities that are part of the study right away if already designed, or as soon as they are designed (especially if it is clear that the experiment or activity will or likely will produce data that will be used to support/produce results that will be included in a final manuscript).
     </li>
     </ul>
 
@@ -1848,7 +1858,7 @@
 </div>
 <h2 id="top-down-annotation">Top-down annotation<a class="headerlink" href="#top-down-annotation" title="Permanent link">&para;</a></h2>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px;">
-<p>Top-down annotation implies that you will generally implement the <a href="../overview/how/">data packaging and annotation process</a> in a somewhat narrower, more goal-oriented manner as compared to how you would implement if using the alternative <a href="#as-you-go-annotation">As-you-go annotation</a> approach; You will generally determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation), then wait until your study has produced the goal sharing product (i.e. respectively, the final result product(s) or manuscripts containing a set of final result product(s) for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating); you will then audit and annotate the subset of study resources required to interpret, use, and/or reproduce the results or dataset already created, and annotate this subset of study resources right away; when you take the "top down" annotation approach, you will generally audit the full subset of study resources required to support your result(s) and/or dataset regardless of whether these resources will ultimately be shared at a public data repository, however you may choose to 1) annotate all resources in this subset regardless of whether they will be shared in a public repository (<a href="#wholistic-annotation">"wholistic" annotation</a>), or 2) annotate only the resources in this subset that will be shared in a public repository (<a href="#minimal-annotation">"minimal" annotation</a>)</p>
+<p>Top-down annotation implies that you will generally implement the <a href="../overview/how/">data packaging and annotation process</a> in a somewhat narrower, more goal-oriented manner as compared to how you would implement if using the alternative <a href="#as-you-go-annotation">As-you-go annotation</a> approach; You will generally determine the data-sharing orientation(s) or goal(s) of your study right away (results-support orientation and/or dataset-sharing orientation), then wait until your study has produced the goal sharing product (i.e. respectively, the publication containing a set of results for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating); you will then audit and annotate the subset of study resources required to interpret, use, and/or reproduce the results or dataset already created, and annotate this subset of study resources right away; when you take the "top down" annotation approach, you will generally audit the full subset of study resources required to support your result(s) and/or dataset regardless of whether these resources will ultimately be shared at a public data repository, however you may choose to 1) annotate all resources in this subset regardless of whether they will be shared in a public repository (<a href="#wholistic-annotation">"wholistic" annotation</a>), or 2) annotate only the resources in this subset that will be shared in a public repository (<a href="#minimal-annotation">"minimal" annotation</a>)</p>
 <p>See the alternative: <a href="#as-you-go-annotation">As-you-go Annotation</a></p>
 <p><strong>As you move through the <a href="../overview/how/">data packaging process steps</a>, "top-down" annotation implies that you will</strong>: </p>
 <ol>
@@ -1861,8 +1871,8 @@
 </li>
 </ul>
 <ul>
-<li><strong>Wait until your study has produced the goal sharing product</strong> (i.e. respectively, the final result product(s) or manuscripts containing a set of final result product(s) for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating)<ul>
-<li>Audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. final study result product(s)/manuscipt(s) or dataset)</li>
+<li><strong>Wait until your study has produced the goal sharing product</strong> (i.e. respectively, the manuscript or publication containing a set of results for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating)<ul>
+<li>Audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. publication or dataset)</li>
 </ul>
 </li>
 </ul>
@@ -1907,8 +1917,8 @@
 </li>
 </ul>
 <ul>
-<li><strong>Wait until your study has produced the goal sharing product</strong> (i.e. respectively, the final result product(s) or manuscripts containing a set of final result product(s) for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating)<ul>
-<li>Audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. final study result product(s)/manuscipt(s) or dataset)</li>
+<li><strong>Wait until your study has produced the goal sharing product</strong> (i.e. respectively, the manuscript or publication containing a set of results for which your data sharing will provide support, or the final dataset your study is interested in sharing/disseminating)<ul>
+<li>Audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. manuscript or dataset)</li>
 <li>Among this subset of files, identify any tabular data files </li>
 <li>Create a data dictionary for these tabular data files right away</li>
 </ul>
@@ -1926,12 +1936,12 @@
 </li>
 </ul>
 <ul>
-<li><strong>Wait until your study is at the point of producing final result products</strong> (e.g. figures, tables, text statements)<ul>
-<li>Once your study has reached this point, and <u>if your study has determined that a data sharing goal of the study is to provide results-support</u>, start annotating final result products right away that are likely to be included in a final manuscript or report you will share and for which you would like to provide results-support, even if you have not formally begun to add them to a publication or report</li>
-<li>As new final result products are produced by your study, annotate each final result product right away</li>
+<li><strong>Wait until your study is at the point of producing manuscript(s)</strong> (e.g. figures, tables, text statements)<ul>
+<li>Once your study has reached this point, and <u>if your study has determined that a data sharing goal of the study is to provide results-support</u>, start annotating results right away that are likely to be included in a final manuscript or report you will share and for which you would like to provide results-support, even if you have not formally begun to add them to a publication or report</li>
+<li>As new results are produced by your study, annotate each result right away</li>
 <li>Once your study has started to formally add final results to a publication, start adding result annotation files you've already produced (in the step just above) to a results tracker document for the publication - one results tracker per publication</li>
-<li>As new publications are produced by your study, use the result annotation files you create for each final result product in the publication or report to create a results tracker document for the new publication or report</li>
-<li>Alternatively, you may wait until your study is at the point of a final manuscript or report for which you would like to provide results-support; then start annotating only the final result products that are positively contained in this publication </li>
+<li>As new publications are produced by your study, use the result annotation files you create for each result in the publication or report to create a results tracker document for the new publication or report</li>
+<li>Alternatively, you may wait until your study is at the point of a final manuscript or report for which you would like to provide results-support; then start annotating only the results that are positively contained in this publication </li>
 </ul>
 </li>
 </ul>
@@ -1946,7 +1956,7 @@
 <ul>
 <li><strong>Start this right away</strong> OR <strong>Wait until your study has produced the goal sharing product</strong><ul>
 <li>Audit all component experiments or other activities that are or will be part of your study</li>
-<li>Identify the subset of component experiments or other activities that positively produced or are likely to produce data or other products that are required to interpret, use, or reproduce your goal data sharing product (i.e. final result product(s), manuscripts, or a dataset you want to share/disseminate)</li>
+<li>Identify the subset of component experiments or other activities that positively produced or are likely to produce data or other products that are required to interpret, use, or reproduce your goal data sharing product (i.e. manuscript(s) or dataset(s) you want to share/disseminate)</li>
 <li>Start annotating this subset of study component experiments or activities if they have already been designed</li>
 <li>If/when any new study component experiments or activities are designed and it is determined that the new experiment/activity produced or is likely to produce data or other products that are required to interpret, use, or reproduce your goal data sharing product, annotate this new study component experiment(s) or activity(s) right away          </li>
 </ul>
@@ -1959,9 +1969,9 @@
 <p><a href="#resource-tracker">Resource Tracker</a></p>
 <ul>
 <li>
-<p><strong>Wait until your study has produced the goal sharing product</strong> (i.e. final result product(s), manuscripts, or a dataset you want to share/disseminate)</p>
+<p><strong>Wait until your study has produced the goal sharing product</strong> (i.e. manuscript or publication, or a dataset you want to share/disseminate)</p>
 <ul>
-<li>audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. final study result product(s)/manuscipt(s) or dataset) (see step 1 above)</li>
+<li>audit the full subset of study resources required to interpret, use, and/or reproduce the goal sharing product(s) (i.e. manuscript or dataset) (see step 1 above)</li>
 <li>
 <p>starting with your goal data sharing product (i.e. manuscript, or a dataset you want to share/disseminate), systematically annotate <strong>either</strong>:</p>
 <ul>
