@@ -4,7 +4,7 @@ hide:
 full-width: true
 ---
 
-# Deidentification Guidance and Resources
+# Deidentification Guidance for Clinical (Non-Genomic) Data
 
 If your study has collected human subjects data and would like to share this data at a public repository, whether open-access or managed-access, you will need to consider what deidentification or anonymization you will apply to your data to be able to share while protecting participant privacy and confidentiality. Whether this data can be shared and what steps you will take to adequately deidentify the data will depend on a few factors, including your study's consent language, your chosen repository's requirements relating to deidentification, and your team's need for outside help with deidentification and resources available to devote to deidentification. 
 
