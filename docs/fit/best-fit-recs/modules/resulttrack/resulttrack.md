@@ -1,4 +1,4 @@
-* Start your Results Tracker by initializing an empty Results Tracker file based on the [Results Tracker csv template](https://raw.githubusercontent.com/norc-heal/heal-data-pkg-tool/main/heal-csv-results-tracker.csv)
+* Start your Results Tracker by initializing an empty Results Tracker file based on the [Results Tracker csv template](https://raw.githubusercontent.com/norc-heal/heal-data-pkg-tool/main/heal-csv-results-tracker.csv){:target="_blank"} 
   * Create a separate Results Tracker for each manuscript, if you have more than one
   * Save your Results Tracker in your ["dsc-pkg" folder](../../terms/index.md#dsc-pkg-folder) as "heal-csv-results-tracker-manuscript-1.csv" (i.e. filename prefix is "heal-csv-results-tracker-", followed by the filename of your manuscript file)
   * Each row in your Results Tracker will represent a single result shared in the associated manuscript (i.e. each row in the Results Tracker called "heal-csv-results-tracker-manuscript-1.csv" will represent a result shared in the manuscript called "manuscript-1")

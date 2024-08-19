@@ -25,7 +25,7 @@ A data package contains the following:
 A *shareable data package* is a version of the data package that has been prepared for 
 submission to a public data repository, and meets the following three requirements:
 
-1. All of the files are intended for sharing, possibly under a
+1. All of the files are intended for sharing, either publicly or under a
    *data use agreement* (DUA) or specific set of restrictions.
 2. Sufficient information on the provenance and terms of use are included to
    make the data reusable.
@@ -68,7 +68,7 @@ whether are not the data themselves are contained in the package*.
 Data sharing requirements by funders or journals are often stated in general
 terms only (e.g., "You must share all data underlying published results").
 This creates two problems: (1) a researcher may nominally comply by simply
-sharing his or her existing files, which may or may not be useable by others;
+sharing his or her existing files, which may or may not be usable by others;
 and (2) it leads researchers to focus on the data only, to the exclusion of
 metadata and other resources (e.g. codebooks, code) that are needed to use the data
 effectively and/or increase their scientific value.
@@ -92,7 +92,7 @@ usable for their secondary data use purposes, and it may be difficult or
 impossible to understand and actually use the data for their secondary data
 use purpose.
 
-Some research communities have clear standards for how to create and provide
+[Some research communities](../g-and-r/rescommet.md){:target="_blank"} have clear standards for how to create and provide
 at least some of the critical metadata required to ensure discoverability,
 understanding, and usability of commonly collected data types (e.g.
 neuroimaging, genomice, GIS) or datasets collected in the course of a commonly

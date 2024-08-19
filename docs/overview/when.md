@@ -1,6 +1,6 @@
 # When should you start thinking about creating your data package? 
 
-This will depend on a few factors, including how early on you are in your study, what your data sharing goals are, and the preferences of you and your study group - See below for details OR [Skip ahead to find the best fit for you](../fit/index.md)
+This will depend on a few factors, including how early on you are in your study, what your data sharing goals are, and the preferences of you and your study group - See below for details OR [find the best fit for your study here](../fit/index.md)
 
 ## Start right away
 

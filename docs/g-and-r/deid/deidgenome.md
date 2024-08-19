@@ -23,14 +23,14 @@ Given the difficulty of anonymizing this data adequately, the best practice at t
 Although there is not consensus on best practices for deidentifying this type of data, investigators can generally choose from a few different options when considering how to share their genomic data:
 
 * **Option 1**: Share summary data only
-  * If you would like to use this approach and your study is funded by NIH, review the [NIH Genomic Data Sharing Policy](https://sharing.nih.gov/genomic-data-sharing-policy/about-genomic-data-sharing/gds-policy-overview){:target="_blank"} guidelines and those of your specific funding IC to ensure that there are no restrictions on sharing in this way. 
-  * If you are able to share summary data only in a public repository, you will still be required to register your study on dbGaP to comply with the NIH Genomic Data Sharing Policy.
+  * If you would like to use this approach and your study is funded by NIH, review the [NIH Genomic Data Sharing Policy](https://sharing.nih.gov/genomic-data-sharing-policy/about-genomic-data-sharing/gds-policy-overview){:target="_blank"} guidelines and those of your specific funding IC to ensure that sharing summary data only is sufficient to fulfill data sharing requirements for your grant. 
 
 * **Option 2**: Share individual-level data
-  * This approach requires **sharing with strict access controls**, which can include:
-    * Requiring data use agreements (DUA) with IRB approval
-    * Requiring researchers work with data in a secure environment such as a data enclave
-  * Additionally, **some amount of deidentification will be required for this option**
+  * When using this approach, you should share your data in a repository that allows for sharing with **strict access controls**.
+    * Generally, a repository with strict access controls in place will require that anyone who wants to access managed access data to put in a formal request for access and may require they provide an IRB-approved research proposal for how they will use the data.
+    * Depending on the level of access controls applied, a repository may also require researchers requesting to access the data to sign a data use agreement (DUA) and may only permit users to work with the data in a secure environment.
+  * Additionally, if you pursue this option, **some amount of deidentification will be required**
+    * **Generally, deidentification is the responsibility of the investigator or study group**. However, some repositories may provide some support or resources for deidentification. See the HEAL Data Stewards guidance on [repositories and repository selection](https://www.healdatafair.org/resources/repositories){:target="_blank"} for more information on repository selection and support.
     * **Best practice**: Work with an expert of deidentification
     * There are two options for deidentifying when sharing individual-level data with strict access controls:
       * **Option A**: Phenotype-only deidentification

@@ -15,5 +15,5 @@
     
     **All documentation should be completed based on original files.** Creating copies of your files for documentation can introduce inconsistencies in your final package (e.g., if you edit the original file but not the copy, the file documented and likely shared will not be the most up to date version). 
     
-    **The only exception to this rule**: After you have completely finished documenting your study files at their local (or network) paths, you will copy the files that you intend to share to finish [preparing your data package for submission](../../../../submit/index.md).
+    **The only exception to this rule**: After you have completely finished documenting your study files at their local (or network) paths, you will copy the files that you intend to share to finish [preparing your data package for submission](../../submit/index.md).
 </div>
