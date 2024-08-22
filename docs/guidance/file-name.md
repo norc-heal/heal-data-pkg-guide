@@ -1,4 +1,4 @@
-# Guidance: File naming
+# Guidance on File Naming
 
 
 ### Consistently name your files and folders
