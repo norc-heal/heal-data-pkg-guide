@@ -462,15 +462,76 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2_3" id="__nav_5_2_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../g-and-r/deid/">Deidentification</a>
+<label for="__nav_5_2_3">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Deidentification" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_5_2_3">
+<span class="md-nav__icon md-icon"></span>
+          Deidentification
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../g-and-r/deid/">
-        Deidentification
+<a class="md-nav__link" href="../../../g-and-r/deid/deid/">
+        Deidentification of non-genomic data
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../g-and-r/repo/">
+<a class="md-nav__link" href="../../../g-and-r/deid/deidgenome/">
+        Deidentification of genomic data
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2_4" id="__nav_5_2_4" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../g-and-r/repo/">Repositories</a>
+<label for="__nav_5_2_4">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Repositories" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_5_2_4">
+<span class="md-nav__icon md-icon"></span>
+          Repositories
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../g-and-r/repo/repo/">
         Repository selection
       </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2_4_3" id="__nav_5_2_4_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../g-and-r/repo/submit/">Repository submission</a>
+<label for="__nav_5_2_4_3">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Repository submission" class="md-nav" data-md-level="4">
+<label class="md-nav__title" for="__nav_5_2_4_3">
+<span class="md-nav__icon md-icon"></span>
+          Repository submission
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../g-and-r/repo/submit/srasubmit/">
+        Use case - SRA submission
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../../g-and-r/rescommet/">
@@ -677,6 +738,12 @@
 <li>Where practicable to implement (without duplicating original files), organize all study files/resources into a single study folder/directory (study folder/directory may of course have sub-directories; see <a href="../../../guidance/file-org/">here</a> for guidance on and examples of recommended study folder/directory structure)</li>
 <li>All <a href="../../../terms/#study-filesresources">study files/resources</a> should be stored in a location where the person(s) who will be creating/contributing to your data package documentation can access them all at the same time (e.g. you can have files located on different network drives as long as all network drives can be mounted and accessed at the same time by the person documenting; you CANNOT have files located on two different local computer drives, even if the person documenting can access both computers separately)</li>
 </ul>
+<div class="admonition warning">
+<p class="admonition-title">A note on copying study files</p>
+<p>Although these guidelines provide suggestions on useful adjustments you can make before you start documenting that will make documentation easier (e.g., applying naming conventions and ensuring files are accessible to the person documenting), these guidelines <strong>do not</strong> mean that you should copy your study files into new or existing folders to group all "to share" files together. </p>
+<p><strong>All documentation should be completed based on original files.</strong> Creating copies of your files for documentation can introduce inconsistencies in your final package (e.g., if you edit the original file but not the copy, the file documented and likely shared will not be the most up to date version). </p>
+<p><strong>The only exception to this rule</strong>: After you have completely finished documenting your study files at their local (or network) paths, you will copy the files that you intend to share to finish <a href="../../../submit/">preparing your data package for submission</a>.</p>
+</div>
 </div>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 <h4 id="initialize-your-data-package">Initialize your <a href="../../../terms/#data-package">Data Package</a><a class="headerlink" href="#initialize-your-data-package" title="Permanent link">¶</a></h4>
@@ -705,7 +772,7 @@
 <h4 id="start-your-data-dictionaryies">Start your <a href="../../../terms/#data-dictionary">Data Dictionary(ies)</a><a class="headerlink" href="#start-your-data-dictionaryies" title="Permanent link">¶</a></h4>
 <!-- Early standard -->
 <ul>
-<li>Create a <a href="../../../terms/#data-dictionary">Data Dictionary</a> for each <a href="../../../terms/#tabular-data-file">tabular data file</a> already produced by or for your study</li>
+<li>Create a Data Dictionary for each <a href="../../../terms/#tabular-data-file">tabular data file</a> already produced by or for your study</li>
 <li>Start a Data Dictionary for a tabular data file by initializing an empty Data Dictionary file based on the <a href="https://raw.githubusercontent.com/norc-heal/healdata-utils/pr-integration/data/templates/twofields.csv">Data Dictionary csv template</a><ul>
 <li>Save your Data Dictionary in your <a href="../../../terms/#dsc-pkg-folder">"dsc-pkg" folder</a> as "heal-csv-dd-my-datafile.csv" (i.e. the file name starts with the prefix "heal-csv-dd-", you append the name of the data file to which the Data Dictionary applies, and save as a csv file)</li>
 <li>Each row in your Data Dictionary will represent a variable that is collected/populated in your tabular data file </li>
@@ -762,6 +829,11 @@
 <!-- FINISH -->
 <p><strong>Congratulations! You have finished preparing your data package locally.</strong></p>
 <p>You can now <a href="../../../submit/">prepare your data package for submission</a> to a public repository.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip to confirm your local data package is ready for submission</p>
+<p>Before you share your data package, it may be useful to ask someone else in your study group to review your data package and annotations thinking about whether it would be accessible and understandable to a researcher looking at the data package for the first time. </p>
+<p>If they are able to easily understand the study structure and how they might go about replicating your dataset/results, that is a good sign that your data package has the necessary resources and adequate detail to be shared.</p>
+</div>
 </div>
 </div>
 </article>
