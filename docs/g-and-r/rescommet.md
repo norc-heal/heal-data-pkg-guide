@@ -12,7 +12,7 @@ This page includes some guidance on existing research community-specific metadat
 
 ### General resources
 
-* The [Data Curation Network](https://github.com/DataCurationNetwork/data-primers/tree/main) has put together a series of data primers that include information on data curation for multiple different study and data types. This includes some research community-specific standards as well as best practices for some general data types. This includes guidance on:
+* The [Data Curation Network](https://github.com/DataCurationNetwork/data-primers/tree/main){:target="_blank"} has put together a series of data primers that include information on data curation for multiple different study and data types. This includes some research community-specific standards as well as best practices for some general data types. This includes guidance on:
   * CARE Data Principles (data involving indigenous peoples, interests, lands, environments, resources, territories, traditions, cultures, archives, and histories)
   * Clinical Trials data, human participants data, consent forms
   * Genetic data
@@ -23,34 +23,35 @@ This page includes some guidance on existing research community-specific metadat
   * Audiovisual data
   * Program-specific standards, including Excel, Python, Jupyter Notebook, R, SAS, SPSS, NVivo, Atlas.ti
 
-* [Metadata Resources](https://www.healdatafair.org/resources/metadata) from the NIH HEAL Data Stewardship Group
+* [Metadata Resources](https://www.healdatafair.org/resources/metadata){:target="_blank"} from the NIH HEAL Data Stewardship Group
 
 ### Research community-specific resources
 
 **Clinical trials**:
 
-* [Clinical trial reporting requirements](https://clinicaltrials.gov/policy/reporting-requirements)
-  * [Protocol registration data element definitions for interventional and observational studies](https://clinicaltrials.gov/policy/protocol-definitions)
+* [Clinical trial reporting requirements](https://clinicaltrials.gov/policy/reporting-requirements){:target="_blank"}
+  * [Protocol registration data element definitions for interventional and observational studies](https://clinicaltrials.gov/policy/protocol-definitions){:target="_blank"}
 
 **Survey and social science data**:
 
-* [Data Documentation Initiative](https://ddialliance.org/) (DDI) metadata standards
+* [Data Documentation Initiative](https://ddialliance.org/){:target="_blank"} (DDI) metadata standards
 
 **Neuroimaging data**: 
 
-* [Brain Imaging Data Structure](https://bids.neuroimaging.io/specification.html) (BIDS)
+* [Brain Imaging Data Structure](https://bids.neuroimaging.io/specification.html){:target="_blank"} (BIDS)
 
 **Neurophysiology data**:
 
-* [Neurodata Without Borders](https://www.nwb.org/nwb-neurophysiology/) (NWB)
+* [Neurodata Without Borders](https://www.nwb.org/nwb-neurophysiology/){:target="_blank"} (NWB)
 
-**Genomic data**:
+**Genomic and sequencing data**:
 
-* [ Minimal Information about a high throughput SEQuencing Experiment](https://fairsharing.org/FAIRsharing.a55z32) (MINSEQ)
-* [MIxS (Minimum Information about any (x) Sequence)](https://www.gensc.org/pages/standards/checklists.html), which includes:
+* [ Minimal Information about a high throughput SEQuencing Experiment](https://fairsharing.org/FAIRsharing.a55z32){:target="_blank"} (MINSEQ)
+* [MIxS (Minimum Information about any (x) Sequence)](https://www.gensc.org/pages/standards/checklists.html){:target="_blank"}, which includes:
   * MIGS: Minimum information about a genome sequence
   * MIMS: Minimum information about a metagenome sequence
   * MIMARKS: Minimum information about a marker gene sequence
   * MISAG: Minimum information about a single amplified genome sequence
   * MIMAG: Minimum information about a metagenome-assembled genome sequence
   * MIUViG: Minimum information about an Uncultivated Virus Genome
+* [Sequence Read Archive BioSample packages](https://www.ncbi.nlm.nih.gov/biosample/docs/packages/){:target="_blank"}, which contains a wide range of metadata templates including required associated metadata for submission to SRA; includes metadata templates for different sequence types under MIG, MIMARKS, MIMAG, MISTAG, MIMS, MIUViG, and pathogens.

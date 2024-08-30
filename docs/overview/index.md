@@ -46,7 +46,7 @@ requirements and restrictions, to permit researchers to understand and reuse the
 
 </div>
 
-## Benefit for Originating study group & <br>Data Packages without data
+## Benefit for originating study group & Data packages without data
 
 <div markdown="1" style="background-color:rgba(0, 0, 0, 0.0470588); text-align:left; vertical-align: top; padding:10px 10px; margin-bottom: 10px;">
 

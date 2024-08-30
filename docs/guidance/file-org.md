@@ -1,4 +1,4 @@
-# Guidance: File organization
+# Guidance on File Organization
 
 ### Consistently organize your files and folders
 
